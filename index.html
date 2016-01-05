@@ -1,63 +1,75 @@
 <!DOCTYPE html>
+
 <html>
 <head>
     <meta charset="UTF-8">
      <title>Andy Fitz</title>
-<link href='https://fonts.googleapis.com/css?family=Martel:200' rel='stylesheet' type='text/css'>
   <style>
-  
+
 body {
   background-color: #eee;
-  color: #666;
+  color: #a2a1a0;
 }
-h1{font-weight: 200 ;font-family: 'Martel', serif;  text-align:center; top: 12vh; font-size:5vmin; text-transform: uppercase; letter-spacing:.2em; word-spacing:.4em; position:absolute; width: 100%;}
+
+
+
 .brushpen {
+  position:absolute;
+
+  top: 30%; height: 50%;  bottom: 30%; right: 40%;left: 40%;
   width: 20%;
-  height: 50vh;
-  margin: 5em auto;
-  margin-top: 25vh;
+ height: 40%;
+
+
   display: block;
 }
 
 .graphic {
   fill: currentcolor;transform:scale(0.7);
-  animation: 1.5s spin cubic-bezier(0.3, 1.4, 0, 1.9) infinite;
+  animation: 2s spin cubic-bezier(0.25, 1.6, 0, 2) infinite ;
   transform-origin: 50% 50%;
 }
 
 @keyframes spin {
-  0% { ransform: rotate(-15deg) scale(0.7); }
-  50% { transform: rotate(105deg) scale(0.7); }
-  100% { transform: rotate(-15deg) scale(0.7); } }
+  0% { ransform: rotate(0deg) scale(0.7); }
+  50% { transform: rotate(90deg) scale(0.7); }
+  100% { transform: rotate(0deg) scale(0.7); } }
 
 
-.smear {animation: 1.5s smear cubic-bezier(0.75, 1, 0, 0) infinite;}
+.smear {opacity:.42; animation: 2s smear cubic-bezier(0.5, 1, 0, 0) infinite }
 
-@keyframes smear {  
-  0% {stroke-dashoffset: 700;}
-  15% { stroke-dashoffset: 400;}
-  50% { stroke-dashoffset: 140; }
-  65% { stroke-dashoffset: 400; }
-  100% { stroke-dashoffset: 700; }
+@keyframes smear {
+  0% {stroke-dashoffset: 750;}
+  2% {stroke-dashoffset: 750;}
+  2% { stroke-dashoffset: 420;}
+  49% { stroke-dashoffset: 90; }
+  51% { stroke-dashoffset: 400; }
+  100% { stroke-dashoffset: 750; }
 }
+
+
+
+
+
+
 </style>
-<script src="//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script> 
+<script src="//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
   <body>
-    <h1>art + code</h1>
+
   <svg class="brushpen" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
     <defs>
       <clipPath id="swipemask" clipPathUnits="userSpaceOnUse">
-        <path d="m 340,485 c 0,16 -216,15.7 -216,0 0,-16 216,-16 216,0 z"></path>
+        <path d="m 345,480 c 0,16 -178,15.7 -178,0 0,-16 178,-16 178,0 z"></path>
       </clipPath>
     </defs>
 
 
+
     <path class="graphic" d="M 180.2,330.6 313.9,196.5 c -22.3,-20.7 -51.7,-31.2 -68.8,-6.2 l -79,122.5 c 5.3,7 8.3,11.5 14.1,17.8 z M 60.68,434.4 c 0,-19.2 25.48,-57.5 51.22,-57.5 13.9,0 -3.1,14.6 -3.1,24.3 0,10.1 73.8,-18.4 50.7,-58.4 -8.9,-15.3 -25.7,-18.6 -43,-11.5 -27.18,11.3 -61.14,47.1 -61.14,103.1 0,5.6 5.32,5.1 5.32,0 z M 369.2,234 366.3,220.7 c 1.5,-0.3 31.3,-4.8 47,-32.6 16.3,-28.7 7.1,-59.4 7.1,-59.4 l -44.9,30.2 c -0.6,-2.7 -1.5,-5.7 -3,-8.3 l 118.9,-124.53 8.3,8 C 471.6,81.07 468.6,134.3 453.5,167.1 429.6,219.2 369.2,234 369.2,234 Z M 277,143.2 c 0,0 14.2,-60.63 65.9,-85.23 32.8,-15.7 86.4,-18.9 133.1,-47.9 l 8,8.3 -123.6,120.33 c -2.4,-1.4 -5.4,-2.3 -8,-2.6 L 382,90.57 c 0,0 -31.1,-8.6 -59.5,7.9 C 295,114.5 290.6,144.1 290.6,146.1 Z M 10.14,502 C 53.03,427.7 30.85,307.6 149.5,307.6 l 84.6,-132.4 c 20.8,-33.3 63.3,-27.4 96.6,5.9 33.3,33.3 41,74 10.4,93.8 L 203,361.2 C 203,480.4 87.34,457.6 10.14,502 Z"></path>
 
-    <path class="smear" d=" m 64,498 364,0" clip-path="url(#swipemask)" style="fill:none;stroke:currentcolor;stroke-width:32;stroke-dasharray:400, 400;stroke-linecap:round; stroke-dashoffset:400; opacity:.25"></path>
+    <path class="smear" d=" m 64,490 364,0" clip-path="url(#swipemask)" style="fill:none;stroke:currentcolor;stroke-width:36;stroke-dasharray:400, 400;stroke-linecap:round; stroke-dashoffset:400;  "></path>
 
   </svg>
-
 </body>
 </html>
