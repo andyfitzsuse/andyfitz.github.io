@@ -1,0 +1,66 @@
+/*
+
+Name:       Base16 Monokai Dark
+Author:     Wimer Hazenberg (http://www.monokai.nl)
+
+Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
+Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+ */ 
+ 
+
+
+
+
+.namespace {
+  opacity: .7;
+}
+
+.token.property { 
+  color: #f4bf75;
+}
+.token.tag { 
+  color: #66d9ef;
+} 
+.token.string {
+  color: #a1efe4;
+} 
+.token.selector { 
+  color: #ae81ff;
+}
+.token.attr-name { 
+  color: #fd971f;
+} 
+.token.entity,
+.token.url, 
+.language-css .token.string,
+.style .token.string {
+  color: #a1efe4;
+}
+
+
+
+.token.statement,
+.token.regex, 
+.token.atrule { 
+  color: #a1efe4;
+}
+
+.token.placeholder,
+.token.variable {
+  color: #66d9ef;
+} 
+
+.token.important {
+  color: #f92672;
+  font-weight: bold;
+} 
+
+.token.entity {
+  cursor: help;
+} 
+
+pre > code.highlight {
+  outline: .4em solid red;
+  outline-offset: .4em;
+} 
