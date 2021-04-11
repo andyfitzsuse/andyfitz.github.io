@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+templateClass: article
+---
+<article>
+<header>
+    <h1>{{ title }}</h1>
+    <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+ 
+
+{%- for tag in tags | filterTagList -%}
+{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+<a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+{%- endfor %}
+
+</header>
+{{ content | safe }}
+  
+{%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{%- if nextPost or previousPost %}
+</article>
+
+ 
+{%- if previousPost %} <a href="{{ previousPost.url | url }}">Previous: {{ previousPost.data.title }}</a>{% endif %}
+
+{%- if nextPost %}  <a href="{{ nextPost.url | url }}"> Next: {{ nextPost.data.title }}</a> {% endif %}
+
+ 
+{%- endif %}
+

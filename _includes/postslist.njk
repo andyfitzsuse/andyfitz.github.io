@@ -1,0 +1,9 @@
+<section  class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+{% for post in postslist | reverse %}
+  <div class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+    <a href="{{ post.url | url }}"><span>{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</span>
+    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></a>
+
+  </div>
+{% endfor %}
+</section>

@@ -1,0 +1,21 @@
+{
+  "title": "Andy Fitz",
+  "url": "https://ndftz.com/",
+  "language": "en",
+  "description": "design code love",
+  "feed": {
+    "subtitle": "design, code, love",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://ndftz.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://ndftz.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Andy Fitzsimon",
+    "email": "andy@fitzsimon.com.au",
+    "url": "https://ndftz.com/about/"
+  }
+}
