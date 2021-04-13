@@ -82,10 +82,9 @@ I&#39;ve used Inkscape since it&#39;s inception. I could go on and on but let me
 &lt;h2 id=&quot;rawgraphs&quot;&gt;&lt;a href=&quot;https://app.rawgraphs.io/&quot;&gt;RawGraphs &lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#rawgraphs&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Brilliant way to produce graphs without having to render client side, create the layout in rawgraphs then style with your own CSS&lt;/p&gt;
 &lt;h2 id=&quot;librsvg&quot;&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/librsvg&quot;&gt;librSVG&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#librsvg&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;(used in ImageMagick and heaps more)&lt;br /&gt;
-This is a blazingly fast library to work with SVG files&lt;/p&gt;
-&lt;p&gt;If you are a performance-driven developer, &lt;a href=&quot;https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs&quot;&gt;RSVG convert&lt;/a&gt; in particular will blow your mind&lt;/p&gt;
-&lt;p&gt;Also you should follow &lt;a href=&quot;https://people.gnome.org/~federico/blog/tag/librsvg.html&quot;&gt;Federico Mena-Quintero&lt;/a&gt; Who is dragging RSVG into the future.&lt;/p&gt;
+&lt;p&gt;(used in ImageMagick and heaps more) This is a blazingly fast library to work with SVG files&lt;/p&gt;
+&lt;p&gt;If you are a performance-driven developer, &lt;a href=&quot;https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs&quot;&gt;RSVG convert&lt;/a&gt; in particular will blow your mind&lt;br /&gt;
+Also you should follow &lt;a href=&quot;https://people.gnome.org/~federico/blog/tag/librsvg.html&quot;&gt;Federico Mena-Quintero&lt;/a&gt; Who is dragging RSVG into the future.&lt;/p&gt;
 &lt;h2 id=&quot;imagetracer-js&quot;&gt;&lt;a href=&quot;https://github.com/jankovicsandras/imagetracerjs&quot;&gt;Imagetracer JS&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#imagetracer-js&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;There are many bitmap to vector tracers like &lt;a href=&quot;http://potrace.sourceforge.net/&quot;&gt;potrace&lt;/a&gt;, autotrace etc. Imagetracer is the most promising for web developers and has a few tricks up it&#39;s sleeve.&lt;/p&gt;
 &lt;p&gt;Handy to have on the CLI too:&lt;/p&gt;
@@ -95,18 +94,24 @@ This is a blazingly fast library to work with SVG files&lt;/p&gt;
 &lt;p&gt;Fun fact, Inkscape uses 2geom under the hood.&lt;/p&gt;
 &lt;p&gt;If you&#39;re building something that needs to perform 2d computational geometry - you&#39;ll end up grateful for Nathan Hurst and all other contribnutors&lt;/p&gt;
 &lt;h2 id=&quot;single-purpose-svg-generator-tools&quot;&gt;Single-purpose SVG generator tools &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#single-purpose-svg-generator-tools&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.blobmaker.app/&quot;&gt;blob maker&lt;/a&gt;&lt;br /&gt;
-does one thing, makes blobs&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://codepen.io/georgedoescode/full/dyNVNjG&quot;&gt;noise maker&lt;/a&gt;&lt;br /&gt;
-nice patterns of directional lines or dots&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://yoksel.github.io/wave-maker/&quot;&gt;Wave Maker&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;create.rip&quot;&gt;&lt;a href=&quot;https://create.rip/&quot;&gt;Create.Rip&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#create.rip&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Easily convert design files to web ready formats then extract individul elements.&lt;br /&gt;
-Accepts most traditional formats (PDF AI PSD TIFF etc) .&lt;/p&gt;
-&lt;p&gt;I&#39;d be remiss for not including this one.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://create.rip/&quot;&gt;https://create.rip&lt;/a&gt; is a web service we built at Outfit for ourselves with the help of &lt;a href=&quot;http://www.embersea.io/&quot;&gt;embersea&lt;/a&gt; and &lt;a href=&quot;https://devaway.io/&quot;&gt;devaway&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;We decided to host and share it with the world -&lt;/p&gt;
-&lt;p&gt;Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passed March 15th, 2021 hospitalised by a stroke and subsequently COVID-19&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.blobmaker.app/&quot;&gt;Blob maker&lt;/a&gt;   does one thing, makes blobs&lt;br /&gt;
+&lt;a href=&quot;https://codepen.io/georgedoescode/full/dyNVNjG&quot;&gt;Noise maker&lt;/a&gt; nice patterns of directional lines or dots&lt;br /&gt;
+&lt;a href=&quot;https://yoksel.github.io/wave-maker/&quot;&gt;Wave Maker&lt;/a&gt; nifty example of repeating arc paths&lt;/p&gt;
+&lt;!-- 
+## [Create.Rip](https://create.rip)
+
+Easily convert design files to web ready formats then extract individul elements. 
+Accepts most traditional formats (PDF AI PSD TIFF etc) .
+
+I&#39;d be remiss for not including this one.
+
+https://create.rip is a web service we built at Outfit for ourselves with the help of [embersea](http://www.embersea.io/) and [devaway](https://devaway.io/)
+
+We decided to host and share it with the world -
+
+Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passed March 15th, 2021 hospitalised by a stroke and subsequently COVID-19 --&gt;
+&lt;h2 id=&quot;what-else%3F&quot;&gt;What else? &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#what-else%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Well there&#39;s lots of nifty things like &lt;a href=&quot;https://github.com/gliffy/canvas2svg&quot;&gt;canvas2svg &lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>

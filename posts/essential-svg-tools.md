@@ -116,11 +116,9 @@ Early days to call this a Figma killer - But I do find it does most of what I wa
 Brilliant way to produce graphs without having to render client side, create the layout in rawgraphs then style with your own CSS
 
 ## [librSVG](https://gitlab.gnome.org/GNOME/librsvg)
-(used in ImageMagick and heaps more)
-This is a blazingly fast library to work with SVG files
+(used in ImageMagick and heaps more) This is a blazingly fast library to work with SVG files
 
 If you are a performance-driven developer, [RSVG convert](https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs) in particular will blow your mind
-
 Also you should follow [Federico Mena-Quintero](https://people.gnome.org/~federico/blog/tag/librsvg.html) Who is dragging RSVG into the future.
 
 
@@ -142,14 +140,11 @@ If you're building something that needs to perform 2d computational geometry - y
 
 ## Single-purpose SVG generator tools 
 
-[blob maker](https://www.blobmaker.app/)
-   does one thing, makes blobs
-  
-[noise maker](https://codepen.io/georgedoescode/full/dyNVNjG)
-  nice patterns of directional lines or dots
+[Blob maker](https://www.blobmaker.app/)   does one thing, makes blobs
+[Noise maker](https://codepen.io/georgedoescode/full/dyNVNjG) nice patterns of directional lines or dots
+[Wave Maker](https://yoksel.github.io/wave-maker/) nifty example of repeating arc paths
 
-[Wave Maker](https://yoksel.github.io/wave-maker/)
-
+<!-- 
 ## [Create.Rip](https://create.rip)
 
 Easily convert design files to web ready formats then extract individul elements. 
@@ -161,4 +156,9 @@ https://create.rip is a web service we built at Outfit for ourselves with the he
 
 We decided to host and share it with the world -
 
-Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passed March 15th, 2021 hospitalised by a stroke and subsequently COVID-19
+Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passed March 15th, 2021 hospitalised by a stroke and subsequently COVID-19 -->
+
+
+## What else?
+
+Well there's lots of nifty things like [canvas2svg ](https://github.com/gliffy/canvas2svg ) 
