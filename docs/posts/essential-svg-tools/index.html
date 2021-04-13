@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Must have SVG tools</title>
+    <title>Essential SVG tools</title>
     <meta name="description" content="We all could use a little help making SVG the leanest and meanest">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
@@ -32,18 +32,36 @@
     <main class="article">
       <article>
 <header>
-    <h1>Must have SVG tools</h1>
-    <time datetime="2021-04-12">12 Apr 2021</time><a href="/tags/svg/" class="tag">svg</a><a href="/tags/minimal/" class="tag">minimal</a><a href="/tags/tools/" class="tag">tools</a>
+    <h1>Essential SVG tools</h1>
+    <time datetime="2021-04-13">13 Apr 2021</time><a href="/tags/svg/" class="tag">svg</a><a href="/tags/minimal/" class="tag">minimal</a><a href="/tags/tools/" class="tag">tools</a>
 
 </header>
-<p>This article contains a list of current SVG tools I reach for today depending on need.<br>
-As the rifleman's creed goes: <em>“there are many like it but this one is mine”</em>.  I hope my list is useful to you.</p>
-<p>It's worth noting that my love affair with SVG started relatively early. Before Adobe aquired Macromedia, it had weight with Sun Microsystems into PGML - competing against giants like Microsoft and Autodesk. <a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG">This document covers the state of play</a></p>
-<p>As a creative, I really loved Flash, but when W3C released their draft recomendation for SVG 1: I figured it would win the web within months (it took years).</p>
-<p>Fortunately for the interim, SVG was more useful than just for the web.<br>
-In 2003, I toyed with SVG a for university.<br>
-In 2005, I finally used SVG commercially thanks to Red Hat and UTF8.</p>
-<p>My personal heroes who moved SVG forward directly or indirectly: <a href="https://mcc.id.au/">Cam Mcormack</a>, <a href="https://raphlinus.github.io/">Raph Levien</a>, <a href="https://svgees.us/">Chris Lilley</a>, Carl worth, Liam Quinn, Doug Schepers, Nathan Hurst, Peter Moulder, Tavmjong Bah, Bryce Harrington, Aaron Spike, Jon Cruz, Bulia Byak, Dom Lachowicz, Dodji Seketeli, <a href="https://blog.fishsoup.net/">Owen Taylor</a> and so many more.</p>
+<p>This article contains all the SVG-related resources I reach for depending on need.<br>
+As the rifleman's creed goes: <em>“there are many like it but this one is mine”</em>.<br>
+When your need involves SVG something here will help.</p>
+<p>I have write up below but if you're in a hurry:<br>
+<a href="https://jakearchibald.github.io/svgomg/">SVGOMG</a> / <a href="https://github.com/svg/svgo">SVGO</a><br>
+<a href="https://yqnn.github.io/svg-path-editor/">SVG Path Editor</a><br>
+<a href="https://svgcrop.com/">SVG Crop</a><br>
+<a href="https://yoksel.github.io/url-encoder/">SVG URL Encoder</a><br>
+<a href="https://svgfilters.com/">SVG Fitler Builder</a><br>
+<a href="https://yoksel.github.io/svg-gradient-map/#/">SVG Gradient Map Builder</a><br>
+<a href="https://yoksel.github.io/relative-clip-path/">CSS Relative Clip-path convertor</a><br>
+<a href="https://github.com/jankovicsandras/imagetracerjs">Imagetracer JS</a><br>
+<a href="https://inkscape.org/">Inkscape</a><br>
+<a href="https://penpot.app/">Penpot</a><br>
+<a href="https://app.rawgraphs.io/">RawGraphs </a><br>
+<a href="https://gitlab.com/inkscape/lib2geom">2geom</a><br>
+<a href="https://gitlab.gnome.org/GNOME/librsvg">LibRsvg</a><br>
+toys: <a href="https://www.blobmaker.app/">Blobs</a> <a href="https://codepen.io/georgedoescode/full/dyNVNjG">Noise</a> <a href="https://yoksel.github.io/wave-maker/">Waves</a></p>
+<h4 id="preamble">Preamble <a class="direct-link" href="#preamble">#</a></h4>
+<p>My love affair with SVG started before Macromedia was aquired.<br>
+Adobe was <a href="https://www.w3.org/TR/1998/NOTE-PGML" target="_blank">into PGML</a> - competing against giants like <a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG">Microsoft and Autodesk</a>.</p>
+<p>When W3C released the SVG draft: I figured it would win the web within months and started to chase it (it took years).<br>
+Fortunately SVG was more useful than just internet use.<br>
+In 2003, I toyed with SVG a for much of university.<br>
+By 2005, I finally used SVG commercially thanks to Red Hat and UTF-8.</p>
+<p>My personal heroes who moved SVG forward directly or indirectly: <a href="https://mcc.id.au/">Cam Mcormack</a>, <a href="https://raphlinus.github.io/">Raph Levien</a>, <a href="https://svgees.us/">Chris Lilley</a>, Carl Worth, Liam Quinn, Doug Schepers, Nathan Hurst, Peter Moulder, Tavmjong Bah, Bryce Harrington, Aaron Spike, Jon Cruz, Bulia Byak, Dom Lachowicz, Dodji Seketeli, <a href="https://blog.fishsoup.net/">Owen Taylor</a> and so many more.</p>
 <p>What's promising is that many of the tools listed here are not by the authors above. A new generation is pushing SVG ever forward.</p>
 <p>Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful in the right situation.  So here goes, get your bookmark tool of choice fired up:</p>
 <h2 id="svgomg"><a href="https://jakearchibald.github.io/svgomg/">SVGOMG</a> <a class="direct-link" href="#svgomg">#</a></h2>
@@ -51,26 +69,33 @@ In 2005, I finally used SVG commercially thanks to Red Hat and UTF8.</p>
 <pre><code>npm install -g svgo
 </code></pre>
 <p>If you use <a href="https://webpack.js.org/">webpack</a>, <a href="https://www.snowpack.dev/">snowpack</a>, <a href="https://www.npmjs.com/package/vite-plugin-svg">vite-svg-plugin</a> etc you likely use it too.<br>
-The plugins are fascinating.</p>
+The plugins are fascinating and have bailed me out many times.</p>
 <h2 id="svg-path-editor"><a href="https://yqnn.github.io/svg-path-editor/">SVG Path Editor</a> <a class="direct-link" href="#svg-path-editor">#</a></h2>
-<p>I use this now more than inkscape for simple illustrations, and I really wish the preview would let me add CSS. But still, this thing is pure GOLD!</p>
-<p>When finishing an illustration I often return to this tool and go path by path to reduce unnessecary coordinates and operators</p>
+<p>I use this now more than even <a href="http://www.inkscape.org/">Inkscape</a> for simple illustrations, and I really wish the preview would let me add my CSS. But still, this thing is pure GOLD!<br>
+When finishing an illustration I often return to this tool and go path by path to reduce unnessecary coordinates and operators. Stealing a few decimals here and there, replacing cubic bezier path operators with more optimal ones like quadratics or arcs.   SVG path editor will dramatically improve your understanding of the SVG path system</p>
 <h2 id="svg-crop"><a href="https://svgcrop.com/">SVG Crop</a> <a class="direct-link" href="#svg-crop">#</a></h2>
-<p>Not as handy as the method we use in create.rip (any clippaths will affect the viewBox) but handy all the same.</p>
+<p>Remove the extra margin from around your SVG content so the file is easy to work wit.<br>
+<a href="http://SVGcrop.com">SVGcrop.com</a> resizes the SVG artboard by changing the <code>viewBox=&quot;..</code> attribute<br>
+It's not bulletproof (any shapes used as clippaths will affect the viewBox) but handy all the same.</p>
 <h2 id="svg-url-encoder"><a href="https://yoksel.github.io/url-encoder/">SVG URL Encoder</a> <a class="direct-link" href="#svg-url-encoder">#</a></h2>
-<p>inline svg into css - hey it's nasty but I still find myself throwing SVG into pseudo elements all the time.</p>
+<p>Inline SVG into CSS - hey it's a gnarly technique but I still find myself throwing SVG into pseudo elements all the time. Think of the saved HTTP request!</p>
 <p>This tool from Yoksel makes it super easy!</p>
+<h2 id="relative-clip-path"><a href="https://yoksel.github.io/relative-clip-path/">Relative Clip-path </a> <a class="direct-link" href="#relative-clip-path">#</a></h2>
+<p>For turning SVG paths into CSS-friendly <code>clip-path</code> coordinates. Super handy.</p>
 <h2 id="svg-fitler-builder"><a href="https://svgfilters.com/">SVG Fitler Builder</a> <a class="direct-link" href="#svg-fitler-builder">#</a></h2>
 <p>Creating complex SVG Filters is incredibly hard, Thankfully we have this brilliant tool</p>
 <p>There's an alternative <a href="https://yoksel.github.io/svg-filters/#/">SVG Filter Constructor</a> by <a href="https://yoksel.github.io">Yoksel</a> with a less intimidating interface that's worth a look.</p>
-<h2 id="svg-gradient-map-filter-builder"><a href="https://yoksel.github.io/svg-gradient-map/#/">SVG Gradient Map Filter Builder</a> <a class="direct-link" href="#svg-gradient-map-filter-builder">#</a></h2>
-<h2 id="relative-clip-path"><a href="https://yoksel.github.io/relative-clip-path/">Relative Clip-path </a> <a class="direct-link" href="#relative-clip-path">#</a></h2>
-<p>For turning SVG paths into CSS-friendly <code>clip-path</code> coordinates.</p>
-<h2 id="wave-maker"><a href="https://yoksel.github.io/wave-maker/">Wave Maker</a> <a class="direct-link" href="#wave-maker">#</a></h2>
-<p>ok this i just fun</p>
+<h2 id="svg-gradient-map-builder"><a href="https://yoksel.github.io/svg-gradient-map/#/">SVG Gradient Map Builder</a> <a class="direct-link" href="#svg-gradient-map-builder">#</a></h2>
+<p>Who doesn't love Duotone effects?  SVG Gradient Map filters make them achievable native on the web.<br>
+There's just one annoying catch.  when you are coding these you need to convert your R G and B into separate channels and divide by 255 then place them your R G and B numbers for different colours next to eachother - it feels kind of unnatural.<br>
+This tool makes creating a custom filter easy.</p>
+<p>If you want to automate this, I also <a href="https://codepen.io/andyfitz/pen/KKagbqe">wrote a CodePen</a> that converts any array into swatches and a duotone effect.</p>
 <h2 id="inkscape"><a href="https://inkscape.org/">Inkscape</a> <a class="direct-link" href="#inkscape">#</a></h2>
-<p>Gill &gt; spodipodi &gt; inkscae I've loved this journey and especially love where it is now.<br>
-Run it on your linux machine, your mac .. its brilliant for creative exploration, and especially illustration</p>
+<p>Isn't the evolution of open source desktop applications awesome?<br>
+Gill &gt; Sodipodi &gt; Inkscape<br>
+I've loved this journey and especially love where it is now.<br>
+Run it on your linux machine, your mac .. its brilliant for creative exploration, and especially illustration.<br>
+I've used Inkscape since it's inception. I could go on and on but let me just say it's the best tool for illustration of complext paths and leave the rest up to your imagination.</p>
 <h2 id="penpot"><a href="https://penpot.app/">Penpot</a> <a class="direct-link" href="#penpot">#</a></h2>
 <p>Early days to call this a Figma killer - But I do find it does most of what I want out for Figma (for free and freedom)</p>
 <h2 id="rawgraphs"><a href="https://app.rawgraphs.io/">RawGraphs </a> <a class="direct-link" href="#rawgraphs">#</a></h2>
@@ -79,21 +104,26 @@ Run it on your linux machine, your mac .. its brilliant for creative exploration
 <p>(used in ImageMagick and heaps more)<br>
 This is a blazingly fast library to work with SVG files</p>
 <p>If you are a performance-driven developer, <a href="https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs">RSVG convert</a> in particular will blow your mind</p>
-<p>Also you should follow <a href="https://people.gnome.org/~federico/blog/tag/librsvg.html">Federico Mena-Quintero</a> Who is dragging RSVG into the future</p>
+<p>Also you should follow <a href="https://people.gnome.org/~federico/blog/tag/librsvg.html">Federico Mena-Quintero</a> Who is dragging RSVG into the future.</p>
 <h2 id="imagetracer-js"><a href="https://github.com/jankovicsandras/imagetracerjs">Imagetracer JS</a> <a class="direct-link" href="#imagetracer-js">#</a></h2>
-<p>There are many bitmap to vector tracers like potrace, autotrace etc but imaegtracer is the most promising for web developers.</p>
+<p>There are many bitmap to vector tracers like <a href="http://potrace.sourceforge.net/">potrace</a>, autotrace etc. Imagetracer is the most promising for web developers and has a few tricks up it's sleeve.</p>
 <p>Handy to have on the CLI too:</p>
 <pre><code>imagetracerjs/nodecli&gt;node nodecli ../in.png outfilename out.svg scale 10
 </code></pre>
 <h2 id="2geom"><a href="https://gitlab.com/inkscape/lib2geom">2geom</a> <a class="direct-link" href="#2geom">#</a></h2>
 <p>Fun fact, Inkscape uses 2geom under the hood.</p>
 <p>If you're building something that needs to perform 2d computational geometry - you'll end up grateful for Nathan Hurst and all other contribnutors</p>
-<h2 id="svg-js"><a href="https://svgjs.com/">SVG JS</a> <a class="direct-link" href="#svg-js">#</a></h2>
-<p>I've not used this but it does offer some compelling shortcuts</p>
+<h2 id="single-purpose-svg-generator-tools">Single-purpose SVG generator tools <a class="direct-link" href="#single-purpose-svg-generator-tools">#</a></h2>
+<p><a href="https://www.blobmaker.app/">blob maker</a><br>
+does one thing, makes blobs</p>
+<p><a href="https://codepen.io/georgedoescode/full/dyNVNjG">noise maker</a><br>
+nice patterns of directional lines or dots</p>
+<p><a href="https://yoksel.github.io/wave-maker/">Wave Maker</a></p>
 <h2 id="create.rip"><a href="https://create.rip">Create.Rip</a> <a class="direct-link" href="#create.rip">#</a></h2>
-<p>Easily extract essential assets from any design format (PDF PSD TIFF etc) to the right web ready formats.</p>
+<p>Easily convert design files to web ready formats then extract individul elements.<br>
+Accepts most traditional formats (PDF AI PSD TIFF etc) .</p>
 <p>I'd be remiss for not including this one.</p>
-<p>create.rip is a web service we built at Outfit for ourselves with the help of embersea.</p>
+<p><a href="https://create.rip">https://create.rip</a> is a web service we built at Outfit for ourselves with the help of <a href="http://www.embersea.io/">embersea</a> and <a href="https://devaway.io/">devaway</a></p>
 <p>We decided to host and share it with the world -</p>
 <p>Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passed March 15th, 2021 hospitalised by a stroke and subsequently COVID-19</p>
 
@@ -103,8 +133,13 @@ This is a blazingly fast library to work with SVG files</p>
 
     <footer>
 <section class="scroll">
+
+
+ 
+
+
 <a href="https://www.twitter.com/andyfitz/" target="_blank">
-<svg viewbox="0 0 10 10"><path stroke-width="2" fill="none" d="M3.5 2V5.9Q3.5 7.9 5.5 8H6.5M3.5 4H5.5 " /></svg>
+<svg viewbox="0 0 10 10"><path  d="M9.5 2.7h-.9l.7-1.1-.9.4A.4.4 90 005 3.5 4.9 4.9 0 011 2q0 2 1.4 2.3h-1Q2 5.6 3 5.6H2Q2 6 3.5 7H1a4.5 4.5 0 007.6-3.6z" /></svg>
 <b>Twitter</b>
 </a>
 
@@ -159,16 +194,21 @@ d="M 2.5 4 V 7 H 7.5 V 4 M 5 1 V 3" /></svg>
 
 
 
+
 </section>
 
- Andy Fitzsimon <a href="https://creativecommons.org/licenses/by-sa/3.0/au/legalcode">CC-BY-SA</a>
+ Andy Fitzsimon <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA</a>
 
+<a href="http://andyfitz.github.io/feed/feed.xml" target="_blank">
+<svg viewbox="0 0 10 10" ><path stroke-width="1.1" d="M1.5 2Q8 2 8 8M1.5 4.5Q5 4.5 5 8M2 8a.5.5 0 11.01 0z" /> </svg>
+Feed
+</a>
  </footer>
 
 
-<style>footer > section svg{fill:none; fill-opacity:.2; stroke:currentcolor; stroke-linecap:round; width:2em; height:2em;}</style>
+<style>footer  svg{fill:none; fill-opacity:.2; stroke:currentcolor; stroke-linecap:round; width:2em; height:2em;}</style>
 
 
-    <!-- Current page: /posts/must-have-svg-tools/ -->
+    <!-- Current page: /posts/essential-svg-tools/ -->
   </body>
 </html>
