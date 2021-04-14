@@ -12,36 +12,25 @@ layout: layouts/post.njk
 
 This article contains SVG tools I reach for depending on need. 
 As the rifleman's creed goes: *“there are many like it but this one is mine”*.  
-This list, is a good list. 
+I like this list. 
 
-Read on for descriptions to get you oriented or get straight on if you're in a hurry: 
-[SVGOMG](https://jakearchibald.github.io/svgomg/) / [SVGO](https://github.com/svg/svgo)
-[SVG Path Editor](https://yqnn.github.io/svg-path-editor/)
-[SVG Crop](https://svgcrop.com/)
-[SVG URL Encoder](https://yoksel.github.io/url-encoder/)
-[SVG Fitler Builder](https://svgfilters.com/)
-[SVG Gradient Map Builder](https://yoksel.github.io/svg-gradient-map/#/)
-[CSS Relative Clip-path convertor](https://yoksel.github.io/relative-clip-path/)
-[Imagetracer JS](https://github.com/jankovicsandras/imagetracerjs)
-[Inkscape](https://inkscape.org/)  
-[Penpot](https://penpot.app/) 
-[RawGraphs ](https://app.rawgraphs.io/)
-[2geom](https://gitlab.com/inkscape/lib2geom)  
-[LibRsvg](https://gitlab.gnome.org/GNOME/librsvg)
-toys: [Blobs](https://www.blobmaker.app/) [Noise](https://codepen.io/georgedoescode/full/dyNVNjG) [Waves](https://yoksel.github.io/wave-maker/) [Snowflakes](https://www.misha.studio/snowflaker/)
+ 
 
 #### Preamble
 
-My love affair with SVG began back when Adobe offered <a href="https://www.w3.org/TR/1998/NOTE-PGML" target="_blank">PGML</a>. You can <a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG">learn more about SVG's early influences here</a>
+My love affair with SVG began back when Adobe offered <a href="https://www.w3.org/TR/1998/NOTE-PGML" target="_blank">PGML</a>.
+You can <a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG">learn more about SVG's early influences here</a>
 
 
-Omce W3C released the SVG draft: I figured it would win the web within months and started to chase it (it took years). 
+Once W3C released the SVG draft: I figured it would win the web and be supported by all major browsers within months (that took years). Nevertheless, I began my chase.
+
 Fortunately SVG was more useful than just internet use. 
-By 2003, I had toyed with SVG a for much of my studies. 
+By 2003, I had toyed with SVG in my studies. 
 By 2005, I had finally used SVG commercially thanks to Red Hat and UTF-8. 
 
-
-SVG has helped me work in so many ways. So here's what I use today.  Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful (or fun) in the right situation.  So here goes, get your bookmark tool of choice fired up:
+SVG assisted many tasks – from websites, to presentations, to apps, to toolchains.  
+So here's what I use today.  Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful (and/or fun) for the right situation. 
+So here goes, get your bookmark tool of choice fired up:
 
 ## [SVGOMG](https://jakearchibald.github.io/svgomg/)
 
@@ -72,20 +61,16 @@ It's not bulletproof (any shapes used as clippaths will affect the viewBox) but 
 ## [SVG URL Encoder](https://yoksel.github.io/url-encoder/)
 
 Inline SVG into CSS - hey it's a gnarly technique but I still find myself throwing SVG into pseudo elements all the time. Think of the saved HTTP request! 
-
 This tool from Yoksel makes it super easy!
 
-## [Relative Clip-path ](https://yoksel.github.io/relative-clip-path/)
+## [Relative clip-path ](https://yoksel.github.io/relative-clip-path/)
 
 For turning SVG paths into CSS-friendly `clip-path` coordinates. Super handy.
 
-
 ## [SVG Fitler Builder](https://svgfilters.com/)
 
-Creating complex SVG Filters is incredibly hard, Thankfully we have this brilliant tool
-
+Creating complex SVG Filters is incredibly hard, Thankfully we have this brilliant tool.
 There's an alternative [SVG Filter Constructor](https://yoksel.github.io/svg-filters/#/) by [Yoksel](https://yoksel.github.io) with a less intimidating interface that's worth a look.
-
 
 
 ## [SVG Gradient Map Builder](https://yoksel.github.io/svg-gradient-map/#/)
@@ -103,26 +88,23 @@ Isn't the evolution of open source desktop applications awesome?
 Gill > Sodipodi > Inkscape 
 I've loved this journey and especially love where it is now.
 Run it on your linux machine, your mac .. its brilliant for creative exploration, and especially illustration.
-I've used Inkscape since it's inception. I could go on and on but let me just say it's the best tool for illustration of complext paths and leave the rest up to your imagination.
+I've used Inkscape since it's inception. Demoed it around the planet and pleaded for top designers to consider it. I could go on and on but let me just say it's **the very best tool for illustration of complex paths**. and leave the rest up to your imagination.
 
 ## [Penpot](https://penpot.app/)
-Early days to call this a Figma killer - But I do find it does most of what I want out for Figma (for free and freedom)
+Early days to call this a Figma killer - But I do find it does most of what I want out of Figma (for free and freedom). Super impressed and excited to see where this project goes.
 
 ## [RawGraphs ](https://app.rawgraphs.io/)
 
 Brilliant way to produce graphs without having to render client side, create the layout in rawgraphs then style with your own CSS
 
 ## [librSVG](https://gitlab.gnome.org/GNOME/librsvg)
-(used in ImageMagick and heaps more) This is a blazingly fast library to work with SVG files
-
-If you are a performance-driven developer, [RSVG convert](https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs) in particular will blow your mind
-Also you should follow [Federico Mena-Quintero](https://people.gnome.org/~federico/blog/tag/librsvg.html) Who is dragging RSVG into the future.
+This is a blazingly fast library to work with SVG files (used in ImageMagick and heaps more)
+If you are a performance-driven developer, [RSVG convert](https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs) in particular will blow your mind. Also you should follow [Federico Mena-Quintero](https://people.gnome.org/~federico/blog/tag/librsvg.html) Who is dragging RSVG into the future with Rust.
 
 
 ## [Imagetracer JS](https://github.com/jankovicsandras/imagetracerjs)
 
 There are many bitmap to vector tracers like [potrace](http://potrace.sourceforge.net/), autotrace etc. Imagetracer is the most promising for web developers and has a few tricks up it's sleeve.
-
 Handy to have on the CLI too:
 ```
 imagetracerjs/nodecli>node nodecli ../in.png outfilename out.svg scale 10
@@ -139,6 +121,8 @@ Fun fact, Inkscape uses 2geom under the hood.
 [Blob maker](https://www.blobmaker.app/)   does one thing, makes blobs
 [Noise maker](https://codepen.io/georgedoescode/full/dyNVNjG) nice patterns of directional lines or dots
 [Wave Maker](https://yoksel.github.io/wave-maker/) nifty example of repeating arc paths
+[Snowflakes](https://www.misha.studio/snowflaker/) Random snowflakes 
+[Snowflake Painter](https://yoksel.github.io/snowflake/) Design a snowflake with lines
 
 <!-- 
 ## [Create.Rip](https://create.rip)
@@ -160,17 +144,14 @@ Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passe
 Well there's lots of nifty things I havent personally climbed into. 
 
 [canvas2svg ](https://github.com/gliffy/canvas2svg ) - I have a feeling I'll get to know this library well someday.
-
-[Apache Batik](https://xmlgraphics.apache.org/batik/)  - I used it quite a bit in the early days but it never took root in my toolchain. 
-
+[Apache Batik](https://xmlgraphics.apache.org/batik/)  - I used it quite a bit in the early days but it never took root in my toolchain.  
 [SVGJS](https://svgjs.com/docs/3.0/) It offers compelling shortcuts, I'm just a fan of vanilla JS. This also goes for [SNAP SVG](http://snapsvg.io/)
 
 
 # Thank you SVG
 
-So there you have it.
+So there you have it, the best tools to help you with SVG.
 
-On a personal note 
-
+On a personal note:
 These are the heroes I'd like to recognise, the ones who moved SVG forward directly or indirectly in my universe: 
 [Cam Mcormack](https://mcc.id.au/), [Raph Levien](https://raphlinus.github.io/), [Chris Lilley](https://svgees.us/), Carl Worth, Liam Quinn, Doug Schepers, Nathan Hurst, Peter Moulder, [Tavmjong Bah](http://tavmjong.free.fr/), [Bryce Harrington](https://twitter.com/bryceharrington), Aaron Spike, Jon Cruz, Bulia Byak, Dom Lachowicz, Dodji Seketeli, [Owen Taylor](https://blog.fishsoup.net/) and so many more. 
