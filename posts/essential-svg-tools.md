@@ -8,14 +8,13 @@ tags:
   - tools
 layout: layouts/post.njk
 ---
+<svg viewBox="-7 0 24 10" style="height:15em; width:100%;background-color:#f87; fill:#fca"><path d="M5 8.5l3-4c2-3-3-4-3-1 0-3-5-2-3 1z" /><path fill="#fff" d="M-3 3H1V7H-3M8 7H13L10.5 3M5 3A2 2 0 105.001 3" /></svg>
 
-
-This article contains all the SVG-related resources I reach for depending on need. 
+This article contains SVG tools I reach for depending on need. 
 As the rifleman's creed goes: *“there are many like it but this one is mine”*.  
-When your need involves SVG something here will help.
+This list, is a good list. 
 
-
-I have write up below but if you're in a hurry: 
+Read on for descriptions to get you oriented or get straight on if you're in a hurry: 
 [SVGOMG](https://jakearchibald.github.io/svgomg/) / [SVGO](https://github.com/svg/svgo)
 [SVG Path Editor](https://yqnn.github.io/svg-path-editor/)
 [SVG Crop](https://svgcrop.com/)
@@ -29,25 +28,20 @@ I have write up below but if you're in a hurry:
 [RawGraphs ](https://app.rawgraphs.io/)
 [2geom](https://gitlab.com/inkscape/lib2geom)  
 [LibRsvg](https://gitlab.gnome.org/GNOME/librsvg)
-toys: [Blobs](https://www.blobmaker.app/) [Noise](https://codepen.io/georgedoescode/full/dyNVNjG) [Waves](https://yoksel.github.io/wave-maker/)
+toys: [Blobs](https://www.blobmaker.app/) [Noise](https://codepen.io/georgedoescode/full/dyNVNjG) [Waves](https://yoksel.github.io/wave-maker/) [Snowflakes](https://www.misha.studio/snowflaker/)
 
 #### Preamble
 
-My love affair with SVG started before Macromedia was aquired. 
-Adobe was <a href="https://www.w3.org/TR/1998/NOTE-PGML" target="_blank">into PGML</a> - competing against giants like <a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG">Microsoft and Autodesk</a>.
+My love affair with SVG began back when Adobe offered <a href="https://www.w3.org/TR/1998/NOTE-PGML" target="_blank">PGML</a>. You can <a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG">learn more about SVG's early influences here</a>
 
 
-When W3C released the SVG draft: I figured it would win the web within months and started to chase it (it took years). 
+Omce W3C released the SVG draft: I figured it would win the web within months and started to chase it (it took years). 
 Fortunately SVG was more useful than just internet use. 
-In 2003, I toyed with SVG a for much of university. 
-By 2005, I finally used SVG commercially thanks to Red Hat and UTF-8. 
-
-My personal heroes who moved SVG forward directly or indirectly: [Cam Mcormack](https://mcc.id.au/), [Raph Levien](https://raphlinus.github.io/), [Chris Lilley](https://svgees.us/), Carl Worth, Liam Quinn, Doug Schepers, Nathan Hurst, Peter Moulder, Tavmjong Bah, Bryce Harrington, Aaron Spike, Jon Cruz, Bulia Byak, Dom Lachowicz, Dodji Seketeli, [Owen Taylor](https://blog.fishsoup.net/) and so many more. 
-
-What's promising is that many of the tools listed here are not by the authors above. A new generation is pushing SVG ever forward.
+By 2003, I had toyed with SVG a for much of my studies. 
+By 2005, I had finally used SVG commercially thanks to Red Hat and UTF-8. 
 
 
-Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful in the right situation.  So here goes, get your bookmark tool of choice fired up:
+SVG has helped me work in so many ways. So here's what I use today.  Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful (or fun) in the right situation.  So here goes, get your bookmark tool of choice fired up:
 
 ## [SVGOMG](https://jakearchibald.github.io/svgomg/)
 
@@ -63,7 +57,10 @@ The plugins are fascinating and have bailed me out many times.
 ## [SVG Path Editor](https://yqnn.github.io/svg-path-editor/)
 
 I use this now more than even [Inkscape](http://www.inkscape.org/) for simple illustrations, and I really wish the preview would let me add my CSS. But still, this thing is pure GOLD!
-When finishing an illustration I often return to this tool and go path by path to reduce unnessecary coordinates and operators. Stealing a few decimals here and there, replacing cubic bezier path operators with more optimal ones like quadratics or arcs.   SVG path editor will dramatically improve your understanding of the SVG path system
+When finishing an illustration I often return to this tool and go path by path to reduce unnessecary coordinates and operators. Stealing a few decimals here and there, replacing cubic bezier path operators with more optimal ones like quadratics or arcs.   
+
+SVG path editor will dramatically improve your understanding of the SVG path system.
+Also try out this [SVG path visualizer](https://svg-path-visualizer.netlify.app/#M5%208.5l3-4c2-3-3-4-3-1%200-3-5-2-3%201z)  I put the heart from this article in it's URL param - very handy when teaching SVG
 
 
 ## [SVG Crop](https://svgcrop.com/)
@@ -160,4 +157,20 @@ Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passe
 
 ## What else?
 
-Well there's lots of nifty things like [canvas2svg ](https://github.com/gliffy/canvas2svg ) 
+Well there's lots of nifty things I havent personally climbed into. 
+
+[canvas2svg ](https://github.com/gliffy/canvas2svg ) - I have a feeling I'll get to know this library well someday.
+
+[Apache Batik](https://xmlgraphics.apache.org/batik/)  - I used it quite a bit in the early days but it never took root in my toolchain. 
+
+[SVGJS](https://svgjs.com/docs/3.0/) It offers compelling shortcuts, I'm just a fan of vanilla JS. This also goes for [SNAP SVG](http://snapsvg.io/)
+
+
+# Thank you SVG
+
+So there you have it.
+
+On a personal note 
+
+These are the heroes I'd like to recognise, the ones who moved SVG forward directly or indirectly in my universe: 
+[Cam Mcormack](https://mcc.id.au/), [Raph Levien](https://raphlinus.github.io/), [Chris Lilley](https://svgees.us/), Carl Worth, Liam Quinn, Doug Schepers, Nathan Hurst, Peter Moulder, [Tavmjong Bah](http://tavmjong.free.fr/), [Bryce Harrington](https://twitter.com/bryceharrington), Aaron Spike, Jon Cruz, Bulia Byak, Dom Lachowicz, Dodji Seketeli, [Owen Taylor](https://blog.fishsoup.net/) and so many more. 
