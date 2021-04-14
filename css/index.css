@@ -140,7 +140,7 @@ footer{text-align:center;color: var(--neutral);margin:2em 0;  padding-top:0; bor
 footer > section{ margin:1em auto;display:grid;   grid-auto-flow: row; grid-template-rows: auto; grid-template-columns: 1fr 1fr  1fr  1fr   1fr ;align-content: center;}
 footer a[href]{border-radius: .4em; overflow:hidden;min-width: 4em; min-height:4em; position:relative; text-transform: uppercase; letter-spacing:.1em;  display:grid;   justify-content: center; align-content: center;text-align: center} 
  
-footer > section a svg{transform:translate(0,1.5em); stroke-linejoin:round;margin:1em auto; transition: transform .2s cubic-bezier(.5,.3,.2,1.5);}
+footer > section a svg{transform:translate(0,1.5em); stroke-linejoin:round;margin:1em auto; transition: transform .15s cubic-bezier(.5,.3,.2,1.15);}
 footer a b { font-size: .7em;white-space:nowrap;transition: transform .2s cubic-bezier(.5,.3,.2,1); }
 footer a:hover b {opacity:1; transform: translate(0,-2.5em)   ;}
 footer a:not(:hover) b{opacity:0; transform: translate(0,-2em)  }

@@ -17,10 +17,11 @@
 		<link href="https://ndftz.com/posts/essential-svg-tools/"/>
 		<updated>2021-04-13T00:00:00Z</updated>
 		<id>https://ndftz.com/posts/essential-svg-tools/</id>
-		<content type="html">&lt;p&gt;This article contains all the SVG-related resources I reach for depending on need.&lt;br /&gt;
+		<content type="html">&lt;p&gt;&lt;svg viewBox=&quot;-7 0 24 10&quot; style=&quot;height:15em; width:100%;background-color:#f87; fill:#fca&quot;&gt;&lt;path d=&quot;M5 8.5l3-4c2-3-3-4-3-1 0-3-5-2-3 1z&quot;&gt;&lt;/path&gt;&lt;path fill=&quot;#fff&quot; d=&quot;M-3 3H1V7H-3M8 7H13L10.5 3M5 3A2 2 0 105.001 3&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/p&gt;
+&lt;p&gt;This article contains SVG tools I reach for depending on need.&lt;br /&gt;
 As the rifleman&#39;s creed goes: &lt;em&gt;“there are many like it but this one is mine”&lt;/em&gt;.&lt;br /&gt;
-When your need involves SVG something here will help.&lt;/p&gt;
-&lt;p&gt;I have write up below but if you&#39;re in a hurry:&lt;br /&gt;
+This list, is a good list.&lt;/p&gt;
+&lt;p&gt;Read on for descriptions to get you oriented or get straight on if you&#39;re in a hurry:&lt;br /&gt;
 &lt;a href=&quot;https://jakearchibald.github.io/svgomg/&quot;&gt;SVGOMG&lt;/a&gt; / &lt;a href=&quot;https://github.com/svg/svgo&quot;&gt;SVGO&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://yqnn.github.io/svg-path-editor/&quot;&gt;SVG Path Editor&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://svgcrop.com/&quot;&gt;SVG Crop&lt;/a&gt;&lt;br /&gt;
@@ -34,17 +35,14 @@ When your need involves SVG something here will help.&lt;/p&gt;
 &lt;a href=&quot;https://app.rawgraphs.io/&quot;&gt;RawGraphs &lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://gitlab.com/inkscape/lib2geom&quot;&gt;2geom&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/librsvg&quot;&gt;LibRsvg&lt;/a&gt;&lt;br /&gt;
-toys: &lt;a href=&quot;https://www.blobmaker.app/&quot;&gt;Blobs&lt;/a&gt; &lt;a href=&quot;https://codepen.io/georgedoescode/full/dyNVNjG&quot;&gt;Noise&lt;/a&gt; &lt;a href=&quot;https://yoksel.github.io/wave-maker/&quot;&gt;Waves&lt;/a&gt;&lt;/p&gt;
+toys: &lt;a href=&quot;https://www.blobmaker.app/&quot;&gt;Blobs&lt;/a&gt; &lt;a href=&quot;https://codepen.io/georgedoescode/full/dyNVNjG&quot;&gt;Noise&lt;/a&gt; &lt;a href=&quot;https://yoksel.github.io/wave-maker/&quot;&gt;Waves&lt;/a&gt; &lt;a href=&quot;https://www.misha.studio/snowflaker/&quot;&gt;Snowflakes&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&quot;preamble&quot;&gt;Preamble &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#preamble&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;My love affair with SVG started before Macromedia was aquired.&lt;br /&gt;
-Adobe was &lt;a href=&quot;https://www.w3.org/TR/1998/NOTE-PGML&quot; target=&quot;_blank&quot;&gt;into PGML&lt;/a&gt; - competing against giants like &lt;a href=&quot;https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG&quot;&gt;Microsoft and Autodesk&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;When W3C released the SVG draft: I figured it would win the web within months and started to chase it (it took years).&lt;br /&gt;
+&lt;p&gt;My love affair with SVG began back when Adobe offered &lt;a href=&quot;https://www.w3.org/TR/1998/NOTE-PGML&quot; target=&quot;_blank&quot;&gt;PGML&lt;/a&gt;. You can &lt;a href=&quot;https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG&quot;&gt;learn more about SVG&#39;s early influences here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Omce W3C released the SVG draft: I figured it would win the web within months and started to chase it (it took years).&lt;br /&gt;
 Fortunately SVG was more useful than just internet use.&lt;br /&gt;
-In 2003, I toyed with SVG a for much of university.&lt;br /&gt;
-By 2005, I finally used SVG commercially thanks to Red Hat and UTF-8.&lt;/p&gt;
-&lt;p&gt;My personal heroes who moved SVG forward directly or indirectly: &lt;a href=&quot;https://mcc.id.au/&quot;&gt;Cam Mcormack&lt;/a&gt;, &lt;a href=&quot;https://raphlinus.github.io/&quot;&gt;Raph Levien&lt;/a&gt;, &lt;a href=&quot;https://svgees.us/&quot;&gt;Chris Lilley&lt;/a&gt;, Carl Worth, Liam Quinn, Doug Schepers, Nathan Hurst, Peter Moulder, Tavmjong Bah, Bryce Harrington, Aaron Spike, Jon Cruz, Bulia Byak, Dom Lachowicz, Dodji Seketeli, &lt;a href=&quot;https://blog.fishsoup.net/&quot;&gt;Owen Taylor&lt;/a&gt; and so many more.&lt;/p&gt;
-&lt;p&gt;What&#39;s promising is that many of the tools listed here are not by the authors above. A new generation is pushing SVG ever forward.&lt;/p&gt;
-&lt;p&gt;Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful in the right situation.  So here goes, get your bookmark tool of choice fired up:&lt;/p&gt;
+By 2003, I had toyed with SVG a for much of my studies.&lt;br /&gt;
+By 2005, I had finally used SVG commercially thanks to Red Hat and UTF-8.&lt;/p&gt;
+&lt;p&gt;SVG has helped me work in so many ways. So here&#39;s what I use today.  Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful (or fun) in the right situation.  So here goes, get your bookmark tool of choice fired up:&lt;/p&gt;
 &lt;h2 id=&quot;svgomg&quot;&gt;&lt;a href=&quot;https://jakearchibald.github.io/svgomg/&quot;&gt;SVGOMG&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#svgomg&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The webinterface is amazing, I also use this directly in apps and on the commandline&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;npm install -g svgo
@@ -53,7 +51,9 @@ By 2005, I finally used SVG commercially thanks to Red Hat and UTF-8.&lt;/p&gt;
 The plugins are fascinating and have bailed me out many times.&lt;/p&gt;
 &lt;h2 id=&quot;svg-path-editor&quot;&gt;&lt;a href=&quot;https://yqnn.github.io/svg-path-editor/&quot;&gt;SVG Path Editor&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#svg-path-editor&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I use this now more than even &lt;a href=&quot;http://www.inkscape.org/&quot;&gt;Inkscape&lt;/a&gt; for simple illustrations, and I really wish the preview would let me add my CSS. But still, this thing is pure GOLD!&lt;br /&gt;
-When finishing an illustration I often return to this tool and go path by path to reduce unnessecary coordinates and operators. Stealing a few decimals here and there, replacing cubic bezier path operators with more optimal ones like quadratics or arcs.   SVG path editor will dramatically improve your understanding of the SVG path system&lt;/p&gt;
+When finishing an illustration I often return to this tool and go path by path to reduce unnessecary coordinates and operators. Stealing a few decimals here and there, replacing cubic bezier path operators with more optimal ones like quadratics or arcs.&lt;/p&gt;
+&lt;p&gt;SVG path editor will dramatically improve your understanding of the SVG path system.&lt;br /&gt;
+Also try out this &lt;a href=&quot;https://svg-path-visualizer.netlify.app/#M5%208.5l3-4c2-3-3-4-3-1%200-3-5-2-3%201z&quot;&gt;SVG path visualizer&lt;/a&gt;  I put the heart from this article in it&#39;s URL param - very handy when teaching SVG&lt;/p&gt;
 &lt;h2 id=&quot;svg-crop&quot;&gt;&lt;a href=&quot;https://svgcrop.com/&quot;&gt;SVG Crop&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#svg-crop&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Remove the extra margin from around your SVG content so the file is easy to work wit.&lt;br /&gt;
 &lt;a href=&quot;http://svgcrop.com/&quot;&gt;SVGcrop.com&lt;/a&gt; resizes the SVG artboard by changing the &lt;code&gt;viewBox=&amp;quot;..&lt;/code&gt; attribute&lt;br /&gt;
@@ -111,7 +111,15 @@ We decided to host and share it with the world -
 
 Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passed March 15th, 2021 hospitalised by a stroke and subsequently COVID-19 --&gt;
 &lt;h2 id=&quot;what-else%3F&quot;&gt;What else? &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#what-else%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Well there&#39;s lots of nifty things like &lt;a href=&quot;https://github.com/gliffy/canvas2svg&quot;&gt;canvas2svg &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Well there&#39;s lots of nifty things I havent personally climbed into.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/gliffy/canvas2svg&quot;&gt;canvas2svg &lt;/a&gt; - I have a feeling I&#39;ll get to know this library well someday.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://xmlgraphics.apache.org/batik/&quot;&gt;Apache Batik&lt;/a&gt;  - I used it quite a bit in the early days but it never took root in my toolchain.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://svgjs.com/docs/3.0/&quot;&gt;SVGJS&lt;/a&gt; It offers compelling shortcuts, I&#39;m just a fan of vanilla JS. This also goes for &lt;a href=&quot;http://snapsvg.io/&quot;&gt;SNAP SVG&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;thank-you-svg&quot;&gt;Thank you SVG &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#thank-you-svg&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;So there you have it.&lt;/p&gt;
+&lt;p&gt;On a personal note&lt;/p&gt;
+&lt;p&gt;These are the heroes I&#39;d like to recognise, the ones who moved SVG forward directly or indirectly in my universe:&lt;br /&gt;
+&lt;a href=&quot;https://mcc.id.au/&quot;&gt;Cam Mcormack&lt;/a&gt;, &lt;a href=&quot;https://raphlinus.github.io/&quot;&gt;Raph Levien&lt;/a&gt;, &lt;a href=&quot;https://svgees.us/&quot;&gt;Chris Lilley&lt;/a&gt;, Carl Worth, Liam Quinn, Doug Schepers, Nathan Hurst, Peter Moulder, &lt;a href=&quot;http://tavmjong.free.fr/&quot;&gt;Tavmjong Bah&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/bryceharrington&quot;&gt;Bryce Harrington&lt;/a&gt;, Aaron Spike, Jon Cruz, Bulia Byak, Dom Lachowicz, Dodji Seketeli, &lt;a href=&quot;https://blog.fishsoup.net/&quot;&gt;Owen Taylor&lt;/a&gt; and so many more.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
