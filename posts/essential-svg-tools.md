@@ -133,9 +133,8 @@ imagetracerjs/nodecli>node nodecli ../in.png outfilename out.svg scale 10
 
 ## [2geom](https://gitlab.com/inkscape/lib2geom)
 
+If you're building something that needs to perform fast and accurate 2d computational geometry (boolean operations and way more) you'll end up grateful for Nathan Hurst and all other contributors who made lib2geom possible.
 Fun fact, Inkscape uses 2geom under the hood.
-
-If you're building something that needs to perform 2d computational geometry - you'll end up grateful for Nathan Hurst and all other contribnutors
 
 
 ## Single-purpose SVG generator tools 

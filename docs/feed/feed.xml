@@ -91,8 +91,8 @@ Also you should follow &lt;a href=&quot;https://people.gnome.org/~federico/blog/
 &lt;pre&gt;&lt;code&gt;imagetracerjs/nodecli&amp;gt;node nodecli ../in.png outfilename out.svg scale 10
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&quot;2geom&quot;&gt;&lt;a href=&quot;https://gitlab.com/inkscape/lib2geom&quot;&gt;2geom&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#2geom&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Fun fact, Inkscape uses 2geom under the hood.&lt;/p&gt;
-&lt;p&gt;If you&#39;re building something that needs to perform 2d computational geometry - you&#39;ll end up grateful for Nathan Hurst and all other contribnutors&lt;/p&gt;
+&lt;p&gt;If you&#39;re building something that needs to perform fast and accurate 2d computational geometry (boolean operations and way more) you&#39;ll end up grateful for Nathan Hurst and all other contributors who made lib2geom possible.&lt;br /&gt;
+Fun fact, Inkscape uses 2geom under the hood.&lt;/p&gt;
 &lt;h2 id=&quot;single-purpose-svg-generator-tools&quot;&gt;Single-purpose SVG generator tools &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#single-purpose-svg-generator-tools&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.blobmaker.app/&quot;&gt;Blob maker&lt;/a&gt;   does one thing, makes blobs&lt;br /&gt;
 &lt;a href=&quot;https://codepen.io/georgedoescode/full/dyNVNjG&quot;&gt;Noise maker&lt;/a&gt; nice patterns of directional lines or dots&lt;br /&gt;
