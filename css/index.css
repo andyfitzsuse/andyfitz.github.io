@@ -61,16 +61,19 @@ padding-top: var(--layout-spacing);
 line-height: 1.2;
 }
 
-/*article anchors */
-article h4 > a[href]:last-child,
-article h3 > a[href]:last-child,
-article h2 > a[href]:last-child,
-article h1 > a[href]:last-child{ font-weight:300; font-style:normal; font-size:1rem; color:var(--neutral); width: 2rem; margin-left:-.3em; height:2rem; line-height:2.5rem; display:inline-block;  text-align:center; vertical-align:bottom}
 
-h1:first-child{margin-bottom:.5em;}
-:is(h2, h3):not(:first-child) {
-margin-top: 2em;
-}
+a.direct-link{color:transparent !important  ;transition: transform .2s ease;  transform:translate(-.5rem,0); background-repeat:no-repeat;eat;background-size: 60%; opacity:0;background-repeat:none; background-position: 50% 50%; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' fill='none' stroke='%23888' stroke-linecap='round'%3E%3Cpath transform='rotate(-45deg)' transform-origin='50%25 50%25' d='M 5.5 4.5 Q 4.5 3.4 3 4.6 L 1.5 6 A 1 1 0 0 0 3.5 8.5 L 4 8 M 4.3 6.4 Q 5.3 7.3 6.4 6.2 L 8.6 4 A 1 1 0 0 0 6 2 L 5.5 2.5' /%3E%3C/svg%3E");}
+
+h2:hover a.direct-link{opacity:.5; transform:none}
+/*article anchors */
+article a.direct-link{ font-weight:300; font-style:normal; font-size:1rem; width: 2rem; height:2rem; line-height:2rem; display:inline-block;  text-align:center; }
+
+article h1,
+article h2,
+article h3,
+article h4{position:relative}
+
+article .direct-link{position:absolute; left:-2em; top:0; margin:0;}
 
 article * + * {
 margin-top: 2em;
