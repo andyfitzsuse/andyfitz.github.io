@@ -40,8 +40,11 @@ The webinterface to SVGO is so handy, I also use SVGO directly in apps and on th
 npm install -g svgo
 ```
 
-If you use [webpack](https://webpack.js.org/), [snowpack](https://www.snowpack.dev/), [vite-svg-plugin](https://www.npmjs.com/package/vite-plugin-svg) etc you likely use it too.
+If you use [webpack](https://webpack.js.org/), [snowpack](https://wwwz.snowpack.dev/), [vite-svg-plugin](https://www.npmjs.com/package/vite-plugin-svg) etc you likely use it too.
 The plugins are fascinating and have bailed me out many times.
+
+There's also [SVG Cleaner](https://github.com/RazrFalcon/svgcleaner) which has some compelling benefits over SVGO.
+
 
 ## [SVG Path Editor](https://yqnn.github.io/svg-path-editor/)
 <a href="https://yqnn.github.io/svg-path-editor/" target="_blank" rel="noreferrer"><svg viewBox=" -1-1 15 15" style="height:15em; width:100%;background-color:#678; fill:#eee">  <path d="M 4 8 L 10 1 L 13 0 L 12 3 L 5 9 C 6 10 6 11 7 10 C 7 11 8 12 7 12 A 1.42 1.42 0 0 1 6 13 A 5 5 0 0 0 4 10 Q 3.5 9.9 3.5 10.5 T 2 11.8 T 1.2 11 T 2.5 9.5 T 3 9 A 5 5 90 0 0 0 7 A 1.42 1.42 0 0 1 1 6 C 1 5 2 6 3 6 C 2 7 3 7 4 8 M 10 1 L 10 3 L 12 3 L 10.2 2.8 L 10 1" /> </svg></a>
@@ -72,6 +75,7 @@ For turning SVG paths into CSS-friendly `clip-path` coordinates. Super handy.
 <a href="https://svgfilters.com/" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" style="height:15em; width:100%;background-color:#4b5ca3;" viewBox="0 -10 119.9 164.8" ><path fill="#6795e9" d="M75.2 79.3a22.9 22.9 0 0043.5 0zm-3.7 23.8a23.1 23.1 0 00-26.9 3.2c-7.2 7-8.1 18-3.6 26.8z"/><path fill="#41bfd0" d="m97.5 50c-4.9 0-10 1.6-13 4.3a1.6 1.6 0 00-.2 0a23.8 23.8 0 00-2 1.6c-5.7 4.3-23.6 13.7-46-1l-1.8-1.3a22.4 22.4 0 10.5 37.3a22.3 22.3 0 002.5-1.9c12.2-9.5 23-9 23-9h40.6c5.8 0 11.7 3 11.7 8.7a22.4 22.4 0 00-15.3-38.7zm-22.1 30c-.7 10.5-9.6 20.7-9.6 20.7l-13.5 20.2c-3.4 4.8-9 8-13.8 4.7c3 20 28.9 26 40.5 9.5c2.8-4 4.4-9.2 3.8-13.2l.1-.2-.1-2.5c-.3-6.8 1.2-19.3 18.2-24.5a22.9 22.9 0 01-25.5-14.7zm37.4 8.6zzzm-52.8-88.6a23 23 0 10.001 0"/></svg></a>
 Creating complex SVG Filters is incredibly hard, Thankfully we have this brilliant tool.
 There's an alternative [SVG Filter Constructor](https://yoksel.github.io/svg-filters/#/) by [Yoksel](https://yoksel.github.io) with a less intimidating interface that's worth a look.
+Actually [Boxy SVG editor](https://boxy-svg.com/app) has a great compositing editor which is easy to use too.
 
 
 ## [SVG Gradient Map Builder](https://yoksel.github.io/svg-gradient-map/#/)
@@ -106,6 +110,7 @@ Brilliant way to pre-render beautiful data graphics, create the layout in rawgra
 This is a blazingly fast library to work with SVG files (used in ImageMagick and heaps more)
 If you are a performance-driven developer, [RSVG convert](https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs) in particular will blow your mind. Also you should follow [Federico Mena-Quintero](https://people.gnome.org/~federico/blog/tag/librsvg.html) Who is dragging RSVG into the future with Rust.
 
+Worthy mention goes to [reSVG](https://github.com/RazrFalcon/resvg) which is a super performant and powerful alternative to rSVG 
 
 ## [Imagetracer JS](https://github.com/jankovicsandras/imagetracerjs)
 
