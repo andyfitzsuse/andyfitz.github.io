@@ -107,8 +107,7 @@ Brilliant way to pre-render beautiful data graphics, create the layout in rawgra
 ## [librSVG](https://gitlab.gnome.org/GNOME/librsvg)
 <svg viewBox="0 0 10 10" style="stroke-linecap:round;height:15em;width:100%;background-color:#555" fill="none" stroke="#eee" stroke-width=".4"><path d="M2 4A1 1 0 102.001 4M7 1A1 1 0 107.001 1M2 5 7 7V2M5.5 6.9 7 8.4 8.5 6.9 7 5.4Z"/></svg>
 
-This is a blazingly fast library to work with SVG files (used in ImageMagick and heaps more)
-If you are a performance-driven developer, [RSVG convert](https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs) in particular will blow your mind. Also you should follow [Federico Mena-Quintero](https://people.gnome.org/~federico/blog/tag/librsvg.html) Who is dragging RSVG into the future with Rust.
+This is a blazingly fast library to work with SVG files (used in ImageMagick and heaps more). If you are a performance-driven developer, [RSVG convert](https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs) in particular will blow your mind. Also you should follow [Federico Mena-Quintero](https://people.gnome.org/~federico/blog/tag/librsvg.html) Who is dragging RSVG into the future with Rust.
 
 Worthy mention goes to [reSVG](https://github.com/RazrFalcon/resvg) which is a super performant and powerful alternative to rSVG.
 
