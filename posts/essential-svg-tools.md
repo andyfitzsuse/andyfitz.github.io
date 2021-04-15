@@ -122,7 +122,7 @@ Fun fact, Inkscape uses 2geom under the hood and also powers the amazing live pa
 
 
 ## Single-purpose SVG generator tools 
-<svg  viewBox="0 0 72 72" style="height:15em;width:100%;background-color:#e2e6e9; font-family:Work Sans, system-ui, sans-serif; font-weight:300;" ><path fill="#f93" d="M14 50C7 36 25 6 42 5s32 27 22 42c-9 15-43 17-50 3z"/><path fill="#f06" d="M40 36c6 6 15 11 16 16-2 15-25 17-35 11C9 55 1 37 8 25c4-6 13-10 19-7 5 3 8 11 13 18"/> <text font-size="50" x="36" y="40" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="900">B</text></svg>
+<svg  viewBox="0 0 72 72" style="height:15em;width:100%;background-color:#e2e6e9; font-family:Work Sans, system-ui, sans-serif; font-weight:300;" ><path fill="#f93" d="M14 50C7 36 25 6 42 5s32 27 22 42c-9 15-43 17-50 3z"/><path fill="#f06" d="M40 36c6 6 15 11 16 16-2 15-25 17-35 11C9 55 1 37 8 25c4-6 13-10 19-7 5 3 8 11 13 18"/> <text font-size="55" x="36" y="40" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="900">B</text></svg>
 [Blob maker](https://www.blobmaker.app/)  makes blobs - now part of the super cool [haikei app](https://app.haikei.app/)
 [Wave Maker](https://getwaves.io/)
 [Noise maker](https://codepen.io/georgedoescode/full/dyNVNjG) nice patterns of directional lines or dots
