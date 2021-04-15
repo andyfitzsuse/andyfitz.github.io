@@ -59,7 +59,7 @@ padding-top: var(--layout-spacing);
 }
 
 :is(h1, h2, h3) {
-line-height: 1.2;
+line-height: 1.1;
 }
 
 
@@ -71,7 +71,7 @@ h2:hover a.direct-link{opacity:.5; transform:none}
 .docnav a{display:grid; background-color: var(--bg-2); padding: 1em;}
 article a.direct-link{ font-weight:300; font-style:normal; font-size:1rem; width: 2rem; height:2rem; line-height:2rem; display:inline-block;  text-align:center; }
 article header h1{margin-bottom:.5em;}
-article h1{font-size: 4rem;}
+article h1{font-size: 4rem; color:var(--focus);}
 article h1,
 article h2,
 article h3,
