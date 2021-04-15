@@ -26,7 +26,7 @@ I like this list.&lt;/p&gt;
 &lt;p&gt;Once W3C released the SVG draft: I figured it would own the web and be supported by all major browsers within months (it took years). Nevertheless, my courtship began.&lt;/p&gt;
 &lt;p&gt;Fortunately SVG was more useful than just internet use.&lt;br /&gt;
 By 2003, I had toyed with SVG in my studies.&lt;br /&gt;
-By 2005, I had finally used SVG commercially thanks to Red Hat (and UTF-8).&lt;/p&gt;
+By 2005, I had finally used SVG commercially thanks to &lt;a href=&quot;https://redhat.com/&quot;&gt;Red Hat&lt;/a&gt; (and UTF-8).&lt;/p&gt;
 &lt;p&gt;SVG assists me in many tasks – from websites, to presentations, to apps, to toolchains.&lt;br /&gt;
 Here&#39;s what I use today:  Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful (and/or fun) for the right situation.&lt;br /&gt;
 So here goes, get your bookmark tool of choice fired up:&lt;/p&gt;
@@ -90,8 +90,7 @@ If you&#39;re building an app that needs to perform fast and accurate 2d computa
 Fun fact, Inkscape uses 2geom under the hood and also powers the amazing live path effects etc&lt;/p&gt;
 &lt;h2 id=&quot;single-purpose-svg-generator-tools&quot;&gt;Single-purpose SVG generator tools &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#single-purpose-svg-generator-tools&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;svg viewBox=&quot;0 0 72 72&quot; style=&quot;height:15em;width:100%;background-color:#e2e6e9; font-family:Work Sans, system-ui, sans-serif; font-weight:300;&quot;&gt;&lt;path fill=&quot;#f93&quot; d=&quot;M14 50C7 36 25 6 42 5s32 27 22 42c-9 15-43 17-50 3z&quot;&gt;&lt;/path&gt;&lt;path fill=&quot;#f06&quot; d=&quot;M40 36c6 6 15 11 16 16-2 15-25 17-35 11C9 55 1 37 8 25c4-6 13-10 19-7 5 3 8 11 13 18&quot;&gt;&lt;/path&gt; &lt;text font-size=&quot;55&quot; x=&quot;36&quot; y=&quot;40&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;middle&quot; fill=&quot;#fff&quot; font-weight=&quot;900&quot;&gt;B&lt;/text&gt;&lt;/svg&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.blobmaker.app/&quot;&gt;Blob maker&lt;/a&gt;  makes blobs - now part of the super cool &lt;a href=&quot;https://app.haikei.app/&quot;&gt;haikei app&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://getwaves.io/&quot;&gt;Wave Maker&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.blobmaker.app/&quot;&gt;Blob Maker&lt;/a&gt; and &lt;a href=&quot;https://getwaves.io/&quot;&gt;Wave Maker&lt;/a&gt; - both part of the super cool &lt;a href=&quot;https://app.haikei.app/&quot;&gt;haikei app&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://codepen.io/georgedoescode/full/dyNVNjG&quot;&gt;Noise maker&lt;/a&gt; nice patterns of directional lines or dots&lt;br /&gt;
 &lt;a href=&quot;https://yoksel.github.io/wave-maker/&quot;&gt;Arc Wave Maker&lt;/a&gt; nifty example of repeating arc paths&lt;br /&gt;
 &lt;a href=&quot;https://www.misha.studio/snowflaker/&quot;&gt;Snowflakes&lt;/a&gt; Random snowflakes&lt;br /&gt;
@@ -111,16 +110,16 @@ We decided to host and share it with the world -
 Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passed March 15th, 2021 hospitalised by a stroke and subsequently COVID-19 --&gt;
 &lt;h2 id=&quot;what-else%3F&quot;&gt;What else? &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#what-else%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Well there&#39;s lots of nifty things I havent personally climbed into.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/gliffy/canvas2svg&quot;&gt;canvas2svg &lt;/a&gt; - I have a feeling I&#39;ll get to know this library well someday.&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/gliffy/canvas2svg&quot;&gt;Canvas2SVG &lt;/a&gt; - I have a feeling I&#39;ll get to know this library well someday.&lt;br /&gt;
 &lt;a href=&quot;https://xmlgraphics.apache.org/batik/&quot;&gt;Apache Batik&lt;/a&gt;  - I used it quite a bit in the early days but it never took root in my toolchain.&lt;br /&gt;
 &lt;a href=&quot;https://svgjs.com/docs/3.0/&quot;&gt;SVGJS&lt;/a&gt; It offers compelling shortcuts, I&#39;m just a fan of vanilla JS. This also goes for &lt;a href=&quot;http://snapsvg.io/&quot;&gt;SNAP SVG&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;thank-you-svg&quot;&gt;Thank you SVG &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#thank-you-svg&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;svg viewBox=&quot;-7 0 24 10&quot; style=&quot;height:15em; width:100%;background-color:#f87; fill:#fff&quot; stroke=&quot;#fca&quot; paint-order=&quot;stroke&quot; stroke-width=&quot;2&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M5 8.5l3-4c2-3-3-4-3-1 0-3-5-2-3 1z&quot;&gt;&lt;/path&gt; &lt;/svg&gt;&lt;/p&gt;
+&lt;p&gt;&lt;svg viewBox=&quot;0 0 10 10&quot; style=&quot;height:15em; width:100%;background-color:#f87; fill:#fff&quot; stroke=&quot;#fca&quot; paint-order=&quot;stroke&quot; stroke-width=&quot;2&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M5 8.5l3-4c2-3-3-4-3-1 0-3-5-2-3 1z&quot;&gt;&lt;/path&gt; &lt;/svg&gt;&lt;/p&gt;
 &lt;p&gt;So there you have it, the best tools to help you with SVG.&lt;br /&gt;
 By the way, all the images in this article were super-tiny inlined SVG - open web inspector and see for yourself.&lt;/p&gt;
 &lt;p&gt;On a personal note:&lt;br /&gt;
 There are heroes I&#39;d like to recognise; friends who moved SVG forward directly or indirectly - at least in my universe:&lt;br /&gt;
 &lt;a href=&quot;https://mcc.id.au/&quot;&gt;Cam Mcormack&lt;/a&gt;, &lt;a href=&quot;https://raphlinus.github.io/&quot;&gt;Raph Levien&lt;/a&gt;, &lt;a href=&quot;https://svgees.us/&quot;&gt;Chris Lilley&lt;/a&gt;, &lt;a href=&quot;https://cworth.org/&quot;&gt;Carl Worth&lt;/a&gt;, &lt;a href=&quot;https://www.w3.org/People/Quin/&quot;&gt;Liam Quinn&lt;/a&gt;, &lt;a href=&quot;http://njhurst.com/&quot;&gt;Nathan Hurst&lt;/a&gt;, Peter Moulder, &lt;a href=&quot;http://tavmjong.free.fr/&quot;&gt;Tavmjong Bah&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/bryceharrington&quot;&gt;Bryce Harrington&lt;/a&gt;, &lt;a href=&quot;https://www.ekips.org/&quot;&gt;Aaron Spike&lt;/a&gt;, Jon Cruz, Bulia Byak, &lt;a href=&quot;https://gould.cx/ted/&quot;&gt;Ted Gould&lt;/a&gt;, &lt;a href=&quot;http://schepers.cc/&quot;&gt;Doug Schepers&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/domlachowicz&quot;&gt;Dom Lachowicz&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dodjiseketeli&quot;&gt;Dodji Seketeli&lt;/a&gt;, &lt;a href=&quot;https://blog.fishsoup.net/&quot;&gt;Owen Taylor&lt;/a&gt; and so many more.&lt;/p&gt;
-</content>
+&lt;style&gt;article svg{border-radius: 1em;}&lt;/style&gt;</content>
 	</entry>
 </feed>

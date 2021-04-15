@@ -25,7 +25,7 @@ Once W3C released the SVG draft: I figured it would own the web and be supported
 
 Fortunately SVG was more useful than just internet use. 
 By 2003, I had toyed with SVG in my studies. 
-By 2005, I had finally used SVG commercially thanks to Red Hat (and UTF-8). 
+By 2005, I had finally used SVG commercially thanks to [Red Hat](https://redhat.com) (and UTF-8). 
 
 SVG assists me in many tasks – from websites, to presentations, to apps, to toolchains.  
 Here's what I use today:  Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful (and/or fun) for the right situation. 
@@ -123,8 +123,7 @@ Fun fact, Inkscape uses 2geom under the hood and also powers the amazing live pa
 
 ## Single-purpose SVG generator tools 
 <svg  viewBox="0 0 72 72" style="height:15em;width:100%;background-color:#e2e6e9; font-family:Work Sans, system-ui, sans-serif; font-weight:300;" ><path fill="#f93" d="M14 50C7 36 25 6 42 5s32 27 22 42c-9 15-43 17-50 3z"/><path fill="#f06" d="M40 36c6 6 15 11 16 16-2 15-25 17-35 11C9 55 1 37 8 25c4-6 13-10 19-7 5 3 8 11 13 18"/> <text font-size="55" x="36" y="40" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="900">B</text></svg>
-[Blob maker](https://www.blobmaker.app/)  makes blobs - now part of the super cool [haikei app](https://app.haikei.app/)
-[Wave Maker](https://getwaves.io/)
+[Blob Maker](https://www.blobmaker.app/) and [Wave Maker](https://getwaves.io/) - both part of the super cool [haikei app](https://app.haikei.app/)
 [Noise maker](https://codepen.io/georgedoescode/full/dyNVNjG) nice patterns of directional lines or dots
 [Arc Wave Maker](https://yoksel.github.io/wave-maker/) nifty example of repeating arc paths
 [Snowflakes](https://www.misha.studio/snowflaker/) Random snowflakes 
@@ -149,14 +148,14 @@ Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passe
 
 Well there's lots of nifty things I havent personally climbed into. 
 
-[canvas2svg ](https://github.com/gliffy/canvas2svg ) - I have a feeling I'll get to know this library well someday.
+[Canvas2SVG ](https://github.com/gliffy/canvas2svg ) - I have a feeling I'll get to know this library well someday.
 [Apache Batik](https://xmlgraphics.apache.org/batik/)  - I used it quite a bit in the early days but it never took root in my toolchain.  
 [SVGJS](https://svgjs.com/docs/3.0/) It offers compelling shortcuts, I'm just a fan of vanilla JS. This also goes for [SNAP SVG](http://snapsvg.io/)
 
 
 # Thank you SVG
 
-<svg viewBox="-7 0 24 10" style="height:15em; width:100%;background-color:#f87; fill:#fff" stroke="#fca" paint-order="stroke" stroke-width="2" stroke-linejoin="round"><path d="M5 8.5l3-4c2-3-3-4-3-1 0-3-5-2-3 1z" /> </svg>
+<svg viewBox="0 0 10 10" style="height:15em; width:100%;background-color:#f87; fill:#fff" stroke="#fca" paint-order="stroke" stroke-width="2" stroke-linejoin="round"><path d="M5 8.5l3-4c2-3-3-4-3-1 0-3-5-2-3 1z" /> </svg>
 
 So there you have it, the best tools to help you with SVG.
 By the way, all the images in this article were super-tiny inlined SVG - open web inspector and see for yourself.
@@ -164,3 +163,5 @@ By the way, all the images in this article were super-tiny inlined SVG - open we
 On a personal note:
 There are heroes I'd like to recognise; friends who moved SVG forward directly or indirectly - at least in my universe: 
 [Cam Mcormack](https://mcc.id.au/), [Raph Levien](https://raphlinus.github.io/), [Chris Lilley](https://svgees.us/), [Carl Worth](https://cworth.org/), [Liam Quinn](https://www.w3.org/People/Quin/), [Nathan Hurst](http://njhurst.com/), Peter Moulder, [Tavmjong Bah](http://tavmjong.free.fr/), [Bryce Harrington](https://twitter.com/bryceharrington), [Aaron Spike](https://www.ekips.org/), Jon Cruz, Bulia Byak, [Ted Gould](https://gould.cx/ted/), [Doug Schepers](http://schepers.cc/), [Dom Lachowicz](https://twitter.com/domlachowicz), [Dodji Seketeli](https://twitter.com/dodjiseketeli), [Owen Taylor](https://blog.fishsoup.net/) and so many more. 
+
+<style>article svg{border-radius: 1em;}</style>
