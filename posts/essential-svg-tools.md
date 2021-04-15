@@ -1,7 +1,7 @@
 ---
 title: Essential SVG tools
 description: We all could use a little help making SVG the leanest and meanest 
-date: 2021-04-13
+date: 2021-04-15
 tags:
   - svg
   - minimal
@@ -19,14 +19,14 @@ I like this list.
 #### Preamble
 
 My love affair with SVG began back when Adobe offered <a href="https://www.w3.org/TR/1998/NOTE-PGML" target="_blank">PGML</a>.
-You can <a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG">learn more about SVG's early influences here</a>
+You can <a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG">read about SVG's early history here</a>
 
 
-Once W3C released the SVG draft: I figured it would win the web and be supported by all major browsers within months (that took years). Nevertheless, I began my chase.
+Once W3C released the SVG draft: I figured it would win the web and be supported by all major browsers within months (it took years). Nevertheless, my courtship began.
 
 Fortunately SVG was more useful than just internet use. 
 By 2003, I had toyed with SVG in my studies. 
-By 2005, I had finally used SVG commercially thanks to Red Hat and UTF-8. 
+By 2005, I had finally used SVG commercially thanks to Red Hat (and UTF-8). 
 
 SVG assisted many tasks – from websites, to presentations, to apps, to toolchains.  
 So here's what I use today.  Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful (and/or fun) for the right situation. 
@@ -88,7 +88,7 @@ If you want to automate this, I also [wrote a CodePen](https://codepen.io/andyfi
 <a href="https://inkscape.org" target="_blank"><svg viewBox=" 0 0 100 100" style="height:15em; width:100%;background-color:#e2e6e9; fill:var(--dark)"><path d="M 40.8 7 L 7.2 41.3 C -5 55.2 14.9 53.7 23.1 57.8 C 27.3 59.8 12 63 15 66 C 18 69 32 71 35.6 75 C 39 78 29.5 81 32.4 83.9 C 35.4 86.9 42.1 84.1 43.4 91 C 44.3 96 55.6 93.2 61.1 89.1 C 64.1 86.1 55.5 86.4 58.5 83.4 C 65.8 75.9 72.5 80.7 75 73.2 C 76.3 69.5 63 67 67 64.5 C 75.7 59.5 105 56.6 91 42.5 L 56.2 7 Q 48.5 -1 40.8 7 Z M 79.4 73 C 78.8 75 91.9 76 91.9 72.8 C 90.1 67.6 81 68 79.4 73 Z M 32 78 Q 26 75 23 78 T 24 83 T 32 78 M 77.8 76.7 C 74 80.1 78 83.8 82 81.4 C 83 80.6 82 77.6 77.8 76.7 Z M 32.8 59.7 Q 41 62 50.5 63.4 C 52 63.6 51 65.2 49.3 65.6 C 45.7 66.6 28.3 59.6 32.8 59.7 Z M 54.1 9.4 L 67.3 22.9 Q 69.6 25.3 68 27.4 L 61.4 22 L 60 30 L 54.5 27 L 45.6 32.6 L 42.6 21 L 38 29 H 30.7 Q 23.9 29 30.1 22.6 L 43.1 9.4 Q 48.4 3.5 54.1 9.4 Z" /></svg></a>
 
 Isn't the evolution of open source desktop applications awesome? 
-Gill > Sodipodi > Inkscape 
+[Gill > Sodipodi > Inkscape](https://wiki.inkscape.org/wiki/index.php/InkscapeHistory)
 I've loved this journey and especially love where it is now.
 Run it on your linux machine, your mac .. its brilliant for creative exploration, and especially illustration.
 I've used Inkscape since it's inception. Demoed it around the planet and pleaded for top designers to consider it. I could go on and on but let me just say it's **the very best tool for illustration of complex paths**. and leave the rest up to your imagination.
@@ -98,10 +98,12 @@ I've used Inkscape since it's inception. Demoed it around the planet and pleaded
 Early days to call this a Figma killer - But I do find it does most of what I want out of Figma (for free and freedom). Super impressed and excited to see where this project goes.
 
 ## [RawGraphs ](https://app.rawgraphs.io/)
-
-Brilliant way to produce graphs without having to render client side, create the layout in rawgraphs then style with your own CSS
+<a href="https://app.rawgraphs.io" target="_blank"><svg viewBox="0 0 14 5" style="height:15em;width:100%;background-color:#f2f6fa; font-family:Work Sans, sans-serif; font-weight:300;" fill="#0dc4a3" ><text font-size="2" x="7" y="3" text-anchor="middle" dominant-baseline="middle"><tspan fill="#3e3e41" font-weight="900">RAW</tspan>Graphs</text></svg></a>
+Brilliant way to pre-render beautiful data graphics, create the layout in rawgraphs then style with your own CSS. 
 
 ## [librSVG](https://gitlab.gnome.org/GNOME/librsvg)
+<svg viewBox="0 0 10 10" style="height:15em;width:100%;background-color:#555" fill="none" stroke="#eee" stroke-width=".4"><path d="M2 4A1 1 0 102.001 4M7 1A1 1 0 107.001 1M2 5 7 7V2M5.5 6.9 7 8.4 8.5 6.9 7 5.4Z"/></svg>
+
 This is a blazingly fast library to work with SVG files (used in ImageMagick and heaps more)
 If you are a performance-driven developer, [RSVG convert](https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs) in particular will blow your mind. Also you should follow [Federico Mena-Quintero](https://people.gnome.org/~federico/blog/tag/librsvg.html) Who is dragging RSVG into the future with Rust.
 
@@ -115,14 +117,14 @@ imagetracerjs/nodecli>node nodecli ../in.png outfilename out.svg scale 10
 ```
 
 ## [2geom](https://gitlab.com/inkscape/lib2geom)
-
-If you're building something that needs to perform fast and accurate 2d computational geometry (boolean operations and way more) you'll end up grateful for Nathan Hurst and all other contributors who made lib2geom possible.
+<a href="https://gitlab.com/inkscape/lib2geom"><svg viewBox="0 0 10 10" style="height:15em;width:100%;background-color:#eee" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round"><path stroke="#4e9a06" d="M 0.8 3 C 1.8 2 3.8 2 3.8 4 C 3.8 6 0.8 5.4 0.8 7 H 3.8"/><path d="M 5.4 9 C 10.1 9 5.6 2.8 9 2 M 6.25 7 a 1.4 1.4 0 1 1 0.01 0 z" /></svg></a>
+If you're building something that needs to perform fast and accurate 2d computational geometry (boolean operations and way more) you'll end up grateful for [Nathan Hurst](http://njhurst.com/) and all other contributors who made lib2geom possible.
 Fun fact, Inkscape uses 2geom under the hood.
 
 
 ## Single-purpose SVG generator tools 
-
-[Blob maker](https://www.blobmaker.app/)   does one thing, makes blobs
+<svg  viewBox="0 0 72 72" style="height:15em;width:100%;background-color:#e2e6e9; font-family:Work Sans, system-ui, sans-serif; font-weight:300;" ><path fill="#f93" d="M14 50C7 36 25 6 42 5s32 27 22 42c-9 15-43 17-50 3z"/><path fill="#f06" d="M40 36c6 6 15 11 16 16-2 15-25 17-35 11C9 55 1 37 8 25c4-6 13-10 19-7 5 3 8 11 13 18"/> <text font-size="50" x="36" y="40" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="900">B</text></svg>
+[Blob maker](https://www.blobmaker.app/)  makes blobs - now part of the super cool [haikei app](https://app.haikei.app/)
 [Noise maker](https://codepen.io/georgedoescode/full/dyNVNjG) nice patterns of directional lines or dots
 [Wave Maker](https://yoksel.github.io/wave-maker/) nifty example of repeating arc paths
 [Snowflakes](https://www.misha.studio/snowflaker/) Random snowflakes 
@@ -158,4 +160,4 @@ So there you have it, the best tools to help you with SVG.
 
 On a personal note:
 These are the heroes I'd like to recognise, the ones who moved SVG forward directly or indirectly in my universe: 
-[Cam Mcormack](https://mcc.id.au/), [Raph Levien](https://raphlinus.github.io/), [Chris Lilley](https://svgees.us/), Carl Worth, Liam Quinn, Doug Schepers, Nathan Hurst, Peter Moulder, [Tavmjong Bah](http://tavmjong.free.fr/), [Bryce Harrington](https://twitter.com/bryceharrington), Aaron Spike, Jon Cruz, Bulia Byak, Dom Lachowicz, Dodji Seketeli, [Owen Taylor](https://blog.fishsoup.net/) and so many more. 
+[Cam Mcormack](https://mcc.id.au/), [Raph Levien](https://raphlinus.github.io/), [Chris Lilley](https://svgees.us/), [Carl Worth](https://cworth.org/), [Liam Quinn](https://www.w3.org/People/Quin/), [Nathan Hurst](http://njhurst.com/), Peter Moulder, [Tavmjong Bah](http://tavmjong.free.fr/), [Bryce Harrington](https://twitter.com/bryceharrington), [Aaron Spike](https://www.ekips.org/), Jon Cruz, Bulia Byak, [Ted Gould](https://gould.cx/ted/), [Doug Schepers](http://schepers.cc/), [Dom Lachowicz](https://twitter.com/domlachowicz), [Dodji Seketeli](https://twitter.com/dodjiseketeli), [Owen Taylor](https://blog.fishsoup.net/) and so many more. 
