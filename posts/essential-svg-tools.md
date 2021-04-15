@@ -21,7 +21,7 @@ I like this list.
 My affair with SVG began back when Adobe offered <a href="https://www.w3.org/TR/1998/NOTE-PGML" target="_blank"  rel="noreferrer">PGML</a>. I loved flash, but figured open standards would win the browser wars . You can read about<a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG" target="_blank"  rel="noreferrer"> SVG's origins</a> here.
 
 
-Once W3C released the SVG draft: I was convinced it would own the web and be supported by all major browsers within months (it took years). Nevertheless, my courtship began.
+Once W3C released the SVG draft: I was convinced SVG would own the web and be supported by all major browsers within months (it took years). Nevertheless, my courtship began.
 
 Fortunately SVG was more useful than just internet use. 
 By 2003, I had toyed with SVG in my studies. 
