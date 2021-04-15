@@ -32,7 +32,7 @@ Here's what I use today:  Some are online tools, some are scripts, some are desk
 So here goes, get your bookmark tool of choice fired up:
 
 ## [SVGOMG](https://jakearchibald.github.io/svgomg/)
-<a href="https://jakearchibald.github.io/svgomg/" target="_blank" rel="noreferrer" aria-label="svgomg"><svg viewBox="0 0 600 600" style="height:15em; width:100%;background-color:#0097A7;"><path fill="#00BCD4" d="M-2000 0H3000V395.68H-2000Z"/><path d="M269.224 530.33L519 395.485H269.224V530.33zM214.35 91.847H519v303.638H214.35V91.847z" opacity=".22"/><path fill="#FFF" d="M80 341.735h189.224V530.33H80z"/></svg></a>
+<a href="https://jakearchibald.github.io/svgomg/" target="_blank" rel="noreferrer" aria-label="svgomg"><svg viewBox="0 0 600 600" style="height:15em; width:100%;background-color:#0097A7;"><path fill="#00BCD4" d="M-2000-100H3131V395.68H-2000Z"/><path d="M269.224 530.33L519 395.485H269.224V530.33zM214.35 91.847H519v303.638H214.35V91.847z" opacity=".22"/><path fill="#FFF" d="M80 341.735h189.224V530.33H80z"/></svg></a>
 
 The webinterface to SVGO is so handy, I also use SVGO directly in apps and on the commandline.  Everybody should have local access to it.
 
