@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title or metadata.title }}</title>
-    <meta name="description" content="{{ description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+    <title>Tagged “tips”</title>
+    <meta name="description" content="design code love">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Andy Fitz">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Andy Fitz">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='.5 .5 3 4' fill='none' stroke='lightseagreen' stroke-linecap='round'%3E%3Cpath d='M1 4h-.001V1h2v.001M1 2.6h1v.001' /%3E%3C/svg%3E">
 
   </head>
@@ -16,7 +16,7 @@
 
 
 <nav>
-  <a class="home" href="{{ '/' | url }}">
+  <a class="home" href="/">
     <svg viewBox=".5 .5 3 4" fill="none" stroke="url(#gr)" stroke-width="1.1" stroke-opacity=".95" stroke-linecap="round">
     <linearGradient id="gr"  y1="0" y2="0" x1="-.2" x2="1.2"><stop offset="0" stop-color="Aquamarine"/><stop offset=".45" stop-color="Turquoise"/><stop offset="1" stop-color="LightSeaGreen"/></linearGradient>
     <linearGradient id="gb" x1="0" x2="0" y1="1.2" y2="0" href="#gr"/>
@@ -24,16 +24,35 @@
     <path d="M1 1 V.9959h2v.001 M1 2.6v.001h1v.001"/>
     </svg>
   </a>
-
-
-
-      {%- for entry in collections.all | eleventyNavigation %}
-        <a  class="{% if entry.url == page.url %} active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
-      {%- endfor %}
+        <a  class="" href="/posts/">Posts</a>
+        <a  class="" href="/story/">Story</a>
       </nav>
     </header>
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      {{ content | safe }}
+    <main class="tmpl-home">
+      
+<div style="text-align:center;">
+<h1>Tagged “tips”</h1>
+
+
+<section  class="postlist" style="counter-reset: start-from 2">
+
+  <div class="postlist-item">
+    <a href="/posts/small-svg/"><span>The smallest SVG possible</span>
+    <time class="postlist-date" datetime="2021-04-11">11 Apr 2021</time></a>
+
+  </div>
+
+</section>
+
+
+<p>See <a href="/tags/">all tags</a>.</p>
+
+</div>
+
+<script>
+  // vanilla JS on scroll detection
+const scrollElements=document.querySelectorAll(".scroll"),elementInView=(e,l=1)=>{return e.getBoundingClientRect().top<=(window.innerHeight||document.documentElement.clientHeight)/l},elementOutofView=e=>{return e.getBoundingClientRect().top>(window.innerHeight||document.documentElement.clientHeight)},displayScrollElement=e=>{e.classList.add("scrolled")},hideScrollElement=e=>{e.classList.remove("scrolled")},handleScrollAnimation=()=>{scrollElements.forEach(e=>{elementInView(e,1.25)?displayScrollElement(e):elementOutofView(e)&&hideScrollElement(e)})};window.addEventListener("scroll",()=>{scrollElements.forEach(e=>{elementInView(e,1.25)?displayScrollElement(e):elementOutofView(e)&&hideScrollElement(e)})});
+</script>
     </main>
 
     <footer>
@@ -114,6 +133,6 @@ Feed
 <style>footer  svg{fill:none; fill-opacity:.2; stroke:currentcolor; stroke-linecap:round; width:2em; height:2em;}</style>
 
 
-    <!-- Current page: {{ page.url | url }} -->
+    <!-- Current page: /tags/tips/ -->
   </body>
 </html>

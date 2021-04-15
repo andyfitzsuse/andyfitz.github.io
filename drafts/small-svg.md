@@ -1,5 +1,5 @@
 ---
-title: The smallest SVG possible  – Part 2
+title: The smallest SVG possible
 description: This is a post on My Blog about agile frameworks.
 date: 2021-04-11
 tags:
@@ -8,7 +8,7 @@ tags:
   - tips
 layout: layouts/post.njk
 ---
-A while back, I created this interactibev demo of the Outfit logo to teach some of the fundamentals of plotting and instructing the creation of SVG paths.  
+A while back, I created this interactive demo of the Outfit logo to teach some of the fundamentals of plotting and styling SVG path coordinates.  
 
 <p class="codepen" data-height="450" data-theme-id="1777" data-default-tab="result" data-user="andyfitz" data-slug-hash="gOwzMwV" style="height:455px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; margin: 1em 0; padding: 1em;" data-pen-title="Outfit Logo Inspector">
   <span>See the Pen <a href="https://codepen.io/andyfitz/pen/gOwzMwV">
@@ -33,8 +33,9 @@ The design evolved with minor updates and when it came time to make this demo it
 
 
 # Rules to SVG by 
+
 This list is by no means comperehensive but it does serve as a rough guide
-## viewBox under 10 or 100 - from zero
+### viewBox under 10 or 100 - from zero
 ``` xml
 <svg viewBox="0 0 10 10" ... >   
 <!-- 

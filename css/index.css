@@ -19,6 +19,7 @@
 --neutral:SlateGray;
 --layout-spacing: max(9vh, 4rem);
 font-size: 1.3em;
+  font-size: clamp(1.2rem, 0.7153rem + 1.6368vw, 2rem);
 }
 
 
@@ -66,21 +67,22 @@ a.direct-link{color:transparent !important  ;transition: transform .2s ease;  tr
 
 h2:hover a.direct-link{opacity:.5; transform:none}
 /*article anchors */
+.docnav { display: grid; grid-template-columns: 1fr 1fr; box-shadow: 0 -.1em var(--bg-2); padding: 1em 0;}
+.docnav a{display:grid; background-color: var(--bg-2); padding: 1em;}
 article a.direct-link{ font-weight:300; font-style:normal; font-size:1rem; width: 2rem; height:2rem; line-height:2rem; display:inline-block;  text-align:center; }
-
+article header h1{margin-bottom:.5em;}
+article h1{font-size: 4rem;}
 article h1,
 article h2,
 article h3,
 article h4{position:relative}
-
+article img{display:block;max-width: 100%; margin-left:  auto; margin-right:auto;}
 article .direct-link{position:absolute; left:-2em; top:0; margin:0;}
 
 article * + * {
 margin-top: 2em;
 }
 
-
-pre br{display:none;}
 
 body { 
 font-family:  sans-serif; font-weight: 200;
@@ -148,12 +150,12 @@ footer{text-align:center;color: var(--neutral);margin:2em 0;  padding-top:0; bor
 footer > section{ margin:1em auto;display:grid;   grid-auto-flow: row; grid-template-rows: auto; grid-template-columns: 1fr 1fr  1fr  1fr   1fr ;align-content: center;}
 footer a[href]{border-radius: .4em; overflow:hidden;min-width: 4em; min-height:4em; position:relative; text-transform: uppercase; letter-spacing:.1em;  display:grid;   justify-content: center; align-content: center;text-align: center} 
  
-footer > section a svg{transform:translate(0,1em); stroke-linejoin:round;margin:1em auto; transition: transform .15s cubic-bezier(.5,.3,.2,1.15);}
-footer a b {color:var(--dark); font-size: .7em;white-space:nowrap;transition: transform .2s cubic-bezier(.5,.3,.2,1); }
+footer > section a svg{transform:translate(0,1em); stroke-linejoin:round;margin:1em auto; transition: transform .15s ease; color:var(--fg); stroke-opacity:.75;}
+footer a b {color:var(--fg); font-size: .7em;white-space:nowrap;transition: transform .2s cubic-bezier(.5,.3,.2,1); }
 footer a:hover b {opacity:1; transform: translate(0,-2.5em)   ;}
 footer a:not(:hover) b{opacity:0; transform: translate(0,-2em)  }
-footer a:hover{color: var(--bg); background-color:var(--tone-2);background-image: linear-gradient(0deg,var(--brand) -10%, var(--tone-1  ) 110%);}
-footer > section a:hover svg{transform:translate(0,.5em) scale(2); stroke:var(--tone-2); opacity:.5; }
+footer a:hover{color: var(--fg); background-color:var(--bg-2); }
+footer > section a:hover svg{transform:translate(0,.5em) scale(2);   stroke-opacity:.2; }
 
  
 
@@ -225,14 +227,67 @@ pre{background-color: var(--bg-3) ; color: var(--fg-2);}
 
 @media (max-width:40em){
 footer a b{display:none}
-footer > section a:hover svg{stroke:var(--dark);opacity:1;}
-footer > section a svg{margin:0 auto; transform:none !important;}footer section {grid-auto-flow: row;  grid-template-columns: 1fr  1fr   1fr   1fr}footer a:not(:hover) span{opacity:1}}
+footer > section a:hover svg{stroke-opacity:1;}
+footer > section a svg{margin:0 auto; transform:none !important;}footer section {grid-auto-flow: row;  grid-template-columns: 1fr  1fr   1fr 1fr  1fr}footer a:not(:hover) span{opacity:1}}
 
 
-@media (max-width:25em){ footer section{grid-template-columns:   1fr    1fr   1fr}}
+@media (max-width:25em){ footer section{grid-template-columns:   1fr    1fr   }}
 
 
 @media (min-width:85em){ footer section{grid-template-columns:   1fr  1fr  1fr  1fr  1fr   1fr  1fr  1fr   1fr   1fr}}
 
 
+
+.namespace {
+  opacity: .7;
+}
+
+.token.property { 
+  color: #f4bf75;
+}
+.token.tag { 
+  color: #66d9ef;
+} 
+.token.string {
+  color: #a1efe4;
+} 
+.token.selector { 
+  color: #ae81ff;
+}
+.token.attr-name { 
+  color: #fd971f;
+} 
+.token.entity,
+.token.url, 
+.language-css .token.string,
+.style .token.string {
+  color: #a1efe4;
+}
+
+
+
+.token.statement,
+.token.regex, 
+.token.atrule { 
+  color: #a1efe4;
+}
+
+.token.placeholder,
+.token.variable {
+  color: #66d9ef;
+} 
+
+.token.important {
+  color: #f92672;
+  font-weight: bold;
+} 
+
+.token.entity {
+  cursor: help;
+} 
+
+pre > code.highlight {
+  outline: .4em solid red;
+  outline-offset: .4em;
+} 
 
