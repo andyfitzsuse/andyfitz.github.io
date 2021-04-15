@@ -45,10 +45,13 @@ I am fortunate to have both lived and travelled extensively across asia europe a
 
 ## 1990's laptop at school
 
+* Simpsons and ninjaturtles
+* Rugby and debating
 * Wolfenstein, Doom, laplink cables
 * Hex editing game files
 * Marcomedia director and then flash
 * Hosting LAN parties
+
 
 ## 2000's non-stop party
 
