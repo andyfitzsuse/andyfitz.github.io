@@ -21,7 +21,7 @@ I like this list.
 My affair with SVG began back when Adobe offered <a href="https://www.w3.org/TR/1998/NOTE-PGML" target="_blank"  rel="noreferrer">PGML</a>. I loved flash, but figured open standards would win the browser wars . You can read about<a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG" target="_blank"  rel="noreferrer"> SVG's origins</a> here.
 
 
-Once W3C released the SVG draft: I figured it would own the web and be supported by all major browsers within months (it took years). Nevertheless, my courtship began.
+Once W3C released the SVG draft: I was convinced it would own the web and be supported by all major browsers within months (it took years). Nevertheless, my courtship began.
 
 Fortunately SVG was more useful than just internet use. 
 By 2003, I had toyed with SVG in my studies. 
@@ -59,7 +59,7 @@ Also try out this [SVG path visualizer](https://svg-path-visualizer.netlify.app/
 <a href="https://svgcrop.com/" target="_blank" rel="noreferrer" aria-label="svgcrop"><svg viewBox="0 -1 10 12" style="height:15em; width:100%;background-color:#123; stroke-width:.5; stroke:#e3e6e9; stroke-miterlimit:9"><path fill="#7298a0" d="M 5 1 a 4 4 0 1 0 0.001 0 " /><path d="M 1 1 h 4 l -2 8z" stroke="#123" stroke-width="1"/><path fill="#a43365" d="M 1 1 h 4 l -2 8z" /></svg></a>
 
 Remove the extra margin from around your SVG content so the file is easy to work with.
-SVGcrop.com resizes the SVG artboard by changing the ```viewBox="..``` attribute
+SVGcrop.com resizes the SVG artboard by changing the `viewBox="..` attribute
 It's not 100% bulletproof (invisible shapes like clippaths will affect the viewBox) but handy all the same.
 
 ## [SVG URL Encoder](https://yoksel.github.io/url-encoder/)
