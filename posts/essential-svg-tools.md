@@ -8,7 +8,7 @@ tags:
   - tools
 layout: layouts/post.njk
 ---
-<svg viewBox="-7 0 24 10" style="height:15em; width:100%;background-color:#f87; fill:#fca"> <path fill="#fff" d="M-3 3H1V7H-3M8 7H13L10.5 3M5 3A2 2 0 105.001 3" /></svg>
+<svg viewBox="-7 0 24 10" style="height:15em; width:100%;background-color:#f87; fill:#fca"> <path fill="#fff" d="M-2.6 3H1.5V7H-2.6M8 7H13L10.5 3M5 3A2 2 0 105.001 3" /></svg>
 
 This article contains SVG tools I reach for depending on need. 
 As the rifleman's creed goes: *“there are many like it but this one is mine”*.  
