@@ -73,7 +73,7 @@ h2:hover a.direct-link{opacity:.5; transform:none}
 .docnav a{display:grid; background-color: var(--bg-2); padding: 1em;}
 article a.direct-link{ font-weight:300; font-style:normal; font-size:1rem; width: 2rem; height:2rem; line-height:2rem; display:inline-block;  text-align:center; }
 article header h1{margin-bottom:.5em;}
-article h1{font-size: 5rem;font-weight:800; color:var(--highlight);}
+article h1{font-size: 5rem;font-weight:800; color:var(--neutral);}
 article h1,
 article h2,
 article h3,
