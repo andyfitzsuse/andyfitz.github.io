@@ -35,7 +35,7 @@ Wow, that worked great — We're now at around **236 bytes** which is excellent.
 
 ## What if we went deeper?
 
-I managed to get the image down to **127 bytes**, 46% smaller than our best 236 byte image. All with full-fidelity by using a ```stroke-linecap:round``` hack.
+I managed to get the image down to **127 bytes**, 46% smaller than our best 236 byte image. All with full-fidelity by using a `stroke-linecap:round` hack.
 Here's the full SVG:
 
 
@@ -54,12 +54,12 @@ h1v.001"/>
 </svg>
 ```
 
-First I stroke the lines so I save on doubling coordnates, then I exploit the ```v``` and ```h``` relative operators at tiny offsets. 
+First I stroke the lines so I save on doubling coordnates, then I exploit the `v`and `h` relative operators at tiny offsets. 
 
-See the values with ```h.001``` and ```v.001``` and ```h-.001```  ?  
+See the values with `h.001` and `v.001` and `h-.001`  ?  
 That's how I hacked the directional rounded corners.
 
-Normally ```stroke-linecap:round``` is just round. Nothing you can do about it. 
+Normally `stroke-linecap:round` is just round. Nothing you can do about it. 
 But when you change direction *REALLY* close to the edge coordinate, the cusp squares off on one side only, and you can control which side with negative or positive relative values.
 
 Neat huh? We're just getting started...
@@ -102,7 +102,7 @@ stroke-linecap="round"/>
 # Rules to SVG by 
 This list is by no means comperehensive but it does serve as a rough guide
 ## Small Artboards
-Ensure coodinate precision by keeping your ```viewBox``` under 10 or 100 - from zero
+Ensure coodinate precision by keeping your `viewBox` under 10 or 100 - from zero
 ``` xml
 <svg viewBox="0 0 10 10" ... >   
 ```
@@ -121,15 +121,15 @@ Every shape you can pull off as a stroke that would otherwise be a filled path s
 ## Know when to capital or lowercase path coordinates
 
 Don't know the difference?
-Uppercase Letters like ```M``` ```C``` ```L```  ```A``` ```H``` ```V``` ```Q``` ```T``` etc all start an operation relative to the viewBox
-Lowercase letters (same as above) ```m``` ```c``` ```l``` ```a``` ```h``` ```v``` ```q``` ```t``` etc start from the last coordinate you did
+Uppercase Letters like `M` `C` `L`  `A` `H` `V` `Q` `T` etc all start an operation relative to the viewBox
+Lowercase letters (same as above) `m` `c` `l` `a` `h` `v` `q` `t` etc start from the last coordinate you did
 
 Relative or absolute positioned coordinates make a huge difference. Sometimes optimisation tools like SVGO can select which one is best, but not always.
 
 
 ## Chose your operator wisely
 
-Using a horizontal ```H``` or vertical ```V``` operator is great because you only need one coodinate it saves you tryping both X and Y,  you only need one coordinate so that halves what would otherwise be redundant axis data with the line-to ```L``` operator.
+Using a horizontal `H` or vertical `V` operator is great because you only need one coodinate it saves you tryping both X and Y,  you only need one coordinate so that halves what would otherwise be redundant axis data with the line-to `L` operator.
 
 Arc paths, quadratics and cubic splines all have their own benefits and problems. 
 
@@ -139,7 +139,7 @@ Arc paths, quadratics and cubic splines all have their own benefits and problems
 ### Circle with single arc operators
 You can draw 'pretty much' a perfect circle with a single SVG path arc operator. 
 
-If you're already working in a ```<path d="" />``` element, there's no need for a new element.
+If you're already working in a `path d="" ` element, there's no need for a new element.
 This saves you 10 bytes per circle in that context. So we can do:
 
 ``` xml

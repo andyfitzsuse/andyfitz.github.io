@@ -52,7 +52,7 @@ We're a long way from optimal SVG sizes.</p>
 <p>I managed to get the image down to <strong>127 bytes</strong>, 46% smaller than our best 236 byte image. All with full-fidelity by using a <code>stroke-linecap:round</code> hack.<br>
 Here's the full SVG:</p>
 <pre class="language-svg"><code class="language-svg"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>svg</span> <br><span class="token attr-name">viewBox</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>.5 .5 3 4<span class="token punctuation">"</span></span> <br><span class="token attr-name">fill</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>none<span class="token punctuation">"</span></span> <br><span class="token attr-name">stroke</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#20b2a<span class="token punctuation">"</span></span> <br><span class="token attr-name">stroke-linecap</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>round<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><br>M1 4h-.001<br>V1h2v.001<br>M1 2.6<br>h1v.001<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">></span></span></code></pre>
-<p>First I stroke the lines so I save on doubling coordnates, then I exploit the <code>v</code> and <code>h</code> relative operators at tiny offsets.</p>
+<p>First I stroke the lines so I save on doubling coordnates, then I exploit the <code>v</code>and <code>h</code> relative operators at tiny offsets.</p>
 <p>See the values with <code>h.001</code> and <code>v.001</code> and <code>h-.001</code>  ?<br>
 That's how I hacked the directional rounded corners.</p>
 <p>Normally <code>stroke-linecap:round</code> is just round. Nothing you can do about it.<br>
@@ -94,7 +94,7 @@ Lowercase letters (same as above) <code>m</code> <code>c</code> <code>l</code> <
 <h2 id="dirty-path-tricks">Dirty Path Tricks <a class="direct-link" href="#dirty-path-tricks">#</a></h2>
 <h3 id="circle-with-single-arc-operators">Circle with single arc operators <a class="direct-link" href="#circle-with-single-arc-operators">#</a></h3>
 <p>You can draw 'pretty much' a perfect circle with a single SVG path arc operator.</p>
-<p>If you're already working in a <code>&lt;path d=&quot;&quot; /&gt;</code> element, there's no need for a new element.<br>
+<p>If you're already working in a <code>path d=&quot;&quot; </code> element, there's no need for a new element.<br>
 This saves you 10 bytes per circle in that context. So we can do:</p>
 <pre class="language-xml"><code class="language-xml">M5 0a5 5 0 10.001 0</code></pre>
 <p>vs having to go create a new element which could get messy for your CSS</p>
