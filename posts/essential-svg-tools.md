@@ -8,7 +8,7 @@ tags:
   - tools
 layout: layouts/post.njk
 ---
-<svg viewBox="-7 0 24 10" style="height:15em; width:100%;background-color:#f87; fill:#fca"><path d="M5 8.5l3-4c2-3-3-4-3-1 0-3-5-2-3 1z" /><path fill="#fff" d="M-3 3H1V7H-3M8 7H13L10.5 3M5 3A2 2 0 105.001 3" /></svg>
+<svg viewBox="-7 0 24 10" style="height:15em; width:100%;background-color:#f87; fill:#fca"> <path fill="#fff" d="M-3 3H1V7H-3M8 7H13L10.5 3M5 3A2 2 0 105.001 3" /></svg>
 
 This article contains SVG tools I reach for depending on need. 
 As the rifleman's creed goes: *“there are many like it but this one is mine”*.  
@@ -117,15 +117,16 @@ imagetracerjs/nodecli>node nodecli ../in.png outfilename out.svg scale 10
 
 ## [2geom](https://gitlab.com/inkscape/lib2geom)
 <a href="https://gitlab.com/inkscape/lib2geom" target="_blank"  rel="noreferrer"><svg viewBox="0 0 10 10" style="height:15em;width:100%;background-color:#eee" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round"><path stroke="#4e9a06" d="M 0.8 3 C 1.8 2 3.8 2 3.8 4 C 3.8 6 0.8 5.4 0.8 7 H 3.8"/><path d="M 5.4 9 C 10.1 9 5.6 2.8 9 2 M 6.25 7 a 1.4 1.4 0 1 1 0.01 0 z" /></svg></a>
-If you're building something that needs to perform fast and accurate 2d computational geometry (boolean operations and way more) you'll end up grateful for [Nathan Hurst](http://njhurst.com/) and all other contributors who made lib2geom possible.
-Fun fact, Inkscape uses 2geom under the hood.
+If you're building an app that needs to perform fast and accurate 2d computational geometry (boolean operations and way way more) you'll end up grateful for [Nathan Hurst](http://njhurst.com/) and all other contributors who made lib2geom possible.
+Fun fact, Inkscape uses 2geom under the hood and also powers the amazing live path effects etc
 
 
 ## Single-purpose SVG generator tools 
 <svg  viewBox="0 0 72 72" style="height:15em;width:100%;background-color:#e2e6e9; font-family:Work Sans, system-ui, sans-serif; font-weight:300;" ><path fill="#f93" d="M14 50C7 36 25 6 42 5s32 27 22 42c-9 15-43 17-50 3z"/><path fill="#f06" d="M40 36c6 6 15 11 16 16-2 15-25 17-35 11C9 55 1 37 8 25c4-6 13-10 19-7 5 3 8 11 13 18"/> <text font-size="50" x="36" y="40" text-anchor="middle" dominant-baseline="middle" fill="#fff" font-weight="900">B</text></svg>
 [Blob maker](https://www.blobmaker.app/)  makes blobs - now part of the super cool [haikei app](https://app.haikei.app/)
+[Wave Maker](https://getwaves.io/)
 [Noise maker](https://codepen.io/georgedoescode/full/dyNVNjG) nice patterns of directional lines or dots
-[Wave Maker](https://yoksel.github.io/wave-maker/) nifty example of repeating arc paths
+[Arc Wave Maker](https://yoksel.github.io/wave-maker/) nifty example of repeating arc paths
 [Snowflakes](https://www.misha.studio/snowflaker/) Random snowflakes 
 [Snowflake Painter](https://yoksel.github.io/snowflake/) Design a snowflake with lines
 
@@ -155,9 +156,11 @@ Well there's lots of nifty things I havent personally climbed into.
 
 # Thank you SVG
 
+<svg viewBox="-7 0 24 10" style="height:15em; width:100%;background-color:#f87; fill:#fff" stroke="#fca" paint-order="stroke" stroke-width="2" stroke-linejoin="round"><path d="M5 8.5l3-4c2-3-3-4-3-1 0-3-5-2-3 1z" /> </svg>
+
 So there you have it, the best tools to help you with SVG.
-By the way, 
+By the way, all the images in this article were super-tiny inlined SVG - open web inspector and see for yourself.
 
 On a personal note:
-These are the heroes I'd like to recognise, the ones who moved SVG forward directly or indirectly in my universe: 
+There are heroes I'd like to recognise; friends who moved SVG forward directly or indirectly - at least in my universe: 
 [Cam Mcormack](https://mcc.id.au/), [Raph Levien](https://raphlinus.github.io/), [Chris Lilley](https://svgees.us/), [Carl Worth](https://cworth.org/), [Liam Quinn](https://www.w3.org/People/Quin/), [Nathan Hurst](http://njhurst.com/), Peter Moulder, [Tavmjong Bah](http://tavmjong.free.fr/), [Bryce Harrington](https://twitter.com/bryceharrington), [Aaron Spike](https://www.ekips.org/), Jon Cruz, Bulia Byak, [Ted Gould](https://gould.cx/ted/), [Doug Schepers](http://schepers.cc/), [Dom Lachowicz](https://twitter.com/domlachowicz), [Dodji Seketeli](https://twitter.com/dodjiseketeli), [Owen Taylor](https://blog.fishsoup.net/) and so many more. 
