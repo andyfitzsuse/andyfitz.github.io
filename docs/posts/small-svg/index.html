@@ -55,8 +55,8 @@ Here's the full SVG:</p>
 <p>First I stroke the lines so I save on doubling coordnates, then I exploit the <code>v</code> and <code>h</code> relative operators at tiny offsets.</p>
 <p>See the values with <code>h.001</code> and <code>v.001</code> and <code>h-.001</code>  ?<br>
 That's how I hacked the directional rounded corners.</p>
-<p>Normally stroke-linecap:round is just round. Nothing you can do about it.<br>
-But when you change direction <em>REALLY</em> close to the edge coordinate, the cusp squares off.</p>
+<p>Normally <code>stroke-linecap:round</code> is just round. Nothing you can do about it.<br>
+But when you change direction <em>REALLY</em> close to the edge coordinate, the cusp squares off on one side only, and you can control which side with negative or positive relative values.</p>
 <p>Neat huh? We're just getting started...</p>
 <h1 id="the-outfit-logo">The Outfit logo <a class="direct-link" href="#the-outfit-logo">#</a></h1>
 <p>A while back, I created this interactive demo of the Outfit logo to teach some of the fundamentals of plotting and styling SVG path coordinates.  There's no fill here.</p>
