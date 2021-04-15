@@ -102,7 +102,7 @@ stroke-linecap="round"/>
 # Rules to SVG by 
 This list is by no means comperehensive but it does serve as a rough guide
 ## Small Artboards
-Less coodinate by keeping your ```viewBox``` under 10 or 100 - from zero
+Ensure coodinate precision by keeping your ```viewBox``` under 10 or 100 - from zero
 ``` xml
 <svg viewBox="0 0 10 10" ... >   
 ```
