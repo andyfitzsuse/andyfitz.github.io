@@ -5,7 +5,7 @@
 	
 	<link href="https://ndftz.com/feed/feed.xml" rel="self"/>
 	<link href="https://ndftz.com/"/>
-	<updated>2021-04-13T00:00:00Z</updated>
+	<updated>2021-04-15T00:00:00Z</updated>
 	<id>https://ndftz.com/</id>
 	<author>
 		<name>Andy Fitzsimon</name>
@@ -15,7 +15,7 @@
 	<entry>
 		<title>Essential SVG tools</title>
 		<link href="https://ndftz.com/posts/essential-svg-tools/"/>
-		<updated>2021-04-13T00:00:00Z</updated>
+		<updated>2021-04-15T00:00:00Z</updated>
 		<id>https://ndftz.com/posts/essential-svg-tools/</id>
 		<content type="html">&lt;p&gt;&lt;svg viewBox=&quot;-7 0 24 10&quot; style=&quot;height:15em; width:100%;background-color:#f87; fill:#fca&quot;&gt;&lt;path d=&quot;M5 8.5l3-4c2-3-3-4-3-1 0-3-5-2-3 1z&quot;&gt;&lt;/path&gt;&lt;path fill=&quot;#fff&quot; d=&quot;M-3 3H1V7H-3M8 7H13L10.5 3M5 3A2 2 0 105.001 3&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/p&gt;
 &lt;p&gt;This article contains SVG tools I reach for depending on need.&lt;br /&gt;
@@ -23,11 +23,11 @@ As the rifleman&#39;s creed goes: &lt;em&gt;“there are many like it but this o
 I like this list.&lt;/p&gt;
 &lt;h4 id=&quot;preamble&quot;&gt;Preamble &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#preamble&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;My love affair with SVG began back when Adobe offered &lt;a href=&quot;https://www.w3.org/TR/1998/NOTE-PGML&quot; target=&quot;_blank&quot;&gt;PGML&lt;/a&gt;.&lt;br /&gt;
-You can &lt;a href=&quot;https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG&quot;&gt;learn more about SVG&#39;s early influences here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Once W3C released the SVG draft: I figured it would win the web and be supported by all major browsers within months (that took years). Nevertheless, I began my chase.&lt;/p&gt;
+You can &lt;a href=&quot;https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG&quot;&gt;read about SVG&#39;s early history here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Once W3C released the SVG draft: I figured it would win the web and be supported by all major browsers within months (it took years). Nevertheless, my courtship began.&lt;/p&gt;
 &lt;p&gt;Fortunately SVG was more useful than just internet use.&lt;br /&gt;
 By 2003, I had toyed with SVG in my studies.&lt;br /&gt;
-By 2005, I had finally used SVG commercially thanks to Red Hat and UTF-8.&lt;/p&gt;
+By 2005, I had finally used SVG commercially thanks to Red Hat (and UTF-8).&lt;/p&gt;
 &lt;p&gt;SVG assisted many tasks – from websites, to presentations, to apps, to toolchains.&lt;br /&gt;
 So here&#39;s what I use today.  Some are online tools, some are scripts, some are desktop apps, some are libraries. All incredibly powerful (and/or fun) for the right situation.&lt;br /&gt;
 So here goes, get your bookmark tool of choice fired up:&lt;/p&gt;
@@ -66,7 +66,7 @@ This tool makes creating a custom filter easy.&lt;/p&gt;
 &lt;h2 id=&quot;inkscape&quot;&gt;&lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#inkscape&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://inkscape.org/&quot; target=&quot;_blank&quot;&gt;&lt;svg viewBox=&quot; 0 0 100 100&quot; style=&quot;height:15em; width:100%;background-color:#e2e6e9; fill:var(--dark)&quot;&gt;&lt;path d=&quot;M 40.8 7 L 7.2 41.3 C -5 55.2 14.9 53.7 23.1 57.8 C 27.3 59.8 12 63 15 66 C 18 69 32 71 35.6 75 C 39 78 29.5 81 32.4 83.9 C 35.4 86.9 42.1 84.1 43.4 91 C 44.3 96 55.6 93.2 61.1 89.1 C 64.1 86.1 55.5 86.4 58.5 83.4 C 65.8 75.9 72.5 80.7 75 73.2 C 76.3 69.5 63 67 67 64.5 C 75.7 59.5 105 56.6 91 42.5 L 56.2 7 Q 48.5 -1 40.8 7 Z M 79.4 73 C 78.8 75 91.9 76 91.9 72.8 C 90.1 67.6 81 68 79.4 73 Z M 32 78 Q 26 75 23 78 T 24 83 T 32 78 M 77.8 76.7 C 74 80.1 78 83.8 82 81.4 C 83 80.6 82 77.6 77.8 76.7 Z M 32.8 59.7 Q 41 62 50.5 63.4 C 52 63.6 51 65.2 49.3 65.6 C 45.7 66.6 28.3 59.6 32.8 59.7 Z M 54.1 9.4 L 67.3 22.9 Q 69.6 25.3 68 27.4 L 61.4 22 L 60 30 L 54.5 27 L 45.6 32.6 L 42.6 21 L 38 29 H 30.7 Q 23.9 29 30.1 22.6 L 43.1 9.4 Q 48.4 3.5 54.1 9.4 Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Isn&#39;t the evolution of open source desktop applications awesome?&lt;br /&gt;
-Gill &amp;gt; Sodipodi &amp;gt; Inkscape&lt;br /&gt;
+&lt;a href=&quot;https://wiki.inkscape.org/wiki/index.php/InkscapeHistory&quot;&gt;Gill &amp;gt; Sodipodi &amp;gt; Inkscape&lt;/a&gt;&lt;br /&gt;
 I&#39;ve loved this journey and especially love where it is now.&lt;br /&gt;
 Run it on your linux machine, your mac .. its brilliant for creative exploration, and especially illustration.&lt;br /&gt;
 I&#39;ve used Inkscape since it&#39;s inception. Demoed it around the planet and pleaded for top designers to consider it. I could go on and on but let me just say it&#39;s &lt;strong&gt;the very best tool for illustration of complex paths&lt;/strong&gt;. and leave the rest up to your imagination.&lt;/p&gt;
@@ -74,8 +74,10 @@ I&#39;ve used Inkscape since it&#39;s inception. Demoed it around the planet and
 &lt;p&gt;&lt;a href=&quot;https://penpot.app/&quot; targe=&quot;blank&quot;&gt;&lt;svg viewBox=&quot;0 -1 10 12&quot; style=&quot;height:15em; width:100%;background-color:#83f5d4; fill:none; stroke-width:.4; stroke:var(--dark)&quot;&gt;&lt;path d=&quot;M2.3 3.4V1.6L3.2.3l.9 1.3V2L5 .7 5.9 2v-.4L6.8.3l.9 1.3v1.8M5 4.8v5M2.3 2.5l-.9.5v5L5 9.8 8.6 8V3l-.9-.5M1.4 3L5 4.8 8.6 3M4.1 2v2.3M5.9 2v2.3M2.9.8h.6m1.2.4h.6M6.5.8h.6&quot;&gt;&lt;/path&gt;&lt;path stroke-width=&quot;.3&quot; d=&quot;M2.3 1.8h1.8m0 .4h1.8m0-.4h1.8m-4.5 0v2M5 2.2v2.6m1.8-3v2.1&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;br /&gt;
 Early days to call this a Figma killer - But I do find it does most of what I want out of Figma (for free and freedom). Super impressed and excited to see where this project goes.&lt;/p&gt;
 &lt;h2 id=&quot;rawgraphs&quot;&gt;&lt;a href=&quot;https://app.rawgraphs.io/&quot;&gt;RawGraphs &lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#rawgraphs&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Brilliant way to produce graphs without having to render client side, create the layout in rawgraphs then style with your own CSS&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://app.rawgraphs.io/&quot; target=&quot;_blank&quot;&gt;&lt;svg viewBox=&quot;0 0 14 5&quot; style=&quot;height:15em;width:100%;background-color:#f2f6fa; font-family:Work Sans, sans-serif; font-weight:300;&quot; fill=&quot;#0dc4a3&quot;&gt;&lt;text font-size=&quot;2&quot; x=&quot;7&quot; y=&quot;3&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;middle&quot;&gt;&lt;tspan fill=&quot;#3e3e41&quot; font-weight=&quot;900&quot;&gt;RAW&lt;/tspan&gt;Graphs&lt;/text&gt;&lt;/svg&gt;&lt;/a&gt;&lt;br /&gt;
+Brilliant way to pre-render beautiful data graphics, create the layout in rawgraphs then style with your own CSS.&lt;/p&gt;
 &lt;h2 id=&quot;librsvg&quot;&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/librsvg&quot;&gt;librSVG&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#librsvg&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;svg viewBox=&quot;0 0 10 10&quot; style=&quot;height:15em;width:100%;background-color:#555&quot; fill=&quot;none&quot; stroke=&quot;#eee&quot; stroke-width=&quot;.4&quot;&gt;&lt;path d=&quot;M2 4A1 1 0 102.001 4M7 1A1 1 0 107.001 1M2 5 7 7V2M5.5 6.9 7 8.4 8.5 6.9 7 5.4Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/p&gt;
 &lt;p&gt;This is a blazingly fast library to work with SVG files (used in ImageMagick and heaps more)&lt;br /&gt;
 If you are a performance-driven developer, &lt;a href=&quot;https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs&quot;&gt;RSVG convert&lt;/a&gt; in particular will blow your mind. Also you should follow &lt;a href=&quot;https://people.gnome.org/~federico/blog/tag/librsvg.html&quot;&gt;Federico Mena-Quintero&lt;/a&gt; Who is dragging RSVG into the future with Rust.&lt;/p&gt;
 &lt;h2 id=&quot;imagetracer-js&quot;&gt;&lt;a href=&quot;https://github.com/jankovicsandras/imagetracerjs&quot;&gt;Imagetracer JS&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#imagetracer-js&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
@@ -84,10 +86,12 @@ Handy to have on the CLI too:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;imagetracerjs/nodecli&amp;gt;node nodecli ../in.png outfilename out.svg scale 10
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&quot;2geom&quot;&gt;&lt;a href=&quot;https://gitlab.com/inkscape/lib2geom&quot;&gt;2geom&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#2geom&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;If you&#39;re building something that needs to perform fast and accurate 2d computational geometry (boolean operations and way more) you&#39;ll end up grateful for Nathan Hurst and all other contributors who made lib2geom possible.&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/inkscape/lib2geom&quot;&gt;&lt;svg viewBox=&quot;0 0 10 10&quot; style=&quot;height:15em;width:100%;background-color:#eee&quot; fill=&quot;none&quot; stroke=&quot;#222&quot; stroke-linejoin=&quot;round&quot; stroke-linecap=&quot;round&quot;&gt;&lt;path stroke=&quot;#4e9a06&quot; d=&quot;M 0.8 3 C 1.8 2 3.8 2 3.8 4 C 3.8 6 0.8 5.4 0.8 7 H 3.8&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M 5.4 9 C 10.1 9 5.6 2.8 9 2 M 6.25 7 a 1.4 1.4 0 1 1 0.01 0 z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;br /&gt;
+If you&#39;re building something that needs to perform fast and accurate 2d computational geometry (boolean operations and way more) you&#39;ll end up grateful for &lt;a href=&quot;http://njhurst.com/&quot;&gt;Nathan Hurst&lt;/a&gt; and all other contributors who made lib2geom possible.&lt;br /&gt;
 Fun fact, Inkscape uses 2geom under the hood.&lt;/p&gt;
 &lt;h2 id=&quot;single-purpose-svg-generator-tools&quot;&gt;Single-purpose SVG generator tools &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/essential-svg-tools/#single-purpose-svg-generator-tools&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.blobmaker.app/&quot;&gt;Blob maker&lt;/a&gt;   does one thing, makes blobs&lt;br /&gt;
+&lt;p&gt;&lt;svg viewBox=&quot;0 0 72 72&quot; style=&quot;height:15em;width:100%;background-color:#e2e6e9; font-family:Work Sans, system-ui, sans-serif; font-weight:300;&quot;&gt;&lt;path fill=&quot;#f93&quot; d=&quot;M14 50C7 36 25 6 42 5s32 27 22 42c-9 15-43 17-50 3z&quot;&gt;&lt;/path&gt;&lt;path fill=&quot;#f06&quot; d=&quot;M40 36c6 6 15 11 16 16-2 15-25 17-35 11C9 55 1 37 8 25c4-6 13-10 19-7 5 3 8 11 13 18&quot;&gt;&lt;/path&gt; &lt;text font-size=&quot;50&quot; x=&quot;36&quot; y=&quot;40&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;middle&quot; fill=&quot;#fff&quot; font-weight=&quot;900&quot;&gt;B&lt;/text&gt;&lt;/svg&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.blobmaker.app/&quot;&gt;Blob maker&lt;/a&gt;  makes blobs - now part of the super cool &lt;a href=&quot;https://app.haikei.app/&quot;&gt;haikei app&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://codepen.io/georgedoescode/full/dyNVNjG&quot;&gt;Noise maker&lt;/a&gt; nice patterns of directional lines or dots&lt;br /&gt;
 &lt;a href=&quot;https://yoksel.github.io/wave-maker/&quot;&gt;Wave Maker&lt;/a&gt; nifty example of repeating arc paths&lt;br /&gt;
 &lt;a href=&quot;https://www.misha.studio/snowflaker/&quot;&gt;Snowflakes&lt;/a&gt; Random snowflakes&lt;br /&gt;
@@ -114,7 +118,7 @@ Dedicated in memory to Ihor Novikov author of the Uniconvertor and Sk1 who passe
 &lt;p&gt;So there you have it, the best tools to help you with SVG.&lt;/p&gt;
 &lt;p&gt;On a personal note:&lt;br /&gt;
 These are the heroes I&#39;d like to recognise, the ones who moved SVG forward directly or indirectly in my universe:&lt;br /&gt;
-&lt;a href=&quot;https://mcc.id.au/&quot;&gt;Cam Mcormack&lt;/a&gt;, &lt;a href=&quot;https://raphlinus.github.io/&quot;&gt;Raph Levien&lt;/a&gt;, &lt;a href=&quot;https://svgees.us/&quot;&gt;Chris Lilley&lt;/a&gt;, Carl Worth, Liam Quinn, Doug Schepers, Nathan Hurst, Peter Moulder, &lt;a href=&quot;http://tavmjong.free.fr/&quot;&gt;Tavmjong Bah&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/bryceharrington&quot;&gt;Bryce Harrington&lt;/a&gt;, Aaron Spike, Jon Cruz, Bulia Byak, Dom Lachowicz, Dodji Seketeli, &lt;a href=&quot;https://blog.fishsoup.net/&quot;&gt;Owen Taylor&lt;/a&gt; and so many more.&lt;/p&gt;
+&lt;a href=&quot;https://mcc.id.au/&quot;&gt;Cam Mcormack&lt;/a&gt;, &lt;a href=&quot;https://raphlinus.github.io/&quot;&gt;Raph Levien&lt;/a&gt;, &lt;a href=&quot;https://svgees.us/&quot;&gt;Chris Lilley&lt;/a&gt;, &lt;a href=&quot;https://cworth.org/&quot;&gt;Carl Worth&lt;/a&gt;, &lt;a href=&quot;https://www.w3.org/People/Quin/&quot;&gt;Liam Quinn&lt;/a&gt;, &lt;a href=&quot;http://njhurst.com/&quot;&gt;Nathan Hurst&lt;/a&gt;, Peter Moulder, &lt;a href=&quot;http://tavmjong.free.fr/&quot;&gt;Tavmjong Bah&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/bryceharrington&quot;&gt;Bryce Harrington&lt;/a&gt;, &lt;a href=&quot;https://www.ekips.org/&quot;&gt;Aaron Spike&lt;/a&gt;, Jon Cruz, Bulia Byak, &lt;a href=&quot;https://gould.cx/ted/&quot;&gt;Ted Gould&lt;/a&gt;, &lt;a href=&quot;http://schepers.cc/&quot;&gt;Doug Schepers&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/domlachowicz&quot;&gt;Dom Lachowicz&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dodjiseketeli&quot;&gt;Dodji Seketeli&lt;/a&gt;, &lt;a href=&quot;https://blog.fishsoup.net/&quot;&gt;Owen Taylor&lt;/a&gt; and so many more.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
