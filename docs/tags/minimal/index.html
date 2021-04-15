@@ -6,7 +6,6 @@
     <title>Tagged “minimal”</title>
     <meta name="description" content="design code love">
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Andy Fitz">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Andy Fitz">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='.5 .5 3 4' fill='none' stroke='lightseagreen' stroke-linecap='round'%3E%3Cpath d='M1 4h-.001V1h2v.001M1 2.6h1v.001' /%3E%3C/svg%3E">
@@ -35,11 +34,17 @@
 <h1>Tagged “minimal”</h1>
 
 
-<section  class="postlist" style="counter-reset: start-from 2">
+<section  class="postlist" style="counter-reset: start-from 3">
 
   <div class="postlist-item">
     <a href="/posts/essential-svg-tools/"><span>Essential SVG tools</span>
     <time class="postlist-date" datetime="2021-04-15">15 Apr 2021</time></a>
+
+  </div>
+
+  <div class="postlist-item">
+    <a href="/posts/small-svg/"><span>The smallest SVG possible</span>
+    <time class="postlist-date" datetime="2021-04-11">11 Apr 2021</time></a>
 
   </div>
 
@@ -49,6 +54,11 @@
 <p>See <a href="/tags/">all tags</a>.</p>
 
 </div>
+
+<script>
+  // vanilla JS on scroll detection
+const scrollElements=document.querySelectorAll(".scroll"),elementInView=(e,l=1)=>{return e.getBoundingClientRect().top<=(window.innerHeight||document.documentElement.clientHeight)/l},elementOutofView=e=>{return e.getBoundingClientRect().top>(window.innerHeight||document.documentElement.clientHeight)},displayScrollElement=e=>{e.classList.add("scrolled")},hideScrollElement=e=>{e.classList.remove("scrolled")},handleScrollAnimation=()=>{scrollElements.forEach(e=>{elementInView(e,1.25)?displayScrollElement(e):elementOutofView(e)&&hideScrollElement(e)})};window.addEventListener("scroll",()=>{scrollElements.forEach(e=>{elementInView(e,1.25)?displayScrollElement(e):elementOutofView(e)&&hideScrollElement(e)})});
+</script>
     </main>
 
     <footer>

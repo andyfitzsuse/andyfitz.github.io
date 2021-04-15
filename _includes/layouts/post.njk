@@ -21,11 +21,11 @@ templateClass: article
 {%- if nextPost or previousPost %}
 </article>
 
- 
+<div class="docnav">
 {%- if previousPost %} <a href="{{ previousPost.url | url }}">Previous: {{ previousPost.data.title }}</a>{% endif %}
 
 {%- if nextPost %}  <a href="{{ nextPost.url | url }}"> Next: {{ nextPost.data.title }}</a> {% endif %}
-
+</div>
  
 {%- endif %}
 
