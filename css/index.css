@@ -233,6 +233,7 @@ p > code{font-size:.8em;user-select:all;background-color: var(--fg-2); padding: 
 
 @media (max-width:40em){
 footer a b{display:none}
+article h1{font-size:14vw;}
 footer > section a:hover svg{stroke-opacity:1;}
 footer > section a svg{margin:0 auto; transform:none !important;}footer section {grid-auto-flow: row;  grid-template-columns: 1fr  1fr   1fr 1fr  1fr}footer a:not(:hover) span{opacity:1}}
 
