@@ -129,18 +129,18 @@ There are heroes I&#39;d like to recognise; friends who moved SVG forward direct
 		<updated>2021-04-11T00:00:00Z</updated>
 		<id>https://ndftz.com/posts/small-svg/</id>
 		<content type="html">&lt;p&gt;How would you make my site favicon from a bitmap into an SVG? &lt;em&gt;(don’t cheat with web inspector)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;svg viewBox=&quot;.5 .5 3 4&quot; fill=&quot;none&quot; stroke=&quot;lightseagreen&quot; stroke-linecap=&quot;round&quot; style=&quot;width:100%; height:10em;&quot;&gt;&lt;path d=&quot;M1 4h-.001V1h2v.001M1 2.6h1v.001&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/p&gt;
+&lt;p&gt;&lt;svg viewBox=&quot;.5 .5 3 4&quot; fill=&quot;none&quot; stroke=&quot;lightseagreen&quot; stroke-linecap=&quot;round&quot; style=&quot;width:100%; height:10em; background-color: var(--bg-2)&quot;&gt;&lt;path d=&quot;M1 4h-.001V1h2v.001M1 2.6h1v.001&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/p&gt;
 &lt;p&gt;The lazy me would just software trace using my favourite illustration tool. (&lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt;)&lt;br /&gt;
 &lt;img src=&quot;https://ndftz.com/img/small-svg/f.webp&quot; alt=&quot;inkscape with an autotraced shape&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;But yuck, look at those node coordinates, and the shape is kind of melted when you look up close.&lt;/p&gt;
 &lt;p&gt;In better news, the resulting filesize is an affordable &lt;strong&gt;2kb&lt;/strong&gt;, much smaller than a decent resolution png or jpeg – but files over two thousand bytes are rookie numbers!&lt;br /&gt;
 We&#39;re a long way from optimal SVG sizes.&lt;/p&gt;
-&lt;p&gt;So maybe we should manually redraw it with the pen tool being careful wheer to place nodes and when to use straight lines.&lt;/p&gt;
+&lt;p&gt;So maybe we should roll up our sleeves and manually redraw it with the pen tool — being careful about where to place nodes, and when to use straight lines vs beziers.&lt;/p&gt;
 &lt;img src=&quot;https://ndftz.com/img/small-svg/f-manual.png&quot; alt=&quot;manually placed cubic beziers&quot; /&gt;
-&lt;p&gt;We&#39;re now at &lt;strong&gt;800 bytes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Woohoo we&#39;re now at &lt;strong&gt;800 bytes&lt;/strong&gt; - less than half the original size.&lt;/p&gt;
 &lt;p&gt;At this point, I&#39;d urge you to go one step further and optimise with &lt;a href=&quot;https://github.com/svg/svgo&quot;&gt;SVGO&lt;/a&gt; or manually with &lt;a href=&quot;https://jakearchibald.github.io/svgomg/&quot;&gt;SVGOMG&lt;/a&gt; — being sure not to melt the shape with precision settings.&lt;/p&gt;
 &lt;img src=&quot;https://ndftz.com/img/small-svg/f-omg.png&quot; alt=&quot;SVGO optimising an SVG file&quot; /&gt;
-&lt;p&gt;We&#39;re now at around &lt;strong&gt;236 bytes&lt;/strong&gt; which is excellent and the shape is closer to the original. This is usually as good as it gets, an 88% reduction from automatic tracing. IMO this was worth the effort.&lt;/p&gt;
+&lt;p&gt;Wow, that worked great — We&#39;re now at around &lt;strong&gt;236 bytes&lt;/strong&gt; which is excellent.  The shape is even closer to the original than tracing. This is usually as good as it gets, an 88% reduction from automatic tracing. IMO this was worth the effort.&lt;/p&gt;
 &lt;h2 id=&quot;what-if-we-went-deeper%3F&quot;&gt;What if we went deeper? &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/small-svg/#what-if-we-went-deeper%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I managed to get the image down to &lt;strong&gt;127 bytes&lt;/strong&gt;, 46% smaller than our best 236 byte image. All with full-fidelity by using a &lt;code&gt;stroke-linecap:round&lt;/code&gt; hack.&lt;br /&gt;
 Here&#39;s the full SVG:&lt;/p&gt;

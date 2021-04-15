@@ -36,18 +36,18 @@
 
 </header>
 <p>How would you make my site favicon from a bitmap into an SVG? <em>(don’t cheat with web inspector)</em></p>
-<p><svg viewBox=".5 .5 3 4" fill="none" stroke="lightseagreen" stroke-linecap="round" style="width:100%; height:10em;"><path d="M1 4h-.001V1h2v.001M1 2.6h1v.001"/></svg></p>
+<p><svg  viewBox=".5 .5 3 4" fill="none" stroke="lightseagreen" stroke-linecap="round" style="width:100%; height:10em; background-color: var(--bg-2)"><path d="M1 4h-.001V1h2v.001M1 2.6h1v.001"/></svg></p>
 <p>The lazy me would just software trace using my favourite illustration tool. (<a href="https://inkscape.org">Inkscape</a>)<br>
 <img src="/img/small-svg/f.webp" alt="inkscape with an autotraced shape" /></p>
 <p>But yuck, look at those node coordinates, and the shape is kind of melted when you look up close.</p>
 <p>In better news, the resulting filesize is an affordable <strong>2kb</strong>, much smaller than a decent resolution png or jpeg – but files over two thousand bytes are rookie numbers!<br>
 We're a long way from optimal SVG sizes.</p>
-<p>So maybe we should manually redraw it with the pen tool being careful wheer to place nodes and when to use straight lines.</p>
+<p>So maybe we should roll up our sleeves and manually redraw it with the pen tool — being careful about where to place nodes, and when to use straight lines vs beziers.</p>
 <img src="/img/small-svg/f-manual.png" alt="manually placed cubic beziers"  />
-<p>We're now at <strong>800 bytes</strong></p>
+<p>Woohoo we're now at <strong>800 bytes</strong> - less than half the original size.</p>
 <p>At this point, I'd urge you to go one step further and optimise with <a href="https://github.com/svg/svgo">SVGO</a> or manually with <a href="https://jakearchibald.github.io/svgomg/">SVGOMG</a> — being sure not to melt the shape with precision settings.</p>
 <img src="/img/small-svg/f-omg.png" alt="SVGO optimising an SVG file" />
-<p>We're now at around <strong>236 bytes</strong> which is excellent and the shape is closer to the original. This is usually as good as it gets, an 88% reduction from automatic tracing. IMO this was worth the effort.</p>
+<p>Wow, that worked great — We're now at around <strong>236 bytes</strong> which is excellent.  The shape is even closer to the original than tracing. This is usually as good as it gets, an 88% reduction from automatic tracing. IMO this was worth the effort.</p>
 <h2 id="what-if-we-went-deeper%3F">What if we went deeper? <a class="direct-link" href="#what-if-we-went-deeper%3F">#</a></h2>
 <p>I managed to get the image down to <strong>127 bytes</strong>, 46% smaller than our best 236 byte image. All with full-fidelity by using a <code>stroke-linecap:round</code> hack.<br>
 Here's the full SVG:</p>

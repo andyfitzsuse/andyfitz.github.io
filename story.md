@@ -5,6 +5,11 @@ eleventyNavigation:
   key: Story
   order: 9
 ---
+
+<small>A work in progress &mdash; both in design, and  content</small><br><br><br>
+
+
+
 <a href="/">
 <svg style="max-width: 30vw; display:block; margin:0 auto; "   viewBox=".5 .5 3 4" fill="none" stroke="url(#gred)" stroke-opacity=".95" stroke-linecap="round">
 <path stroke="url(#gred2)" d="M1 4H.999V1h.001"/>
@@ -30,32 +35,31 @@ I am fortunate to have both lived and travelled extensively across asia europe a
 # timeline 
 
 ## 1980's technology = the future
-My father attended Siggraph in North America and took the family along. 
-I was at an age where computer graphics were it. 
-
+* I was born, and still highly regard this decision
+* My father attended Siggraph in North America and took the family along.  I was at an age where computer graphics were it. 
 * Got stuck in a lift with my brother in Vancouver
-* Skied backwards down hill
+* Skied backwards down hill in Canada
 * Saved my baby brother from the pool
-* World Expo 88
+* World Expo 88 blew my mind.
 
 ## 1990's laptop at school
 
-* laplink cables
-* hex editing game files
+* Wolfenstein, Doom, laplink cables
+* Hex editing game files
 * Marcomedia director and then flash
 * Hosting LAN parties
 
 ## 2000's non-stop party
 
 * Dot com boom
-* Several wonderful relationships
+* Wonderful relationships as a young gentleman
 * Discovered my passion for open source software – in particular creative software
 * Attended and spoke at several international conferences - met friends, heroes; both.
 * Career working at both Red Hat as a contractor then Canonical, then Red Hat full-time.
-* Moved to Singapore
-* Moved to Hong Kong
-* Moved to Guangzou
-* Moved to Prague + Nuremberg (SUSE)
+* Moved to Singapore - [Red Hat](https://redhat.com)
+* Moved to Hong Kong - Secret agent
+* Moved to Guangzou - [Kudelabs](https://kudelabs.com/)
+* Moved to Prague + Nuremberg [SUSE](https://SUSE.com)
 
 ## 2010's real life begins
 
@@ -63,7 +67,7 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 
 * Got married in true hipster style
 * Purchased our family home in Noosa
-* Made major inroads with my career - the catalyst for Outfit etc. 
+* Made major inroads with my career - the catalyst for [Outfit](https://outfit.io) etc. 
 * Loss of first daughter Zuzu
 * Birth of the amazing Olive
 * Finishing decade with the birth of Alby 
