@@ -62,55 +62,42 @@ That's how I hacked the directional rounded corners.
 Normally stroke-linecap:round is just round. Nothing you can do about it. 
 But when you change direction *REALLY* close to the edge coordinate, the cusp squares off. 
 
-Neat huh?
+Neat huh? We're just getting started...
 
 # The Outfit logo
 
-A while back, I created this interactive demo of the Outfit logo to teach some of the fundamentals of plotting and styling SVG path coordinates.  
+A while back, I created this interactive demo of the Outfit logo to teach some of the fundamentals of plotting and styling SVG path coordinates.  There's no fill here.
 
-<p class="codepen" data-height="450" data-theme-id="1777" data-default-tab="result" data-user="andyfitz" data-slug-hash="gOwzMwV" style="height:455px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; margin: 1em 0; padding: 1em;" data-pen-title="Outfit Logo Inspector">
-  <span>See the Pen <a href="https://codepen.io/andyfitz/pen/gOwzMwV">
-  Outfit Logo Inspector</a> by Andy Fitzsimon (<a href="https://codepen.io/andyfitz">@andyfitz</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><style>@media(max-width:70em){.cp_embed_wrapper iframe{height: 46em !important;}}</style>
+<p class="codepen" data-height="470" data-theme-id="1777" data-default-tab="result" data-user="andyfitz" data-slug-hash="gOwzMwV" style="height:470px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; margin: 1em 0; padding: 1em;" data-pen-title="Outfit Logo Inspector"> <span>See the Pen <a href="https://codepen.io/andyfitz/pen/gOwzMwV">  Outfit Logo Inspector</a> by Andy Fitzsimon (<a href="https://codepen.io/andyfitz">@andyfitz</a>)   on <a href="https://codepen.io">CodePen</a>.</span></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><style>@media(max-width:70em){.cp_embed_wrapper iframe{height: 46em !important;}}</style>
 
-It got even smaller as a one-liner:  **253 bytes**, styled and uncompressed (not bad for so many letters)
-
-``` xml
-<svg 
-viewBox="0 0 19 8.5" 
-stroke="#e40046" 
-fill="none">
-<circle
-  cx="2.36"
-  cy="6.12"
-  r="1.68"/>
-<path 
-  d="
-  M5.35 4
-  v2.5
-  A1.02 1 0 008 6.5
-  v-2h10.68
-  M10.2 8.2v-6
-  m2.3 6V2
-  a1.3 1.2 10 012-1
-  m.3 7.2V4.5
-  m2.3 3.7v-6"/>
-<path
-  stroke-linecap="round"
-  d="M14.8 2.8v0"/>
-</svg>
-```
 
 ## History of the mark
 
 <a target="_blank" href="https://rowanhogan.com/" rel="nofollow">Rowan Hogan</a> originally designed the Outfit logo. No doubt without regard specifically for SVG format optimisation. Don’t let the medium become the message as they say. 
 
-The design evolved with minor optical updates and when it came time to make this demo, it had things stacked against it:
-  * An optical overshoot (curve coords non-exact to a grid)
-  * Non-perfect curves (the f and the u are note round arcs)
+The design evolved with minor optical updates and when it came time to make this demo, it had optimisation amenities stacked against it:
+  * An optical overshoot (round coords non-exact to a grid)
+  * Non-perfect curves (the f and the u are bent differently)
   * Non 1:1 grid rhythm (1:1.3 spacing of stems) 
+
+Thankfully the solution above is full-fidelity to the intended mark. 
+
+It got even smaller as a one-liner:  **253 bytes**, styled and uncompressed (not bad for so many letters)
+
+``` xml
+<svg viewBox="0 0 19 8.5" 
+stroke="#e40046" fill="none">
+<circle cx="2.36" cy="6.12" r="1.68"/>
+<path d="M5.35 4
+v2.5A1.02 1 0 008 6.5v-2h10.68
+M10.2 8.2v-6
+m2.3 6V2a1.3 1.2 10 012-1
+m.3 7.2V4.5
+m2.3 3.7v-6"/>
+<path d="M14.8 2.8v0"
+stroke-linecap="round"/>
+</svg>
+```
 
 # Rules to SVG by 
 This list is by no means comperehensive but it does serve as a rough guide
