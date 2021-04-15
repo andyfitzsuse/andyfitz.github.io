@@ -13,20 +13,21 @@ How would you make my site favicon from a bitmap into an SVG? *(don’t cheat wi
 
 <svg viewBox=".5 .5 3 4" fill="none" stroke="lightseagreen" stroke-linecap="round" style="width:100%; height:10em;"><path d="M1 4h-.001V1h2v.001M1 2.6h1v.001"/></svg>
 
-The lazy me would just software trace any bitmap using my illustration tool of choice. (<a href="https://inkscape.org">Inkscape</a> btw)
+The lazy me would just software trace using my favourite illustration tool. (<a href="https://inkscape.org">Inkscape</a>)
 <img src="/img/small-svg/f.webp" alt="inkscape with an autotraced shape" />
 
 But yuck, look at those node coordinates, and the shape is kind of melted when you look up close.
 
-In better news, the resulting filesize is about **2kb**, much smaller than a decent resolution png or jpeg – but we're a long way from optimal SVG sizes.
+In better news, the resulting filesize is an affordable **2kb**, much smaller than a decent resolution png or jpeg – but files over two thousand bytes are rookie numbers! 
+We're a long way from optimal SVG sizes.
 
-So maybe we should manually redraw it with the pen tool.
+So maybe we should manually redraw it with the pen tool being careful wheer to place nodes and when to use straight lines.
 
 <img src="/img/small-svg/f-manual.png" alt="manually placed cubic beziers"  />
 
 We're now at **800 bytes** 
 
-We might go one step further and optimise with [SVGO](https://github.com/svg/svgo) or manually with [SVGOMG](https://jakearchibald.github.io/svgomg/) &mdash; being sure not to melt the shape with precision settings.
+At this point, I'd urge you to go one step further and optimise with [SVGO](https://github.com/svg/svgo) or manually with [SVGOMG](https://jakearchibald.github.io/svgomg/) &mdash; being sure not to melt the shape with precision settings.
 
 <img src="/img/small-svg/f-omg.png" alt="SVGO optimising an SVG file" />
 
