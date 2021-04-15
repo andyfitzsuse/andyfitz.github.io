@@ -85,11 +85,11 @@ If every coordinate has a decimal place, go up by 10. If only a few do, try to r
 <p>Every shape you can pull off as a stroke that would otherwise be a filled path saves you 2-3x bloat in coordinate. This is fairly easy to visualise as a stroke only has an inner line that can be expanded wheras a filled shape has two outer lines to create a zone.</p>
 <h2 id="know-when-to-capital-or-lowercase-path-coordinates">Know when to capital or lowercase path coordinates <a class="direct-link" href="#know-when-to-capital-or-lowercase-path-coordinates">#</a></h2>
 <p>Don't know the difference?<br>
-Uppercase Letters like M C L A H V Q T etc all start an operation relative to the viewBox<br>
-Lowercase letters (same as above) m c l a h v q t etc start from the last coordinate you did</p>
+Uppercase Letters like <code>M</code> <code>C</code> <code>L</code>  <code>A</code> <code>H</code> <code>V</code> <code>Q</code> <code>T</code> etc all start an operation relative to the viewBox<br>
+Lowercase letters (same as above) <code>m</code> <code>c</code> <code>l</code> <code>a</code> <code>h</code> <code>v</code> <code>q</code> <code>t</code> etc start from the last coordinate you did</p>
 <p>Relative or absolute positioned coordinates make a huge difference. Sometimes optimisation tools like SVGO can select which one is best, but not always.</p>
 <h2 id="chose-your-operator-wisely">Chose your operator wisely <a class="direct-link" href="#chose-your-operator-wisely">#</a></h2>
-<p>Using a horizontal (H) or vertical (V) operator is great because you only need one coodinate it saves you tryping both X and Y,  you only need one coordinate so that halves what would otherwise be redundant axis data with the line-to (L) operator.</p>
+<p>Using a horizontal <code>H</code> or vertical <code>V</code> operator is great because you only need one coodinate it saves you tryping both X and Y,  you only need one coordinate so that halves what would otherwise be redundant axis data with the line-to <code>L</code> operator.</p>
 <p>Arc paths, quadratics and cubic splines all have their own benefits and problems.</p>
 <h2 id="dirty-path-tricks">Dirty Path Tricks <a class="direct-link" href="#dirty-path-tricks">#</a></h2>
 <h3 id="circle-with-single-arc-operators">Circle with single arc operators <a class="direct-link" href="#circle-with-single-arc-operators">#</a></h3>

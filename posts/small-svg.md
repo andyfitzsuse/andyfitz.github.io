@@ -121,15 +121,15 @@ Every shape you can pull off as a stroke that would otherwise be a filled path s
 ## Know when to capital or lowercase path coordinates
 
 Don't know the difference?
-Uppercase Letters like M C L A H V Q T etc all start an operation relative to the viewBox
-Lowercase letters (same as above) m c l a h v q t etc start from the last coordinate you did
+Uppercase Letters like ```M``` ```C``` ```L```  ```A``` ```H``` ```V``` ```Q``` ```T``` etc all start an operation relative to the viewBox
+Lowercase letters (same as above) ```m``` ```c``` ```l``` ```a``` ```h``` ```v``` ```q``` ```t``` etc start from the last coordinate you did
 
 Relative or absolute positioned coordinates make a huge difference. Sometimes optimisation tools like SVGO can select which one is best, but not always.
 
 
 ## Chose your operator wisely
 
-Using a horizontal (H) or vertical (V) operator is great because you only need one coodinate it saves you tryping both X and Y,  you only need one coordinate so that halves what would otherwise be redundant axis data with the line-to (L) operator.
+Using a horizontal ```H``` or vertical ```V``` operator is great because you only need one coodinate it saves you tryping both X and Y,  you only need one coordinate so that halves what would otherwise be redundant axis data with the line-to ```L``` operator.
 
 Arc paths, quadratics and cubic splines all have their own benefits and problems. 
 
