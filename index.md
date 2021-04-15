@@ -4,11 +4,11 @@ date: 2021-04-12
 
 ---
 
-<img src="img/pic.jpg" style="border-radius:50%" />
+<img src="img/pic.jpg" alt="image of Andy Fitzsmion" style="border-radius:50%" />
 
 G'day traveller, I'm Andy Fitzsimon<br> from Noosa, Australia.  
 
-<i style="color:var(--neutral)">153.104 -26.408
+<i style="color:var(--neutral)">26° 24' 30.84'' S 153° 6' 13.92'' E
  (he/himself)</i>
 
 <p class="scroll fade"></p>
@@ -19,7 +19,7 @@ G'day traveller, I'm Andy Fitzsimon<br> from Noosa, Australia.
 <circle cx="96" cy="42" r="3" stroke="var(--brand)" fill="var(--bg)" />
 </svg><br>
 
-<p class="scroll fade">I work with talented friends &mdash; together we make software. </p><p class="scroll fade">Thanks to over 20 years at places like <a href="https://www.suse.com/" target="_blank">SUSE</a>, <a href="https://www.redhat.com/" target="_blank">Red Hat</a>,  and now <a href="https://www.outfit.io/" target="_blank"> Outfit</a>,<br> I'm potentially adequate online.</p>
+<p class="scroll fade">I work with talented friends &mdash; together we make software. </p><p class="scroll fade">I'm certifiably adequate at my work.<br>Thanks to over 20 years at places like <a href="https://www.suse.com/" target="_blank">SUSE</a>, <a href="https://www.redhat.com/" target="_blank">Red Hat</a>,  and now <a href="https://www.outfit.io/" target="_blank"> Outfit</a></p>
 
 <svg class="scroll o-logo" style="margin-bottom:4em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 8.5" stroke="#e40046" fill="none">
   <circle cx="2.36" cy="6.12" r="1.68"/>
