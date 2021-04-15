@@ -40,7 +40,7 @@
   <path fill="var(--bg-2)"   stroke-linejoin="round" stroke-linecap="round" stroke="var(--neutral)" d="M77 85l1 7 2 2h2l2-3 1-4v-2l-5 1zM71 4l4 8 3 2 2 9 8 5 1 4 2 1v3l6 5v4l1 3-2 9-7 13v5h-4l-3 4-5-2-3 2-8-3-1-4-2-3h-2l1-4-2 1 1-5-6 5-5-7-10-2-4 3h-6l-3 4H17l-5 4-6-4 2-6-3-3-1-4-3-8 2-3v-6l8-6 9-2 4-7 9-8 3 4 4-1 2-6 5-3 10 3v3h-3v3l12 7 2-7V7 z"/>
 <circle cx="96" cy="42" r="3" stroke="var(--brand)" fill="var(--bg)" />
 </svg><br>
-<p class="scroll fade">I work with talented friends &mdash; together we make software. </p><p class="scroll fade">I'm certifiably adequate at my work.<br>Thanks to over 20 years at places like <a href="https://www.suse.com/" target="_blank">SUSE</a>, <a href="https://www.redhat.com/" target="_blank">Red Hat</a>,  and now <a href="https://www.outfit.io/" target="_blank"> Outfit</a></p>
+<p class="scroll fade">I work with talented friends &mdash; together we make software. </p><p class="scroll fade">I'm certifiably adequate at my work.<br>Thanks to over 20 years at places like <a href="https://www.suse.com/" target="_blank"  rel="noreferrer">SUSE</a>, <a href="https://www.redhat.com/" target="_blank" rel="noreferrer">Red Hat</a>,  and now <a href="https://www.outfit.io/" target="_blank" rel="noreferrer"> Outfit</a></p>
 <svg class="scroll o-logo" style="margin-bottom:4em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 8.5" stroke="#e40046" fill="none">
   <circle cx="2.36" cy="6.12" r="1.68"/>
   <path d="M 5.35 4V 6.5A 1.02 1 0 008 6.5V 4.5 H 18.68"/>
@@ -64,9 +64,7 @@
 
 .scrolled.pen{animation: brush 3s ease infinite;}
 
-@keyframes brush{
-  50%{transform:rotate(-240deg);}
-}
+@keyframes brush{  50%{transform:rotate(-240deg);}}
 
 .scroll.map path {stroke-dasharray:  344 344; stroke-dashoffset:-344;stroke-width: 3; stroke-opacity:0}
 .scroll.map circle{stroke-width: 5; transition: all 1.5s ease  .2s;}
@@ -94,53 +92,53 @@ const scrollElements=document.querySelectorAll(".scroll"),elementInView=(e,l=1)=
  
 
 
-<a href="https://www.twitter.com/andyfitz/" target="_blank">
+<a href="https://www.twitter.com/andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"><path  d="M9.5 2.7h-.9l.7-1.1-.9.4A.4.4 90 005 3.5 4.9 4.9 0 011 2q0 2 1.4 2.3h-1Q2 5.6 3 5.6H2Q2 6 3.5 7H1a4.5 4.5 0 007.6-3.6z" /></svg>
 <b>Twitter</b>
 </a>
 
-<a href="https://www.instagram.com/andyfitz" target="_blank">
+<a href="https://www.instagram.com/andyfitz" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"><path d="M5 1c4 0 4 0 4 4s0 4-4 4-4 0-4-4 0-4 4-4zM3 5a1 1 0 004 0 1 1 0 00-4 0m4.5-2.5h.001" /></svg>
 <b>Instagram</b>
 </a>
 
-<a href="https://www.linkedin.com/in/andyfitz/" target="_blank">
+<a href="https://www.linkedin.com/in/andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10" stroke-width="1.6"><path stroke-linecap="butt" fill="none" d="M2 3.3V8m2.5-4.7V8m0-2.4C4.8 3.9 8.2 3 8.2 6v2" /><path stroke-width="1.9" d="M2 2h.01" /></svg>
 <b>LinkedIn</b>
 </a>
 
-<a href="https://www.twitter.com/andyfitz/" target="_blank">
+<a href="https://www.twitter.com/andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"><path d="M7 1.5Q9.5 1.5 9.5 5T7 8.5H3Q.5 8.5.5 5T2.7 1.5zM4.2 6l2-1-2-1z" /></svg>
 <b>YouTube</b>
 </a>
 
 
-<a href="https://github.com/andyfitz/" target="_blank">
+<a href="https://github.com/andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"> <path d="M1 6.6C2.2 6.6 2.3 8 3.5 8q-.2-1 .1-1.6C1.2 5.6 2 3.4 2.3 3V1.5l1 .9q1.2-.8 2.4-.1L7 1.7V3a2.3 2.3 0 01-1 3.5q.6 1 0 2.3" /></svg>
 <b>Github</b>
 </a>
 
-<a href="codepen.io/andyfitz/" target="_blank">
+<a href="codepen.io/andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"><path d="M1 6.5v-3l4-3 4 3v3l-4 3zm8-3l-4 3-4-3m0 3l4-3 4 3m-4-6v3m0 3v3" /></svg><b>Codepen</b>
 </a>
 
-<a href="https://github.com/andyfitz/" target="_blank">
+<a href="https://github.com/andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"><path d="M1 7.5v-5l2-2h6v5l-2 2H5l-2 2v-2zm4-5v2m2-2v2" /></svg>
 <b>Twitch</b>
 </a>
 
-<a href="https://unsplash.com/@andyfitz/" target="_blank">
+<a href="https://unsplash.com/@andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10" stroke-width="2.5"><path fill="none" stroke-linecap="butt" stroke-linejoin="miter" 
 d="M 2.5 4 V 7 H 7.5 V 4 M 5 1 V 3" /></svg>
 <b>Unsplash</b>
 </a>
 
-<a href="https://www.twitter.com/andyfitz/" target="_blank">
+<a href="https://www.twitter.com/andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"><path d="M1 5a1 1 0 008 0 1 1 0 00-8 0m5.9 3.5Q6 3.8 3.5 1.3M1.1 4.1Q5.6 5 7.6 2m1.2 4Q5 4.1 2.5 8.1" /></svg>
 <b>Dribbble</b>
 </a>
 
-<a href="https://www.buymeacoffee.com/andyfitz" target="_blank">
+<a href="https://www.buymeacoffee.com/andyfitz" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10" ><path stroke-linecap="butt" d="M2 4v5h5V4m0 .5q2 0 2 1.7T7 8" /><path stroke-width=".7" d="M3.7 5V7M5.3 5V7" /><path d="M2 2.8h5" stroke-width="2.5" stroke-dasharray=".001 1.2"/></svg>
 <b>Beer Me</b>
 </a>
@@ -153,9 +151,9 @@ d="M 2.5 4 V 7 H 7.5 V 4 M 5 1 V 3" /></svg>
 
 </section>
 
- Andy Fitzsimon <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA</a>
+ Andy Fitzsimon <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">CC-BY-SA</a>
 
-<a href="http://andyfitz.github.io/feed/feed.xml" target="_blank">
+<a href="http://andyfitz.github.io/feed/feed.xml" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10" ><path stroke-width="1.1" d="M1.5 2Q8 2 8 8M1.5 4.5Q5 4.5 5 8M2 8a.5.5 0 11.01 0z" /> </svg>
 Feed
 </a>
