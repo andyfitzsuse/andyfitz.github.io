@@ -55,7 +55,7 @@ I am fortunate to have both lived and travelled extensively across asia europe a
 * Wonderful relationships as a young gentleman
 * Discovered my passion for open source software – in particular creative software
 * Attended and spoke at several international conferences - met friends, heroes; both.
-* Career working at both Red Hat as a contractor then Canonical, then Red Hat full-time.
+* Career working at Red Hat as a contractor, part of early Canonical, then Red Hat full-time.
 * Moved to Singapore - [Red Hat](https://redhat.com)
 * Moved to Hong Kong - Secret agent
 * Moved to Guangzou - [Kudelabs](https://kudelabs.com/)
