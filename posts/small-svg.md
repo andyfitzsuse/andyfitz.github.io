@@ -1,6 +1,6 @@
 ---
 title: The smallest SVG possible
-description: This is a post on My Blog about agile frameworks.
+description: How to optimise SVG by (assisted) hand
 date: 2021-04-11
 tags:
   - svg
