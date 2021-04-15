@@ -70,7 +70,7 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 * Made major inroads with my career - the catalyst for [Outfit](https://outfit.io) etc. 
 * Loss of first daughter Zuzu
 * Birth of the amazing Olive
-* Finishing decade with the birth of Alby 
+* Birth of charming Alby 
 
 ## 2020's we've only just begun
 
@@ -79,7 +79,13 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 * Father diagnosed with cancer
 * Released amazing API service Make.cm
 
+
+## what next? 
+
 My Daugher Olive, My son Alby are both learning and growing more every day.
 
 The world has become software and those who contribute to it are being rewarded in new ways
 
+A lot has changed since I started this journey.  We're not all living in lawnmowerman style virtual reality networks - but we are closer than ever. 
+
+I can't wait.  Maybe I should get some exercise.
