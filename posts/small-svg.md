@@ -11,7 +11,7 @@ layout: layouts/post.njk
 
 How would you make my site favicon from a bitmap into an SVG? *(don’t cheat with web inspector)*
 
-<svg viewBox=".5 .5 3 4" fill="none" stroke="lightseagreen" stroke-linecap="round" style="width:100%; height:10em;"><path d="M1 4h-.001V1h2v.001M1 2.6h1v.001"/></svg>
+<svg  viewBox=".5 .5 3 4" fill="none" stroke="lightseagreen" stroke-linecap="round" style="width:100%; height:10em; background-color: var(--bg-2)"><path d="M1 4h-.001V1h2v.001M1 2.6h1v.001"/></svg>
 
 The lazy me would just software trace using my favourite illustration tool. (<a href="https://inkscape.org">Inkscape</a>)
 <img src="/img/small-svg/f.webp" alt="inkscape with an autotraced shape" />
@@ -21,17 +21,17 @@ But yuck, look at those node coordinates, and the shape is kind of melted when y
 In better news, the resulting filesize is an affordable **2kb**, much smaller than a decent resolution png or jpeg – but files over two thousand bytes are rookie numbers! 
 We're a long way from optimal SVG sizes.
 
-So maybe we should manually redraw it with the pen tool being careful wheer to place nodes and when to use straight lines.
+So maybe we should roll up our sleeves and manually redraw it with the pen tool — being careful about where to place nodes, and when to use straight lines vs beziers.
 
 <img src="/img/small-svg/f-manual.png" alt="manually placed cubic beziers"  />
 
-We're now at **800 bytes** 
+Woohoo we're now at **800 bytes** - less than half the original size.
 
 At this point, I'd urge you to go one step further and optimise with [SVGO](https://github.com/svg/svgo) or manually with [SVGOMG](https://jakearchibald.github.io/svgomg/) &mdash; being sure not to melt the shape with precision settings.
 
 <img src="/img/small-svg/f-omg.png" alt="SVGO optimising an SVG file" />
 
-We're now at around **236 bytes** which is excellent and the shape is closer to the original. This is usually as good as it gets, an 88% reduction from automatic tracing. IMO this was worth the effort.
+Wow, that worked great — We're now at around **236 bytes** which is excellent.  The shape is even closer to the original than tracing. This is usually as good as it gets, an 88% reduction from automatic tracing. IMO this was worth the effort.
 
 ## What if we went deeper?
 
