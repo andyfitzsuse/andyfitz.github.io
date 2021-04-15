@@ -36,6 +36,7 @@ I am fortunate to have both lived and travelled extensively across asia europe a
 
 ## 1980's technology = the future
 * I was born, and still highly regard this decision
+* Computers were ever present in the family home. from only-orange or green screens to the marvellous CGA and tractor paper. Back when the printscreen button did that.
 * My father attended Siggraph in North America and took the family along.  I was at an age where computer graphics were it. 
 * Got stuck in a lift with my brother in Vancouver
 * Skied backwards down hill in Canada
