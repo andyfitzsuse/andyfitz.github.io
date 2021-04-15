@@ -18,7 +18,7 @@ I like this list.
 
 ## Preamble
 
-My affair with SVG began back when Adobe offered <a href="https://www.w3.org/TR/1998/NOTE-PGML" target="_blank"  rel="noreferrer">PGML</a>. I loved flash, but figured open standards would win the browser wars . You can read about<a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG"> SVG's origins</a> here
+My affair with SVG began back when Adobe offered <a href="https://www.w3.org/TR/1998/NOTE-PGML" target="_blank"  rel="noreferrer">PGML</a>. I loved flash, but figured open standards would win the browser wars . You can read about<a href="https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG"> SVG's origins</a> here.
 
 
 Once W3C released the SVG draft: I figured it would own the web and be supported by all major browsers within months (it took years). Nevertheless, my courtship began.
@@ -52,7 +52,7 @@ I use this now more than even [Inkscape](http://www.inkscape.org/) for simple il
 When finishing an illustration I often return to this tool and go path by path to reduce unnessecary coordinates and operators. Stealing a few decimals here and there, replacing cubic bezier path operators with more optimal ones like quadratics or arcs.   
 
 SVG path editor will dramatically improve your understanding of the SVG path system.
-Also try out this [SVG path visualizer](https://svg-path-visualizer.netlify.app/#M5%208.5l3-4c2-3-3-4-3-1%200-3-5-2-3%201z)  I put the heart from this article in it's URL param - very handy when teaching SVG
+Also try out this [SVG path visualizer](https://svg-path-visualizer.netlify.app/#M5%208.5l3-4c2-3-3-4-3-1%200-3-5-2-3%201z)  I put the heart from this article in it's URL param - very handy when teaching SVG.
 
 
 ## [SVG Crop](https://svgcrop.com/)
@@ -60,7 +60,7 @@ Also try out this [SVG path visualizer](https://svg-path-visualizer.netlify.app/
 
 Remove the extra margin from around your SVG content so the file is easy to work with.
 SVGcrop.com resizes the SVG artboard by changing the ```viewBox="..``` attribute
-It's not 100% bulletproof (invisible shapes like clippaths will affect the viewBox) but handy all the same
+It's not 100% bulletproof (invisible shapes like clippaths will affect the viewBox) but handy all the same.
 
 ## [SVG URL Encoder](https://yoksel.github.io/url-encoder/)
 
@@ -110,7 +110,7 @@ Brilliant way to pre-render beautiful data graphics, create the layout in rawgra
 This is a blazingly fast library to work with SVG files (used in ImageMagick and heaps more)
 If you are a performance-driven developer, [RSVG convert](https://gitlab.gnome.org/GNOME/librsvg/-/blob/master/src/bin/rsvg-convert.rs) in particular will blow your mind. Also you should follow [Federico Mena-Quintero](https://people.gnome.org/~federico/blog/tag/librsvg.html) Who is dragging RSVG into the future with Rust.
 
-Worthy mention goes to [reSVG](https://github.com/RazrFalcon/resvg) which is a super performant and powerful alternative to rSVG 
+Worthy mention goes to [reSVG](https://github.com/RazrFalcon/resvg) which is a super performant and powerful alternative to rSVG.
 
 ## [Imagetracer JS](https://github.com/jankovicsandras/imagetracerjs)
 
@@ -123,7 +123,7 @@ imagetracerjs/nodecli>node nodecli ../in.png outfilename out.svg scale 10
 ## [2geom](https://gitlab.com/inkscape/lib2geom)
 <a href="https://gitlab.com/inkscape/lib2geom" target="_blank"  rel="noreferrer"><svg viewBox="0 0 10 10" style="height:15em;width:100%;background-color:#eee" fill="none" stroke="#222" stroke-linejoin="round" stroke-linecap="round"><path stroke="#4e9a06" d="M 0.8 3 C 1.8 2 3.8 2 3.8 4 C 3.8 6 0.8 5.4 0.8 7 H 3.8"/><path d="M 5.4 9 C 10.1 9 5.6 2.8 9 2 M 6.25 7 a 1.4 1.4 0 1 1 0.01 0 z" /></svg></a>
 If you're building an app that needs to perform fast and accurate 2d computational geometry (boolean operations and way way more) you'll end up grateful for [Nathan Hurst](http://njhurst.com/) and all other contributors who made lib2geom possible.
-Fun fact, Inkscape uses 2geom under the hood and also powers the amazing live path effects etc
+Fun fact, Inkscape uses 2geom under the hood and also powers the amazing live path effects etc.
 
 
 ## Single-purpose SVG generator tools 
