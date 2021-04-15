@@ -59,8 +59,8 @@ First I stroke the lines so I save on doubling coordnates, then I exploit the ``
 See the values with ```h.001``` and ```v.001``` and ```h-.001```  ?  
 That's how I hacked the directional rounded corners.
 
-Normally stroke-linecap:round is just round. Nothing you can do about it. 
-But when you change direction *REALLY* close to the edge coordinate, the cusp squares off. 
+Normally ```stroke-linecap:round``` is just round. Nothing you can do about it. 
+But when you change direction *REALLY* close to the edge coordinate, the cusp squares off on one side only, and you can control which side with negative or positive relative values.
 
 Neat huh? We're just getting started...
 
