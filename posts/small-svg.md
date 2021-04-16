@@ -73,7 +73,7 @@ A while back, I created this interactive demo of the Outfit logo to teach some o
 
 ## History of the mark
 
-<a target="_blank" href="https://rowanhogan.com/" rel="nofollow">Rowan Hogan</a> originally designed the Outfit logo. No doubt without regard specifically for SVG format optimisation. Don’t let the medium become the message as they say. 
+<a target="_blank" href="https://rowanhogan.com/" rel="noreferrer">Rowan Hogan</a> originally designed the Outfit logo. No doubt without regard specifically for SVG format optimisation. Don’t let the medium become the message as they say. 
 
 The design evolved with minor optical updates and when it came time to make this demo, it had optimisation amenities stacked against it:
   * An optical overshoot (round coords non-exact to a grid)
@@ -117,6 +117,8 @@ If every coordinate has a decimal place, go up by 10. If only a few do, try to r
 ## Stroke if you can
 
 Every shape you can pull off as a stroke that would otherwise be a filled path saves you 2-3x bloat in coordinate. This is fairly easy to visualise as a stroke only has an inner line that can be expanded wheras a filled shape has two outer lines to create a zone.
+
+When you combine the right sized `viewBox` and stroked path, you wont even have to set `stroke-width` as it defaults to 1 viewBox unit.
 
 ## Know when to capital or lowercase path coordinates
 
