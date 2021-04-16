@@ -207,10 +207,10 @@ p > code{font-size:.8em;user-select:all;background-color: var(--fg-2); padding: 
 @media(prefers-color-scheme:light){p>code{background-color:transparent;  color:var(--neutral);box-shadow: inset 0 0 0 .1em var(--bg-2);  }}
 @media(prefers-color-scheme:dark){
 :root{
---brand: LightSeaGreen;
+--brand: Aquamarine;
 
 --bg:#011529;
---bg-2:#123;
+--bg-2:#234;
 --bg-3:#000818;
 
 --fg:#e2e6ec;
@@ -220,9 +220,9 @@ p > code{font-size:.8em;user-select:all;background-color: var(--fg-2); padding: 
 --comment:CadetBlue;
 --highlight:Coral;
 --focus:PaleGoldenrod;
---tone-1:Aquamarine;
+--tone-1:LightSeaGreen;
 --tone-2:Turquoise;
---neutral:SlateGray;
+--neutral:#abc;
 
 
 }
