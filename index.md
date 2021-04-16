@@ -4,7 +4,6 @@ date: 2021-04-12
 
 ---
 
-<img src="img/pic.jpg" alt="image of Andy Fitzsmion" style="border-radius:50%; max-width: 30vw; height:auto" />
 
 G’day traveller, I'm Andy Fitzsimon<br>  
 <p>from Noosa, Australia. <span style="color:var(--neutral)">26° 24' 31'' S 153° 6' 14'' E</span></p>
