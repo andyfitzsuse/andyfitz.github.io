@@ -36,7 +36,18 @@ The benefits of this approach means you discover your answers to the most beauti
 
 >  What must stay the same so that everythign else can change"
 
-and also frees us up to explore
+and also frees us up to explore new horizons
 
 >  What can change now that we know what can stay the same
+
+
+In this case we're going to use SVG,  but you could just as easily use HTML
+
+``` 
+<body>
+  <svg id="stage" viewBox="0 0 100 100">
+
+  </svg>
+</body?
+```
 
