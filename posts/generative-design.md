@@ -80,11 +80,11 @@ This helps us to creatively set the stage by mocking up at least some of the loo
 
 The benefits of this approach means you discover your answers to the most beautiful of questions:
 
->  What must **stay the same** so that<br>everything else can change?"
+>  What must **stay the same** so that<br>everything else can change?
 
 The answer is what frees us up to explore new horizons:
 
->  Observe what is constant,<br>discover what can **constantly change**
+>  With what is constant,<br>what can **constantly change**?
 
 If we get a sense of what we like, we'll also get a sense of what variables we can bend or break.
 
