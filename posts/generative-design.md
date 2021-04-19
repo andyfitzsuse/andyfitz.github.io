@@ -3,7 +3,7 @@ title: Generative design with vanilla JS
 description: Random computational artwork doesn't have to be hard or heavy
 date: 2021-04-19
 tags:
-  - brand-automation
+  - brand automation
   - generative design
 layout: layouts/post.njk
 ---
@@ -36,7 +36,7 @@ function eremoveAll() {
 document.getElementById("nstage").innerHTML = "";
 }
 eremoveAll();
-let svg = document.getElementById("nstage");
+let esvg = document.getElementById("nstage");
 function edrawCircles() {
 for (i = 0; i < 15; i++) {
 circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
@@ -45,7 +45,7 @@ circle.setAttribute("stroke-width", "1");
 circle.setAttribute("r", Math.floor(Math.random() * 7) * 2 + 2);
 circle.setAttribute("cx", Math.floor(Math.random() * 4) * 20 + 20);
 circle.setAttribute("cy", Math.floor(Math.random() * 4) * 20 + 20);
-svg.appendChild(circle);
+esvg.appendChild(circle);
 }
 }
 document.addEventListener("click", function () {
