@@ -113,7 +113,7 @@ Now lets get to thinking what we could create.
 
 What is simpler than a few random-ishly placed circles? 
 
-<svg viewBox="0 0 100 100" fill="currentcolor"  width="15em" height="15em">
+<svg viewBox="0 0 100 100" fill="currentcolor"  width="100%" height="15em">
 <circle cx="20" cy="80" r="4" />
 <circle cx="80" cy="40" r="4" />
 <circle cx="40" cy="40" r="2" />
@@ -149,7 +149,7 @@ circle {
 }
 ```
 
-<svg viewBox="0 0 100 100" fill="currentcolor" width="15em"  height="15em"> <g style="stroke: DeepPink;fill: none;stroke-width:2;"><circle cx="20" cy="80" r="4" /><circle cx="80" cy="40" r="4" /><circle cx="40" cy="40" r="2" /><circle cx="40" cy="80" r="2" /><circle cx="60" cy="60" r="6" /><circle cx="60" cy="20" r="6" /><circle cx="20" cy="60" r="8" /><circle cx="80" cy="20" r="8" /></g></svg>
+<svg viewBox="0 0 100 100" fill="currentcolor" width="100%"  height="15em"> <g style="stroke: DeepPink;fill: none;stroke-width:2;"><circle cx="20" cy="80" r="4" /><circle cx="80" cy="40" r="4" /><circle cx="40" cy="40" r="2" /><circle cx="40" cy="80" r="2" /><circle cx="60" cy="60" r="6" /><circle cx="60" cy="20" r="6" /><circle cx="20" cy="60" r="8" /><circle cx="80" cy="20" r="8" /></g></svg>
 
 
 Okay that was fun, but we need more of these.  And I'd go mad placing circles manually. Time to let the computers take over. 
@@ -237,7 +237,7 @@ circle:nth-child(4n){stroke:#345}
 circle:nth-child(5n){stroke:#9ab}
 ```
 
-Click below to refresh
+Click below to refresh faster
 
 <style>
 #stage{cursor:pointer;}
@@ -247,7 +247,7 @@ Click below to refresh
 #stage circle:nth-child(4n){stroke:#345}
 #stage circle:nth-child(5n){stroke:#9ab}
 </style>
-<svg id="stage"  width="15em"  height="15em" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+<svg id="stage"  width="100%"  height="20em" viewBox="0 0 100 100" >
 <circle cx="10" cy="10" r="5" />
 <circle cx="20" cy="90" r="4" />
 <circle cx="30" cy="40" r="3" />
@@ -283,7 +283,7 @@ drawCircles();
 var reGenTimer = window.setInterval(function () {
 removeAll();
 drawCircles();
-}, 1000);
+}, 3000);
 </script>
 
 <a href="https://codepen.io/andyfitz/pen/KKaxgvw" rel="noreferer" target="_blank">Play with it on Codepen</a>
@@ -294,11 +294,8 @@ Random but within constraints. Every iteration looks different but also like the
 The whole dance of this technique is to ensure every permutation is a *hit*  and looks like something you'd be happy with. That's easier said than done when you can't push pixels, but trust me it's super rewarding knowing you have created a living system rather than a static piece.
 
 ## What about that poster?
-Remember I said we were going to make this a nice vector PDF poster? 
-Thanks to Make.cm we can and [every single download](https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A4&format=pdf&data[empty]=nodata) will be unique.
+Remember I said we were going to make this a nice vector PDF poster?   
+Thanks to Make.cm we can, and [every single download](https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A4&format=pdf&data[empty]=nodata) will be generated uniquely.
 
-checkout the GET request below for an A3 version
-
-```
-https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A3&format=pdf&data[empty]=nodata
-```
+Checkout the GET request below for an A3 version
+<a style="padding:1em; margin: 1em 0;display:block; width: 100%;overflow:auto; " class="button" target="_new" href="https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A3&format=pdf&data[blank]=nodata"> https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A3&format=pdf&data[blank]=nodata </a>

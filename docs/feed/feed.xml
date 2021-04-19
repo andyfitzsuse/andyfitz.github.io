@@ -92,7 +92,7 @@ I&#39;m not going to use canvas or even SVG Filters because at the end I want ni
 &lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;hidden&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token selector&quot;&gt;body &gt; svg&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;100vw&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;100vh&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now lets get to thinking what we could create.&lt;/p&gt;
 &lt;p&gt;What is simpler than a few random-ishly placed circles?&lt;/p&gt;
-&lt;svg viewBox=&quot;0 0 100 100&quot; fill=&quot;currentcolor&quot; width=&quot;15em&quot; height=&quot;15em&quot;&gt;
+&lt;svg viewBox=&quot;0 0 100 100&quot; fill=&quot;currentcolor&quot; width=&quot;100%&quot; height=&quot;15em&quot;&gt;
 &lt;circle cx=&quot;20&quot; cy=&quot;80&quot; r=&quot;4&quot;&gt;&lt;/circle&gt;
 &lt;circle cx=&quot;80&quot; cy=&quot;40&quot; r=&quot;4&quot;&gt;&lt;/circle&gt;
 &lt;circle cx=&quot;40&quot; cy=&quot;40&quot; r=&quot;2&quot;&gt;&lt;/circle&gt;
@@ -107,7 +107,7 @@ I&#39;m not going to use canvas or even SVG Filters because at the end I want ni
 &lt;h2 id=&quot;what-must-stay-the-same-%3F&quot;&gt;What must stay the same ? &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/generative-design/#what-must-stay-the-same-%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We&#39;re going to apply some CSS and attributes to lock in the look we want.  In this case, pink circles with double thick lines and no fill.&lt;/p&gt;
 &lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;circle&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token property&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; DeepPink&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token property&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; none&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;   &lt;br /&gt;  &lt;span class=&quot;token property&quot;&gt;stroke-width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;2&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;svg viewBox=&quot;0 0 100 100&quot; fill=&quot;currentcolor&quot; width=&quot;15em&quot; height=&quot;15em&quot;&gt; &lt;g style=&quot;stroke: DeepPink;fill: none;stroke-width:2;&quot;&gt;&lt;circle cx=&quot;20&quot; cy=&quot;80&quot; r=&quot;4&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;80&quot; cy=&quot;40&quot; r=&quot;4&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;40&quot; cy=&quot;40&quot; r=&quot;2&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;40&quot; cy=&quot;80&quot; r=&quot;2&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;60&quot; cy=&quot;60&quot; r=&quot;6&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;60&quot; cy=&quot;20&quot; r=&quot;6&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;20&quot; cy=&quot;60&quot; r=&quot;8&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;80&quot; cy=&quot;20&quot; r=&quot;8&quot;&gt;&lt;/circle&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/p&gt;
+&lt;p&gt;&lt;svg viewBox=&quot;0 0 100 100&quot; fill=&quot;currentcolor&quot; width=&quot;100%&quot; height=&quot;15em&quot;&gt; &lt;g style=&quot;stroke: DeepPink;fill: none;stroke-width:2;&quot;&gt;&lt;circle cx=&quot;20&quot; cy=&quot;80&quot; r=&quot;4&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;80&quot; cy=&quot;40&quot; r=&quot;4&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;40&quot; cy=&quot;40&quot; r=&quot;2&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;40&quot; cy=&quot;80&quot; r=&quot;2&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;60&quot; cy=&quot;60&quot; r=&quot;6&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;60&quot; cy=&quot;20&quot; r=&quot;6&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;20&quot; cy=&quot;60&quot; r=&quot;8&quot;&gt;&lt;/circle&gt;&lt;circle cx=&quot;80&quot; cy=&quot;20&quot; r=&quot;8&quot;&gt;&lt;/circle&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/p&gt;
 &lt;p&gt;Okay that was fun, but we need more of these.  And I&#39;d go mad placing circles manually. Time to let the computers take over.&lt;/p&gt;
 &lt;h1 id=&quot;enter-vanilla-javascript&quot;&gt;Enter Vanilla Javascript &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/generative-design/#enter-vanilla-javascript&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;For this demo, we willjust  mess with three attributes of each SVG &lt;code&gt;circle&lt;/code&gt; element.&lt;/p&gt;
@@ -133,7 +133,7 @@ I also want a &lt;code&gt;removeAll&lt;/code&gt; function for easily testing new
 &lt;p&gt;What&#39;s awesome about generating random elements is that you already have them in a random sequence.  So you can add very sequential CSS rules using the &lt;code&gt;:nth&lt;/code&gt; selectors and still get away with looking random - no need to put this stuff in your JS.&lt;/p&gt;
 &lt;p&gt;Below I just make every 2nd 3rd 4th and 5th circle a different stroke color&lt;/p&gt;
 &lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;circle:nth-child(2n)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;#6ac&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token selector&quot;&gt;circle:nth-child(3n)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;#678&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token selector&quot;&gt;circle:nth-child(4n)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;#345&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token selector&quot;&gt;circle:nth-child(5n)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;stroke&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;#9ab&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Click below to refresh&lt;/p&gt;
+&lt;p&gt;Click below to refresh faster&lt;/p&gt;
 &lt;style&gt;
 #stage{cursor:pointer;}
 #stage circle {stroke: DeepPink;fill: none;stroke-width:2;}
@@ -142,7 +142,7 @@ I also want a &lt;code&gt;removeAll&lt;/code&gt; function for easily testing new
 #stage circle:nth-child(4n){stroke:#345}
 #stage circle:nth-child(5n){stroke:#9ab}
 &lt;/style&gt;
-&lt;svg id=&quot;stage&quot; width=&quot;15em&quot; height=&quot;15em&quot; viewBox=&quot;0 0 100 100&quot; preserveAspectRatio=&quot;xMidYMid slice&quot;&gt;
+&lt;svg id=&quot;stage&quot; width=&quot;100%&quot; height=&quot;20em&quot; viewBox=&quot;0 0 100 100&quot;&gt;
 &lt;circle cx=&quot;10&quot; cy=&quot;10&quot; r=&quot;5&quot;&gt;&lt;/circle&gt;
 &lt;circle cx=&quot;20&quot; cy=&quot;90&quot; r=&quot;4&quot;&gt;&lt;/circle&gt;
 &lt;circle cx=&quot;30&quot; cy=&quot;40&quot; r=&quot;3&quot;&gt;&lt;/circle&gt;
@@ -178,7 +178,7 @@ drawCircles();
 var reGenTimer = window.setInterval(function () {
 removeAll();
 drawCircles();
-}, 1000);
+}, 3000);
 &lt;/script&gt;
 &lt;p&gt;&lt;a href=&quot;https://codepen.io/andyfitz/pen/KKaxgvw&quot; rel=&quot;noreferer&quot; target=&quot;_blank&quot;&gt;Play with it on Codepen&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;And there you have it,  we&#39;ve made generative artwork.&lt;br /&gt;
@@ -186,10 +186,9 @@ Random but within constraints. Every iteration looks different but also like the
 &lt;p&gt;The whole dance of this technique is to ensure every permutation is a &lt;em&gt;hit&lt;/em&gt;  and looks like something you&#39;d be happy with. That&#39;s easier said than done when you can&#39;t push pixels, but trust me it&#39;s super rewarding knowing you have created a living system rather than a static piece.&lt;/p&gt;
 &lt;h2 id=&quot;what-about-that-poster%3F&quot;&gt;What about that poster? &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/generative-design/#what-about-that-poster%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Remember I said we were going to make this a nice vector PDF poster?&lt;br /&gt;
-Thanks to &lt;a href=&quot;http://make.cm/&quot;&gt;Make.cm&lt;/a&gt; we can and &lt;a href=&quot;https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A4&amp;amp;format=pdf&amp;amp;data%5Bempty%5D=nodata&quot;&gt;every single download&lt;/a&gt; will be unique.&lt;/p&gt;
-&lt;p&gt;checkout the GET request below for an A3 version&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A3&amp;amp;format=pdf&amp;amp;data[empty]=nodata
-&lt;/code&gt;&lt;/pre&gt;
+Thanks to &lt;a href=&quot;http://make.cm/&quot;&gt;Make.cm&lt;/a&gt; we can, and &lt;a href=&quot;https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A4&amp;amp;format=pdf&amp;amp;data%5Bempty%5D=nodata&quot;&gt;every single download&lt;/a&gt; will be generated uniquely.&lt;/p&gt;
+&lt;p&gt;Checkout the GET request below for an A3 version&lt;br /&gt;
+&lt;a style=&quot;padding:1em; margin: 1em 0;display:block; width: 100%;overflow:auto; &quot; class=&quot;button&quot; target=&quot;_new&quot; href=&quot;https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A3&amp;format=pdf&amp;data[blank]=nodata&quot;&gt; https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A3&amp;amp;format=pdf&amp;amp;data[blank]=nodata &lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
