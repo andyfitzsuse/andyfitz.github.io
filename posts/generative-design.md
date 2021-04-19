@@ -6,6 +6,9 @@ tags:
   - brand automation
   - generative design
   - creative coding
+  - svg
+  - minimal
+  - javascript
 layout: layouts/post.njk
 ---
 Why design a single piece when you can design a visual system with countless unique permutations?
@@ -77,15 +80,15 @@ This helps us to creatively set the stage by mocking up at least some of the loo
 
 The benefits of this approach means you discover your answers to the most beautiful of questions:
 
->  What must **stay the same** so that everything else can change?"
+>  What must **stay the same** so that<br>everything else can change?"
 
 The answer is what frees us up to explore new horizons:
 
->  Observe is constant, discover what can **constantly change**
+>  Observe what is constant,<br>discover what can **constantly change**
 
 
 In this case we're going to use `SVG`,  but you could just as easily use plain ol HTML and `div`'s.
-I'm not going to use `canvas` or even SVG Filters because at the end I want a nice vector PDF poster.
+I'm not going to use `canvas` or even Filters because at the end I want a nice vector PDF poster and not a heavy rasterized asset.
 
 ``` xml
 <body>

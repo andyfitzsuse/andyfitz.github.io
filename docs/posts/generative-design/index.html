@@ -32,7 +32,7 @@
       <article>
 <header>
     <h1>Generative art with vanilla JS</h1>
-    <time datetime="2021-04-19">19 Apr 2021</time><a href="/tags/brand-automation/" class="tag">brand automation</a><a href="/tags/generative-design/" class="tag">generative design</a><a href="/tags/creative-coding/" class="tag">creative coding</a>
+    <time datetime="2021-04-19">19 Apr 2021</time><a href="/tags/brand-automation/" class="tag">brand automation</a><a href="/tags/generative-design/" class="tag">generative design</a><a href="/tags/creative-coding/" class="tag">creative coding</a><a href="/tags/svg/" class="tag">svg</a><a href="/tags/minimal/" class="tag">minimal</a><a href="/tags/javascript/" class="tag">javascript</a>
 
 </header>
 <p>Why design a single piece when you can design a visual system with countless unique permutations?</p>
@@ -96,14 +96,14 @@ Plus, unlike choosing a specific tool, you have all the aesthetic potential of t
 This helps us to creatively set the stage by mocking up at least some of the look and feel you'd like to create.</p>
 <p>The benefits of this approach means you discover your answers to the most beautiful of questions:</p>
 <blockquote>
-<p>What must <strong>stay the same</strong> so that everything else can change?&quot;</p>
+<p>What must <strong>stay the same</strong> so that<br>everything else can change?&quot;</p>
 </blockquote>
 <p>The answer is what frees us up to explore new horizons:</p>
 <blockquote>
-<p>Observe is constant, discover what can <strong>constantly change</strong></p>
+<p>Observe what is constant,<br>discover what can <strong>constantly change</strong></p>
 </blockquote>
 <p>In this case we're going to use <code>SVG</code>,  but you could just as easily use plain ol HTML and <code>div</code>'s.<br>
-I'm not going to use <code>canvas</code> or even SVG Filters because at the end I want a nice vector PDF poster.</p>
+I'm not going to use <code>canvas</code> or even Filters because at the end I want a nice vector PDF poster and not a heavy rasterized asset.</p>
 <pre class="language-xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>svg</span><br>  <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stage<span class="token punctuation">"</span></span> <br>  <span class="token attr-name">viewBox</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>0 0 100 100<span class="token punctuation">"</span></span> <br>  <span class="token attr-name">preserveAspectRatio</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>xMidYMid slice<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>   <span class="token comment">&lt;!-- <br>   our cool stuff will go here <br>   --></span><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span></code></pre>
 <p>That <code>preserveAspectRatio=&quot;xMidYMid slice&quot;</code> will center-crop our artwork if we display it at non square.</p>
 <p>We should probably add some CSS to make sure we're full page too.</p>
