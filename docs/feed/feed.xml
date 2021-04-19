@@ -76,13 +76,13 @@ Plus, unlike choosing a specific tool, you have all the aesthetic potential of t
 &lt;h1 id=&quot;setting-the-stage&quot;&gt;Setting the stage &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/generative-design/#setting-the-stage&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;First, ... we&#39;re going to create something without any javascript at all.&lt;br /&gt;
 This helps us to creatively set the stage by mocking up at least some of the look and feel you&#39;d like to create.&lt;/p&gt;
-&lt;p&gt;The benefits of this approach means you discover your answers to the most beautiful questions:&lt;/p&gt;
+&lt;p&gt;The benefits of this approach means you discover your answers to the most beautiful of questions:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;What must &lt;strong&gt;stay the same&lt;/strong&gt; so that everything else can change?&amp;quot;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;and also frees us up to explore new horizons&lt;/p&gt;
+&lt;p&gt;The answer is what frees us up to explore new horizons:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Knowing what is constant the same, what can constantly change?&lt;/p&gt;
+&lt;p&gt;Observe is constant, discover what can &lt;strong&gt;constantly change&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;In this case we&#39;re going to use &lt;code&gt;SVG&lt;/code&gt;,  but you could just as easily use plain ol HTML and &lt;code&gt;div&lt;/code&gt;&#39;s.&lt;br /&gt;
 I&#39;m not going to use &lt;code&gt;canvas&lt;/code&gt; or even SVG Filters because at the end I want a nice vector PDF poster.&lt;/p&gt;
