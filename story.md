@@ -28,7 +28,7 @@ Let's start with the basics, my surname is Fitzsimon
 Here's the family coat of arms <i style="color:var(--neutral)">(devoid of fancy heraldry)</i>
 <svg viewBox=".5 .5 12.5 13.5" style="max-width: 40vw; margin:1em auto; display:block;  "><path stroke="var(--neutral)" fill="url(#gsilver)" stroke-width=".5" d="M1 1h11.52v6.48q0 3.6-5.76 5.76Q1 11.08 1 7.48z"/><g fill="url(#gred)"><path d="M2.44 2.44V4.6q0 1.08 1.8 1.8 1.8-.72 1.8-1.8V2.44z"/><path d="M7.48 2.44V4.6q0 1.08 1.872 1.8 1.728-.72 1.728-1.8V2.44z"/><path d="M4.96 7.48v2.16q0 1.08 1.8 1.8 1.8-.72 1.8-1.8V7.48z"/></g><defs><linearGradient id="gsilver" x1="-.2"><stop offset=".4" stop-color="#fff"/><stop offset="1" stop-color="#f0f8ff"/></linearGradient><linearGradient id="gred" x1="-.1" x2="1.3" y2=".25"><stop offset="0" stop-color="coral"/><stop offset=".5" stop-color="#dc143c"/><stop offset="1" stop-color="brown"/></linearGradient></defs></svg>
 
-Born in Australia to 6th generation immigrants, I'm yet to visit the ancestral home of Dublin.
+Born in Australia to 6th generation immigrants, I'm yet to visit the ancestral home of Dublin. 
 I am fortunate to have both lived and travelled extensively across asia europe and the americas.
 
 
@@ -86,10 +86,8 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 
 ## what next? 
 
-My Daugher Olive, My son Alby are both learning and growing more every day.
+My Daugher Olive, My son Alby are both learning and growing more every day. 
 
-The world has become software and those who contribute to it are being rewarded in new ways
-
-A lot has changed since I started this journey.  We're not all living in lawnmowerman style virtual reality networks - but we are closer than ever. 
+A lot has changed since I started this journey.  We're not all living in lawnmowerman style virtual reality networks - but we are closer than ever.  
 
 I can't wait.  Maybe I should get some exercise.
