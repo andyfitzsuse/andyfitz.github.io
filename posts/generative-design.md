@@ -294,4 +294,9 @@ Random but within constraints. Every iteration looks different but also like the
 
 The whole dance of this technique is to ensure every permutation is a *hit*  and looks like something you'd be happy with. That's easier said than done when you can't push pixels, but trust me it's super rewarding knowing you have created a living system rather than a static piece.
 
+## One more thing
+Remember I said we were going to make this a nice vector PDF poster? 
+Thanks to Make.cm we can and every single download will be unique.
+
+Checkout this link [ will throw a link in here ]
 
