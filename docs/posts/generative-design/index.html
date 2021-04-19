@@ -32,7 +32,7 @@
       <article>
 <header>
     <h1>Generative design with vanilla JS</h1>
-    <time datetime="2021-04-19">19 Apr 2021</time><a href="/tags/brand-automation/" class="tag">brand-automation</a><a href="/tags/generative-design/" class="tag">generative design</a>
+    <time datetime="2021-04-19">19 Apr 2021</time><a href="/tags/brand-automation/" class="tag">brand automation</a><a href="/tags/generative-design/" class="tag">generative design</a>
 
 </header>
 <p>Why design a single piece when you can design a visual system with countless unique permutations?</p>
@@ -61,7 +61,7 @@ function eremoveAll() {
 document.getElementById("nstage").innerHTML = "";
 }
 eremoveAll();
-let svg = document.getElementById("nstage");
+let esvg = document.getElementById("nstage");
 function edrawCircles() {
 for (i = 0; i < 15; i++) {
 circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
@@ -70,7 +70,7 @@ circle.setAttribute("stroke-width", "1");
 circle.setAttribute("r", Math.floor(Math.random() * 7) * 2 + 2);
 circle.setAttribute("cx", Math.floor(Math.random() * 4) * 20 + 20);
 circle.setAttribute("cy", Math.floor(Math.random() * 4) * 20 + 20);
-svg.appendChild(circle);
+esvg.appendChild(circle);
 }
 }
 document.addEventListener("click", function () {

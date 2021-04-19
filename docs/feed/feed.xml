@@ -43,7 +43,7 @@ function eremoveAll() {
 document.getElementById(&quot;nstage&quot;).innerHTML = &quot;&quot;;
 }
 eremoveAll();
-let svg = document.getElementById(&quot;nstage&quot;);
+let esvg = document.getElementById(&quot;nstage&quot;);
 function edrawCircles() {
 for (i = 0; i &lt; 15; i++) {
 circle = document.createElementNS(&quot;http://www.w3.org/2000/svg&quot;, &quot;circle&quot;);
@@ -52,7 +52,7 @@ circle.setAttribute(&quot;stroke-width&quot;, &quot;1&quot;);
 circle.setAttribute(&quot;r&quot;, Math.floor(Math.random() * 7) * 2 + 2);
 circle.setAttribute(&quot;cx&quot;, Math.floor(Math.random() * 4) * 20 + 20);
 circle.setAttribute(&quot;cy&quot;, Math.floor(Math.random() * 4) * 20 + 20);
-svg.appendChild(circle);
+esvg.appendChild(circle);
 }
 }
 document.addEventListener(&quot;click&quot;, function () {
