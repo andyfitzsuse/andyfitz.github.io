@@ -33,7 +33,7 @@ main {margin-top: var(--layout-spacing);}
 footer {max-width: 100%;margin-top: auto;padding-top: var(--layout-spacing);}
 
 nav{display:grid;  width: 100%;     grid-template-columns: 1fr 1fr 1fr 1fr;align-content: center;justify-content: center;justify-items: center; grid-auto-flow: column;  place-content:center;align-items:center;}
-nav a{width:100%;text-align:center;padding:1em; background-color:var(--bg); color: var(--brand);}
+nav a{width:100%;text-align:center;padding:1em; color: var(--brand);}
 nav .active{box-shadow:  0  .4em 0 -.2em var(--tone-1); color: currentcolor;}
 nav .home{padding:0; text-align: left;     place-self: start;}
 

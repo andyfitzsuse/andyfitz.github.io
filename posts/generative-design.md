@@ -1,26 +1,28 @@
 ---
-title: Generative design with vanilla JS
+title: Generative art with vanilla JS
 description: Random computational artwork doesn't have to be hard or heavy
 date: 2021-04-19
 tags:
   - brand automation
   - generative design
+  - creative coding
 layout: layouts/post.njk
 ---
 Why design a single piece when you can design a visual system with countless unique permutations?
 
 In this tutorial I'm going to show you how to make dynamic artwork using very simple vanilla javascript and SVG.
 
-
 <style>
 #nstage{cursor:pointer;}
 #nstage circle {stroke: DeepPink;fill: none;stroke-width:2;}
-#nstage circle:nth-child(2n) {stroke:#6ac;  }
-#nstage circle:nth-child(3n){stroke:#678;  }
-#nstage circle:nth-child(4n){stroke:#345;  }
-#nstage circle:nth-child(5n){stroke:#9ab}
+#nstage circle:nth-child(2n) {stroke:#6ac; animation-delay:-1s; }
+#nstage circle:nth-child(3n){stroke:#678;  animation-delay:-2s;}
+#nstage circle:nth-child(4n){stroke:#345; animation-delay:-3s;}
+#nstage circle:nth-child(5n){stroke:#9ab; animation-delay:-.5s;}
+#nstage circle{animation: showhide 4s ease infinite}
+@keyframes showhide{50%{opacity:0}}
 </style>
-<svg id="nstage"  width="100%"  height="15em" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+<svg id="nstage"  width="100%"  height="27em" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" style="opacity:.8;position:absolute; top:-2em; left:0; right:0; z-index:-1;">
 <circle cx="10" cy="10" r="5" />
 <circle cx="20" cy="90" r="4" />
 <circle cx="30" cy="40" r="3" />
@@ -59,8 +61,7 @@ edrawCircles();
 }, 1000);
 </script>
 
-
-For generative art there are great frameworks like P5.js, Three.js, all the way up to the mind bending styleGAN and so many more.  This space is exploding with digital artists and art directors chasing never seen before aesthetics that blur the lines between human and machine made creations.
+For generative art there are great frameworks like [P5.js](https://p5js.org/),[Three.js](https://threejs.org/), all the way up to the mind bending [Generative Adversarial Networks](https://en.wikipedia.org/wiki/Generative_adversarial_network) like [styleGAN](https://github.com/NVlabs/stylegan) and so many more.  This space is exploding with digital artists and art directors chasing never seen before aesthetics that blur the lines between human and machine made creations.
 
 Plenty of brands have gone the dynamic brand route and we're lucky to have a few of them as customers of Outfit.io leveraging our web native templates. 
 
@@ -286,9 +287,11 @@ drawCircles();
 }, 1000);
 </script>
 
-## that's all there is to it.
+<a href="https://codepen.io/andyfitz/pen/KKaxgvw" rel="noreferer" target="_blank">Play with it on Codepen</a>
 
 And there you have it,  we've made generative artwork. 
-Random but within constraints. Every iteration looks different but also like they belong together. The rules you set, and how wild you go, are all up to you and how wild your vision is. 
+Random but within constraints. Every iteration looks different but also like they belong together. The rules you set – and how wild you go, is entirely up to your vision. 
 
 The whole dance of this technique is to ensure every permutation is a *hit*  and looks like something you'd be happy with. That's easier said than done when you can't push pixels, but trust me it's super rewarding knowing you have created a living system rather than a static piece.
+
+

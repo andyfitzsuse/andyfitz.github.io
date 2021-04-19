@@ -13,7 +13,7 @@
 	</author>
 	
 	<entry>
-		<title>Generative design with vanilla JS</title>
+		<title>Generative art with vanilla JS</title>
 		<link href="https://ndftz.com/posts/generative-design/"/>
 		<updated>2021-04-19T00:00:00Z</updated>
 		<id>https://ndftz.com/posts/generative-design/</id>
@@ -22,12 +22,14 @@
 &lt;style&gt;
 #nstage{cursor:pointer;}
 #nstage circle {stroke: DeepPink;fill: none;stroke-width:2;}
-#nstage circle:nth-child(2n) {stroke:#6ac;  }
-#nstage circle:nth-child(3n){stroke:#678;  }
-#nstage circle:nth-child(4n){stroke:#345;  }
-#nstage circle:nth-child(5n){stroke:#9ab}
+#nstage circle:nth-child(2n) {stroke:#6ac; animation-delay:-1s; }
+#nstage circle:nth-child(3n){stroke:#678;  animation-delay:-2s;}
+#nstage circle:nth-child(4n){stroke:#345; animation-delay:-3s;}
+#nstage circle:nth-child(5n){stroke:#9ab; animation-delay:-.5s;}
+#nstage circle{animation: showhide 4s ease infinite}
+@keyframes showhide{50%{opacity:0}}
 &lt;/style&gt;
-&lt;svg id=&quot;nstage&quot; width=&quot;100%&quot; height=&quot;15em&quot; viewBox=&quot;0 0 100 100&quot; preserveAspectRatio=&quot;xMidYMid meet&quot;&gt;
+&lt;svg id=&quot;nstage&quot; width=&quot;100%&quot; height=&quot;27em&quot; viewBox=&quot;0 0 100 100&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; style=&quot;opacity:.8;position:absolute; top:-2em; left:0; right:0; z-index:-1;&quot;&gt;
 &lt;circle cx=&quot;10&quot; cy=&quot;10&quot; r=&quot;5&quot;&gt;&lt;/circle&gt;
 &lt;circle cx=&quot;20&quot; cy=&quot;90&quot; r=&quot;4&quot;&gt;&lt;/circle&gt;
 &lt;circle cx=&quot;30&quot; cy=&quot;40&quot; r=&quot;3&quot;&gt;&lt;/circle&gt;
@@ -65,7 +67,7 @@ eremoveAll();
 edrawCircles();
 }, 1000);
 &lt;/script&gt;
-&lt;p&gt;For generative art there are great frameworks like P5.js, Three.js, all the way up to the mind bending styleGAN and so many more.  This space is exploding with digital artists and art directors chasing never seen before aesthetics that blur the lines between human and machine made creations.&lt;/p&gt;
+&lt;p&gt;For generative art there are great frameworks like &lt;a href=&quot;https://p5js.org/&quot;&gt;P5.js&lt;/a&gt;,&lt;a href=&quot;https://threejs.org/&quot;&gt;Three.js&lt;/a&gt;, all the way up to the mind bending &lt;a href=&quot;https://en.wikipedia.org/wiki/Generative_adversarial_network&quot;&gt;Generative Adversarial Networks&lt;/a&gt; like &lt;a href=&quot;https://github.com/NVlabs/stylegan&quot;&gt;styleGAN&lt;/a&gt; and so many more.  This space is exploding with digital artists and art directors chasing never seen before aesthetics that blur the lines between human and machine made creations.&lt;/p&gt;
 &lt;p&gt;Plenty of brands have gone the dynamic brand route and we&#39;re lucky to have a few of them as customers of &lt;a href=&quot;http://outfit.io/&quot;&gt;Outfit.io&lt;/a&gt; leveraging our web native templates.&lt;/p&gt;
 &lt;p&gt;One of the many benefits in using web formats for design, is that it&#39;s very easy to produce artwork that is unique every time. An awesome perk for end users of your visual system.&lt;br /&gt;
 Plus, unlike chosing a specific tool, you have all the aesthetic potential of the web.&lt;/p&gt;
@@ -177,9 +179,9 @@ removeAll();
 drawCircles();
 }, 1000);
 &lt;/script&gt;
-&lt;h2 id=&quot;that&#39;s-all-there-is-to-it.&quot;&gt;that&#39;s all there is to it. &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/generative-design/#that&#39;s-all-there-is-to-it.&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/andyfitz/pen/KKaxgvw&quot; rel=&quot;noreferer&quot; target=&quot;_blank&quot;&gt;Play with it on Codepen&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;And there you have it,  we&#39;ve made generative artwork.&lt;br /&gt;
-Random but within constraints. Every iteration looks different but also like they belong together. The rules you set, and how wild you go, are all up to you and how wild your vision is.&lt;/p&gt;
+Random but within constraints. Every iteration looks different but also like they belong together. The rules you set – and how wild you go, is entirely up to your vision.&lt;/p&gt;
 &lt;p&gt;The whole dance of this technique is to ensure every permutation is a &lt;em&gt;hit&lt;/em&gt;  and looks like something you&#39;d be happy with. That&#39;s easier said than done when you can&#39;t push pixels, but trust me it&#39;s super rewarding knowing you have created a living system rather than a static piece.&lt;/p&gt;
 </content>
 	</entry>
