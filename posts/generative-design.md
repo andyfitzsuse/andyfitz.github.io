@@ -11,8 +11,8 @@ layout: layouts/post.njk
 Why design a single piece when you can design a visual system with countless unique permutations?
 
 In this tutorial I'm going to show you how to make dynamic artwork using very simple vanilla javascript and SVG.
-
 <style>
+
 #nstage{cursor:pointer;}
 #nstage circle {stroke: DeepPink;fill: none;stroke-width:2;}
 #nstage circle:nth-child(2n) {stroke:#6ac; animation-delay:-1s; }
@@ -112,7 +112,6 @@ body > svg{width:100vw;height:100vh}
 Now lets get to thinking what we could create.
 
 What is simpler than a few random-ishly placed circles? 
-
 
 <svg viewBox="0 0 100 100" fill="currentcolor"  width="15em" height="15em">
 <circle cx="20" cy="80" r="4" />
@@ -294,9 +293,8 @@ Random but within constraints. Every iteration looks different but also like the
 
 The whole dance of this technique is to ensure every permutation is a *hit*  and looks like something you'd be happy with. That's easier said than done when you can't push pixels, but trust me it's super rewarding knowing you have created a living system rather than a static piece.
 
-## One more thing
+## What about that poster?
 Remember I said we were going to make this a nice vector PDF poster? 
 Thanks to Make.cm we can and every single download will be unique.
 
 Checkout this link [ will throw a link in here ]
-

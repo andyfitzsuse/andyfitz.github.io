@@ -20,6 +20,7 @@
 		<content type="html">&lt;p&gt;Why design a single piece when you can design a visual system with countless unique permutations?&lt;/p&gt;
 &lt;p&gt;In this tutorial I&#39;m going to show you how to make dynamic artwork using very simple vanilla javascript and SVG.&lt;/p&gt;
 &lt;style&gt;
+
 #nstage{cursor:pointer;}
 #nstage circle {stroke: DeepPink;fill: none;stroke-width:2;}
 #nstage circle:nth-child(2n) {stroke:#6ac; animation-delay:-1s; }
@@ -183,7 +184,7 @@ drawCircles();
 &lt;p&gt;And there you have it,  we&#39;ve made generative artwork.&lt;br /&gt;
 Random but within constraints. Every iteration looks different but also like they belong together. The rules you set – and how wild you go, is entirely up to your vision.&lt;/p&gt;
 &lt;p&gt;The whole dance of this technique is to ensure every permutation is a &lt;em&gt;hit&lt;/em&gt;  and looks like something you&#39;d be happy with. That&#39;s easier said than done when you can&#39;t push pixels, but trust me it&#39;s super rewarding knowing you have created a living system rather than a static piece.&lt;/p&gt;
-&lt;h2 id=&quot;one-more-thing&quot;&gt;One more thing &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/generative-design/#one-more-thing&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;what-about-that-poster%3F&quot;&gt;What about that poster? &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/generative-design/#what-about-that-poster%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Remember I said we were going to make this a nice vector PDF poster?&lt;br /&gt;
 Thanks to &lt;a href=&quot;http://make.cm/&quot;&gt;Make.cm&lt;/a&gt; we can and every single download will be unique.&lt;/p&gt;
 &lt;p&gt;Checkout this link [ will throw a link in here ]&lt;/p&gt;
