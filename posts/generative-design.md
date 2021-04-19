@@ -183,10 +183,10 @@ let svg = document.getElementById("stage");
 
 function drawCircles() {
   // how many circles to draw 
-  //I started with 8 but now I think 15 is the magic number
+  // I started with 8 but now I think 15 is the magic number
   for (i = 0; i < 15; i++) {
     
-    // because circle isnt a html element I needto specify the namespace 
+    // because circle isnt a html element I need to specify the SVG namespace 
     circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
    
     // maximum 14, minimum 2 and in increments of 2 
