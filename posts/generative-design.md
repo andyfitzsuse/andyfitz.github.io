@@ -63,16 +63,16 @@ edrawCircles();
 
 For generative art there are some great frameworks like [P5.js](https://p5js.org/),[Three.js](https://threejs.org/), all the way up to the mind bending [Generative Adversarial Networks](https://en.wikipedia.org/wiki/Generative_adversarial_network) like [styleGAN](https://github.com/NVlabs/stylegan) and so many more.  This space is exploding with digital artists and art directors chasing never seen before aesthetics that blur the lines between human and machine made creations.
 
-This isn't new either. For decades many brands with expansive portfolios have gone down the dynamic brand route with their visual architecture. We're lucky to have a few of them as customers at Outfit.io . Traditionally however, permutations were created by central tooling, then distributed as static assets. Nowadays, we can keep the systems alive by leveraging our web native technology. 
+This isn't new either. For decades many brands with expansive portfolios have gone down the dynamic brand route with their visual architecture. We're lucky to have a few of them as customers at Outfit.io . Traditionally however, permutations were created by central tooling. Often created on the desktop of an art director in a brand team. A render produced once per-need - manually looked over, then distributed as static assets. Nowadays, we can keep the systems alive by leveraging our web native technology and respond to new input 
 
 One of the many benefits in using web formats for design, is that it's very easy to produce artwork that is unique every time. An awesome perk for end users of your visual system.
-Plus, unlike chosing a specific tool, you have all the aesthetic potential of the web. 
+Plus, unlike choosing a specific tool, you have all the aesthetic potential of the web. 
 
 This can make for a far more engaging and dynamic aesthetic on large builds like events or media.
 
 # Setting the stage 
 
-First we're going to create something without any javascript at all. 
+First, ... we're going to create something without any javascript at all. 
 This helps us to creatively set the stage by mocking up at least some of the look and feel you'd like to create.  
 
 The benefits of this approach means you discover your answers to the most beautiful questions:
@@ -81,11 +81,11 @@ The benefits of this approach means you discover your answers to the most beauti
 
 and also frees us up to explore new horizons
 
->  What can we change keeping within these rules?
+>  Knowing what is constant the same, what can constantly change?
 
 
-In this case we're going to use SVG,  but you could just as easily use plain ol HTML and divs.
-I'm not going to use canvas or even SVG Filters because at the end I want nice vector PDF poster.
+In this case we're going to use `SVG`,  but you could just as easily use plain ol HTML and `div`'s.
+I'm not going to use `canvas` or even SVG Filters because at the end I want a nice vector PDF poster.
 
 ``` xml
 <body>
@@ -108,9 +108,9 @@ body{margin:0; overflow:hidden;}
 body > svg{width:100vw;height:100vh}
 ```
 
-Now lets get to thinking what we could create.
+Now, lets think about what we could create.
 
-What is simpler than a few random-ishly placed circles? 
+A few random-ishly placed circles might do the trick.
 
 <svg viewBox="0 0 100 100" fill="currentcolor"  width="100%" height="15em">
 <circle cx="20" cy="80" r="4" />
@@ -123,7 +123,7 @@ What is simpler than a few random-ishly placed circles?
 <circle cx="80" cy="20" r="8" />
 </svg>
 
-Not really that random, I just placed the X and Y axis in lots of 20 and the radius in even widths of in 2,4,6,8
+Not really that random... I just placed the X and Y axis in increments of 20 and the radius in sizes between 2-8.
 
 ``` xml
 <circle cx="20" cy="80" r="4" />
@@ -151,20 +151,20 @@ circle {
 <svg viewBox="0 0 100 100" fill="currentcolor" width="100%"  height="15em"> <g style="stroke: DeepPink;fill: none;stroke-width:2;"><circle cx="20" cy="80" r="4" /><circle cx="80" cy="40" r="4" /><circle cx="40" cy="40" r="2" /><circle cx="40" cy="80" r="2" /><circle cx="60" cy="60" r="6" /><circle cx="60" cy="20" r="6" /><circle cx="20" cy="60" r="8" /><circle cx="80" cy="20" r="8" /></g></svg>
 
 
-Okay that was fun, but we need more of these.  And I'd go mad placing circles manually. Time to let the computers take over. 
+Okay that was fun, but we need more of these, and I'd go mad placing circles manually. Time to let the computers take over.
 
 # Enter Vanilla Javascript
 
-For this demo, we be messing with three attributes of each SVG `circle` element.
+For this demo, we be messing with the three attributes of each SVG `circle` element.
 * the circle X position
 * the circle Y position
 * the radius of the circle
  
 I also want the option of changing how many circles we play with. 
 
-So to accomodate this, we're going to say bye bye to the manually crafted circles and hello to Javascript generated ones.  
+So to accommodate this, we're going to say bye-bye to the manually crafted circles and hello to Javascript generated ones.
 
-I'm going to leave them in the DOM just incase someone is using `noScript`. But there's no need to do this if we were generating this server-side. 
+I'm going to leave them in the DOM just incase someone is using `noscript`. But there's no need to do this if we were generating this server-side. 
 I also want a `removeAll` function for easily testing new variations.
 
 
@@ -227,7 +227,7 @@ document.addEventListener("click", function () {
 ## CSS for some more flair
 What's awesome about generating random elements is that you already have them in a random sequence.  So you can add very sequential CSS rules using the `:nth` selectors and still get away with looking random - no need to put this stuff in your JS.
 
-Below I just make every 2nd 3rd 4th and 5th circle a different stroke color
+Below, I just make every 2nd, 3rd, 4th and 5th circle a different stroke color.
 
 ``` css
 circle:nth-child(2n){stroke:#6ac}
