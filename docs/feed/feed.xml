@@ -24,8 +24,8 @@
 #nstage{cursor:pointer;}
 #nstage circle {stroke: DeepPink;fill: none;stroke-width:2;}
 #nstage circle:nth-child(2n) {stroke:#6ac; animation-delay:-1s; }
-#nstage circle:nth-child(3n){stroke:#678;  animation-delay:-2s;}
-#nstage circle:nth-child(4n){stroke:#345; animation-delay:-3s;}
+#nstage circle:nth-child(3n){stroke:#789;  animation-delay:-2s;}
+#nstage circle:nth-child(4n){stroke:#567; animation-delay:-3s;}
 #nstage circle:nth-child(5n){stroke:#9ab; animation-delay:-.5s;}
 #nstage circle{animation: showhide 4s ease infinite}
 @keyframes showhide{50%{opacity:0}}
