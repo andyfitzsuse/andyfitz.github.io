@@ -63,7 +63,7 @@ edrawCircles();
 
 For generative art there are great frameworks like [P5.js](https://p5js.org/),[Three.js](https://threejs.org/), all the way up to the mind bending [Generative Adversarial Networks](https://en.wikipedia.org/wiki/Generative_adversarial_network) like [styleGAN](https://github.com/NVlabs/stylegan) and so many more.  This space is exploding with digital artists and art directors chasing never seen before aesthetics that blur the lines between human and machine made creations.
 
-Plenty of brands have gone the dynamic brand route and we're lucky to have a few of them as customers of Outfit.io leveraging our web native templates. 
+This isn't new either. For decades many brands with expansive portfolios have gone the dynamic brand route with their visual architecture. We're lucky to have a few of them as customers at Outfit.io . Traditionally however, premutations were created by central tooling then distributed as static assets. Nowadays we can keep the systems alive leveraging our web native technology. 
 
 One of the many benefits in using web formats for design, is that it's very easy to produce artwork that is unique every time. An awesome perk for end users of your visual system.
 Plus, unlike chosing a specific tool, you have all the aesthetic potential of the web. 
@@ -295,6 +295,10 @@ The whole dance of this technique is to ensure every permutation is a *hit*  and
 
 ## What about that poster?
 Remember I said we were going to make this a nice vector PDF poster? 
-Thanks to Make.cm we can and every single download will be unique.
+Thanks to Make.cm we can and [every single download](https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/187fccdc-3a66-483f-85ec-53ba1ed8eea0.97d6f18f19036cddddc30354960f65ec/sync?size=A4&format=pdf) will be unique.
 
-Checkout this link [ will throw a link in here ]
+checkout the GET request below for an A3 version
+
+```
+https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/187fccdc-3a66-483f-85ec-53ba1ed8eea0.97d6f18f19036cddddc30354960f65ec/sync?size=A3&format=pdf
+```
