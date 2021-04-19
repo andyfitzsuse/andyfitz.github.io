@@ -61,9 +61,9 @@ edrawCircles();
 }, 1000);
 </script>
 
-For generative art there are great frameworks like [P5.js](https://p5js.org/),[Three.js](https://threejs.org/), all the way up to the mind bending [Generative Adversarial Networks](https://en.wikipedia.org/wiki/Generative_adversarial_network) like [styleGAN](https://github.com/NVlabs/stylegan) and so many more.  This space is exploding with digital artists and art directors chasing never seen before aesthetics that blur the lines between human and machine made creations.
+For generative art there are some great frameworks like [P5.js](https://p5js.org/),[Three.js](https://threejs.org/), all the way up to the mind bending [Generative Adversarial Networks](https://en.wikipedia.org/wiki/Generative_adversarial_network) like [styleGAN](https://github.com/NVlabs/stylegan) and so many more.  This space is exploding with digital artists and art directors chasing never seen before aesthetics that blur the lines between human and machine made creations.
 
-This isn't new either. For decades many brands with expansive portfolios have gone the dynamic brand route with their visual architecture. We're lucky to have a few of them as customers at Outfit.io . Traditionally however, premutations were created by central tooling then distributed as static assets. Nowadays we can keep the systems alive leveraging our web native technology. 
+This isn't new either. For decades many brands with expansive portfolios have gone down the dynamic brand route with their visual architecture. We're lucky to have a few of them as customers at Outfit.io . Traditionally however, permutations were created by central tooling, then distributed as static assets. Nowadays, we can keep the systems alive by leveraging our web native technology. 
 
 One of the many benefits in using web formats for design, is that it's very easy to produce artwork that is unique every time. An awesome perk for end users of your visual system.
 Plus, unlike chosing a specific tool, you have all the aesthetic potential of the web. 
@@ -156,7 +156,7 @@ Okay that was fun, but we need more of these.  And I'd go mad placing circles ma
 
 # Enter Vanilla Javascript
 
-For this demo, we willjust  mess with three attributes of each SVG `circle` element.
+For this demo, we be messing with three attributes of each SVG `circle` element.
 * the circle X position
 * the circle Y position
 * the radius of the circle
@@ -165,7 +165,7 @@ I also want the option of changing how many circles we play with.
 
 So to accomodate this, we're going to say bye bye to the manually crafted circles and hello to Javascript generated ones.  
 
-I'm going to leave them in the DOM just incase someone is using noscript. But there's no need to do this if we were generating this server-side. 
+I'm going to leave them in the DOM just incase someone is using `noScript`. But there's no need to do this if we were generating this server-side. 
 I also want a `removeAll` function for easily testing new variations.
 
 
