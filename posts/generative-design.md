@@ -73,7 +73,7 @@ Plus, unlike choosing a specific tool, you have all the aesthetic potential of t
 
 This can make for a far more engaging and dynamic aesthetic on large builds like events or media.
 
-# Setting the stage 
+## Setting the stage 
 
 First, we're going to create something without any javascript at all. 
 This helps us to creatively set the stage by mocking up at least some of the look and feel you'd like to create.  
