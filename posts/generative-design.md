@@ -70,7 +70,6 @@ Plus, unlike chosing a specific tool, you have all the aesthetic potential of th
 
 This can make for a far more engaging and dynamic aesthetic on large builds like events or media.
 
-
 # Setting the stage 
 
 First we're going to create something without any javascript at all. 
@@ -206,7 +205,7 @@ drawCircles();
 
 Mess with the values, it's super fun to see your design going off-plan.  Watching your rules bend and break can give you new ideas. 
 
-### Testing and regenerating
+## Testing and regenerating
 
 We're going to make testing easy with a timer that changes permutation every 4 seconds.
 
