@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generative design with vanilla JS</title>
+    <title>Generative art with vanilla JS</title>
     <meta name="description" content="Random computational artwork doesn&#39;t have to be hard or heavy">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Andy Fitz">
@@ -31,8 +31,8 @@
     <main class="article">
       <article>
 <header>
-    <h1>Generative design with vanilla JS</h1>
-    <time datetime="2021-04-19">19 Apr 2021</time><a href="/tags/brand-automation/" class="tag">brand automation</a><a href="/tags/generative-design/" class="tag">generative design</a>
+    <h1>Generative art with vanilla JS</h1>
+    <time datetime="2021-04-19">19 Apr 2021</time><a href="/tags/brand-automation/" class="tag">brand automation</a><a href="/tags/generative-design/" class="tag">generative design</a><a href="/tags/creative-coding/" class="tag">creative coding</a>
 
 </header>
 <p>Why design a single piece when you can design a visual system with countless unique permutations?</p>
@@ -40,12 +40,14 @@
 <style>
 #nstage{cursor:pointer;}
 #nstage circle {stroke: DeepPink;fill: none;stroke-width:2;}
-#nstage circle:nth-child(2n) {stroke:#6ac;  }
-#nstage circle:nth-child(3n){stroke:#678;  }
-#nstage circle:nth-child(4n){stroke:#345;  }
-#nstage circle:nth-child(5n){stroke:#9ab}
+#nstage circle:nth-child(2n) {stroke:#6ac; animation-delay:-1s; }
+#nstage circle:nth-child(3n){stroke:#678;  animation-delay:-2s;}
+#nstage circle:nth-child(4n){stroke:#345; animation-delay:-3s;}
+#nstage circle:nth-child(5n){stroke:#9ab; animation-delay:-.5s;}
+#nstage circle{animation: showhide 4s ease infinite}
+@keyframes showhide{50%{opacity:0}}
 </style>
-<svg id="nstage"  width="100%"  height="15em" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+<svg id="nstage"  width="100%"  height="27em" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" style="opacity:.8;position:absolute; top:-2em; left:0; right:0; z-index:-1;">
 <circle cx="10" cy="10" r="5" />
 <circle cx="20" cy="90" r="4" />
 <circle cx="30" cy="40" r="3" />
@@ -83,7 +85,7 @@ eremoveAll();
 edrawCircles();
 }, 1000);
 </script>
-<p>For generative art there are great frameworks like P5.js, Three.js, all the way up to the mind bending styleGAN and so many more.  This space is exploding with digital artists and art directors chasing never seen before aesthetics that blur the lines between human and machine made creations.</p>
+<p>For generative art there are great frameworks like <a href="https://p5js.org/">P5.js</a>,<a href="https://threejs.org/">Three.js</a>, all the way up to the mind bending <a href="https://en.wikipedia.org/wiki/Generative_adversarial_network">Generative Adversarial Networks</a> like <a href="https://github.com/NVlabs/stylegan">styleGAN</a> and so many more.  This space is exploding with digital artists and art directors chasing never seen before aesthetics that blur the lines between human and machine made creations.</p>
 <p>Plenty of brands have gone the dynamic brand route and we're lucky to have a few of them as customers of <a href="http://Outfit.io">Outfit.io</a> leveraging our web native templates.</p>
 <p>One of the many benefits in using web formats for design, is that it's very easy to produce artwork that is unique every time. An awesome perk for end users of your visual system.<br>
 Plus, unlike chosing a specific tool, you have all the aesthetic potential of the web.</p>
@@ -195,9 +197,9 @@ removeAll();
 drawCircles();
 }, 1000);
 </script>
-<h2 id="that's-all-there-is-to-it.">that's all there is to it. <a class="direct-link" href="#that's-all-there-is-to-it.">#</a></h2>
+<p><a href="https://codepen.io/andyfitz/pen/KKaxgvw" rel="noreferer" target="_blank">Play with it on Codepen</a></p>
 <p>And there you have it,  we've made generative artwork.<br>
-Random but within constraints. Every iteration looks different but also like they belong together. The rules you set, and how wild you go, are all up to you and how wild your vision is.</p>
+Random but within constraints. Every iteration looks different but also like they belong together. The rules you set – and how wild you go, is entirely up to your vision.</p>
 <p>The whole dance of this technique is to ensure every permutation is a <em>hit</em>  and looks like something you'd be happy with. That's easier said than done when you can't push pixels, but trust me it's super rewarding knowing you have created a living system rather than a static piece.</p>
 
 </article>
