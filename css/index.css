@@ -66,7 +66,7 @@ h2:target::after,h3:target::after{content:" ←"; color: var(--highlight);}
 a[href]{  color: var(--brand); outline:none;}
 
 
-.post-tag[href]{display:inline-block;padding:.5em 1em; border-radius: .4em;margin:.51em; color: var(--light); background-color: var(--brand);}
+.post-tag[href]{display:inline-block;padding:.5em 1em; border-radius: .4em;margin:.51em; color: var(--bg); background-color: var(--brand);}
 .postlist a{text-align:left;margin:.5em 0;border-radius:.7em;  display: grid;font-weight:600;grid-auto-flow: column; padding:1.5em clamp(1rem, 7%, 5rem);}
 .postlist a:hover, .docnav a:hover{background-color: var(--tone-1); color:var(--dark); }
 .postlist time{text-align:right; height: 100%; line-height:2em;color:  var(--neutral);font-weight:300; font-size:.8em;}
