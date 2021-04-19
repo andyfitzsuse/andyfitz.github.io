@@ -42,7 +42,7 @@ var reGenTimer = window.setInterval(function () {randomWaves();}, 3000);
 
 <p class="scroll fade">working with talented friends, making software. </p>
 
-<p class="scroll fade" style="max-width: 18em; margin: 1em auto">I'm certifiably professionally passable<br> thanks to over 20 years at places like <a href="https://www.suse.com/" target="_blank"  rel="noreferrer">SUSE</a>, <a href="https://www.redhat.com/" target="_blank" rel="noreferrer">Red Hat</a>,  and now <a href="https://www.outfit.io/" target="_blank" rel="noreferrer"> Outfit</a></p>
+<p class="scroll fade" style="max-width: 18em; margin: 1em auto">I'm certifiably professionally passable<br> thanks to 20 years at places like <a href="https://www.suse.com/" target="_blank"  rel="noreferrer">SUSE</a>, <a href="https://www.redhat.com/" target="_blank" rel="noreferrer">Red Hat</a>,  and now <a href="https://www.outfit.io/" target="_blank" rel="noreferrer"> Outfit</a></p>
 
 <svg class="scroll o-logo" style="margin-bottom:4em;  max-height: 15em; max-width: 60vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 8.5" stroke="#e40046" fill="none">
   <circle cx="2.36" cy="6.12" r="1.68"/>
@@ -64,7 +64,7 @@ var reGenTimer = window.setInterval(function () {randomWaves();}, 3000);
 </svg>
 
 <br>
-<p class="scroll fade">If you'd like to know more, here's my story.<br><br></p>
+<p class="scroll fade">If you'd like to know more, here's my unfinished, unfinished story.<br><br></p>
 <p class="scroll fade"> <a class="button" href="/story">my story</a></p>
 
 
