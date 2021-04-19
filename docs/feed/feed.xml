@@ -186,9 +186,9 @@ Random but within constraints. Every iteration looks different but also like the
 &lt;p&gt;The whole dance of this technique is to ensure every permutation is a &lt;em&gt;hit&lt;/em&gt;  and looks like something you&#39;d be happy with. That&#39;s easier said than done when you can&#39;t push pixels, but trust me it&#39;s super rewarding knowing you have created a living system rather than a static piece.&lt;/p&gt;
 &lt;h2 id=&quot;what-about-that-poster%3F&quot;&gt;What about that poster? &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/generative-design/#what-about-that-poster%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Remember I said we were going to make this a nice vector PDF poster?&lt;br /&gt;
-Thanks to &lt;a href=&quot;http://make.cm/&quot;&gt;Make.cm&lt;/a&gt; we can and &lt;a href=&quot;https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/187fccdc-3a66-483f-85ec-53ba1ed8eea0.97d6f18f19036cddddc30354960f65ec/sync?size=A4&amp;amp;format=pdf&quot;&gt;every single download&lt;/a&gt; will be unique.&lt;/p&gt;
+Thanks to &lt;a href=&quot;http://make.cm/&quot;&gt;Make.cm&lt;/a&gt; we can and &lt;a href=&quot;https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A4&amp;amp;format=pdf&amp;amp;data%5Bempty%5D=nodata&quot;&gt;every single download&lt;/a&gt; will be unique.&lt;/p&gt;
 &lt;p&gt;checkout the GET request below for an A3 version&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/187fccdc-3a66-483f-85ec-53ba1ed8eea0.97d6f18f19036cddddc30354960f65ec/sync?size=A3&amp;amp;format=pdf
+&lt;pre&gt;&lt;code&gt;https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A3&amp;amp;format=pdf&amp;amp;data[empty]=nodata
 &lt;/code&gt;&lt;/pre&gt;
 </content>
 	</entry>

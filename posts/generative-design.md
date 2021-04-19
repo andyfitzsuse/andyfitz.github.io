@@ -295,10 +295,10 @@ The whole dance of this technique is to ensure every permutation is a *hit*  and
 
 ## What about that poster?
 Remember I said we were going to make this a nice vector PDF poster? 
-Thanks to Make.cm we can and [every single download](https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/187fccdc-3a66-483f-85ec-53ba1ed8eea0.97d6f18f19036cddddc30354960f65ec/sync?size=A4&format=pdf) will be unique.
+Thanks to Make.cm we can and [every single download](https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A4&format=pdf&data[empty]=nodata) will be unique.
 
 checkout the GET request below for an A3 version
 
 ```
-https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/187fccdc-3a66-483f-85ec-53ba1ed8eea0.97d6f18f19036cddddc30354960f65ec/sync?size=A3&format=pdf
+https://api.make.cm/make/t/ad146027-af14-4644-92e8-b13f1209bfda/k/17915c24-7159-4b2a-9552-a50f296fa3d6.c0e9241f95e4c5bbbf17b447538274b7/sync?size=A3&format=pdf&data[empty]=nodata
 ```
