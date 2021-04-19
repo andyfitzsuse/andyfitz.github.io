@@ -62,7 +62,6 @@ h2:target{box-shadow: inset 0 .2rem var(--highlight);}
 h2:target::after,h3:target::after{content:" ←"; color: var(--highlight);}
 .docnav { display: grid; grid-template-columns: 1fr 1fr; padding: 1em 0;}
 .docnav a{display:grid; box-shadow: inset 0 0 0 .15em var(--bg-2); padding: 1.5em; border-radius:.5em;}
-
 a[href]{  color: var(--brand); outline:none;}
 
 
