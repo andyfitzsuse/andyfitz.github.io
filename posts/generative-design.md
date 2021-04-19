@@ -75,7 +75,7 @@ This can make for a far more engaging and dynamic aesthetic on large builds like
 
 # Setting the stage 
 
-First, ... we're going to create something without any javascript at all. 
+First, we're going to create something without any javascript at all. 
 This helps us to creatively set the stage by mocking up at least some of the look and feel you'd like to create.  
 
 The benefits of this approach means you discover your answers to the most beautiful of questions:
@@ -86,6 +86,7 @@ The answer is what frees us up to explore new horizons:
 
 >  Observe what is constant,<br>discover what can **constantly change**
 
+If we get a sense of what we like, we'll also get a sense of what variables we can bend or break.
 
 In this case we're going to use `SVG`,  but you could just as easily use plain ol HTML and `div`'s.
 I'm not going to use `canvas` or even Filters because at the end I want a nice vector PDF poster and not a heavy rasterized asset.
@@ -96,13 +97,11 @@ I'm not going to use `canvas` or even Filters because at the end I want a nice v
   id="stage" 
   viewBox="0 0 100 100" 
   preserveAspectRatio="xMidYMid slice">
-   <!-- 
-   our cool stuff will go here 
-   -->
+<!-- cool stuff will go here -->
  </svg>
 </body>
 ```
-That `preserveAspectRatio="xMidYMid slice"` will center-crop our artwork if we display it at non square.
+That `preserveAspectRatio="xMidYMid slice"` will center-crop our artwork if we display it at non square. Think of it as `background-size: cover; background-position: 50% 50%;` but for SVG contents within a `viewBox`
 
 We should probably add some CSS to make sure we're full page too. 
 
