@@ -104,9 +104,19 @@ Early days to call this a Figma killer - But I do find it does most of what I wa
 <a href="https://app.rawgraphs.io" target="_blank" rel="noreferrer" aria-label="rawgraphs"><svg viewBox="0 0 14 5" style="height:15em;width:100%;background-color:#f2f6fa; font-family:Work Sans, sans-serif; font-weight:300;" fill="#0dc4a3" ><text font-size="2" x="7" y="3" text-anchor="middle" dominant-baseline="middle"><tspan fill="#3e3e41" font-weight="900">RAW</tspan>Graphs</text></svg></a>
 Brilliant way to pre-render beautiful data graphics, create the layout in rawgraphs then style with your own CSS. 
 
+
 ## [Boxy Editor](https://boxy-svg.com/app)
 <a href="https://boxy-svg.com/app" target="_blank" rel="noreferrer" aria-label="boxysvg"><svg viewBox="0 0 1024 1024" style="height:15em;width:100%;background-color:hsla(211, 86%, 57%, 1.00);"><path fill="#de6547" d="M132.4 732V291.5l202.9 117.9v205L132.4 732z"/><path fill="#fdbc4d" d="M513 952.7V722.4L335.2 614.5 132.4 732 513 952.7z"/><path fill="#69b356" d="M891.6 732V291.5L688.7 409.4v205L891.6 732z"/><path fill="#d1e993" d="M513 952.7V722.4l175.7-107.9L891.6 732 513 952.7z"/><path fill="#80b7fa" d="M513 71.3v230.3L335.2 409.5 132.4 292 513 71.3z"/><path fill="#4581e1" d="M513 71.3v230.3l175.7 107.9L891.6 292 513 71.3z"/><g><path fill="#fff" stroke="#2f2f2f" stroke-width="66.880944" d="M585 542.3h90.2a43.6 43.6 0 100-60.5H585l63.8-63.8h.8a43.6 43.6 0 10-43.6-43.6v.8L542.3 439v-90.2a43.5 43.5 0 10-60.5 0V439L418 375.2v-.8a43.6 43.6 0 10-43.6 43.6h.8l63.8 63.8h-90.2a43.6 43.6 0 100 60.5H439L375.2 606h-.8a43.6 43.6 0 1043.6 43.6v-.8l63.7-63.8v90.2a43.5 43.5 0 0030.3 75 43.6 43.6 0 0030.3-75V585l63.7 63.8v.8a43.6 43.6 0 1043.6-43.6h-.8z" paint-order="stroke"/></g></svg></a>
 At first sight, boxy looks like yet another svg-edit clone. But open up the panels and start editing (start using the i and o keys) and you'll see why it's fantastic for small projects.
+
+## [Excalidraw](https://excalidraw.com/)
+<a href="https://excalidraw.com/" target="_blank"  rel="noreferrer" aria-label="excalidraw"> <svg viewBox="0 -20 109 309" style="height:15em;width:100%;color:#111;background-color:#f5f5f5" ><path d="M39 5a471 471 0 00-28 24l-7 7 2 9 2 21a214 214 0 003 13c0 1 0 2-2 2c-1 0-2 0 4 16l4 13h1l2-1c-1-1 0-2 1-2a285 285 0 01-11-59c0-10 0-10 3-15c4-5 12-12 25-21l8-7c2-2 2-1 15 12l18 18 5 3-4 8a1681 1681 0 01-18 36c-17 32-13 29-33 29l-12 1-5 4c-4 5-5 7-2 10a8 8 0 011 5c0 1 1 2 5 2l5 1 1 13v14l-7 14C4 199 0 210 0 214l1 3 42-85a19461 19461 0 0145-95c0-1-6-8-17-18A682 682 0 0151 2c-2-3-6-2-12 3zm4 115c-5 9-5 9-18 9c-11 1-11 1-11-1a8 8 0 00-1-4c-1-1 0-2 1-5l2-3h10a125 125 0 0019-1l-2 5zm-9 16-4 9c-3 6-3 6-4 4l-1-9c0-7 0-7 8-8h3l-2 4zM42 29c-2 1-2 2-2 5c0 4 0 5 3 6s3 1 7-1c4-3 4-4 1-8s-5-5-9-2zm6 3c2 3 1 5-2 5s-4-3-3-5c1-3 4-2 5 0zm57 19-1 1-4 6a1334 1334 0 01-46 85l-1 5a1465 1465 0 01-33 70a41 41 0 00-4 11c-1 4 0 4 8 12l15 12c12 12 18 16 20 16c2-1 39-39 39-42l-4-33a981 981 0 01-9-86a681 681 0 0122-58l-2 1zm-23 75 5 37a5401 5401 0 008 59c0 4 0 5-7 12a349 349 0 01-27 28l-4 3-19-18c-18-17-20-18-19-20l12-21 16-30a94 94 0 017-13l1 32c-1 32 0 32 3 31v-72l11-21a360 360 0 0111-20l2 13z"/></svg></a>
+Draw freehand-looking whiteboard sketchnotes. 
+
+Excalidraw is amazing, not only as a simple tool for taking sketchnotes but also for the technology under the hood.
+Checkout the [amazing freehand tool by itself](https://perfect-freehand-example.vercel.app/)
+And if you think that was impressive, check out what else the author [Steve Ruiz](https://twitter.com/steveruizok) tinkers with at https://www.globs.design/
+
 
 ## [librSVG](https://gitlab.gnome.org/GNOME/librsvg)
 <a href="https://gitlab.gnome.org/GNOME/librsvg" target="_blank" rel="noreferrer"  aria-label="librsvg"><svg viewBox="0 0 10 10" style="stroke-linecap:round;height:15em;width:100%;background-color:#555" fill="none" stroke="#eee" stroke-width=".4"><path d="M2 4A1 1 0 102.001 4M7 1A1 1 0 107.001 1M2 5 7 7V2M5.5 6.9 7 8.4 8.5 6.9 7 5.4Z"/></svg></a>
@@ -136,6 +146,7 @@ Fun fact, Inkscape uses 2geom under the hood and also powers the amazing live pa
 [Arc Wave Maker](https://yoksel.github.io/wave-maker/) nifty example of repeating arc paths
 [Snowflakes](https://www.misha.studio/snowflaker/) Random snowflakes 
 [Snowflake Painter](https://yoksel.github.io/snowflake/) Design a snowflake with lines
+
 
 <!-- 
 ## [Create.Rip](https://create.rip)
