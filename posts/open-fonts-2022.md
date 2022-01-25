@@ -3,7 +3,6 @@ title: Open Fonts in 2022
 description: Linux.conf.au Presentation
 date: 2022-01-15
 tags:
-  - typography
   - fonts
   - opensource
 layout: layouts/post.njk
