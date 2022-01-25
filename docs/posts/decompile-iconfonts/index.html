@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IconFonts to usable SVG</title>
+    <meta name="description" content="design code love">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Andy Fitz">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Andy Fitz">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='.5 .5 3 4' fill='none' stroke='lightseagreen' stroke-linecap='round'%3E%3Cpath d='M1 4h-.001V1h2v.001M1 2.6h1v.001' /%3E%3C/svg%3E">
+
+  </head>
+  <body>
+  
+
+
+<nav>
+  <a class="home" href="/" aria-label="home">
+    <svg viewBox=".5 .5 3 4.1" fill="none" stroke="url(#gr)" preserveAspectRatio="xMinYMin meet" stroke-width="1.1" stroke-opacity="1" stroke-linecap="round">
+    <linearGradient id="gr"  y1="0" y2="0" x1="-.2" x2="1.5"><stop offset="0" stop-color="Aquamarine"/><stop offset=".2" stop-color="turquoise"/><stop offset="1" stop-color="#0c8090"/></linearGradient>
+    <linearGradient id="gb" x1="0" x2="0" y1="1.2" y2="-.1" href="#gr"/>
+    <path stroke="url(#gb)" d="M1 4H.999V1"/>
+    <path d="M1 1 V.9959h2v.001 M1 2.6v.001h1v.001"/>
+    </svg>
+  </a>
+        <a  class="" href="/posts/">Posts</a>
+        <a  class="" href="/story/">Story</a>
+      </nav>
+    </header>
+    <main class="article">
+      <article>
+<header>
+    <h1>IconFonts to usable SVG</h1>
+    <time datetime="2022-01-26">26 Jan 2022</time><a href="/tags/svg/" class="tag">svg</a><a href="/tags/minimal/" class="tag">minimal</a><a href="/tags/tips/" class="tag">tips</a>
+
+</header>
+<p>In this tutorial I'm going to show you how to decompile a big bloated icon font into a series of small, neat, and portable SVG files.  It's dead easy.</p>
+<p>First install <a href="https://fontforge.org/">Fontforge</a> on your system</p>
+<p>Fedora Linux</p>
+<pre><code>sudo dnf install fontforge
+</code></pre>
+<p>MacOS</p>
+<pre><code>brew install fontforge
+</code></pre>
+<p>Just change the package manager for your distribution:<br>
+eg Debian/Ubuntu with <code>sudo apt install fontforge</code></p>
+<p>Now for the magic one liner, just copy and paste this in your terminal and replace <code>youriconfont.woff</code> with the path to your icon font file.</p>
+<pre><code>fontforge -lang=ff -c \\
+'Open($1); SelectWorthOutputting(); \\
+foreach Export(&quot;svg&quot;); endloop;' \\
+youriconfont.woff
+</code></pre>
+<p>You'll now have a standalone SVG file for every glyph in your icon font. If you don't care about naming feel free to head to the <a href="#bonus-round">bonus round</a></p>
+<h2 id="but-those-filenames%2C-they-suck-right%3F">But those filenames, they suck right? <a class="direct-link" href="#but-those-filenames%2C-they-suck-right%3F">#</a></h2>
+<p>Because the font file knows nothing about what each shape is called, the filenames take the unicode value for each character represented like so you'd think you're stuck with filenames like :  <strong><code>uniE9AF_youriconfont.svg</code></strong></p>
+<p>Good news, your existing CSS should have something like this (but probably bigger):</p>
+<pre><code>.icon-pacman:before {
+  content: &quot;\e916&quot;;
+} 
+.icon-leaf:before {
+  content: &quot;\e9a4&quot;;
+}
+.icon-airplane:before {
+  content: &quot;\e9af&quot;;
+}
+</code></pre>
+<blockquote>
+<p>Yarr, thar be useful names'</p>
+</blockquote>
+<p>What I do is a bulk find and delete on the common CSS markup so that we're left with something like this:</p>
+<pre><code>icon-pacman,e916 
+icon-leaf,e9a4 
+icon-airplane,e9af 
+</code></pre>
+<p>As my SED and AWK skills are terrible, I just opened that output as a CSV in a spreadsheet, converted the unicode column to uppercase (if you need to), flipped the columns order, and was left with new CSV output like this:</p>
+<pre><code>E916,icon-pacman 
+E9A4,icon-leaf 
+E9AF,icon-airplane 
+</code></pre>
+<p>I dutifully do another 3 find and replace commands:</p>
+<p>replace first line with <code>mv uni</code></p>
+<p>replace all commas with <code>_youriconfont.svg   </code> (trailing space)</p>
+<p>replace linebreak with <code>.svg</code> followed by a line break</p>
+<p>The output now looks like this:</p>
+<pre><code>mv uniE916_youriconfont.svg pacman.svg 
+mv uniE9A4F_youriconfont.svg leaf.svg
+mv uniE9AF_youriconfont.svg airplane.svg
+</code></pre>
+<p>I run that and rejoice</p>
+<p>This finally replaces all filenames with the sane names given to them by the CSS.</p>
+<p>I'm sure I can script this reconciliation part but I do like doing it manually as all CSS is crafted slightly differently so it's good to be eyes-on in case there is some rogue CSS to clean up.</p>
+<p>You probably only need to do this once.<br>
+If you're doing this every day well... then you might be a competitor of my employer, so shoo shoo 👀</p>
+<h1 id="bonus-round">Bonus round <a class="direct-link" href="#bonus-round">#</a></h1>
+<h3 id="install-svgo-on-your-system">install SVGO on your system <a class="direct-link" href="#install-svgo-on-your-system">#</a></h3>
+<p>(I prefer to use NPM as it works on linux and mac hosts alike)</p>
+<pre><code>npm install -g svgo
+</code></pre>
+<p>Now you can simply enter the directory and run</p>
+<pre><code>svgo *.svg
+</code></pre>
+<p>That's it.</p>
+<p>Your files will have <code>fill=&quot;currentcolor&quot;</code> applied to them so when you inline the SVG inside markup they will adhere to your CSS <code>color:</code> value just like the good-ol days.</p>
+<h1 id="a-little-history">A little history <a class="direct-link" href="#a-little-history">#</a></h1>
+<p>I'll cover why you would you ever need or want to do this. Icon Fonts were once an answer to easy web design.<br>
+They exploded on the scene once <a href="https://caniuse.com/fontface"><code>@fontface</code></a> was supported by major browsers.<br>
+iconfonts gave us all the icons you could need within a single HTTP-request - which was great if you had a lightning fast CDN and agressive caching.  You used them usually with CSS pseudo elements and custom character ranges. That's where things get hairy for our a11y friends.</p>
+<p>Remember image sprites? Iconfonts as a technique came after image sprites for single-payload single-color icon sets. Before frameworks like react or powerful site generators it made sense to align your icons and marks with your typographic layout - browsers werent always so nice so this kept things on 'some' guardrails.<br>
+Plus services like <a href="https://icomoon.io">IcoMoon</a> emerged which made creating custom icon sets easy.</p>
+<p>But of course like I mentioned the accessibility was terrible.<br>
+Worse, some text layout engines mutilated iconsfonts.  Think of the carnage the CSS <code>text-rendering: optimizeSpeed;</code>   would do to your illustrations.</p>
+<h3 id="we-now-live-in-the-future">We now live in the future <a class="direct-link" href="#we-now-live-in-the-future">#</a></h3>
+<p>With the advent of modern frameworks and the popularity of best practices like <a href="https://css-tricks.com/accessible-svg-icons/">ARIA atrributes</a>. Icon fonts just arent the most suitable technique anymore; not by a long shot.</p>
+<p>But much of the internet is still littered with websites and apps that depend on iconfonts.  And for those poor buggers, it's not without effort to climb into modern times.</p>
+<p>We see this often at <a href="http://outfit.io">outfit.io</a> whenever we have a new client with only a website to ingest their existing brand assets from.</p>
+<p>Once we have the clean illustrations (that were often lost) back in a malleable and minimal format, our web developer counterparts can shed hundreds of kilobytes of frontend bottleneck from their sites and apps.</p>
+<p>I hope this helps you</p>
+
+</article>
+
+<svg viewBox="0 0 50 30" style=" width:9em; height:4em; display:block; margin: 2em auto"  class="sig"><path fill="none" stroke="var(--bg-2)" stroke-linecap="round" stroke-linejoin="round" d="m4 13q23 0 39-3m-42 12q2 0 6-7q7-13 11-13c3 0-13 28-6 20c14-14 17-25 11-17s-5 19-7 21s-6 2-2-2l10-9s-5 11-1 7l13-17c-24 31-2 9 2 9s-3 4-5 6s2-1 3 0s-6 4-6 7s11-9 19-9"/></svg>
+
+<div class="docnav"> <a href="/posts/open-fonts-2022/">Previous: Open Fonts in 2022</a>
+</div>
+
+
+    </main>
+
+    <footer>
+<section class="scroll">
+
+
+ 
+
+
+<a aria-label="Twitter" href="https://www.twitter.com/andyfitz/" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10"><path  d="M9.5 2.7h-.9l.7-1.1-.9.4A.4.4 90 005 3.5 4.9 4.9 0 011 2q0 2 1.4 2.3h-1Q2 5.6 3 5.6H2Q2 6 3.5 7H1a4.5 4.5 0 007.6-3.6z" /></svg>
+<b>Twitter</b>
+</a>
+
+<a aria-label="Instagram" href="https://www.instagram.com/andyfitz" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10"><path d="M5 1c4 0 4 0 4 4s0 4-4 4-4 0-4-4 0-4 4-4zM3 5a1 1 0 004 0 1 1 0 00-4 0m4.5-2.5h.001" /></svg>
+<b>Instagram</b>
+</a>
+
+<a aria-label="LinkedIn" href="https://www.linkedin.com/in/andyfitz/" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10" stroke-width="1.6"><path stroke-linecap="butt" fill="none" d="M2 3.3V8m2.5-4.7V8m0-2.4C4.8 3.9 8.2 3 8.2 6v2" /><path stroke-width="1.9" d="M2 2h.01" /></svg>
+<b>LinkedIn</b>
+</a>
+
+<a aria-label="YouTube" href="https://www.youtube.com/channel/UC7i_s6Z648AXT4IVyH4dzdA" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10"><path d="M7 1.5Q9.5 1.5 9.5 5T7 8.5H3Q.5 8.5.5 5T2.7 1.5zM4.2 6l2-1-2-1z" /></svg>
+<b>YouTube</b>
+</a>
+
+
+<a aria-label="Github" href="https://github.com/andyfitz/" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10"> <path d="M1 6.6C2.2 6.6 2.3 8 3.5 8q-.2-1 .1-1.6C1.2 5.6 2 3.4 2.3 3V1.5l1 .9q1.2-.8 2.4-.1L7 1.7V3a2.3 2.3 0 01-1 3.5q.6 1 0 2.3" /></svg>
+<b>Github</b>
+</a>
+
+<a aria-label="Codepen" href="https://codepen.io/andyfitz/" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10"><path d="M1 6.5v-3l4-3 4 3v3l-4 3zm8-3l-4 3-4-3m0 3l4-3 4 3m-4-6v3m0 3v3" /></svg><b>Codepen</b>
+</a>
+
+<a aria-label="Twitch" href="https://www.twitch.tv/ndftz" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10"><path d="M1 7.5v-5l2-2h6v5l-2 2H5l-2 2v-2zm4-5v2m2-2v2" /></svg>
+<b>Twitch</b>
+</a>
+
+<a aria-label="Unsplash" href="https://unsplash.com/@andyfitz/" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10" stroke-width="2.5"><path fill="none" stroke-linecap="butt" stroke-linejoin="miter" 
+d="M 2.5 4 V 7 H 7.5 V 4 M 5 1 V 3" /></svg>
+<b>Unsplash</b>
+</a>
+
+<a aria-label="Dribbble" href="https://www.twitter.com/andyfitz/" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10"><path d="M1 5a1 1 0 008 0 1 1 0 00-8 0m5.9 3.5Q6 3.8 3.5 1.3M1.1 4.1Q5.6 5 7.6 2m1.2 4Q5 4.1 2.5 8.1" /></svg>
+<b>Dribbble</b>
+</a>
+
+<a aria-label="Beer Me" href="https://www.buymeacoffee.com/andyfitz" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10" ><path stroke-linecap="butt" d="M2 4v5h5V4m0 .5q2 0 2 1.7T7 8" /><path stroke-width=".7" d="M3.7 5V7M5.3 5V7" /><path d="M2 2.8h5" stroke-width="2.5" stroke-dasharray=".001 1.2"/></svg>
+<b>Beer Me</b>
+</a>
+
+
+
+
+
+
+
+</section>
+
+ Andy Fitzsimon 
+
+ <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">CC-BY-SA</a>
+
+<a href="http://andyfitz.github.io/feed/feed.xml" target="_blank" rel="noreferrer">
+<svg viewbox="0 0 10 10" ><path stroke-width="1.1" d="M1.5 2Q8 2 8 8M1.5 4.5Q5 4.5 5 8M2 8a.5.5 0 11.01 0z" /> </svg>
+Feed
+</a>
+ </footer>
+
+
+<style>footer svg{fill:none; fill-opacity:.2; stroke:currentcolor; stroke-linecap:round; width:2em; height:2em;}}</style>
+
+
+    <!-- Current page: /posts/decompile-iconfonts/ -->
+  </body>
+</html>

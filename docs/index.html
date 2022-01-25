@@ -31,9 +31,8 @@
     <main class="homepage">
       <style>.homepage{padding:0; max-width:100vw;}</style>
 <div style="text-align:center;">
-<section style=" background-image: linear-gradient(var(--bg) 70% ,  var(--tone-1) 100%); position:relative; margin-bottom:9em;">
-G’day traveller, I'm Andy Fitzsimon<br>  
-<p>from Noosa, Australia.<br> <small style="color:var(--neutral)">26° 24' 31'' S 153° 6' 14'' E</small></p>
+<section>
+G’day, I'm Andy Fitzsimon from Noosa, Australia.<br> <small style="color:var(--neutral)">26° 24' 31'' S 153° 6' 14'' E</small> 
 <small style="color:var(--neutral)">
  (he/himself)</small>
 <p class="scroll fade"></p>
@@ -41,26 +40,6 @@ G’day traveller, I'm Andy Fitzsimon<br>
   <path fill="var(--bg-2)"   stroke-linejoin="round" stroke-linecap="round" stroke="var(--neutral)" d="M77 85l1 7 2 2h2l2-3 1-4v-2l-5 1zM71 4l4 8 3 2 2 9 8 5 1 4 2 1v3l6 5v4l1 3-2 9-7 13v5h-4l-3 4-5-2-3 2-8-3-1-4-2-3h-2l1-4-2 1 1-5-6 5-5-7-10-2-4 3h-6l-3 4H17l-5 4-6-4 2-6-3-3-1-4-3-8 2-3v-6l8-6 9-2 4-7 9-8 3 4 4-1 2-6 5-3 10 3v3h-3v3l12 7 2-7V7 z"/>
 <circle cx="96" cy="42" r="3" stroke="var(--brand)" fill="var(--bg)" />
 </svg>
-<svg viewBox="0 0 600 200" preserveAspectRatio="none" style="clamp(10rem, 20vw, 20rem);  width: 100%;  display:block; position:absolute; height: 8em; top: 99.9%; z-index:-1">
-<path id="separator"  style="transition: 4s; fill: var(--tone-1)" d="M 0 0 V 111 Q 99 15 125 100 T 246 93 T 346 91 T 521 97 T 600 121 V 0 Z" />
-</svg>
-<script>// tiny-as random min-max function
-function rMe(min, max) {return Math.floor(Math.random() * (max - min + 1) + min);}
-// grab my path  
-let separator = document.getElementById("separator");
-function randomWaves(){
-separator.setAttribute("d", 
-"M 0 0 V " + rMe(80, 130) + " Q " 
-+ rMe(-30, 110) + " " 
-+ rMe(0, 270)   + " " 
-+ rMe(70, 150)  + " " 
-+ rMe(90, 110)
-+ " T " + rMe(230, 270) + " " + rMe(90, 110)  
-+ " T " + rMe(330, 370) + " " + rMe(90, 110)   
-+ " T " + rMe(430, 570) + " " + rMe(90, 110)   
-+ " T 600 "  +  rMe(80, 130) + " V 0 Z" );}
-var reGenTimer = window.setInterval(function () {randomWaves();}, 3000);
-</script>
 </section>
 <br>
 <p class="scroll fade">working with talented friends, making software. </p>

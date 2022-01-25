@@ -47,21 +47,6 @@
   </url>
   
   <url>
-    <loc>https://ndftz.com/tags/svg/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ndftz.com/tags/minimal/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ndftz.com/tags/tools/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ndftz.com/tags/brand-automation/</loc>
     <lastmod>2022-01-19</lastmod>
   </url>
@@ -77,12 +62,27 @@
   </url>
   
   <url>
+    <loc>https://ndftz.com/tags/svg/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndftz.com/tags/minimal/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ndftz.com/tags/javascript/</loc>
     <lastmod>2022-01-19</lastmod>
   </url>
   
   <url>
-    <loc>https://ndftz.com/tags/typography/</loc>
+    <loc>https://ndftz.com/tags/tips/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndftz.com/tags/tools/</loc>
     <lastmod>2022-01-19</lastmod>
   </url>
   
@@ -97,7 +97,7 @@
   </url>
   
   <url>
-    <loc>https://ndftz.com/tags/tips/</loc>
-    <lastmod>2022-01-19</lastmod>
+    <loc>https://ndftz.com/posts/decompile-iconfonts/</loc>
+    <lastmod>2022-01-26</lastmod>
   </url>
 </urlset>

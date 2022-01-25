@@ -5,12 +5,101 @@
 	
 	<link href="https://ndftz.com/feed/feed.xml" rel="self"/>
 	<link href="https://ndftz.com/"/>
-	<updated>2022-01-15T00:00:00Z</updated>
+	<updated>2022-01-26T00:00:00Z</updated>
 	<id>https://ndftz.com/</id>
 	<author>
 		<name>Andy Fitzsimon</name>
 		<email>andy@fitzsimon.com.au</email>
 	</author>
+	
+	<entry>
+		<title>IconFonts to usable SVG</title>
+		<link href="https://ndftz.com/posts/decompile-iconfonts/"/>
+		<updated>2022-01-26T00:00:00Z</updated>
+		<id>https://ndftz.com/posts/decompile-iconfonts/</id>
+		<content type="html">&lt;p&gt;In this tutorial I&#39;m going to show you how to decompile a big bloated icon font into a series of small, neat, and portable SVG files.  It&#39;s dead easy.&lt;/p&gt;
+&lt;p&gt;First install &lt;a href=&quot;https://fontforge.org/&quot;&gt;Fontforge&lt;/a&gt; on your system&lt;/p&gt;
+&lt;p&gt;Fedora Linux&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo dnf install fontforge
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;MacOS&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;brew install fontforge
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Just change the package manager for your distribution:&lt;br /&gt;
+eg Debian/Ubuntu with &lt;code&gt;sudo apt install fontforge&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Now for the magic one liner, just copy and paste this in your terminal and replace &lt;code&gt;youriconfont.woff&lt;/code&gt; with the path to your icon font file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;fontforge -lang=ff -c \\
+&#39;Open($1); SelectWorthOutputting(); \\
+foreach Export(&amp;quot;svg&amp;quot;); endloop;&#39; \\
+youriconfont.woff
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You&#39;ll now have a standalone SVG file for every glyph in your icon font. If you don&#39;t care about naming feel free to head to the &lt;a href=&quot;https://ndftz.com/posts/decompile-iconfonts/#bonus-round&quot;&gt;bonus round&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;but-those-filenames%2C-they-suck-right%3F&quot;&gt;But those filenames, they suck right? &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/decompile-iconfonts/#but-those-filenames%2C-they-suck-right%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Because the font file knows nothing about what each shape is called, the filenames take the unicode value for each character represented like so you&#39;d think you&#39;re stuck with filenames like :  &lt;strong&gt;&lt;code&gt;uniE9AF_youriconfont.svg&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Good news, your existing CSS should have something like this (but probably bigger):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.icon-pacman:before {
+  content: &amp;quot;\e916&amp;quot;;
+} 
+.icon-leaf:before {
+  content: &amp;quot;\e9a4&amp;quot;;
+}
+.icon-airplane:before {
+  content: &amp;quot;\e9af&amp;quot;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yarr, thar be useful names&#39;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What I do is a bulk find and delete on the common CSS markup so that we&#39;re left with something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;icon-pacman,e916 
+icon-leaf,e9a4 
+icon-airplane,e9af 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As my SED and AWK skills are terrible, I just opened that output as a CSV in a spreadsheet, converted the unicode column to uppercase (if you need to), flipped the columns order, and was left with new CSV output like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;E916,icon-pacman 
+E9A4,icon-leaf 
+E9AF,icon-airplane 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I dutifully do another 3 find and replace commands:&lt;/p&gt;
+&lt;p&gt;replace first line with &lt;code&gt;mv uni&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;replace all commas with &lt;code&gt;_youriconfont.svg   &lt;/code&gt; (trailing space)&lt;/p&gt;
+&lt;p&gt;replace linebreak with &lt;code&gt;.svg&lt;/code&gt; followed by a line break&lt;/p&gt;
+&lt;p&gt;The output now looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mv uniE916_youriconfont.svg pacman.svg 
+mv uniE9A4F_youriconfont.svg leaf.svg
+mv uniE9AF_youriconfont.svg airplane.svg
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I run that and rejoice&lt;/p&gt;
+&lt;p&gt;This finally replaces all filenames with the sane names given to them by the CSS.&lt;/p&gt;
+&lt;p&gt;I&#39;m sure I can script this reconciliation part but I do like doing it manually as all CSS is crafted slightly differently so it&#39;s good to be eyes-on in case there is some rogue CSS to clean up.&lt;/p&gt;
+&lt;p&gt;You probably only need to do this once.&lt;br /&gt;
+If you&#39;re doing this every day well... then you might be a competitor of my employer, so shoo shoo 👀&lt;/p&gt;
+&lt;h1 id=&quot;bonus-round&quot;&gt;Bonus round &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/decompile-iconfonts/#bonus-round&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id=&quot;install-svgo-on-your-system&quot;&gt;install SVGO on your system &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/decompile-iconfonts/#install-svgo-on-your-system&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;(I prefer to use NPM as it works on linux and mac hosts alike)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm install -g svgo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now you can simply enter the directory and run&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;svgo *.svg
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That&#39;s it.&lt;/p&gt;
+&lt;p&gt;Your files will have &lt;code&gt;fill=&amp;quot;currentcolor&amp;quot;&lt;/code&gt; applied to them so when you inline the SVG inside markup they will adhere to your CSS &lt;code&gt;color:&lt;/code&gt; value just like the good-ol days.&lt;/p&gt;
+&lt;h1 id=&quot;a-little-history&quot;&gt;A little history &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/decompile-iconfonts/#a-little-history&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I&#39;ll cover why you would you ever need or want to do this. Icon Fonts were once an answer to easy web design.&lt;br /&gt;
+They exploded on the scene once &lt;a href=&quot;https://caniuse.com/fontface&quot;&gt;&lt;code&gt;@fontface&lt;/code&gt;&lt;/a&gt; was supported by major browsers.&lt;br /&gt;
+iconfonts gave us all the icons you could need within a single HTTP-request - which was great if you had a lightning fast CDN and agressive caching.  You used them usually with CSS pseudo elements and custom character ranges. That&#39;s where things get hairy for our a11y friends.&lt;/p&gt;
+&lt;p&gt;Remember image sprites? Iconfonts as a technique came after image sprites for single-payload single-color icon sets. Before frameworks like react or powerful site generators it made sense to align your icons and marks with your typographic layout - browsers werent always so nice so this kept things on &#39;some&#39; guardrails.&lt;br /&gt;
+Plus services like &lt;a href=&quot;https://icomoon.io/&quot;&gt;IcoMoon&lt;/a&gt; emerged which made creating custom icon sets easy.&lt;/p&gt;
+&lt;p&gt;But of course like I mentioned the accessibility was terrible.&lt;br /&gt;
+Worse, some text layout engines mutilated iconsfonts.  Think of the carnage the CSS &lt;code&gt;text-rendering: optimizeSpeed;&lt;/code&gt;   would do to your illustrations.&lt;/p&gt;
+&lt;h3 id=&quot;we-now-live-in-the-future&quot;&gt;We now live in the future &lt;a class=&quot;direct-link&quot; href=&quot;https://ndftz.com/posts/decompile-iconfonts/#we-now-live-in-the-future&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;With the advent of modern frameworks and the popularity of best practices like &lt;a href=&quot;https://css-tricks.com/accessible-svg-icons/&quot;&gt;ARIA atrributes&lt;/a&gt;. Icon fonts just arent the most suitable technique anymore; not by a long shot.&lt;/p&gt;
+&lt;p&gt;But much of the internet is still littered with websites and apps that depend on iconfonts.  And for those poor buggers, it&#39;s not without effort to climb into modern times.&lt;/p&gt;
+&lt;p&gt;We see this often at &lt;a href=&quot;http://outfit.io/&quot;&gt;outfit.io&lt;/a&gt; whenever we have a new client with only a website to ingest their existing brand assets from.&lt;/p&gt;
+&lt;p&gt;Once we have the clean illustrations (that were often lost) back in a malleable and minimal format, our web developer counterparts can shed hundreds of kilobytes of frontend bottleneck from their sites and apps.&lt;/p&gt;
+&lt;p&gt;I hope this helps you&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Open Fonts in 2022</title>
