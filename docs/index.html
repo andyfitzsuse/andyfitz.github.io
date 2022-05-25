@@ -17,22 +17,18 @@
 
 <nav>
   <a class="home" href="/" aria-label="home">
-    <svg viewBox=".5 .5 3 4.1" fill="none" stroke="url(#gr)" preserveAspectRatio="xMinYMin meet" stroke-width="1.1" stroke-opacity="1" stroke-linecap="round">
-    <linearGradient id="gr"  y1="0" y2="0" x1="-.2" x2="1.5"><stop offset="0" stop-color="Aquamarine"/><stop offset=".2" stop-color="turquoise"/><stop offset="1" stop-color="#0c8090"/></linearGradient>
-    <linearGradient id="gb" x1="0" x2="0" y1="1.2" y2="-.1" href="#gr"/>
-    <path stroke="url(#gb)" d="M1 4H.999V1"/>
-    <path d="M1 1 V.9959h2v.001 M1 2.6v.001h1v.001"/>
+    <svg viewBox=".5 .5 3 4.1" fill="none"  preserveAspectRatio="xMinYMin meet" stroke="Aquamarine" stroke-width="1.1" stroke-opacity="1" stroke-linecap="round">
+    <path d="M1 4H.999V1 M1 1 V.9959h2v.001 M1 2.6v.001h1v.001"/>
     </svg>
   </a>
         <a  class="" href="/posts/">Posts</a>
-        <a  class="" href="/story/">Story</a>
       </nav>
     </header>
     <main class="homepage">
       <style>.homepage{padding:0; max-width:100vw;}</style>
 <div style="text-align:center;">
 <section>
-G’day, I'm Andy Fitzsimon from Noosa, Australia.<br> <small style="color:var(--neutral)">26° 24' 31'' S 153° 6' 14'' E</small> 
+G’day, I'm Andy Fitzsimon
 <small style="color:var(--neutral)">
  (he/himself)</small>
 <p class="scroll fade"></p>
@@ -43,7 +39,7 @@ G’day, I'm Andy Fitzsimon from Noosa, Australia.<br> <small style="color:var(-
 </section>
 <br>
 <p class="scroll fade">working with talented friends, making software. </p>
-<p class="scroll fade" style="max-width: 18em; margin: 1em auto">I'm certifiably professionally passable<br> thanks to 20 years at places like <a href="https://www.suse.com/" target="_blank"  rel="noreferrer">SUSE</a>, <a href="https://www.redhat.com/" target="_blank" rel="noreferrer">Red Hat</a>,  and now <a href="https://www.outfit.io/" target="_blank" rel="noreferrer"> Outfit</a></p>
+<p class="scroll fade" style="max-width: 18em; margin: 1em auto">I'm professionally passable<br> thanks to 20+ years at places like <a href="https://www.suse.com/" target="_blank"  rel="noreferrer">SUSE</a>, <a href="https://www.redhat.com/" target="_blank" rel="noreferrer">Red Hat</a>,  and now <a href="https://www.outfit.io/" target="_blank" rel="noreferrer"> Outfit</a></p>
 <svg class="scroll o-logo" style="margin-bottom:4em;  max-height: 15em; max-width: 60vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 8.5" stroke="#e40046" fill="none">
   <circle cx="2.36" cy="6.12" r="1.68"/>
   <path d="M 5.35 4V 6.5A 1.02 1 0 008 6.5V 4.5 H 18.68"/>
@@ -54,13 +50,10 @@ G’day, I'm Andy Fitzsimon from Noosa, Australia.<br> <small style="color:var(-
   <path d="M 14.8 2.7v.001" stroke-linecap="round"/>
 </svg>
 <p class="scroll fade">currently enjoying strategy, design, and code.</p>
-<p class="scroll fade"> Recently, I resumed <a href="/posts">blogging</a> </p> 
+<p class="scroll fade">Recently, I resumed <a href="/posts">blogging</a> </p> 
 <svg class="scroll pen" style="max-width: 25vw; fill:var(--neutral); display:block; max-height: 10em;  margin:2em auto;" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
   <path d="M33.8 62l25-25.2C54.8 33 49.3 31 46 35.7L31 58.7l2.7 3.3zM11.4 81.5c0-3.7 4.8-10.8 9.6-10.8 2.6 0-.6 2.7-.6 4.5 0 2 13.8-3.4 9.5-11-1.7-2.8-4.8-3.4-8-2a20.7 20.7 0 00-11.5 19.3c0 1 1 1 1 0zm57.8-37.6l-.5-2.5c.3 0 5.8-1 8.8-6.1 3-5.4 1.3-11.2 1.3-11.2l-8.4 5.7-.6-1.6L92.1 5l1.6 1.5c-5.3 8.8-5.8 18.8-8.7 25-4.5 9.7-15.8 12.5-15.8 12.5zM52 26.9s2.7-11.4 12.4-16c6.1-3 16.2-3.6 25-9l1.5 1.5L67.5 26a4 4 0 00-1.5-.5l5.5-8.5s-5.8-1.6-11.1 1.5c-5.2 3-6 8.5-6 8.9zM2 94c8-14 3.9-36.4 26.1-36.4L44 32.8c3.9-6.2 11.9-5 18.1 1.2 6.3 6.2 7.7 13.8 2 17.5L38 67.7C38 90.1 16.5 85.8 2 94.1z"/>
 </svg>
-<br>
-<p class="scroll fade">If you'd like to know more, here's my unfinished, unfinished story.<br><br></p>
-<p class="scroll fade"> <a class="button" href="/story">my story</a></p>
 <style>
 .o-logo{margin: 2em auto; display:block;max-width: 70vw}
 .scroll.map{margin:2em auto;}
@@ -109,11 +102,11 @@ const scrollElements=document.querySelectorAll(".scroll"),elementInView=(e,l=1)=
 <svg viewbox="0 0 10 10" stroke-width="1.6"><path stroke-linecap="butt" fill="none" d="M2 3.3V8m2.5-4.7V8m0-2.4C4.8 3.9 8.2 3 8.2 6v2" /><path stroke-width="1.9" d="M2 2h.01" /></svg>
 <b>LinkedIn</b>
 </a>
-
+<!--
 <a aria-label="YouTube" href="https://www.youtube.com/channel/UC7i_s6Z648AXT4IVyH4dzdA" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"><path d="M7 1.5Q9.5 1.5 9.5 5T7 8.5H3Q.5 8.5.5 5T2.7 1.5zM4.2 6l2-1-2-1z" /></svg>
 <b>YouTube</b>
-</a>
+</a> -->
 
 
 <a aria-label="Github" href="https://github.com/andyfitz/" target="_blank" rel="noreferrer">
@@ -124,27 +117,28 @@ const scrollElements=document.querySelectorAll(".scroll"),elementInView=(e,l=1)=
 <a aria-label="Codepen" href="https://codepen.io/andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"><path d="M1 6.5v-3l4-3 4 3v3l-4 3zm8-3l-4 3-4-3m0 3l4-3 4 3m-4-6v3m0 3v3" /></svg><b>Codepen</b>
 </a>
-
+<!--
 <a aria-label="Twitch" href="https://www.twitch.tv/ndftz" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"><path d="M1 7.5v-5l2-2h6v5l-2 2H5l-2 2v-2zm4-5v2m2-2v2" /></svg>
-<b>Twitch</b>
-</a>
+<b>Twitch</b> 
+</a> -->
 
+<!--
 <a aria-label="Unsplash" href="https://unsplash.com/@andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10" stroke-width="2.5"><path fill="none" stroke-linecap="butt" stroke-linejoin="miter" 
 d="M 2.5 4 V 7 H 7.5 V 4 M 5 1 V 3" /></svg>
 <b>Unsplash</b>
-</a>
-
-<a aria-label="Dribbble" href="https://www.twitter.com/andyfitz/" target="_blank" rel="noreferrer">
+</a> -->
+<!-- 
+<a aria-label="Dribbble" href="https://www.dribbble.com/andyfitz/" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10"><path d="M1 5a1 1 0 008 0 1 1 0 00-8 0m5.9 3.5Q6 3.8 3.5 1.3M1.1 4.1Q5.6 5 7.6 2m1.2 4Q5 4.1 2.5 8.1" /></svg>
 <b>Dribbble</b>
-</a>
-
+</a>-->
+<!-- 
 <a aria-label="Beer Me" href="https://www.buymeacoffee.com/andyfitz" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10" ><path stroke-linecap="butt" d="M2 4v5h5V4m0 .5q2 0 2 1.7T7 8" /><path stroke-width=".7" d="M3.7 5V7M5.3 5V7" /><path d="M2 2.8h5" stroke-width="2.5" stroke-dasharray=".001 1.2"/></svg>
 <b>Beer Me</b>
-</a>
+</a> -->
 
 
 
