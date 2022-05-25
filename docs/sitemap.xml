@@ -37,11 +37,6 @@
   </url>
   
   <url>
-    <loc>https://ndftz.com/story/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ndftz.com/tags/</loc>
     <lastmod>2022-01-19</lastmod>
   </url>
@@ -67,16 +62,6 @@
   </url>
   
   <url>
-    <loc>https://ndftz.com/tags/fonts/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ndftz.com/tags/opensource/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ndftz.com/tags/brand-automation/</loc>
     <lastmod>2022-01-19</lastmod>
   </url>
@@ -93,6 +78,16 @@
   
   <url>
     <loc>https://ndftz.com/tags/javascript/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndftz.com/tags/fonts/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndftz.com/tags/opensource/</loc>
     <lastmod>2022-01-19</lastmod>
   </url>
   
