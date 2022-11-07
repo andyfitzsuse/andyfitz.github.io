@@ -9,18 +9,17 @@ eleventyNavigation:
 <small>A work in progress &mdash; both in design, and  content</small><br><br><br>
 
 
-
 <a href="/">
-<svg style="max-width: 30vw; display:block; margin:0 auto; "   viewBox=".5 .5 3 4" fill="none" stroke="url(#gred)" stroke-opacity=".95" stroke-linecap="round">
-<path stroke="url(#gred2)" d="M1 4H.999V1h.001"/>
-<path d="M1 1v-.001h2v.001 M1 2.6v.001h1v.001"/>
-<linearGradient id="gred" x1="-.1" x2="1.3" y2=".25">
-<stop offset="0" stop-color="Coral" />
-<stop offset=".5" stop-color="crimson" />
-<stop offset="1" stop-color="brown" />
-</linearGradient>
-<linearGradient id="gred2" x1="0" x2="0" y1="1.2" y2="0" href="#gred" />
-</svg>
+  <svg style="max-width: 30vw; display:block; margin:0 auto;" viewBox=".5 .5 3 4" fill="none" stroke="url(#gred)" stroke-opacity=".95" stroke-linecap="round">
+    <path stroke="url(#gred2)" d="M1 4H.999V1h.001"/>
+    <path d="M1 1v-.001h2v.001 M1 2.6v.001h1v.001"/>
+    <linearGradient id="gred" x1="-.1" x2="1.3" y2=".25">
+    <stop offset="0" stop-color="Coral" />
+    <stop offset=".5" stop-color="crimson" />
+    <stop offset="1" stop-color="brown" />
+    </linearGradient>
+    <linearGradient id="gred2" x1="0" x2="0" y1="1.2" y2="0" href="#gred" />
+  </svg>
 </a>
 
 
@@ -36,18 +35,17 @@ I am fortunate to have both lived and travelled extensively across asia europe a
 
 ## 1980's technology = the future
 * I was born, and still highly regard this decision
-* Computers were ever present in the family home. from only-orange or green screens to the marvellous CGA and tractor paper. Back when the printscreen button did that.
+* Computers were ever present in the family home. from green screen to CGA and tractor paper. The printscreen button actually did that.
 * My father attended Siggraph in North America and took the family along.  I was at an age where computer graphics were it. 
 * Got stuck in a lift with my brother in Vancouver
 * Skied backwards down hill in Canada
 * Saved my baby brother from the pool
-* World Expo 88 blew my mind.
+* World Expo 88 in Brisbane
 
 ## 1990's laptop at school
 
-* Simpsons and ninjaturtles
-* Rugby and debating
-* Wolfenstein, Doom, laplink cables
+* Simpsons, Sega, Drums
+* Rugby and Debating
 * Hex editing game files
 * Marcomedia director and then flash
 * Hosting LAN parties
@@ -80,8 +78,8 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 
 * Went too fast downhill on skateboards (twice)
 * Made a career jump to a private business before a global pandemic 
-* Father diagnosed with cancer
-* Released amazing API service Make.cm
+* Father passed away from cancer
+* 
 
 
 ## what next? 
