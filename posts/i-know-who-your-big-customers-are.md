@@ -55,14 +55,14 @@ Okay with that out of the way, we can start with the obvious.
 
 SaaS companies love and need SEO, many encourage partial/full public usage of their platforms wherever possible.  Think github, codepen, even my employer Brandfolder.
 
-Their user activity might be mostly private, but it's in the vendors best interest to have as many vendorname.com/yourcompany instances as possible.
+Their user activity might be mostly private, but it's in the vendors best interest to have as many ```vendorname.com/yourcompany``` instances as possible.
 
-So scripting a recurring search with tools like googler (<https://github.com/jarun/googler>) like site:competitordomain.com prospect name is the easiest way of learning if an organisation has begun using a competitor.\
+So scripting a recurring search with tools like googler (<https://github.com/jarun/googler>) like ```site:competitordomain.com prospectName``` is the easiest way of learning if an organisation has begun using a competitor.\
 Seems simple but this is frequently overlooked and you can skip the awkward "who are you working with" question in discovery calls.
 
 # Domain Enumeration
 
-This one is similar but different to search in that even fully closed platforms often offer up whitelabelling subdomains as a feature to their accounts. Companyname.competitordomain
+This one is similar but different to search in that even fully closed platforms often offer up whitelabelling subdomains as a feature to their accounts. ```Companyname.competitordomain```
 
 For this we can use services like <a href="https://github.com/OWASP/Amass/">Amass</a> and <a href="https://github.com/aboul3la/Sublist3r">sublist3r</a> .
 
@@ -89,12 +89,12 @@ I'm not going to share how this is automated technically other than to say it in
 Here's a handy tutorial from Scrapingbeee that doesn't require use of their service <https://www.scrapingbee.com/blog/submit-form-puppeteer/>.\
 After reading that, you'll get the idea. automating requires you to set up a method for each competitor you want to track.
 
-Say you try knocking their loginform with giuseppe@companyname.com.
+Say you try knocking their loginform with ```giuseppe@companyname.com```.
 
-If you get the same size response as <giuseppe@domaindoesnotexist.com> (or no response), then you can validate that companyname is either a small-time customer on a team plan or not a customer at all because they haven't implemented SSO.
+If you get the same size response as ```giuseppe@domaindoesnotexist.com``` (or no response), then you can validate that companyname is either a small-time customer on a team plan or not a customer at all because they haven't implemented SSO.
 
 Again, you can do this manually by simply visiting your competitor website.\
-Selecting the email option, typing in anyname@yourprospectdomain.com and seeing if you hit an SSO gate. Handy right ?
+Selecting the email option, typing in ```anyname@yourprospectdomain.com``` and seeing if you hit an SSO gate. Handy right ?
 
 So that's it for now. 
 
