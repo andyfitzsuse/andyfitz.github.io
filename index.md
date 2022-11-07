@@ -6,9 +6,7 @@ date: 2021-04-12
 
 <section>G’day, you've found Andy Fitzsimon</section>
 
-<p class="scroll fade">I work with talented friends and we make software.</p>
-<p>Booster fixer, handy andy is more than a nickname</p>
-<p class="scroll fade">currently enjoying strategy, design, and code.</p>
+<p class="scroll fade">Booster fixer, handy andy is more than a nickname</p>
 <p class="scroll fade">Recently, I resumed <a href="/posts">blogging</a> </p> 
 
 
