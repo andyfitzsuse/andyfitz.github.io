@@ -69,9 +69,11 @@ Seems simple but this is frequently overlooked and you can skip the awkward &amp
 &lt;p&gt;I saved the best till last.  Lots of private-productivity SaaS environments neither subdomain nor subpath their customers.&lt;br /&gt;
 But like death and taxes, one other thing is certain:  Enterprise accounts demand SSO/IDP integration. So if they are a small team logging in with username/password - you may never know, but if they are a big customer, you&#39;ll be able to confirm relatively easily.&lt;/p&gt;
 &lt;p&gt;I&#39;m not even sure if this technique actually called something else - but I&#39;ve called it door knocking because you&#39;re simply&lt;/p&gt;
-&lt;p&gt;1. Visiting a website&#39;s login form&lt;/p&gt;
-&lt;p&gt;2. Knocking it with a targeted domain&#39;s email.&lt;/p&gt;
-&lt;p&gt;2. Checking the response sizes to confirm / disprove the account&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Visiting a website&#39;s login form&lt;/li&gt;
+&lt;li&gt;Knocking it with a targeted domain&#39;s email.&lt;/li&gt;
+&lt;li&gt;Checking the response sizes to confirm / disprove the account&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;Over time, this helps you track acquisition and churn by large enterprise accounts.&lt;/p&gt;
 &lt;p&gt;I&#39;m not going to share how this is automated technically other than to say it involves rotating VPS proxies,  puppeteer, and form submission which is dead simple.&lt;br /&gt;
 Here&#39;s a handy tutorial from Scrapingbeee that doesn&#39;t require use of their service &lt;a href=&quot;https://www.scrapingbee.com/blog/submit-form-puppeteer/&quot;&gt;https://www.scrapingbee.com/blog/submit-form-puppeteer/&lt;/a&gt;.&lt;br /&gt;

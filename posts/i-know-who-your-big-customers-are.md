@@ -57,7 +57,7 @@ SaaS companies love and need SEO, many encourage partial/full public usage of th
 
 Their user activity might be mostly private, but it's in the vendors best interest to have as many ```vendorname.com/yourcompany``` instances as possible.
 
-So scripting a recurring search with tools like googler (<https://github.com/jarun/googler>) like ```site:competitordomain.com prospectName``` is the easiest way of learning if an organisation has begun using a competitor.\
+So scripting a recurring search with tools like googler (<https://github.com/jarun/googler>) like ```site:competitordomain.com prospectName``` is the easiest way of learning if an organisation has begun using a competitor.
 Seems simple but this is frequently overlooked and you can skip the awkward "who are you working with" question in discovery calls.
 
 # Domain Enumeration
@@ -77,11 +77,9 @@ But like death and taxes, one other thing is certain:  Enterprise accounts dema
 
 I'm not even sure if this technique actually called something else - but I've called it door knocking because you're simply
 
-1\. Visiting a website's login form
-
-2\. Knocking it with a targeted domain's email.
-
-2\. Checking the response sizes to confirm / disprove the account
+1. Visiting a website's login form
+2. Knocking it with a targeted domain's email.
+2. Checking the response sizes to confirm / disprove the account
 
 Over time, this helps you track acquisition and churn by large enterprise accounts.
 
