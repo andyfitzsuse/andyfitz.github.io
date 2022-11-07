@@ -71,11 +71,11 @@ Secondly, get a lay of the land - know where you stand.</p>
 <p>Okay with that out of the way, we can start with the obvious.</p>
 <h1 id="search">Search <a class="direct-link" href="#search">#</a></h1>
 <p>SaaS companies love and need SEO, many encourage partial/full public usage of their platforms wherever possible.  Think github, codepen, even my employer Brandfolder.</p>
-<p>Their user activity might be mostly private, but it's in the vendors best interest to have as many <a href="http://vendorname.com/yourcompany">vendorname.com/yourcompany</a> instances as possible.</p>
-<p>So scripting a recurring search with tools like googler (<a href="https://github.com/jarun/googler">https://github.com/jarun/googler</a>) like site:competitordomain.com prospect name is the easiest way of learning if an organisation has begun using a competitor.<br>
+<p>Their user activity might be mostly private, but it's in the vendors best interest to have as many <code>vendorname.com/yourcompany</code> instances as possible.</p>
+<p>So scripting a recurring search with tools like googler (<a href="https://github.com/jarun/googler">https://github.com/jarun/googler</a>) like <code>site:competitordomain.com prospectName</code> is the easiest way of learning if an organisation has begun using a competitor.<br>
 Seems simple but this is frequently overlooked and you can skip the awkward &quot;who are you working with&quot; question in discovery calls.</p>
 <h1 id="domain-enumeration">Domain Enumeration <a class="direct-link" href="#domain-enumeration">#</a></h1>
-<p>This one is similar but different to search in that even fully closed platforms often offer up whitelabelling subdomains as a feature to their accounts. Companyname.competitordomain</p>
+<p>This one is similar but different to search in that even fully closed platforms often offer up whitelabelling subdomains as a feature to their accounts. <code>Companyname.competitordomain</code></p>
 <p>For this we can use services like <a href="https://github.com/OWASP/Amass/">Amass</a> and <a href="https://github.com/aboul3la/Sublist3r">sublist3r</a> .</p>
 <p>These tools will use a variety of techniques and do their best to surface all the custom subdomains  - giving you an idea of who is a customer and who is not.</p>
 <p>While not giving you target company lists, I'm not a monster. Here's a handy ignore list to clean up the results you get. <a href="https://gist.github.com/andyfitz/227921862fb81a7843a05479255711a9">https://gist.github.com/andyfitz/227921862fb81a7843a05479255711a9</a></p>
@@ -90,10 +90,10 @@ But like death and taxes, one other thing is certain:  Enterprise accounts dema
 <p>I'm not going to share how this is automated technically other than to say it involves rotating VPS proxies,  puppeteer, and form submission which is dead simple.<br>
 Here's a handy tutorial from Scrapingbeee that doesn't require use of their service <a href="https://www.scrapingbee.com/blog/submit-form-puppeteer/">https://www.scrapingbee.com/blog/submit-form-puppeteer/</a>.<br>
 After reading that, you'll get the idea. automating requires you to set up a method for each competitor you want to track.</p>
-<p>Say you try knocking their loginform with <a href="mailto:giuseppe@companyname.com">giuseppe@companyname.com</a>.</p>
-<p>If you get the same size response as <a href="mailto:giuseppe@domaindoesnotexist.com">giuseppe@domaindoesnotexist.com</a> (or no response), then you can validate that companyname is either a small-time customer on a team plan or not a customer at all because they haven't implemented SSO.</p>
+<p>Say you try knocking their loginform with <code>giuseppe@companyname.com</code>.</p>
+<p>If you get the same size response as <code>giuseppe@domaindoesnotexist.com</code> (or no response), then you can validate that companyname is either a small-time customer on a team plan or not a customer at all because they haven't implemented SSO.</p>
 <p>Again, you can do this manually by simply visiting your competitor website.<br>
-Selecting the email option, typing in <a href="mailto:anyname@yourprospectdomain.com">anyname@yourprospectdomain.com</a> and seeing if you hit an SSO gate. Handy right ?</p>
+Selecting the email option, typing in <code>anyname@yourprospectdomain.com</code> and seeing if you hit an SSO gate. Handy right ?</p>
 <p>So that's it for now.</p>
 <p>I hope this was insightful.</p>
 <p>P.S I don't run any analytics on my blog so if you liked this article - tell me @andyfitz via most major social media platforms.</p>
