@@ -64,9 +64,9 @@ Seems simple but this is frequently overlooked and you can skip the awkward "who
 
 This one is similar but different to search in that even fully closed platforms often offer up whitelabelling subdomains as a feature to their accounts. Companyname.competitordomain
 
-For this we can use services like Knockpy and sublist3r .
+For this we can use services like <a href="https://github.com/OWASP/Amass/">Amass</a> and <a href="https://github.com/aboul3la/Sublist3r">sublist3r</a> .
 
-These tools will do their best to surface all the custom subdomains  - giving you an idea of who is a customer and who is not.
+These tools will use a variety of techniques and do their best to surface all the custom subdomains  - giving you an idea of who is a customer and who is not.
 
 While not giving you target company lists, I'm not a monster. Here's a handy ignore list to clean up the results you get. <https://gist.github.com/andyfitz/227921862fb81a7843a05479255711a9>
 
