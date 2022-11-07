@@ -21,7 +21,7 @@
 --tone-2:Aquamarine;
 --neutral:#607080;
 --layout-spacing: max(9vh, 4rem); 
-font-size: 1.3em; font-size: clamp(1.2rem, 0.7153rem + 1.6368vw, 2rem);
+font-size: 1.2em; font-size: clamp(1.1rem, 0.6153rem + 1.5368vw, 1.5rem);
 }
 
 
@@ -121,7 +121,7 @@ footer > section a:hover svg{stroke-opacity:1; color:var(--fg);}
 footer > section a svg{margin:0 auto; transform:none !important;}footer section {grid-auto-flow: row;  grid-template-columns: 1fr  1fr   1fr 1fr  1fr}footer a:not(:hover) span{opacity:1}}
 
 @media (max-width:25em){ footer section{grid-template-columns:   1fr  1fr }}
-@media (min-width:85em){ footer section{grid-template-columns:   1fr  1fr  1fr  1fr  1fr   1fr  1fr  1fr   1fr   1fr}}
+@media (min-width:85em){ footer section{grid-template-columns:   1fr  1fr  1fr  1fr  1fr  }}
 
 .namespace { opacity: .7;}
 .token.property { color: #f4bf75;}
