@@ -99,7 +99,7 @@ a[href]{  color: var(--brand); outline:none;}
 
 
 footer{text-align:center;color: var(--neutral);margin:2em 0;  padding-top:0;  border-radius:1em; }
-footer > section{ margin:1em auto;display:grid; grid-auto-flow: row; grid-template-rows: auto; grid-template-columns: 1fr 1fr  1fr  1fr   1fr ;align-content: center;}
+footer > section{ margin:1em auto;display:grid; grid-auto-flow: row; grid-template-rows: auto; grid-template-columns: 1fr 1fr  1fr  1fr  1fr   1fr ;align-content: center;}
 footer a[href]{color:var(--neutral);border-radius: .4em; min-width: 4em; min-height:4em; position:relative; text-transform: uppercase; letter-spacing:.026em;  display:grid;   justify-content: center; align-content: center;text-align: center} 
 footer a b {color:var(--fg); font-size: .7em;white-space:nowrap;transition: transform .2s cubic-bezier(.5,.3,.2,1); }
 footer b {opacity:1; transform: translate(0,-2.5em)   ;}
@@ -118,10 +118,10 @@ p > code{font-size:.8em;user-select:all; padding: .3em .7em; white-space:nowrap;
 footer a b{display:none}
 article h1{font-size:14vw;}
 footer > section a:hover svg{stroke-opacity:1; color:var(--fg);}
-footer > section a svg{margin:0 auto; transform:none !important;}footer section {grid-auto-flow: row;  grid-template-columns: 1fr  1fr   1fr 1fr  1fr}footer a:not(:hover) span{opacity:1}}
+footer > section a svg{margin:0 auto; transform:none !important;}footer section {grid-auto-flow: row;  grid-template-columns: 1fr  1fr   1fr  1fr 1fr  1fr}footer a:not(:hover) span{opacity:1}}
 
 @media (max-width:25em){ footer section{grid-template-columns:   1fr  1fr }}
-@media (min-width:85em){ footer section{grid-template-columns:   1fr  1fr  1fr  1fr  1fr  }}
+@media (min-width:85em){ footer section{grid-template-columns:   1fr  1fr  1fr  1fr  1fr 1fr  }}
 
 .namespace { opacity: .7;}
 .token.property { color: #f4bf75;}
