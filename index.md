@@ -17,23 +17,8 @@ G’day, I'm Andy Fitzsimon
 </section>
 <br>
 
-<p class="scroll fade">Booster fixer, handy andy is more than a nickname</p>
-<p class="scroll fade">Recently, I resumed <a href="/posts">blogging</a> </p> 
+<p class="scroll fade">Booster, fixer, I'm a multi-disciplinary technologist <br>with razor-sharp hard skills, decades of undeniable impact, <br>and an obsessive desire to do justice to great potential </p>
 
-
-<svg class="scroll o-logo" style="margin-bottom:4em;  max-height: 15em; max-width: 60vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 8.5" stroke="#e40046" fill="none">
-  <circle cx="2.36" cy="6.12" r="1.68"/>
-  <path d="M 5.35 4V 6.5A 1.02 1 0 008 6.5V 4.5 H 18.68"/>
-  <path d="M 10.2 8.2v -6"/>
-  <path d="M 12.5 8.2V 2A 1.3 1.2 10 0114.5 1"/>
-  <path d="M 14.8 8.2V 4.5"/>
-  <path d="M 17.1,8.2v -6"/>
-  <path d="M 14.8 2.7v.001" stroke-linecap="round"/>
-</svg>
-
-
-<p class="scroll fade">currently enjoying strategy, design, and code.</p>
-<p class="scroll fade">Recently, I resumed <a href="/posts">blogging</a> </p> 
 
  
 <svg class="scroll pen" style="max-width: 25vw; fill:var(--neutral); display:block; max-height: 10em;  margin:2em auto;" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
@@ -44,18 +29,11 @@ G’day, I'm Andy Fitzsimon
 
 
 <style>
-.o-logo{margin: 2em auto; display:block;max-width: 70vw}
 .scroll.map{margin:2em auto;}
-
-.scrolled.pen{animation: brush 3s ease infinite;}
-
-@keyframes brush{  50%{transform:rotate(-240deg);}}
-
 .scroll.map path {stroke-dasharray:  344 344; stroke-dashoffset:-344;stroke-width: 3; stroke-opacity:0}
 .scroll.map circle{stroke-width: 5; transition: all 1.5s ease  .2s;}
 .scroll.map.scrolled circle{stroke-width:10; fill:var(--tone-2)}
 .scroll.map.scrolled path{stroke-width: 5;stroke-dasharray:  344 344; stroke-opacity:1;stroke-dashoffset:0;transition: stroke-dashoffset 1.5s ease, stroke-width 1.5s ease;}
-.o-logo>*{opacity:0}.scrolled.o-logo>*{animation:in-out 1s ease reverse;opacity:0;animation-fill-mode:forwards}.scrolled.o-logo>:nth-child(2){animation-delay:.1s}.scrolled.o-logo>:nth-child(3){animation-delay:.2s}.scrolled.o-logo>:nth-child(4){animation-delay:.3s}.scrolled.o-logo>:nth-child(5){animation-delay:.4s}.scrolled.o-logo>:nth-child(6){animation-delay:.5s}.scrolled.o-logo>:nth-child(7){animation-delay:.7s;animation-duration:.5s;animation-name:dotup;animation-duration:.6s;animation-direction:reverse;animation-delay:0;transform-origin:0;animation-timing-function:cubic-bezier(.6,-.3,.2,0)}@keyframes in-out{0%{stroke-dasharray:19.5 0;opacity:1}100%{stroke-dasharray:0 19.5;opacity:1}}@keyframes dotup{0%{stroke-width:1;opacity:1;transform:translate(0)}100%{stroke-width:.5;transform:translate(0,2px);opacity:0}}
 
 p.scroll{min-height:10vh;}
 .scroll.fade{opacity:0; transform: translate(0,2em)}
