@@ -89,6 +89,7 @@ h2:target::after,h3:target::after{content:" ←"; color: var(--highlight);}
 .docnav { display: grid; grid-template-columns: 1fr 1fr; padding: 1em 0;}
 .docnav a{display:grid; box-shadow: inset 0 0 0 .15em var(--bg-2); padding: 1.5em; border-radius:.5em;}
 a[href]{  color: var(--brand); outline:none;}
+p{margin-bottom:1em;}
 
 
 .post-tag[href]{display:inline-block;padding:.25em .5em; border-radius: .4em;margin:.25em .125em; color: var(--bg); background-color: var(--brand);}
