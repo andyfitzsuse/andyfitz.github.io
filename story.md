@@ -54,10 +54,6 @@ I am fortunate to have both lived and travelled extensively across asia europe a
 ## 2000's non-stop party
 
 * Dot com boom
-<<<<<<< HEAD:story.md
-=======
-* Wonderful relationships as a young gentleman
->>>>>>> b0ae4f3ef0591794736fb4045f76268c044f2f2a:drafts/story.md
 * Discovered my passion for open source software – in particular creative software
 * Attended and spoke at several international conferences - met friends, heroes; both.
 * Career working at Red Hat as a contractor, part of early Canonical, then Red Hat full-time.
@@ -96,16 +92,3 @@ My Daugher Olive, My son Alby are both learning and growing more every day.
 
 A lot has changed since I started this journey.  
 We're not all living in virtual reality networks - but we are closer than ever and the potential is palpable. 
-=======
-* Father passed away from cancer
-* 
-
-
-## what next? 
-
-My Daugher Olive, My son Alby are both learning and growing more every day. 
-
-A lot has changed since I started this journey.  We're not all living in lawnmowerman style virtual reality networks - but we are closer than ever.  
->>>>>>> b0ae4f3ef0591794736fb4045f76268c044f2f2a:drafts/story.md
-
-I can't wait.  Maybe I should get some exercise.
