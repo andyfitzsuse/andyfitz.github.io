@@ -52,7 +52,7 @@ My analysis would give competitors nightmares</p>
 
 <br>
 <p class="scroll fade">Nothing is beyond us, no task is beaneath me.  <br>If it needs to be done, I do it well and with pride.<br> 
-I do justice to good work</p>
+I do justice to great work</p>
  
 
 
