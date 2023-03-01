@@ -54,7 +54,6 @@ I am fortunate to have both lived and travelled extensively across asia europe a
 ## 2000's non-stop party
 
 * Dot com boom
-* Wonderful relationships as a young gentleman
 * Discovered my passion for open source software – in particular creative software
 * Attended and spoke at several international conferences - met friends, heroes; both.
 * Career working at Red Hat as a contractor, part of early Canonical, then Red Hat full-time.
@@ -78,14 +77,19 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 
 * Went too fast downhill on skateboards (twice)
 * Made a career jump to a private business before a global pandemic 
-* Father passed away from cancer
-* 
+* Father passed away from pancreatic and brain 
+* Instigated open source typography projects used by billions
+* Minor investment in open source Figma alternative penpot.app
+* Scaled business, pitched and sold it to a public company
+* Exited, onto the next thing.
+
 
 
 ## what next? 
 
 My Daugher Olive, My son Alby are both learning and growing more every day. 
 
-A lot has changed since I started this journey.  We're not all living in lawnmowerman style virtual reality networks - but we are closer than ever.  
+A lot has changed since I started this journey.  
+We're not all living in virtual reality networks - but we are closer than ever and the potential is palpable. 
 
 I can't wait.  Maybe I should get some exercise.

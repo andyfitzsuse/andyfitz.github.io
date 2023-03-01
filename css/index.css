@@ -112,7 +112,7 @@ footer > section a:is(:hover,:focus) svg{transform:translate(0,.5em) scale(2);  
 /*inline code fix */ :not(pre) > code { padding: .1em;border-radius: .3em;}
 p > code{font-size:.8em;user-select:all; padding: .3em .7em; white-space:nowrap;background-color:transparent;  color:var(--fg);box-shadow: inset 0 0 0 .1em var(--bg-2);  }
 
-.postlist a, .docnav a{box-shadow:  0 .06em .4em var(--bg-2);}
+.postlist a, .docnav a{}
 
 
 @media (max-width:40em){

@@ -30,7 +30,7 @@ Find a problem, fix it,  onward.</p>
 <p class="scroll fade">With me: you get enterprise pedigree with scale-up hustle.<br>Reliability plus innovation.<br><b><a href="mailto:andyfitz+site@gmail.com">Talk to me</a></b> about joining your crusade</p>
 
 <br>
-<p class="scroll fade"> Need convincing? </p>
+<p class="scroll fade"> Want to know more? </p>
 
 
 
@@ -50,7 +50,7 @@ My analysis would give competitors nightmares</p>
 
 
 <br>
-<p class="scroll fade">Practically, no task is beaneath me.  <br>If it needs to be done, I do it well and with pride.<br> 
+<p class="scroll fade">Nothing is beyond us, no task is beaneath me.  <br>If it needs to be done, I do it well and with pride.<br> 
 I do justice to good work</p>
 
 
