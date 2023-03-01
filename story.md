@@ -77,8 +77,7 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 
 * Went too fast downhill on skateboards (twice)
 * Made a career jump to a private business before a global pandemic 
-<<<<<<< HEAD:story.md
-* Father passed away from pancreatic and brain 
+* Father passed away from pancreatic and brain cancer
 * Instigated open source typography projects used by billions
 * Minor investment in open source Figma alternative penpot.app
 * Scaled business, pitched and sold it to a public company
