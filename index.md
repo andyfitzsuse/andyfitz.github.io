@@ -8,6 +8,7 @@ date: 2021-04-12
 
 <section>
 G’day, I'm Andy Fitzsimon
+
  
 </section>
 <br>
@@ -30,7 +31,7 @@ Find a problem, fix it,  onward.</p>
 <p class="scroll fade">With me: you get enterprise pedigree with scale-up hustle.<br>Reliability plus innovation.<br><b><a href="mailto:andyfitz+site@gmail.com">Talk to me</a></b> about joining your crusade</p>
 
 <br>
-<p class="scroll fade"> Want to know more? </p>
+<h2 class="scroll fade"> Want to know more? </h2>
 
 
 
@@ -52,8 +53,7 @@ My analysis would give competitors nightmares</p>
 <br>
 <p class="scroll fade">Nothing is beyond us, no task is beaneath me.  <br>If it needs to be done, I do it well and with pride.<br> 
 I do justice to good work</p>
-
-
+ 
 
 
 <style>

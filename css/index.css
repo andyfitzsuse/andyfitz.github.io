@@ -89,7 +89,10 @@ h2:target::after,h3:target::after{content:" ←"; color: var(--highlight);}
 .docnav { display: grid; grid-template-columns: 1fr 1fr; padding: 1em 0;}
 .docnav a{display:grid; box-shadow: inset 0 0 0 .15em var(--bg-2); padding: 1.5em; border-radius:.5em;}
 a[href]{  color: var(--brand); outline:none;}
+<<<<<<< HEAD
 p{margin-bottom:1em;}
+=======
+>>>>>>> b0ae4f3ef0591794736fb4045f76268c044f2f2a
 
 
 .post-tag[href]{display:inline-block;padding:.25em .5em; border-radius: .4em;margin:.25em .125em; color: var(--bg); background-color: var(--brand);}
@@ -112,7 +115,11 @@ footer > section a:is(:hover,:focus) svg{transform:translate(0,.5em) scale(2);  
 /*inline code fix */ :not(pre) > code { padding: .1em;border-radius: .3em;}
 p > code{font-size:.8em;user-select:all; padding: .3em .7em; white-space:nowrap;background-color:transparent;  color:var(--fg);box-shadow: inset 0 0 0 .1em var(--bg-2);  }
 
+<<<<<<< HEAD
 .postlist a, .docnav a{}
+=======
+.postlist a, .docnav a{box-shadow:  0 .06em .4em var(--bg-2);}
+>>>>>>> b0ae4f3ef0591794736fb4045f76268c044f2f2a
 
 
 @media (max-width:40em){
