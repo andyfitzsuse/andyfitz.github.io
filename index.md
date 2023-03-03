@@ -9,7 +9,7 @@ date: 2021-04-12
 <section>
 G’day, I'm Andy Fitzsimon
 
- 
+<br> <img src="/img/andyfitz.png" alt="portrait of andy"/>
 </section>
 <br>
 
