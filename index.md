@@ -37,7 +37,7 @@ Find a problem, fix it,  onward.</p>
 
 <br>
 <p class="scroll fade">I win the awards<br>for saving money, making money,  and being top bloke.<p> 
-<div class="scroll fade">President's club    Chairman's award    Global Citizen    Beast Mode! </div>
+<div class="scroll fade">President's club,    Chairman's award,    Global Citizen,    Beast Mode! </div>
 
 
 <br>
@@ -45,9 +45,7 @@ Find a problem, fix it,  onward.</p>
 
 
 <br>
-<p class="scroll fade">I execute strategically<br> With outfit, I read the market, wrote the pitch, and got an ideal buyer.<br>  It sold to Smartsheet in Sept 22 with great response from the street.<br>
-My analysis would give competitors nightmares</p>
-
+<p class="scroll fade">I execute strategically<br> With outfit, I read the market, wrote the pitch, and got an ideal buyer.<br>  It sold to Smartsheet in Sept 22 with great response from the street.<br> I was it's technical founder too.</p>
 
 
 <br>
