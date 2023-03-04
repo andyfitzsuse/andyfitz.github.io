@@ -152,3 +152,29 @@ mark{background-color:var(--focus)}
 .token.attr-value,.token.keyword,.token.control,.token.directive,.token.unit{color:var(--tone-2)}
 .token.null,.token.operator,.token.boolean,.token.number{color:var(--highlight)}
 .token.punctuation{color:var(--neutral)}
+
+
+
+body {
+    --s-track: var(--bg);
+    --s-thumb: var(--brand);
+    --s-size: 10px;
+  
+    scrollbar-color: var(--s-thumb) 
+                     var(--s-track);
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--s-size) 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--s-track);
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--s-thumb);
+    border-radius: 10px;
+    
+    }
