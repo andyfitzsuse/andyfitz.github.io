@@ -61,6 +61,10 @@ Take logo-balancing for example.  You know those strips of logos you see on webs
 Setting min/max size boundaries for a placeholder in any templating tool cannot account for the visual weight of an unknown future graphic within.  Small marks with thick lines could appear heavier than large ones with thin lines,  A well trained model could intuitively place and scale several marks so long as it’s seen enough examples where real artists have done the same. 
 
 ## Coming up
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.65 2.75"><defs><linearGradient id="b"><stop offset="0%" stop-color="rgb(70% 4% 45%)"/><stop offset="55%" stop-color="rgb(98% 12% 65%)"/></linearGradient><linearGradient id="a" gradientTransform="rotate(-45)"><stop offset="55%" stop-color="rgb(73% 0% 43%)"/><stop offset="105%" stop-color="rgb(84% 0% 53%)"/></linearGradient></defs><g fill="url(#a)"><path d="m4.875 2.75.75-1.5.75 1.5h1L6.125.25Z"/><path d="m0 0 1.125 2.25.5-1L1 0Z"/><path d="m6.5 0 1.375 2.75h1.75l.5-1h-1.75L7.5 0Z"/><path d="M2.375 2.75h1l.75-1.5.25.5.5-1-.25-.5z"/><path d="m10.375 1.25.75 1.5h1l-1.25-2.5z"/><path d="m6.5 0 .875 1.75h1L7.5 0Z"/></g><g fill="url(#b)"><circle cx="8.75" cy=".75" r=".5"/><path d="m11.25 0 1.375 2.75h1L12.25 0Z"/><path d="M10 0 8.625 2.75h1l.75-1.5.5-1L10.75 0Z"/><path d="M1.375 2.75h.5L3.25 0h-1L1.125 2.25Z"/><path d="M7.875 2.75h1.75l.5-1h-2.75z"/><path d="M3.75 0 2.375 2.75h1l.75-1.5.5-1L4.5 0Z"/><path d="m5.25 0-.375.75-.5 1 .5 1 .5-1 .25-.5.5-1L6 0Z"/></g></svg>
+
 In future I’m going to dive deeper into what I see as today’s front running stack for content extrapolation. From LLM’s to GAN’s.  With use cases ranging from the simple: like font detection.  To the incredible image-aware extrapolation technologies, like <a href="https://github.com/lllyasviel/ControlNet" target="_blank">ControlNet</a>  which deserves it's own post. There’s so much to unpack and it’s moving at break-neck speed.
   
 So bookmark this page or subscribe to <a href="https://andyfitzsimon.com/feed/feed.xml">my feed </a>
+
