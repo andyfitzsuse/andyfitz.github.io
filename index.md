@@ -22,7 +22,7 @@ with proven global impact.<br>
 
 
 
-<p  class="scroll fade">Mixing operational, technical, &amp; creative stregnths,<br> a fanatically dedicated <dfn data-title="individual knowledge spans vast subjects,  draws on complex works to solve specific problems.">polymath</dfn>.
+<p  class="scroll fade">Mixing operational, technical, &amp; creative strengths,<br> a fanatically dedicated <dfn data-title="individual knowledge spans vast subjects,  draws on complex works to solve specific problems.">polymath</dfn>.
   <br>
 
 
