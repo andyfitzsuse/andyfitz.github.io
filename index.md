@@ -136,7 +136,7 @@ I slice my week to suit commitments.</p>
 
 
 
-<h3 class="scroll fade">Proudly Neurodiverse</h3>
+<h3 class="scroll fade">Neurodivergent</h3>
 <p class="scroll fade"> 
 Hyper-focus, deep-empathy, &amp; pragmatism in volatility.<br>
 I obsess over quality, stay realistic, &amp; war-game.<br>
