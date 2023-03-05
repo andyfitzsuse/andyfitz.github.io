@@ -111,7 +111,7 @@ A listener, doer, &amp; fixer; always.<br>
 <br>
 <h3 class="scroll fade">Strategic Execution</h3>
 <p class="scroll fade">With Outfit, I read the market, <br>wrote the pitch, &amp; picked the buyer.<br>  
-SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. <br>Revolutionizing operations as a brand manager</p>
+SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. Revolutionizing operations as a brand manager</p>
 
 
 <br>
@@ -123,7 +123,7 @@ At Red Hat, my team still thrives with tremendous career growth<p>
 
 <br>
 <h3 class="scroll fade quote">Nothing is beyond us,<br> no task beaneath me</h3>
-<p class="scroll fade">If it needs to be done, I do it well &amp; with pride.<br> 
+<p class="scroll fade">If it needs to be done, I do it well &amp; with pride.
 I offer help, asking when it counts.<br>
 </p>
  <br>
