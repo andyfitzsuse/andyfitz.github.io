@@ -57,36 +57,6 @@
   </url>
   
   <url>
-    <loc>https://ndftz.com/tags/svg/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ndftz.com/tags/minimal/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ndftz.com/tags/tips/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ndftz.com/tags/tools/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ndftz.com/tags/business-intelligence/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ndftz.com/tags/sales/</loc>
-    <lastmod>2022-01-19</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ndftz.com/tags/brand-automation/</loc>
     <lastmod>2022-01-19</lastmod>
   </url>
@@ -97,12 +67,42 @@
   </url>
   
   <url>
+    <loc>https://ndftz.com/tags/svg/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndftz.com/tags/minimal/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndftz.com/tags/tools/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndftz.com/tags/tips/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ndftz.com/tags/creative-coding/</loc>
     <lastmod>2022-01-19</lastmod>
   </url>
   
   <url>
     <loc>https://ndftz.com/tags/javascript/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndftz.com/tags/business-intelligence/</loc>
+    <lastmod>2022-01-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndftz.com/tags/sales/</loc>
     <lastmod>2022-01-19</lastmod>
   </url>
   
@@ -144,6 +144,11 @@
   <url>
     <loc>https://ndftz.com/posts/tech-layoffs/</loc>
     <lastmod>2022-12-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ndftz.com/posts/ai-templating/</loc>
+    <lastmod>2023-03-01</lastmod>
   </url>
   
   <url>
