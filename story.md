@@ -85,9 +85,9 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 
 
 
-## what next? 
+## What next? 
 
 My Daugher Olive, My son Alby are both learning and growing more every day. 
 
 A lot has changed since I started this journey.  
-We're not all living in virtual reality networks - but we are closer than ever and the potential is palpable. 
+We're not all living in virtual reality networks like I thought, but the AI figure is looking very real.   - the potential is palpable. 
