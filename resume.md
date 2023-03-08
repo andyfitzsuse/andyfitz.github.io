@@ -22,13 +22,14 @@ Work History
 
 Brandfolder Synergy - Content Automation
 
-Sep 2022 - Feb 2023
+September 2022 - March 2023
  
-* Focus on the successful transition and ramp up of the new Content Automation offering across the entire group formerly known as Outfit and Brandfolder business.
-* Pitched and won clients with all deal sizes between  40-300k 
-* Produced every single enterprise-qualified POC, curating the experience to industry workload
-* Maintained large enterprise accounts in a professional services and customer success capacity
-* Worked with product and engineering teams to ensure platform strategy,  commercial prioritisation, heuristic & aesthetic opportunities.
+* Successful transition and ramp up of the new Content Automation offering across the entire group formerly known as Outfit into the Brandfolder business.
+* Pitched and won clients with all deal sizes between  USD$40-350k 
+* Ressurected major clost/lost opportunities into Content Automation deals.
+* Produced every enterprise-qualified POC, curating the experience to industry workload
+* Directly maintained high-risk enterprise accounts in a professional services and customer success capacity
+* Worked with product and engineering teams to ensure platform strategy,  commercial prioritisation, innovative opportunities.
 
 ## Outfit (acquired by Smartsheet)
 
@@ -53,7 +54,7 @@ __Strategy role:__
 
 ## Red Hat
 
-Sep 2011 - May 2020  (4 roles)
+September 2011 - May 2020  (4 roles)
 
 * Strategy + Execution - APAC Office of Technology 
 * Lead Brand Manager - Global Regions  Jan 2015 - Mar 2017

@@ -1,7 +1,4 @@
-@font-face {
-    font-family: outfit-variable;
-    src: url(/fonts/Outfit[wght].ttf);
-}
+
 /* Colors */
 :root {
 --brand: #0c8090;
@@ -30,6 +27,7 @@ font-size: 1.2em; font-size: clamp(1.1rem, 0.6153rem + 1.5368vw, 1.5rem);
     :root{
     --brand: Aquamarine;
     --bg:#111f2a;
+    --bg-1:#062031;
     --bg-2:#333e47;
     --bg-3:#000818;
     --fg:#e2e6ec;
@@ -50,7 +48,7 @@ a[href]{text-decoration: none;}
 *,*::before,*::after {box-sizing: border-box; margin:0;}
 html,body{max-width: 100vw;  overflow-x: hidden;}
 body {display: flex;flex-direction: column;min-height: 100vh;color: #222;background-color:var(--bg); color:var(--fg); margin:0 auto;}
-body > * {padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;font-family: outfit-variable, system-ui, sans-serif;font-weight: 300;width: 100%;line-height: 1.75;max-width: 70ch;margin-left: auto;margin-right: auto;}
+body > * {padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;font-family: outfit, system-ui, sans-serif;font-weight: 300;width: 100%;line-height: 1.75;max-width: 70ch;margin-left: auto;margin-right: auto;}
 
 .home svg{height:4em; width: 4em;}
 
