@@ -8,9 +8,10 @@ date: 2021-04-12
 
 <section class="top-section">
 <h1>G’day, I'm Andy Fitzsimon</h1>
-<br> <img src="/img/andyfitz.png" alt="portrait of andy" />
-
-
+<br>
+<video id="background-video" autoplay loop muted playsinline poster="/img/andyfitz.png" >
+<source src="/img/face.mp4" type="video/mp4">
+</video>
 
 </section>
 <br>
@@ -27,21 +28,22 @@ with proven global impact.<br>
 
 
 <div class="scroll fade mission-values">
+<svg fill="none;"  preserveAspectRatio="xMidYMid slice" viewBox="0 0 100 50"><defs><pattern id="a" width="7" height="14.5" patternTransform="scale(.75)" patternUnits="userSpaceOnUse"><g transform="translate(3.45 7.2)"><use href="#c" transform="matrix(1 0 0 -1 0 .5)"/><use href="#b" transform="matrix(-1 0 0 1 .5 0)"/><use href="#c" transform="rotate(180 .25 .25)"/><use href="#b" transform="matrix(1 0 0 -1 -3.5 7.75)"/><use href="#b" transform="rotate(180 2 3.875)"/><use href="#b" transform="matrix(-1 0 0 1 4 -7.25)"/><use class="pri" href="#b"/><use class="pri" href="#b" transform="translate(-3.5 -7.25)"/></g></pattern><path  id="b" stroke="currentColor" stroke-linecap="round" stroke-opacity="1" stroke-width="1.1" d="M1 4H.999V1M1 1V.9959h2v.001M1 2.6v.001h1v.001"/><use id="c" x="0" y="0" href="#b"/></defs><path fill="url(#a)" d="M0 0h100v50H0z"/></svg>
+
 <div class="mission">
- <h3>Lifelong Mission</h3> 
+ <h3>Mission</h3> 
  <i><dfn data-title="recognise, elevate, accelerate, celebrate">do justice</dfn><br> to <dfn data-title="admirable, quality, purposeful, efforts or ideas - not easyily done">good work</dfn></i><br>
 </div>
 <div class="values">
-  <h3>Core Values</h3> 
+  <h3>Values</h3> 
   <ul>
-    <li data-title="friendship, helpfulness, giving, care">kindness</li> 
-    <li data-title="joy, engagement, momentum, force-multiply">energy</li>
-    <li data-title="appreciation, admiration, respect, thanks">gratitude</li>
-    <li data-title="accountable, committed & responsibile">trust</li> 
+    <li data-title="Friendship, helpfulness, giving, care">kindness</li> 
+    <li data-title="Joy, engagement, momentum, force-multiply">energy</li>
+    <li data-title="Appreciation, admiration, respect, thanks">gratitude</li>
+    <li data-title="Accountable, committed & responsibile">trust</li> 
 
   </ul>
 </div>
-<svg fill="none;"  preserveAspectRatio="xMidYMid slice" viewBox="0 0 100 50"><defs><pattern id="a" width="7" height="14.5" patternTransform="scale(.5)" patternUnits="userSpaceOnUse"><g transform="translate(3.45 7.2)"><use href="#c" transform="matrix(1 0 0 -1 0 .5)"/><use href="#b" transform="matrix(-1 0 0 1 .5 0)"/><use href="#c" transform="rotate(180 .25 .25)"/><use href="#b" transform="matrix(1 0 0 -1 -3.5 7.75)"/><use href="#b" transform="rotate(180 2 3.875)"/><use href="#b" transform="matrix(-1 0 0 1 4 -7.25)"/><use class="pri" href="#b"/><use class="pri" href="#b" transform="translate(-3.5 -7.25)"/></g></pattern><path opacity=".2" id="b" stroke="currentColor" stroke-linecap="round" stroke-opacity="1" stroke-width="1.1" d="M1 4H.999V1M1 1V.9959h2v.001M1 2.6v.001h1v.001"/><use id="c" x="0" y="0" href="#b"/></defs><path fill="url(#a)" d="M0 0h100v50H0z"/></svg>
 </div>
 
 <br>
@@ -50,7 +52,7 @@ with proven global impact.<br>
 
 
 <p class="scroll fade ">
- Called a strategist, <br>product owner, brand manager,  <br> engineer, designer, <acronym title="Account Executive">AE</acronym>, <acronym title="Solutions Architect">SA</acronym> &amp; <acronym title="Customer Success Manager">CSM</acronym>.<br>
+ I've had many roles: strategist, <br>product owner, brand manager,  <br> engineer, designer, <acronym title="Account Executive">AE</acronym>, <acronym title="Solutions Architect">SA</acronym> &amp; <acronym title="Customer Success Manager">CSM</acronym>.<br>
 A listener, doer, &amp; fixer; always.<br>
 </p>  
 <br>
@@ -243,6 +245,11 @@ Superpowers that get results!
 <style>
 
 @charset "UTF-8";
+
+  
+
+    video{border-radius: 50%; overflow:hidden;  max-width: calc(100vw - 2rem); width: 18em;}
+
 p {
   padding: 0 1em;
 }
@@ -375,17 +382,17 @@ abbr, acronym {
   font-style: normal;
   box-shadow: 0 0.1rem var(--neutral);
   cursor: help;
-  position: relative;
+
   display: inline-block;
-  z-index: 99;
+  z-index: 9;
 }
 
 [data-title]:hover::after {
   pointer-events: none;
   content: attr(data-title);
   position: absolute;
-  z-index: 9;
-  bottom: calc(100% + 1rem);
+  z-index: 999;
+  bottom: calc(100% + .5rem);
   font-weight: 400;
   border-radius: 0.5em;
   animation: hereiam 0.3s cubic-bezier(0.5, 0.2, 0.1, 1.1) forwards;
@@ -393,11 +400,11 @@ abbr, acronym {
   right: 0;
   min-width: 14rem;
   line-height: 1.3em;
-  background-color: var(--bg-3);
+  background-color: var(--bg-2);
   color: var(--fg);
   text-align: left;
   padding: 1.25em 1em;
-  box-shadow: 0 0 0 0.12em, 0 0.3em 1.5em rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0 0.12em var(--bg), 0 0.3em 1.5em rgba(0, 0, 0, 0.3);
   font-size: 0.8rem;
 }
 
@@ -634,27 +641,30 @@ img {
 }
 
 .top-section {
+  position:relative;
   margin-bottom: 2em;
 }
+
+.top-section .filmgrain{position:absolute; top:-15em; opacity:.3; right:0; bottom:0; left:0; z-index:-1;   max-height: 150vw; height: calc (100% + 15em)  width: 100%;}
 
 .mission-values {
   position: relative;
   padding: 1em 0 5em 0;
   margin: 2em 0;
-  background-color: var(--bg-1);
+
 }
 
 .mission-values svg {
+    background-color: var(--bg-2);
   position: absolute;
   top: 0;
   width: 100%;
   bottom: 0em;
   height: 100%;
-  z-index: 0;
+  z-index: -1;
   left: 0;
   right: 0;
-  opacity: 0.4;
-}
+ }
 
 .mission-values div {
   position: relative;
@@ -662,16 +672,20 @@ img {
 }
 
 .mission-values use {
-  color: #7FFFD488;
+  color: var(--bg);
+  opacity:.75;
 }
 
 .mission-values use.pri {
-  color: #7FFFD4FF;
+ 
+  color: var(--bg-1);
+  opacity:.28;
 }
 
 @media (prefers-color-scheme: light) { 
-.mission-values use{color: var(--brand); opacity:.4} 
-.mission-values use.pri{color: var(--brand); opacity:1;} 
+.mission-values svg{background-color:var(--bg-1)}
+.mission-values use{color: var(--bg); opacity:.3} 
+.mission-values use.pri{color: var(--bg); opacity:.5;} 
 }
 
 
@@ -712,7 +726,7 @@ img {
   color: var(--fg);
   background-color: var(--bg);
   margin: 0 auto;
-  box-shadow: inset 0 0 0 0.1rem var(--neutral);
+  box-shadow: inset 0 0 0 0.1rem var(--bg);
   text-align: center;
   border-radius: 50%;
   font-weight: 500;
@@ -739,7 +753,7 @@ img {
 }
 
 .ll, .rl {
-  stroke: var(--bg-1);
+  stroke: var(--bg);
   animation: loop 3s linear infinite;
   stroke-dasharray: 0 28;
   stroke-linecap: round;
