@@ -43,10 +43,10 @@
 <p class="scroll fade">a multi-disciplinary technology leader<br>
 with proven global impact.<br>
 <br>
-<p  class="scroll fade"> <abbr title="operational">Ops</abbr>, <abbr title="technical">Tech</abbr>, Sales &amp; Creative combined,<br> a fanatically dedicated <dfn data-title="individual knowledge spans vast subjects,  draws on complex works to solve specific problems.">polymath</dfn>.
+<p  class="scroll fade"> <abbr title="operational">Ops</abbr>, <abbr title="technical">Tech</abbr>, Sales &amp; Creative combined,<br> a fanatically dedicated <dfn data-title="Draws on vast subjects to solve specific problems.">polymath</dfn>.
   <br>
 <div class="scroll fade mission-values">
-<svg fill="none;"  preserveAspectRatio="xMidYMid slice" viewBox="0 0 100 50"><defs><pattern id="a" width="7" height="14.5" patternTransform="scale(.75)" patternUnits="userSpaceOnUse"><g transform="translate(3.45 7.2)"><use href="#c" transform="matrix(1 0 0 -1 0 .5)"/><use href="#b" transform="matrix(-1 0 0 1 .5 0)"/><use href="#c" transform="rotate(180 .25 .25)"/><use href="#b" transform="matrix(1 0 0 -1 -3.5 7.75)"/><use href="#b" transform="rotate(180 2 3.875)"/><use href="#b" transform="matrix(-1 0 0 1 4 -7.25)"/><use class="pri" href="#b"/><use class="pri" href="#b" transform="translate(-3.5 -7.25)"/></g></pattern><path  id="b" stroke="currentColor" stroke-linecap="round" stroke-opacity="1" stroke-width="1.1" d="M1 4H.999V1M1 1V.9959h2v.001M1 2.6v.001h1v.001"/><use id="c" x="0" y="0" href="#b"/></defs><path fill="url(#a)" d="M0 0h100v50H0z"/></svg>
+<svg fill="none;"  preserveAspectRatio="xMidYMid slice" viewBox="0 0 100 50"><defs><pattern id="a" width="7" height="14.5" patternTransform="scale(.8)" patternUnits="userSpaceOnUse"><g transform="translate(3.45 7.2)"><use href="#c" transform="matrix(1 0 0 -1 0 .5)"/><use href="#b" transform="matrix(-1 0 0 1 .5 0)"/><use href="#c" transform="rotate(180 .25 .25)"/><use href="#b" transform="matrix(1 0 0 -1 -3.5 7.75)"/><use href="#b" transform="rotate(180 2 3.875)"/><use href="#b" transform="matrix(-1 0 0 1 4 -7.25)"/><use class="pri" href="#b"/><use class="pri" href="#b" transform="translate(-3.5 -7.25)"/></g></pattern><path  id="b" stroke="currentColor" stroke-linecap="round" stroke-opacity="1" stroke-width="1.1" d="M1 4H.999V1M1 1V.9959h2v.001M1 2.6v.001h1v.001"/><use id="c" x="0" y="0" href="#b"/></defs><path fill="url(#a)" d="M0 0h100v50H0z"/></svg>
 <div class="mission">
  <h3>Mission</h3> 
  <i><dfn data-title="recognise, elevate, accelerate, celebrate">do justice</dfn><br> to <dfn data-title="admirable, quality, purposeful, efforts or ideas - not easyily done">good work</dfn></i><br>
@@ -395,11 +395,11 @@ abbr, acronym {
   right: 0;
   min-width: 14rem;
   line-height: 1.3em;
-  background-color: var(--bg-2);
-  color: var(--fg);
+  background-color: var(--fg);
+  color: var(--bg-1);
   text-align: left;
   padding: 1.25em 1em;
-  box-shadow: 0 0 0 0.12em var(--bg), 0 0.3em 1.5em rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0 0.12em var(--fg), 0 0.3em 1.5em rgba(0, 0, 0, 0.3);
   font-size: 0.8rem;
 }
 
@@ -650,7 +650,7 @@ img {
 }
 
 .mission-values svg {
-    background-color: var(--bg-2);
+
   position: absolute;
   top: 0;
   width: 100%;
@@ -667,20 +667,20 @@ img {
 }
 
 .mission-values use {
-  color: var(--bg);
-  opacity:.75;
+  color: var(--bg-2);
+  opacity:.5;
 }
 
 .mission-values use.pri {
  
   color: var(--bg-1);
-  opacity:.28;
+  opacity:.25;
 }
 
 @media (prefers-color-scheme: light) { 
-.mission-values svg{background-color:var(--bg-1)}
-.mission-values use{color: var(--bg); opacity:.3} 
-.mission-values use.pri{color: var(--bg); opacity:.5;} 
+
+.mission-values use{color: var(--bg-1); opacity:.35} 
+.mission-values use.pri{color: var(--bg-1); opacity:.75;} 
 }
 
 

@@ -20,8 +20,7 @@ Sadly this was a virtual event but the good news is you can watch the recording 
 The slides contain handy details so here they are:
 
 
-<iframe width="100%" height="400" src="https://slides.com/fitzy/fonts-lca2022/fullscreen" style="border:none"/>
+<iframe width="100%" height="400" src="https://slides.com/fitzy/fonts-lca2022/fullscreen" style="border:none" ></iframe>
 
 
 
-## when I remember something it'll go here
