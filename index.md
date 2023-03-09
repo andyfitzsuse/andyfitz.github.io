@@ -31,7 +31,7 @@ date: 2021-04-12
 <p class="scroll fade">a multi-disciplinary technology leader<br>
 with proven global impact.<br>
 <br>
-<p  class="scroll fade"> <abbr title="operational">Ops</abbr>, <abbr title="technical">Tech</abbr>, Creative, &amp; Sales combined,<br> a fanatically dedicated <dfn onclick="" data-title="Draws on vast subjects to solve specific problems.">polymath</dfn>.
+<p  class="scroll fade"> <abbr title="operational">Ops</abbr>, <abbr title="technical">Tech</abbr>, Creative, &amp; Sales combined,<br> a fanatically dedicated <dfn onclick="" data-title="Draws on vast subjects to solve specific problems">polymath</dfn>.
 <br>
 </section>
 <div class="scroll fade mission-values">
@@ -39,15 +39,15 @@ with proven global impact.<br>
 
 <div class="mission">
  <h3>Mission</h3> 
- <i><dfn onclick=""  data-title="recognise, elevate, accelerate, celebrate">do justice</dfn><br> to <dfn onclick=""  data-title="admirable, quality, purposeful, efforts or ideas - not easyily done">good work</dfn></i><br>
+ <i><dfn onclick=""  data-title="Recognise, elevate, celebrate, & accelerate">do justice</dfn><br> to <dfn onclick=""  data-title="Effort or idea not easily done. Of admirable quality, purpose, & intent">good work</dfn></i><br>
 </div>
 <div class="values">
   <h3>Values</h3> 
   <ul>
-    <li onclick=""  data-title="Friendship, helpfulness, giving, care">kindness</li> 
-    <li onclick=""  data-title="Joy, engagement, momentum, force-multiply">energy</li>
-    <li onclick=""  data-title="Appreciation, admiration, respect, thanks">gratitude</li>
-    <li onclick=""  data-title="Accountable, committed & responsibile">trust</li> 
+    <li onclick=""  data-title="Give friendship, help, care, & compassion">kindness</li> 
+    <li onclick=""  data-title="Have joy, engagement, & momentum. Become a force-multiplier">energy</li>
+    <li onclick=""  data-title="Show appreciation, admiration, respect, thanks">gratitude</li>
+    <li onclick=""  data-title="Be accountable, committed & responsibile">trust</li> 
 
   </ul>
 </div>
@@ -73,7 +73,7 @@ A listener, doer, &amp; fixer wearing  many hats: <br>product owner, strategist,
 </div>
 <br>
 
-<p class="scroll fade">Enterprise pedigree plus scale-up hustle.<br><b><a href="mailto:andyfitz+site@gmail.com" class="cta">Talk to me about your crusade</a></b></p>
+<p class="scroll fade">Enterprise pedigree plus scale-up hustle.<br><b><a href="mailto:andyfitz+site@gmail.com" class="cta">Email me about your crusade</a></b></p>
 
 <br>
 <h2 class="scroll"> Need more? </h2>
@@ -122,7 +122,7 @@ A listener, doer, &amp; fixer wearing  many hats: <br>product owner, strategist,
 SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. Revolutionizing operations as a brand manager</p> 
 <br>
 
-<p class="scroll fade">At Red Hat, I set the tone for global regions and made the portfolio field ready within many unique constraints</p>
+<p class="scroll fade">At Red Hat, I set the tone for global regions, making the field experience world-class</p>
 
 
 <br>
@@ -143,7 +143,7 @@ SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; found
   </g>
 </svg>
 <h4>Team Satisfaction</h4>
-Recorded via CultureAmp</div>
+Highest rated people manager</div>
 <div>
 <svg viewBox="0 0 10 10">
   <path 
@@ -162,12 +162,12 @@ Recorded via CultureAmp</div>
   </path>
 </svg>
 <h4>Top 360° Reviews</h4>
-peers, leadership, team members, & others
+As rated by leadership, peers, &amp; team members
 </div>
 <div>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.2 -0.2 33 32.5"><path d="M25.77 20.24c.1.16.13.35.1.53a7.38 7.38 0 0 1-2.37 3.98.63.63 0 0 0-.16.18.25.25 0 0 0 0 .2.23.23 0 0 0 .2.09c.17-.05.33-.11.5-.2.7-.4 1.3-.92 1.81-1.55l.9-1.11c.53-.75.94-1.6 1.18-2.5.21-.72.4-1.45.63-2.17.09-.27.2-.53.33-.78l.18-.2h.06c.06.18.13.36.17.56.1.61.12 1.23.04 1.85-.08.8-.25 1.59-.49 2.36-.17.47-.4.92-.68 1.33a18.36 18.36 0 0 1-2.5 3.24 17 17 0 0 1-2.42 1.96.3.3 0 0 0-.06.2.23.23 0 0 0 .17.12c.17 0 .34-.02.5-.06a6.07 6.07 0 0 0 2.06-1.06A13.55 13.55 0 0 0 30 22.4a12.26 12.26 0 0 0 1.2-6.56c-.08-.45-.06-.9.03-1.34l.11-.3c.11-.2.27-.22.38 0 .1.22.19.44.24.67.22 1.12.29 2.25.2 3.39a16.62 16.62 0 0 1-1.36 5.32 12.67 12.67 0 0 1-3.33 4.52c-.47.41-.92.81-1.4 1.2a17.31 17.31 0 0 1-6.4 2.6c-.96.16-1.94.22-2.92.18-.48 0-.97-.03-1.45-.05a11.26 11.26 0 0 1-3.2-.65 22.73 22.73 0 0 1-4.25-2 12.57 12.57 0 0 1-3.93-3.8c-.5-.73-.94-1.5-1.3-2.3a.31.31 0 0 0-.23-.18 1.8 1.8 0 0 1-1.21-1.02A17.62 17.62 0 0 1 0 16c.01-.82.09-1.63.22-2.43.16-1.1.43-2.16.81-3.2.34-.9.82-1.74 1.42-2.5.35-.44.63-.93.97-1.37A15.29 15.29 0 0 1 12.16.83C12.83.67 13.5.5 14.18.37a27.63 27.63 0 0 1 4-.37c2.9-.04 5.76.83 8.15 2.47.27.17.52.38.73.62.15.18.26.41.3.65.01.06.05.1.1.15.56.55 1.17 1.07 1.7 1.66a7.75 7.75 0 0 1 1.76 3.21 3.85 3.85 0 0 1-.28 2.93c-.4.67-.95 1.22-1.62 1.62a4 4 0 0 1-2.52.68 3.45 3.45 0 0 1-2.24-.95 21.4 21.4 0 0 0-2.02-1.85c-.47-.36-.96-.7-1.45-1.02a5.3 5.3 0 0 0-1.93-.7 9.79 9.79 0 0 0-2.35-.13A8.06 8.06 0 0 0 11.75 11a8.82 8.82 0 0 0-2.47 2.9 6.42 6.42 0 0 0-.63 2.2 12 12 0 0 0-.12 1.41c.04 1.36.4 2.68 1.03 3.88.48.93 1.1 1.76 1.87 2.48.7.63 1.48 1.17 2.32 1.62.96.51 2.02.82 3.1.9a8.45 8.45 0 0 0 4.18-.63c.63-.3 1.22-.69 1.73-1.16a9.8 9.8 0 0 0 2.18-2.7c.21-.36.36-.77.54-1.15l.17-.35.13-.15"/></svg>
-<h4>Low Attrition</h4>
-Talent retention and high per-seat ROI
+<h4>Retention &amp; ROI</h4>
+Low attrition and high per-seat performance
 </div>
 
 </div>
@@ -183,7 +183,7 @@ I offer help, asking when it counts.<br>
 </p>
 <br>
 
-<h3 class="scroll fade">Globally Online</h3>
+<h3 class="scroll fade">Globally On</h3>
 <svg class="scroll fade timezones" viewBox="-4 0 27 12" preserveAspectRatio="none">
   <defs>
     <clipPath id="day-clip">
@@ -219,16 +219,16 @@ I offer help, asking when it counts.<br>
     </g>
   </g>
   <g class="anchors">
-    <line x1="0" x2="0" y1="0" y2="9" />
+    <line pathLength="1" x1="0" x2="0" y1="0" y2="9" />
       <use href="#time-dot" y="4" />
       <use href="#time-dot" y="6" />
       <use href="#time-dot" y="8" />
-    <line x1="6" x2="6" y1="0" y2="5" />
+    <line pathLength="1"  x1="6" x2="6" y1="0" y2="5" />
       <use href="#time-dot" y="2" x="6" />
       <use href="#time-dot" y="4" x="6" />
-    <line x1="9" x2="9" y1="0" y2="3" />
+    <line pathLength="1"  x1="9" x2="9" y1="0" y2="3" />
       <use href="#time-dot" y="2" x="9" />
-    <line x1="19" x2="19" y1="0" y2="9" />
+    <line pathLength="1"  x1="19" x2="19" y1="0" y2="9" />
       <use href="#time-dot" y="6" x="19" />
       <use href="#time-dot" y="8" x="19" />
   </g>
@@ -236,7 +236,7 @@ I offer help, asking when it counts.<br>
 
 <p class="scroll fade"> 
 Early mornings + late nights are my most productive times.<br> 
-This preference means I collaborate real-time anywhere.<br>
+This is a preference.  I collaborate real-time anywhere.<br>
 I slice my week to suit.</p>
 
 
@@ -261,22 +261,45 @@ d="M5 3C4 2 3.1 1 2 1a2 2  0 000 4c1.1 0 2-1 3-2s1.9-2  3-2a2 2 0 010 4C6.9  5 6
 </svg>
 
 <p class="scroll fade"> 
-Superpowers that get results!
+Superpowers that get results!<br>
 Focus, empathy, &amp; pragmatism<br>
 I obsess over quality, war-game, &amp; stay realistic<br>
 </p>
 <br><br>
 
 
+<section class="testimonials scroll fade">
+<h3 class="scroll fade">Testimonials</h3>
+  <div>
+  <blockquote class="quote"> I like that Andy fella, he goes for it</blockquote><ciite>Andy Himself</cite>
+  </div>
+<svg fill="none;"  preserveAspectRatio="xMidYMid slice" viewBox="0 0 100 50"><path fill="url(#a)" d="M0 0h100v50H0z"/></svg>
+</section>
+<br>
+<br>
 
+
+<h3 class="scroll fade">Professional Disclosures</h3>
+<br>
+<section  class="scroll fade disclosures"> 
+<div>
+<h4>Advisor</h4>
+Performs no-conflict advisory services for analyst &amp; investor groups; direct &amp; via agency</div>
+<div>
+<h4>Investor</h4>
+Angel investor in Madrid-based <a href="kaleidos.net" target="_blank">Kaleidos</a>, creators of <a href="https://penpot.app" data-title="Leading UX Design software" target="_blank">penpot.app</a> and <a href="http://taiga.io" data-title="Open source project management software" target="_blank">taiga.io</a>
+</div>
+<div>
+<h4>Contributor</h4>
+Makes ad-hoc donations of design, software, or funding to causes, & open source projects</div>
+</section>
+
+<br><br>
+<br><br>
 
 <style>
-
 @charset "UTF-8";
-
-  
-
-    video{border-radius: 50%; overflow:hidden;  max-width: calc(100vw - 2rem); width: 18em;}
+video{border-radius: 50%; overflow:hidden;  max-width: calc(100vw - 2rem); width: 18em;}
 
 p {
   padding: 0 1em;
@@ -419,7 +442,11 @@ h2.scrolled {
     grid-template-columns: 1fr;
   }
 }
+
+.awards, .leadership{max-width: 120em;
+margin: 0 auto;}
 .awards {
+  
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -466,7 +493,7 @@ abbr, acronym {
   animation: hereiam 0.3s cubic-bezier(0.5, 0.2, 0.1, 1.1) forwards;
   width: 100%;
   right: 0;
-  min-width: 14rem;
+  min-width: 10rem;
   line-height: 1.3em;
   background-color: var(--fg);
   color: var(--bg-1);
@@ -794,6 +821,7 @@ img {
   background-color: rgba(210, 10, 5, 0.85);
 }
 
+.testimonials,
 .mission-values {
   position: relative;
   padding: 1em 0 5em 0;
@@ -801,6 +829,7 @@ img {
 
 }
 
+.testimonials svg, 
 .mission-values svg {
 
   position: absolute;
@@ -813,26 +842,32 @@ img {
   right: 0;
  }
 
+.testimonials div,
 .mission-values div {
   position: relative;
   z-index: 9;
 }
 
+.testimonials use,
 .mission-values use {
   color: var(--bg-2);
   opacity:.5;
 }
 
+.testimonials use.pri,
 .mission-values use.pri {
- 
+
   color: var(--bg-1);
   opacity:.25;
 }
 
 @media (prefers-color-scheme: light) { 
 
-.mission-values use{color: var(--bg-1); opacity:.35} 
-.mission-values use.pri{color: var(--bg-1); opacity:.75;} 
+.testimonials use,
+.mission-values use{color: var(--bg-1); stroke-opacity:.35} 
+
+.testimonials use.pri,
+.mission-values use.pri{color: var(--bg-1); stroke-opacity:.75;} 
 }
 
 
@@ -863,9 +898,9 @@ img {
 }
 .values li {
   cursor: help;
-  width: 6em;
+  width: 6.5em;
   transition: background-color 0.25s ease;
-  height: 6em;
+  height: 6.5em;
   display: inline-block;
   vertical-align: center;
   display: grid;
@@ -955,10 +990,14 @@ img {
 
 }
 
-.leadership {display:grid; grid-template-columns: 1fr 1fr 1fr}
+.disclosures{gap:1rem; font-size: .66em}
+.disclosures h4{margin-bottom:1em;}
+.disclosures div{max-width: 20em; place-self:center; text-align:left;}
+.disclosures, .leadership {display:grid; grid-template-columns: 1fr 1fr 1fr}
+
 .leadership svg{ fill: var(--neutral); max-height: 5rem; max-width: 5rem;}
 
-.leadership h4{font-size:.66rem; font-weight: 600; letter-spacing:.04em; text-transform: uppercase;}
+.disclosures h4, .leadership h4{font-size:.66rem; font-weight: 600; letter-spacing:.04em; text-transform: uppercase;}
 .leadership {font-size: .66em; opacity:.5}
 .leadership > div{margin-bottom:1rem}
 
@@ -980,6 +1019,43 @@ img {
 .timezones rect{stroke-width: .05;stroke:currentcolor}
 .timezones line{fill:none; stroke: var(--brand); stroke-width: .1;}
 
+
+.timezones .anchors{}
+
+.scroll.timezones .anchors{opacity:0; }
+.scrolled.timezones .anchors{opacity:1;transition: opacity 1s ease 2s}
+
+
+.scrolled.timezones [opacity=".15"] use{
+  animation: slidetime .6s cubic-bezier(.3,.2,.1,1) forwards; opacity:0}
+
+.scrolled.timezones [opacity=".15"] use:nth-child(1){animation-delay:.2s}
+.scrolled.timezones [opacity=".15"] use:nth-child(2){animation-delay:.4s}
+.scrolled.timezones [opacity=".15"] use:nth-child(3){animation-delay:.6s}
+.scrolled.timezones [opacity=".15"] use:nth-child(4){animation-delay:.8s}
+
+
+
+@keyframes slidetime{
+  0%{ transform:translate(12px ,0px); opacity:0}
+  100%{ transform:translate(0px ,0px); opacity:1}
+}
+
+.scrolled.timezones [opacity=".5"] text{
+  animation: datein 1s cubic-bezier(.3,.2,.1,1) forwards; opacity:0}
+
+.scrolled.timezones [opacity=".5"] text:nth-child(1){animation-delay:.2s}
+.scrolled.timezones [opacity=".5"] text:nth-child(2){animation-delay:.4s}
+.scrolled.timezones [opacity=".5"] text:nth-child(3){animation-delay:.6s}
+.scrolled.timezones [opacity=".5"] text:nth-child(4){animation-delay:.8s}
+
+
+@keyframes datein{
+  0%{ transform:translate(1px ,0px); opacity:0}
+  100%{ transform:translate(0px ,0px); opacity:1}
+}
 #time-dot{fill:var(--brand)}
+
+
 
 </style>

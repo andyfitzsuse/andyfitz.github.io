@@ -146,8 +146,8 @@ h2:target{box-shadow: inset 0 .2rem var(--brand);}
 h2:target::after,h3:target::after{content:" ←"; color: var(--brand);}
 .docnav { display: grid; grid-template-columns: 1fr 1fr; padding: 1em 0;}
 .docnav a{display:grid; font-weight:400;box-shadow:  0 0 0 .1em var(--brand); line-height:1.5rem; background-color: var(--bg); padding: 1.5em; border-radius:.5em;}
-.docnav a:first-child{border-radius: 1em 0 0 1em}
-.docnav a:last-child{border-radius: 0 1em  1em 0}
+.docnav .previous{border-radius: 1em 0 0 1em}
+.docnav .next{border-radius: 0 1em  1em 0}
 a[href]{  color: var(--brand); outline:none;}
 
 
