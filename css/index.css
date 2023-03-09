@@ -76,7 +76,7 @@ main {margin-top: var(--layout-spacing);}
 footer {max-width: 100%;margin-top: auto;padding-top: var(--layout-spacing);}
 
 nav{display:grid;  width: 100%; grid-template-columns: 1fr 1fr 1fr 1fr;align-content: center;justify-content: center;justify-items: center; grid-auto-flow: column;  place-content:center;align-items:center;}
-nav a{width:100%;text-align:center;padding:1em; color: var(--brand);}
+nav a{width:100%;text-align:center;padding:1em; color: var(--brand); font-weight: 500}
 nav .active{box-shadow:  0  .4em 0 -.2em var(--tone-1); color: currentcolor;}
 nav .home{padding:0; text-align: left;     place-self: start;}
 
@@ -104,16 +104,16 @@ h2 a.direct-link:hover{opacity:1; box-shadow: 0 0 0 .2em var(--bg-2);}
 h2:target{box-shadow: inset 0 .2rem var(--brand);}
 h2:target::after,h3:target::after{content:" ←"; color: var(--brand);}
 .docnav { display: grid; grid-template-columns: 1fr 1fr; padding: 1em 0;}
-.docnav a{display:grid; box-shadow: inset 0 0 0 .15em var(--bg-2); padding: 1.5em; border-radius:.5em;}
+.docnav a{display:grid; box-shadow: inset 0 0 0 .1em var(--brand); padding: 1.5em; border-radius:.5em;}
 a[href]{  color: var(--brand); outline:none;}
 
 
 img{max-width:100vw;}
 .post-tag[href]{display:inline-block;padding:.25em .5em; border-radius: .4em;margin:.25em .125em; color: var(--bg); background-color: var(--brand);}
 .postlist a{text-align:left;margin:.5em 0;border-radius:.7em;  display: grid;font-weight:600;grid-auto-flow: column; padding:1.5em clamp(1rem, 7%, 5rem);}
-.postlist a:hover, .docnav a:hover{background-color: var(--tone-1); color:var(--fg); }
+.postlist a:hover, .docnav a:hover{background-color: var(--tone-1); color:var(--dark); }
 .postlist time{text-align:right; height: 100%; line-height:2em;color:  var(--neutral);font-weight:300; font-size:.8em;}
-.postlist a:hover time {color: var(--light);}
+.postlist a:hover time {color: var(--dark);}
 
 
 footer{text-align:center;color: var(--neutral);margin:2em 0;  padding-top:0;  border-radius:1em; }
@@ -195,3 +195,5 @@ body {
     border-radius: 10px;
     
     }
+
+
