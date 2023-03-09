@@ -12,21 +12,28 @@ date: 2021-04-12
 <video id="background-video" autoplay loop muted playsinline poster="/img/andyfitz.png" >
 <source src="/img/face.mp4" type="video/mp4">
 </video>
-
-</section>
+<svg
+  class="bokeh" 
+  viewBox="0 0 10 10" 
+  xmlns="http://www.w3.org/2000/svg" 
+  preserveAspectRatio="xMidYMid slice meet">
+  <circle cx="10%" cy="85%" r="80%" fill="#46c"  />
+  <circle cx="45%" cy="50%" r="20%" fill="#69c" />
+  <circle cx="85%" cy="35%" r="30%" fill="#626" />
+  <circle cx="60%" cy="85%" r="25%" fill="#c63" />
+  <circle cx="45%" cy="50%" r="30%" fill="#69c" />
+  <circle cx="35%" cy="25%" r="20%" fill="#626" />
+  <circle cx="90%" cy="-25%" r="35%" fill="#c63" />
+  <circle cx="-15%" cy="30%" r="40%" fill="#69c" />
+  <circle cx="65%" cy="85%" r="55%" fill="#626" />
+</svg>
 <br>
-
 <p class="scroll fade">a multi-disciplinary technology leader<br>
 with proven global impact.<br>
 <br>
-
-
-
-<p  class="scroll fade"> <abbr title="operational">Ops</abbr>, <abbr title="technical">Tech</abbr>, Sales &amp; Creative combined,<br> a fanatically dedicated <dfn data-title="Draws on vast subjects to solve specific problems.">polymath</dfn>.
-  <br>
-
-
-
+<p  class="scroll fade"> <abbr title="operational">Ops</abbr>, <abbr title="technical">Tech</abbr>, Creative, &amp; Sales combined,<br> a fanatically dedicated <dfn data-title="Draws on vast subjects to solve specific problems.">polymath</dfn>.
+<br>
+</section>
 <div class="scroll fade mission-values">
 <svg fill="none;"  preserveAspectRatio="xMidYMid slice" viewBox="0 0 100 50"><defs><pattern id="a" width="7" height="14.5" patternTransform="scale(.8)" patternUnits="userSpaceOnUse"><g transform="translate(3.45 7.2)"><use href="#c" transform="matrix(1 0 0 -1 0 .5)"/><use href="#b" transform="matrix(-1 0 0 1 .5 0)"/><use href="#c" transform="rotate(180 .25 .25)"/><use href="#b" transform="matrix(1 0 0 -1 -3.5 7.75)"/><use href="#b" transform="rotate(180 2 3.875)"/><use href="#b" transform="matrix(-1 0 0 1 4 -7.25)"/><use class="pri" href="#b"/><use class="pri" href="#b" transform="translate(-3.5 -7.25)"/></g></pattern><path  id="b" stroke="currentColor" stroke-linecap="round" stroke-opacity="1" stroke-width="1.1" d="M1 4H.999V1M1 1V.9959h2v.001M1 2.6v.001h1v.001"/><use id="c" x="0" y="0" href="#b"/></defs><path fill="url(#a)" d="M0 0h100v50H0z"/></svg>
 
@@ -52,8 +59,8 @@ with proven global impact.<br>
 
 
 <p class="scroll fade ">
- I've had many roles: strategist, <br>product owner, brand manager,  <br> engineer, designer, <acronym title="Account Executive">AE</acronym>, <acronym title="Solutions Architect">SA</acronym> &amp; <acronym title="Customer Success Manager">CSM</acronym>.<br>
-A listener, doer, &amp; fixer; always.<br>
+A listener, doer, &amp; fixer wearing  many hats: <br>product owner, strategist, brand manager,  <br> engineer, designer, <acronym title="Account Executive">AE</acronym>, <acronym title="Solutions Architect">SA</acronym> &amp; <acronym title="Customer Success Manager">CSM</acronym>.<br>
+<br>
 </p>  
 <br>
 <div class="scroll fade social-proof"  >
@@ -66,7 +73,6 @@ A listener, doer, &amp; fixer; always.<br>
 </div>
 <br>
 
-
 <p class="scroll fade">Enterprise pedigree plus scale-up hustle.<br><b><a href="mailto:andyfitz+site@gmail.com" class="cta">Talk to me about your crusade</a></b></p>
 
 <br>
@@ -76,7 +82,7 @@ A listener, doer, &amp; fixer; always.<br>
 
 <br>
 <h3 class="scroll fade">Employer Accolades</h3> 
-<p class="scroll fade">for making + saving money, for being likeable, for staying formidable<p> 
+<p class="scroll fade">Making money, saving money, being likeable,  staying formidable<p> 
 <br>
 
 <div class="scroll fade awards" >
@@ -113,7 +119,10 @@ A listener, doer, &amp; fixer; always.<br>
 <br>
 <h3 class="scroll fade">Strategic Execution</h3>
 <p class="scroll fade">With Outfit, I read the market, <br>wrote the pitch, &amp; picked the buyer.<br>  
-SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. Revolutionizing operations as a brand manager</p>
+SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. Revolutionizing operations as a brand manager</p> 
+<br>
+
+<p class="scroll fade">At Red Hat, I set the tone for global regions and made the portfolio field ready within many unique constraints</p>
 
 
 <br>
@@ -123,8 +132,17 @@ SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; found
 <div class="scroll fade leadership">
 
 <div>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.2 -0.2 33 32.5"><path d="M25.77 20.24c.1.16.13.35.1.53a7.38 7.38 0 0 1-2.37 3.98.63.63 0 0 0-.16.18.25.25 0 0 0 0 .2.23.23 0 0 0 .2.09c.17-.05.33-.11.5-.2.7-.4 1.3-.92 1.81-1.55l.9-1.11c.53-.75.94-1.6 1.18-2.5.21-.72.4-1.45.63-2.17.09-.27.2-.53.33-.78l.18-.2h.06c.06.18.13.36.17.56.1.61.12 1.23.04 1.85-.08.8-.25 1.59-.49 2.36-.17.47-.4.92-.68 1.33a18.36 18.36 0 0 1-2.5 3.24 17 17 0 0 1-2.42 1.96.3.3 0 0 0-.06.2.23.23 0 0 0 .17.12c.17 0 .34-.02.5-.06a6.07 6.07 0 0 0 2.06-1.06A13.55 13.55 0 0 0 30 22.4a12.26 12.26 0 0 0 1.2-6.56c-.08-.45-.06-.9.03-1.34l.11-.3c.11-.2.27-.22.38 0 .1.22.19.44.24.67.22 1.12.29 2.25.2 3.39a16.62 16.62 0 0 1-1.36 5.32 12.67 12.67 0 0 1-3.33 4.52c-.47.41-.92.81-1.4 1.2a17.31 17.31 0 0 1-6.4 2.6c-.96.16-1.94.22-2.92.18-.48 0-.97-.03-1.45-.05a11.26 11.26 0 0 1-3.2-.65 22.73 22.73 0 0 1-4.25-2 12.57 12.57 0 0 1-3.93-3.8c-.5-.73-.94-1.5-1.3-2.3a.31.31 0 0 0-.23-.18 1.8 1.8 0 0 1-1.21-1.02A17.62 17.62 0 0 1 0 16c.01-.82.09-1.63.22-2.43.16-1.1.43-2.16.81-3.2.34-.9.82-1.74 1.42-2.5.35-.44.63-.93.97-1.37A15.29 15.29 0 0 1 12.16.83C12.83.67 13.5.5 14.18.37a27.63 27.63 0 0 1 4-.37c2.9-.04 5.76.83 8.15 2.47.27.17.52.38.73.62.15.18.26.41.3.65.01.06.05.1.1.15.56.55 1.17 1.07 1.7 1.66a7.75 7.75 0 0 1 1.76 3.21 3.85 3.85 0 0 1-.28 2.93c-.4.67-.95 1.22-1.62 1.62a4 4 0 0 1-2.52.68 3.45 3.45 0 0 1-2.24-.95 21.4 21.4 0 0 0-2.02-1.85c-.47-.36-.96-.7-1.45-1.02a5.3 5.3 0 0 0-1.93-.7 9.79 9.79 0 0 0-2.35-.13A8.06 8.06 0 0 0 11.75 11a8.82 8.82 0 0 0-2.47 2.9 6.42 6.42 0 0 0-.63 2.2 12 12 0 0 0-.12 1.41c.04 1.36.4 2.68 1.03 3.88.48.93 1.1 1.76 1.87 2.48.7.63 1.48 1.17 2.32 1.62.96.51 2.02.82 3.1.9a8.45 8.45 0 0 0 4.18-.63c.63-.3 1.22-.69 1.73-1.16a9.8 9.8 0 0 0 2.18-2.7c.21-.36.36-.77.54-1.15l.17-.35.13-.15"/></svg>
-<h4>Employee Satisfaction</h4>
+<svg viewBox="0 0 30 30">
+  <defs><path id="st" d="M5 .5 6.5 3.6 9.8 4 7.4 6.3 7.9 9.6 5 8 2 9.6 2.7 6.3.3 4 3.5 3.5Z" /></defs>
+  <g class="stars">
+  <use href="#st" x="0"  y="5" />
+  <use href="#st" x="10" y="5" />
+  <use href="#st" x="20" y="5" />
+  <use href="#st" x="5"  y="14"/>
+  <use href="#st" x="15" y="14"/>
+  </g>
+</svg>
+<h4>Team Satisfaction</h4>
 Recorded via CultureAmp</div>
 <div>
 <svg viewBox="0 0 10 10">
@@ -146,7 +164,9 @@ Recorded via CultureAmp</div>
 <h4>Top 360° Reviews</h4>
 peers, leadership, team members, & others
 </div>
-<div><h4>Low Attrition</h4>
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.2 -0.2 33 32.5"><path d="M25.77 20.24c.1.16.13.35.1.53a7.38 7.38 0 0 1-2.37 3.98.63.63 0 0 0-.16.18.25.25 0 0 0 0 .2.23.23 0 0 0 .2.09c.17-.05.33-.11.5-.2.7-.4 1.3-.92 1.81-1.55l.9-1.11c.53-.75.94-1.6 1.18-2.5.21-.72.4-1.45.63-2.17.09-.27.2-.53.33-.78l.18-.2h.06c.06.18.13.36.17.56.1.61.12 1.23.04 1.85-.08.8-.25 1.59-.49 2.36-.17.47-.4.92-.68 1.33a18.36 18.36 0 0 1-2.5 3.24 17 17 0 0 1-2.42 1.96.3.3 0 0 0-.06.2.23.23 0 0 0 .17.12c.17 0 .34-.02.5-.06a6.07 6.07 0 0 0 2.06-1.06A13.55 13.55 0 0 0 30 22.4a12.26 12.26 0 0 0 1.2-6.56c-.08-.45-.06-.9.03-1.34l.11-.3c.11-.2.27-.22.38 0 .1.22.19.44.24.67.22 1.12.29 2.25.2 3.39a16.62 16.62 0 0 1-1.36 5.32 12.67 12.67 0 0 1-3.33 4.52c-.47.41-.92.81-1.4 1.2a17.31 17.31 0 0 1-6.4 2.6c-.96.16-1.94.22-2.92.18-.48 0-.97-.03-1.45-.05a11.26 11.26 0 0 1-3.2-.65 22.73 22.73 0 0 1-4.25-2 12.57 12.57 0 0 1-3.93-3.8c-.5-.73-.94-1.5-1.3-2.3a.31.31 0 0 0-.23-.18 1.8 1.8 0 0 1-1.21-1.02A17.62 17.62 0 0 1 0 16c.01-.82.09-1.63.22-2.43.16-1.1.43-2.16.81-3.2.34-.9.82-1.74 1.42-2.5.35-.44.63-.93.97-1.37A15.29 15.29 0 0 1 12.16.83C12.83.67 13.5.5 14.18.37a27.63 27.63 0 0 1 4-.37c2.9-.04 5.76.83 8.15 2.47.27.17.52.38.73.62.15.18.26.41.3.65.01.06.05.1.1.15.56.55 1.17 1.07 1.7 1.66a7.75 7.75 0 0 1 1.76 3.21 3.85 3.85 0 0 1-.28 2.93c-.4.67-.95 1.22-1.62 1.62a4 4 0 0 1-2.52.68 3.45 3.45 0 0 1-2.24-.95 21.4 21.4 0 0 0-2.02-1.85c-.47-.36-.96-.7-1.45-1.02a5.3 5.3 0 0 0-1.93-.7 9.79 9.79 0 0 0-2.35-.13A8.06 8.06 0 0 0 11.75 11a8.82 8.82 0 0 0-2.47 2.9 6.42 6.42 0 0 0-.63 2.2 12 12 0 0 0-.12 1.41c.04 1.36.4 2.68 1.03 3.88.48.93 1.1 1.76 1.87 2.48.7.63 1.48 1.17 2.32 1.62.96.51 2.02.82 3.1.9a8.45 8.45 0 0 0 4.18-.63c.63-.3 1.22-.69 1.73-1.16a9.8 9.8 0 0 0 2.18-2.7c.21-.36.36-.77.54-1.15l.17-.35.13-.15"/></svg>
+<h4>Low Attrition</h4>
 Talent retention and high per-seat ROI
 </div>
 
@@ -241,9 +261,9 @@ d="M5 3C4 2 3.1 1 2 1a2 2  0 000 4c1.1 0 2-1 3-2s1.9-2  3-2a2 2 0 010 4C6.9  5 6
 </svg>
 
 <p class="scroll fade"> 
-Hyper-focus, deep-empathy, &amp; pragmatism<br>
-I obsess over quality, war-game, &amp; stay realistic<br>
 Superpowers that get results!
+Focus, empathy, &amp; pragmatism<br>
+I obsess over quality, war-game, &amp; stay realistic<br>
 </p>
 <br><br>
 
@@ -275,12 +295,29 @@ footer p {
   padding: 0;
 }
 
+.scrolled .cta{animation:flash-button .6s ease forwards}
+
+
+
+.cta:before{content:""; display:block; background-color:currentColor; width: 100%; height:100%; position:absolute; top:0; left:0; opacity:0;}
+
+@keyframes cta-flash{
+  0%{transform: skew(-45deg) translateX(-150%)}
+  50%{opacity:1}
+  100%{transform: skew(-45deg) translateX(150%)}
+}
+
+.scrolled .cta:before{animation: cta-flash .5s linear forwards .5s}
+
+
+
 .cta {
+  overflow:hidden; position: relative;
   box-shadow: 0 0 0 0.1em;
   border-radius: 0.5em;
   padding: 1em;
   display: inline-block;
-  margin: 1em 0;
+  margin: 3rem 0;
 }
 
 h3 {
@@ -352,6 +389,28 @@ h2.scrolled {
   transition: transform 1s ease, opacity 1s ease;
 }
 
+.scroll.social-proof  svg{  transform: translate(0, 2rem); opacity:0}
+
+
+@keyframes flash-in{
+  0%{opacity:0;transform: translate(0, 2rem);}
+  10%{opacity:1; fill: var(--brand); color:var(--brand)}
+  100%{transform:translate(0, 0); opacity:1}
+}
+
+.scrolled.social-proof svg{  opacity:0; animation: flash-in .7s ease forwards}
+
+
+.scrolled.social-proof > svg:nth-child(1){animation-delay:.4s}
+.scrolled.social-proof > svg:nth-child(2){animation-delay:.6s}
+.scrolled.social-proof > svg:nth-child(3){animation-delay:.8s}
+.scrolled.social-proof > svg:nth-child(4){animation-delay:1s}
+.scrolled.social-proof > svg:nth-child(5){animation-delay:1.2s}
+.scrolled.social-proof  .no-orphan svg:nth-child(1){animation-delay:1.4s}
+.scrolled.social-proof .no-orphan svg:nth-child(2){animation-delay:1.6s}
+.scrolled.social-proof > svg:nth-child(8){animation-delay:1.8s}
+
+
 .mission-values {
   width: 100vw;
   display: grid;
@@ -375,6 +434,7 @@ h2.scrolled {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   font-size: 0.66em;
   text-transform: uppercase;
+  letter-spacing:.05em;
 }
 
 .mission i {
@@ -432,7 +492,7 @@ li:nth-child(3):hover::after {
 }
 
 .social-proof {
-  margin: 4em 0;
+  margin: 4em 0; margin-bottom:3em;
   color: var(--neutral);
 }
 
@@ -662,7 +722,86 @@ img {
   margin-bottom: 2em;
 }
 
-.top-section .filmgrain{position:absolute; top:-15em; opacity:.3; right:0; bottom:0; left:0; z-index:-1;   max-height: 150vw; height: calc (100% + 15em)  width: 100%;}
+.top-section .bokeh{position:absolute; top:-15em; opacity:.3; right:0; bottom:0; left:0; z-index:-1; }
+
+
+.bokeh {
+  height: 100vh;
+  width: 100vw;
+  filter: blur(3rem);
+  background-color: #124;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+@media (max-width: 30em){
+  .bokeh{filter: blur(.8em)}
+}
+
+.bokeh circle {
+  animation: rotate 10s linear infinite;
+  opacity: 0.55;
+  transform-origin: 50%;
+}
+.bokeh circle:nth-child(2n) {
+  transform-origin: 20% 110%;
+  animation-delay: -5s;
+}
+.bokeh circle:nth-child(3n) {
+  transform-origin: 70% 30%;
+  animation-delay: -2.5s;
+}
+.bokeh circle:nth-child(4n) {
+  transform-origin: 110% 70%;
+  animation-delay: -1.6666666667s;
+}
+.bokeh circle:nth-child(5n) {
+  transform-origin: 30% 40%;
+}
+.bokeh circle:nth-child(6n) {
+  transform-origin: -10% 80%;
+  animation-delay: -13s;
+}
+.bokeh circle:nth-child(7n) {
+  transform-origin: 70% -10%;
+}
+.bokeh circle:nth-child(8n) {
+  transform-origin: -30% 50%;
+  animation-delay: -4s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.circles {
+  margin-bottom: -1em;
+}
+
+.circles > div {
+  height: 3em;
+  width: 3em;
+  background-color: rgba(30, 90, 210, 0.85);
+  mix-blend-mode: multiply;
+  color: #24a;
+  box-shadow: 0 0 0 0.05em #fff;
+  border-radius: 50%;
+  margin: 0 -0.85em;
+  display: inline-block;
+}
+.circles > div:last-child {
+  color: #c00;
+  background-color: rgba(210, 10, 5, 0.85);
+}
 
 .mission-values {
   position: relative;
@@ -826,7 +965,11 @@ img {
 }
 
 .leadership {display:grid; grid-template-columns: 1fr 1fr 1fr}
-.leadership svg{ fill: var(--neutral); max-height: 5em; max-width: 5em;}
+.leadership svg{ fill: var(--neutral); max-height: 5rem; max-width: 5rem;}
+
+.leadership h4{font-size:.66rem; font-weight: 600; letter-spacing:.04em; text-transform: uppercase;}
+.leadership {font-size: .66em; opacity:.5}
+.leadership > div{margin-bottom:1rem}
 
 @media (max-width: 45em) {
   
