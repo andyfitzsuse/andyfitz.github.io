@@ -31,7 +31,7 @@ date: 2021-04-12
 <p class="scroll fade">a multi-disciplinary technology leader<br>
 with proven global impact.<br>
 <br>
-<p  class="scroll fade"> <abbr title="operational">Ops</abbr>, <abbr title="technical">Tech</abbr>, Creative, &amp; Sales combined,<br> a fanatically dedicated <dfn data-title="Draws on vast subjects to solve specific problems.">polymath</dfn>.
+<p  class="scroll fade"> <abbr title="operational">Ops</abbr>, <abbr title="technical">Tech</abbr>, Creative, &amp; Sales combined,<br> a fanatically dedicated <dfn onclick="" data-title="Draws on vast subjects to solve specific problems.">polymath</dfn>.
 <br>
 </section>
 <div class="scroll fade mission-values">
@@ -39,15 +39,15 @@ with proven global impact.<br>
 
 <div class="mission">
  <h3>Mission</h3> 
- <i><dfn data-title="recognise, elevate, accelerate, celebrate">do justice</dfn><br> to <dfn data-title="admirable, quality, purposeful, efforts or ideas - not easyily done">good work</dfn></i><br>
+ <i><dfn onclick=""  data-title="recognise, elevate, accelerate, celebrate">do justice</dfn><br> to <dfn onclick=""  data-title="admirable, quality, purposeful, efforts or ideas - not easyily done">good work</dfn></i><br>
 </div>
 <div class="values">
   <h3>Values</h3> 
   <ul>
-    <li data-title="Friendship, helpfulness, giving, care">kindness</li> 
-    <li data-title="Joy, engagement, momentum, force-multiply">energy</li>
-    <li data-title="Appreciation, admiration, respect, thanks">gratitude</li>
-    <li data-title="Accountable, committed & responsibile">trust</li> 
+    <li onclick=""  data-title="Friendship, helpfulness, giving, care">kindness</li> 
+    <li onclick=""  data-title="Joy, engagement, momentum, force-multiply">energy</li>
+    <li onclick=""  data-title="Appreciation, admiration, respect, thanks">gratitude</li>
+    <li onclick=""  data-title="Accountable, committed & responsibile">trust</li> 
 
   </ul>
 </div>
@@ -268,15 +268,6 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 <br><br>
 
 
-<h3 class="scroll fade">Testimonials</h3>
-<section class="testimonials scroll fade">
-  <div>
-  <blockquote class="quote"> I like that Andy fella, he goes for it</blockquote><ciite>Andy Himself</cite>
-  </div>
-
-</section>
-<br>
-<br>
 
 
 <style>
