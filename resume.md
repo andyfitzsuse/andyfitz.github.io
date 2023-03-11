@@ -7,20 +7,21 @@ eleventyNavigation:
 ---
 
 
-
-<section>
-
 # Andy Fitzsimon  
- 
 
-</section>
 
 
 Work History
+<section class="printonly">
+<a href="https://andyfitzsimon.com">andyfitzsimon.com</a><br>
+<a href="https://linkedin.com/in/andyfitz">linkedin.com/in/andyfitz
+<a href="tel:+61403686629">+61 403 686 629</a><br>
+<a href="mailto:andyfitz+resume@gmail.com">andy@fitzsimon.com.au</a>
+</section>
 
 ## Smartsheet 
 
-Brandfolder Synergy - Content Automation
+### Brandfolder Synergy - Content Automation
 
 September 2022 - March 2023
  
@@ -38,13 +39,13 @@ September 2022 - March 2023
 May 4th 2020 - Sep 2022
 
 
-__Innovation role:__
+#### Innovation role:
 * Led emerging technologies product engineering team (innovation team).
 * Built innovative and infinitely scalable content generation technology resolving key constraints in the total product platform.
 * Took a minimum viable product to market with a storefront targeted to the developer audience.
 * Identified + executed marketing projects. (eg Outfit Font reaching 2 BILLION views to date )
 
-__Strategy role:__
+#### Strategy role:
 * Performed an executive advisory & research function.
 * Evaluated strategic partnerships with external agencies. 
 * Coordinated with client vendors and defined addressable opportunities.
@@ -90,12 +91,37 @@ September 2011 - May 2020  (4 roles)
       Two teams, two timezones — rewarding challenges.
 * Combined regional knowledge, design, and code, to create a globally executed  experience.
 
-## Roles prior 2001 - 2013
+## Roles 2001 - 2013
 
-* Red Hat - Senior Software Engineer - Experience Design 
-* Novell  - Product Designer - SUSE - Virtualization Group
-* Innovative Auctions (formerly PowerAuctions) - Corporate Communications & Product Designer
-* Red Hat - Senior Software Engineer
-* Red Hat - Web Engineer
-* Fiducial Technology - Web Engineer
-* Colmar Brunton Research - Web Developer
+* **Red Hat** — Senior Software Engineer - Experience Design 
+* **Novell**  — Product Designer - SUSE - Virtualization Group
+* **Innovative Auctions** (formerly PowerAuctions) — Corporate Communications & Product Designer
+* **Red Hat** — Senior Software Engineer
+* **Red Hat** — Web Engineer
+* **Fiducial Technology** — Web Engineer
+* **Colmar Brunton Research** — Web Developer
+
+## Corporate Accolades
+
+* Brandfolder Sales BeastMode Award 
+* Red Hat President's CLub 
+* Red Hat Chairman's Award 
+* Red Hat Marketing global citizen
+
+
+<style>
+strong{font-weight:500;}
+time{display:none}
+h1{line-height:.9em;font-weight:900; letter-spacing:-.02em;   margin-top:0 !important; color:var(--fg-2);  -webkit-text-stroke: .07rem var(--fg-2); -webkit-text-fill-color: transparent;}
+
+.printonly{display:none}
+@media print {
+  .printonly{display:block;}
+  h1{font-size: 5em !important}
+  h2{  page-break-after: auto;
+  }
+  h4+ul+h4+ul,ul{page-break-after:always}
+  h4+ul{page-break-after:auto}
+  body{font-size: .75em;line-height:1.3em;}
+}
+</style>

@@ -90,7 +90,7 @@ article :is(h1,h2,h3,h4){position:relative}
 article img{display:block;max-width: 100%; margin-left:  auto; width: auto; height: auto; margin-right:auto;}
 article * + * {margin-top: 2em;}
 article ul{list-style: none; padding:0; margin-top:.5em;}
-article ul > li{position:relative; padding-left: 2em; margin: .5em 0  0  0 ;}
+article ul > li{position:relative; padding-left: 2em; margin: 1em 0  0  0 ;}
 article ul > li:before{content:""; position:absolute;  top:.5em; left:.3em;display:block; width:1em; height:1em; border-radius: 1em; box-shadow: inset 0 0 0 .2em var(--neutral);}
 
 
@@ -149,6 +149,13 @@ h2:target::after,h3:target::after{content:" ←"; color: var(--brand);}
 .docnav .previous{border-radius: 1em 0 0 1em}
 .docnav .next{border-radius: 0 1em  1em 0}
 a[href]{  color: var(--brand); outline:none;}
+
+@media print {
+ footer,nav,.docnav{display:none}
+ body{font-size:.6em}
+ h1{marginn:0}
+ body > *{padding: 1em !important; margin: 0 }
+}
 
 
 img{max-width:100vw;}

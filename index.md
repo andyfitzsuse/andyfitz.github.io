@@ -39,15 +39,15 @@ with proven global impact.<br>
 
 <div class="mission">
  <h3>Mission</h3> 
- <i><dfn onclick=""  data-title="Recognise, elevate, celebrate, & accelerate">do justice</dfn><br> to <dfn onclick=""  data-title="Effort or idea not easily done. Of admirable quality, purpose, & intent">good work</dfn></i><br>
+ <i><dfn onclick=""  data-title="Recognise, elevate, celebrate, & accelerate">do justice</dfn><br> to <dfn onclick=""  data-title="Effort or idea not easily done. Of admirable quality, purpose, & intent">good work</dfn> !</i><br>
 </div>
 <div class="values">
   <h3>Values</h3> 
   <ul>
-    <li onclick=""  data-title="Give friendship, help, care, & compassion">kindness</li> 
-    <li onclick=""  data-title="Have joy, engagement, & momentum. Become a force-multiplier">energy</li>
-    <li onclick=""  data-title="Show appreciation, admiration, respect, thanks">gratitude</li>
-    <li onclick=""  data-title="Be accountable, committed & responsibile">trust</li> 
+    <li onclick=""  data-title="Give friendship, help, care, & compassion">Kindness</li> 
+    <li onclick=""  data-title="Have joy, engagement, & momentum. Become a force-multiplier">Energy</li>
+    <li onclick=""  data-title="Show appreciation, admiration, respect, thanks">Gratitude</li>
+    <li onclick=""  data-title="Be accountable, committed & responsibile">Trust</li> 
 
   </ul>
 </div>
@@ -76,7 +76,7 @@ A listener, doer, &amp; fixer wearing  many hats: <br>product owner, strategist,
 <p class="scroll fade">Enterprise pedigree plus scale-up hustle.<br><b><a href="mailto:andyfitz+site@gmail.com" class="cta">Email me about your crusade</a></b></p>
 
 <br>
-<h2 class="scroll"> Need more? </h2>
+<h2 class="scroll more"> Need more? </h2>
 
 
 
@@ -117,13 +117,14 @@ A listener, doer, &amp; fixer wearing  many hats: <br>product owner, strategist,
 
 
 <br>
+<div class="ltxt">
 <h3 class="scroll fade">Strategic Execution</h3>
 <p class="scroll fade">With Outfit, I read the market, <br>wrote the pitch, &amp; picked the buyer.<br>  
 SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. Revolutionizing operations as a brand manager</p> 
 <br>
 
 <p class="scroll fade">At Red Hat, I set the tone for global regions, making the field experience world-class</p>
-
+</div>
 
 <br>
 <h3  class="scroll fade">Servant Leadership</h3>
@@ -146,6 +147,15 @@ SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; found
 Highest rated people manager</div>
 <div>
 <svg viewBox="0 0 10 10">
+  <text
+    font-size="1.8"
+    x="5" y="5.3"
+    text-anchor="middle"
+    dominant-baseline="middle" 
+    text-anchor="middle"
+    font-weight="800"
+    fill="var(--fg)"
+    >360°</text>
   <path 
     d="M5 1.8A3.2 3.2 0 108.2 5M4.6 2.8 5 1.8 4 1" 
     fill="none" 
@@ -191,8 +201,8 @@ I offer help, asking when it counts.<br>
     </clipPath>
     <g id="day-wrap">
       <g id="day-span">
-        <rect x="0" y="0" width="24" height="2" id="span-day" opacity=".25" />
-        <rect x="6" y="0" width="13" height="2" id="span-light" opacity=".5"/>
+        <rect x="0" y="0" width="24" height="2" id="span-day"  />
+        <rect x="6" y="0" width="13" height="2" id="span-light""/>
         <rect x="9" y="0" width="8" height="2" id="span-lighter" />
       </g>
       <use href="#day-span" x="-24" />
@@ -201,8 +211,8 @@ I offer help, asking when it counts.<br>
     <circle cx="0" cy="1" r=".3" id="time-dot" />
   </defs>
   <g clip-path="url(#day-clip)">
-    <use opacity=".4" href="#day-wrap" />
-    <g opacity=".15">
+    <use class="day-prime" href="#day-wrap" />
+    <g class="other-days">
       <use href="#day-wrap" y="2" x="-6" />
       <use href="#day-wrap" y="4" x="-9" />
       <use href="#day-wrap" y="6" x="-14" />
@@ -273,6 +283,8 @@ I obsess over quality, war-game, &amp; stay realistic<br>
   <div>
   <blockquote class="quote"> I like that Andy fella, he goes for it</blockquote><ciite>Andy Himself</cite>
   </div>
+<br>
+
 <svg fill="none;"  preserveAspectRatio="xMidYMid slice" viewBox="0 0 100 50"><path fill="url(#a)" d="M0 0h100v50H0z"/></svg>
 </section>
 <br>
@@ -287,7 +299,7 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 Performs no-conflict advisory services for analyst &amp; investor groups; direct &amp; via agency</div>
 <div>
 <h4>Investor</h4>
-Angel investor in Madrid-based <a href="kaleidos.net" target="_blank">Kaleidos</a>, creators of <a href="https://penpot.app" data-title="Leading UX Design software" target="_blank">penpot.app</a> and <a href="http://taiga.io" data-title="Open source project management software" target="_blank">taiga.io</a>
+Angel investor in Madrid-based <a href="kaleidos.net" target="_blank">Kaleidos</a>, creators of <a href="https://penpot.app" data-title="Leading open source UX design software" target="_blank">penpot.app</a> and <a href="http://taiga.io" data-title="Open source project management software" target="_blank">taiga.io</a>
 </div>
 <div>
 <h4>Contributor</h4>
@@ -347,6 +359,8 @@ h2 {
   margin: 1em 0;
   line-height: 0.9em;
 }
+
+.more{letter-spacing:-.025em;}
 
 .scroll.map {
   margin: 2em auto;
@@ -740,14 +754,15 @@ img {
   margin-bottom: 2em;
 }
 
-.top-section .bokeh{position:absolute; top:-15em; opacity:.3; right:0; bottom:0; left:0; z-index:-1; }
+.top-section .bokeh{position:absolute; top:-15em; opacity:.45; right:0; bottom:0; left:0; z-index:-1; }
+
 
 
 .bokeh {
   height: 100vh;
   width: 100vw;
   filter: blur(3rem);
-  background-color: #124;
+  background-color: var(--bg);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -757,8 +772,14 @@ img {
   backface-visibility: hidden;
 }
 
+@media (prefers-color-scheme: light) { 
+.top-section .bokeh circle{fill: var(--bg-1) !important; stroke:var(--bg)}
+.top-section .bokeh{ opacity:.7;  filter: blur(1rem); background-color:var(--bg-1)}
+}
+
+
 @media (max-width: 30em){
-  .bokeh{filter: blur(.8em)}
+  .bokeh{filter: blur(.8em) !important}
 }
 
 .bokeh circle {
@@ -864,10 +885,10 @@ img {
 @media (prefers-color-scheme: light) { 
 
 .testimonials use,
-.mission-values use{color: var(--bg-1); stroke-opacity:.35} 
+.mission-values use{color: var(--bg-1); stroke-opacity:.25} 
 
 .testimonials use.pri,
-.mission-values use.pri{color: var(--bg-1); stroke-opacity:.75;} 
+.mission-values use.pri{color: var(--bg-1); stroke-opacity:.6; opacity:.74;} 
 }
 
 
@@ -949,6 +970,7 @@ img {
 
 }
 
+
 .ll {
   animation-delay: -1.5s;
 }
@@ -990,15 +1012,15 @@ img {
 
 }
 
-.disclosures{gap:1rem; font-size: .66em}
+.disclosures{gap:1rem; font-size: 1rem; line-height:1.3em; padding: 0 2em; margin: 0 auto; max-width: 110em}
 .disclosures h4{margin-bottom:1em;}
-.disclosures div{max-width: 20em; place-self:center; text-align:left;}
+.disclosures div{max-width: 24em; place-self:center; margin: 2em 0; text-align:left;}
 .disclosures, .leadership {display:grid; grid-template-columns: 1fr 1fr 1fr}
 
 .leadership svg{ fill: var(--neutral); max-height: 5rem; max-width: 5rem;}
 
-.disclosures h4, .leadership h4{font-size:.66rem; font-weight: 600; letter-spacing:.04em; text-transform: uppercase;}
-.leadership {font-size: .66em; opacity:.5}
+.disclosures h4, .leadership h4{font-size:.75rem; font-weight: 600; letter-spacing:.04em; text-transform: uppercase;}
+.leadership {font-size: .75em; opacity:.5}
 .leadership > div{margin-bottom:1rem}
 
 @media (max-width: 45em) {
@@ -1009,11 +1031,16 @@ img {
 
 
 .timezones{ fill:currentcolor; max-width: 30em; margin-bottom:1em;}
- #span-day{ color:var(--bg-2)}
- #span-light{color:var(--neutral)}
+ #span-day{ color:var(--bg-2); opacity:.5}
+ #span-light{color:var(--neutral); opacity:.5}
  #span-lighter{color:var(--fg); }
+
+ .day-prime{opacity:.4}
  
 .timezones text{font-size:1px;dominant-baseline:middle; text-anchor:middle; font-family: outfit, sans-serif;}
+
+.timezones .other-days{opacity:.2}
+
 .timezones .ts{text-anchor:start}
 .timezones .te{text-anchor:end}
 .timezones rect{stroke-width: .05;stroke:currentcolor}
@@ -1033,6 +1060,19 @@ img {
 .scrolled.timezones [opacity=".15"] use:nth-child(2){animation-delay:.4s}
 .scrolled.timezones [opacity=".15"] use:nth-child(3){animation-delay:.6s}
 .scrolled.timezones [opacity=".15"] use:nth-child(4){animation-delay:.8s}
+
+
+
+@media (prefers-color-scheme: light) {
+
+   #span-day{ color:var(--fg);opacity:1 !important;}
+   #span-light{ color:var(--neutral);opacity:.5 !important;}
+   #span-lighter{ color:var(--neutral);opacity:1 !important;}
+   .day-prime{opacity:1;}
+.timezones .other-days{opacity:.25; filter:contrast(2) saturate(0)}
+
+}
+
 
 
 
