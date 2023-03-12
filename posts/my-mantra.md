@@ -16,11 +16,11 @@ Allow me to share my professional mission, my north star, my <dfn data-title="Re
 
 This has been my work mantra since my career began.
 It's simple, clear, yet drives my approach + decision making in all that I do.
-I kept it mostly to myself in the early days; but over time, always shared it when asked to explain my approach.
+I kept it mostly to myself in the early days; but over time, always shared it when asked to describe my thinking.
 
 It explains why I first gravitated to open source software, & software teams.
 It explains why I often straddle between worlds:
-* being a **builder** and a **hunter** in **sales** / <acronym data-title="Go to Market">GTM</acronym>
+* being a **builder** and a **hunter** in **sales** / <acronym data-title="Go to Market" class="la">GTM</acronym>
 * being a **designer** and a **developer** in **product** 
 * being a **strategist** and a **hands-on actor** in **business development**
 
@@ -51,7 +51,7 @@ Contribute to worthy efforts and fill the gaps, inspiring others to better my wo
 If you're thinking this is all very agreeable and high level, that's because it is. 
 What it's not is apathetic, complacent, or unwilling to grow.  
 
-It's also an outright rejection of the lane-focused functional roles promoted by Radford and Comptryx career bands. And that's only been a problem once. 
+It's also an outright rejection of the lane-focused functional roles promoted by Radford and Comptryx career bands. In my experience, you have to contribute wider than your function, and my band has only been a problem once. 
 
 
 ## What is your ethos ? 

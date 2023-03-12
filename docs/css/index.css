@@ -170,6 +170,7 @@ article > blockquote:after {
 }
 
 
+[data-title].la:hover::after{right:auto; left:0}
 /*anchor links*/
 a.direct-link{color:transparent; overflow:hidden; text-indent:-10000em;transition: transform .2s ease;  transform:translate(.5rem,0);   background-repeat:no-repeat;background-size: 60%; opacity:0;background-repeat:none; background-position: 50% 50%; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' fill='none' stroke='%23567' stroke-linecap='round'%3E%3Cpath transform='rotate(-45deg)' transform-origin='50%25 50%25' d='M5.5 4.5Q4.5 3.4 3 4.6L1.5 6A1 1 0 003.5 8.5L4 8M4.3 6.4Q5.3 7.3 6.4 6.2L8.6 4A1 1 0 006 2L5.5 2.5' /%3E%3C/svg%3E");}
 h2:hover a.direct-link{opacity:.5; transform:none}
