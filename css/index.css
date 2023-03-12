@@ -88,7 +88,7 @@ article header h1{margin-bottom:.5em;}
 article h1{font-size: 5rem;font-weight:800; }
 article :is(h1,h2,h3,h4){position:relative}
 article img{display:block;max-width: 100%; margin-left:  auto; width: auto; height: auto; margin-right:auto;}
-article * + * {margin-top: 2em;}
+article > * + * {margin-top: 2em;}
 article ul{list-style: none; padding:0; margin-top:.5em;}
 article ul > li{position:relative; padding-left: 2em; margin: 1em 0  0  0 ;}
 article ul > li:before{content:""; position:absolute;  top:.5em; left:.3em;display:block; width:1em; height:1em; border-radius: 1em; box-shadow: inset 0 0 0 .2em var(--neutral);}
@@ -136,6 +136,38 @@ article > blockquote:after {
   font-size: 2em; font-weight:700;
 }
 
+
+
+[data-title] {
+  position: relative;
+  font-style: normal;
+  box-shadow: 0 0.1rem var(--neutral);
+  cursor: help;
+
+  display: inline-block;
+  z-index: 9;
+}
+
+[data-title]:hover::after {
+  pointer-events: none;
+  content: attr(data-title);
+  position: absolute;
+  z-index: 999;
+  bottom: calc(100% + .5rem);
+  font-weight: 400;
+  border-radius: 0.5em;
+  animation: hereiam 0.3s cubic-bezier(0.5, 0.2, 0.1, 1.1) forwards;
+  width: 100%;
+  right: 0;
+  min-width: 10.5rem;
+  line-height: 1.3em;
+  background-color: var(--fg);
+  color: var(--bg-1);
+  text-align: left;
+  padding: 1.25em 1em;
+  box-shadow: 0 0 0 0.12em var(--fg), 0 0.3em 1.5em rgba(0, 0, 0, 0.3);
+  font-size: 0.8rem;
+}
 
 
 /*anchor links*/
