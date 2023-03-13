@@ -20,11 +20,11 @@ I kept it mostly to myself in the early days; but over time, always shared it wh
 
 It explains why I first gravitated to open source software, & software teams.
 It explains why I often straddle between worlds:
-* being a **builder** and a **hunter** in **sales** / <acronym data-title="Go to Market" class="la">GTM</acronym>
-* being a **designer** and a **developer** in **product** 
-* being a **strategist** and a **hands-on actor** in **business development**
+* being a **builder** and a **hunter** in **sales** / <acronym data-title="Go to Market" class="la">GTM</acronym> roles
+* being a **designer** and a **developer** in **product engineering** initiatives
+* being a **strategist** and a **hands-on actor** when performing a **business development** function
 
-Focusing on doing justice to good work pushes my own work to multiple frontiers and drives me to create positive change that combines my hard and soft skills; compelling me to listen, learn and adapt. 
+Focusing on doing justice to good work pushes my output to multiple frontiers and drives me to create positive change that combines hard and soft skills; compelling me to listen, learn and adapt. 
 
 If you're interested, I'll dive  deeper into the definitions I've used:
 
@@ -42,8 +42,8 @@ If you're interested, I'll dive  deeper into the definitions I've used:
 ### My common interpretation:
 
 1. Identify under represented value, 
-2. join or start a community gathered around it, 
-3. push the endeavor further through direct contribution.
+2. Join or form a community gathered around it, 
+3. Push the endeavor further through direct contribution.
 
 Celebrate the unsung heroes and give them the audience they deserve. 
 Contribute to worthy efforts and fill the gaps, inspiring others to better my work. 
@@ -51,7 +51,7 @@ Contribute to worthy efforts and fill the gaps, inspiring others to better my wo
 If you're thinking this is all very agreeable and high level, that's because it is. 
 What it's not is apathetic, complacent, or unwilling to grow.  
 
-It's also an outright rejection of the lane-focused functional roles promoted by Radford and Comptryx career bands. In my experience, you have to contribute wider than your function, and my band has only been a problem once. 
+It's also an outright rejection of the lane-focused functional roles extolled by Radford and Comptryx career bands. In my experience, you have to contribute wider than your function, and my band has only been a problem once. 
 
 
 ## What is your ethos ? 
