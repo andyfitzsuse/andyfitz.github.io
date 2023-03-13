@@ -13,6 +13,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;500;800&display=swap" rel="stylesheet"> 
+    {% ogImage "og-image.og.njk", { title: title } %}
+    <meta name="twitter:site" content="@andyfitz" />
+    <meta name="twitter:creator" content="@andyfitz" />
+    <meta property="og:title" content="{% if page.url == "/" %}Andy Fitzimon • multi-disciplinary technology leader{% else %}{{ pageTitle }}{% endif %}" />
+    <meta property="og:url" content="{{ page.url }}" />
   </head>
   <body>
   
