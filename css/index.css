@@ -115,13 +115,14 @@ article{ max-width: 50em;margin:0 auto;}
 article p a[href]{text-decoration:underline;text-decoration-color: var(--tone-1);text-decoration-thickness: .1em;text-underline-offset: .12em;text-decoration-skip-ink: all;}
 article  a.tag{display:inline-block; border-radius: .333em;  box-shadow: inset 0 0 0 .05em  var(--tone-1); padding: .2em .66em; margin: 0 0 0 .4em  ; color: var(--brand);}
 article  a.tag{font-size:.8em;}
-article > blockquote{padding: 1em; font-size: 1.5em; line-height:1.3em; font-style:normal;    margin-top:1em;background-color: var(--bg-2); color:var(--fg-2)}
+article > blockquote{padding: 1em 0; font-size: 1.5rem; line-height:1.3em; font-style:normal;    margin-top:1em; color:var(--fg-2)}
 
 
 article > blockquote > p:first-child{margin:0; padding:0; display:innline}
 article > blockquote {
   color: var(--fg);
   position:relative;
+  line-height:1.2em;
 }
 
 article > blockquote:before {
@@ -132,9 +133,11 @@ article > blockquote:before {
 
 article > blockquote:after {
   content: "”";
-  color: var(--brand); display:innline; float:right;
-  font-size: 2em; font-weight:700;
+  color: var(--brand); display:innline;  display:inline-block;
+  font-size: 1.5rem; font-weight:700; transform:translate(.1em, .5em);
 }
+
+article > blockquote > p:last-child{display:inline}
 
 
 

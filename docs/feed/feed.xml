@@ -72,7 +72,7 @@ It gives me the clear-thinking motivation needed to see the opportunities I trul
 &lt;h2 id=&quot;constraints-based-templating&quot;&gt;Constraints-based templating &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/ai-templating/#constraints-based-templating&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Constraints answer the question:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“what must stay the same so that everything else can change?”&lt;/p&gt;
+&lt;p&gt;what must stay the same so that everything else can change?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Typically this templating happens when a person crafts a design. They lock down things and permit changes with safe limits.  For example, take my design, and let only this area be editable: no font changes, these word limits, select from my choices of photography, with the layout only adapting slightly.  It’s a great way to extend the reach of predetermined content but also guarantees homogenous, unengaging outcomes en masse.&lt;/p&gt;
 &lt;h2 id=&quot;trained-extrapolation-(aka-ai%2Bml)&quot;&gt;Trained extrapolation (aka AI+ML) &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/ai-templating/#trained-extrapolation-(aka-ai%2Bml)&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
@@ -82,7 +82,10 @@ It gives me the clear-thinking motivation needed to see the opportunities I trul
 &lt;p&gt;In theory, this technique is forward compatible with existing templates. Just train a model on the output.&lt;/p&gt;
 &lt;h2 id=&quot;why-is-this-a-game-changer%3F&quot;&gt;Why is this a game changer? &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/ai-templating/#why-is-this-a-game-changer%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;It was Lawrence Lessig who said:&lt;/p&gt;
-&lt;blockquote class=&quot;qupte&quot;&gt;“Creativity and innovation always builds on the past. The past always tries to control the creativity that builds upon it.” &lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Creativity and innovation always builds on the past.&lt;br /&gt;
+The past always tries to control the creativity that builds upon it.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Lessig was of course talking about needed reforms in copyright law; however his statement has become even more true when considering the breakthroughs we’re looking at today.&lt;/p&gt;
 &lt;p&gt;When the models are informed by successful contributions of the past - the future generated outcomes are heavily influenced - but not limited to it.&lt;/p&gt;
 &lt;p&gt;Design-wise this solves a lot more gotcha’s than any one template could reasonably make.&lt;/p&gt;

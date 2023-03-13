@@ -18,7 +18,7 @@ Neither of those terms may mean anything to you unless you’re familiar with au
 
 ## Constraints-based templating
 Constraints answer the question:
->  “what must stay the same so that everything else can change?”
+>  what must stay the same so that everything else can change?
 
 Typically this templating happens when a person crafts a design. They lock down things and permit changes with safe limits.  For example, take my design, and let only this area be editable: no font changes, these word limits, select from my choices of photography, with the layout only adapting slightly.  It’s a great way to extend the reach of predetermined content but also guarantees homogenous, unengaging outcomes en masse.  
 
@@ -35,7 +35,8 @@ In theory, this technique is forward compatible with existing templates. Just tr
 ## Why is this a game changer?
 
 It was Lawrence Lessig who said:
-<blockquote class="qupte">“Creativity and innovation always builds on the past. The past always tries to control the creativity that builds upon it.” </blockquote>
+> Creativity and innovation always builds on the past. 
+> The past always tries to control the creativity that builds upon it. 
 
 Lessig was of course talking about needed reforms in copyright law; however his statement has become even more true when considering the breakthroughs we’re looking at today. 
 
