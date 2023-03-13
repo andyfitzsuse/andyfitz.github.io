@@ -28,6 +28,7 @@ date: 2021-04-12
   <circle cx="65%" cy="85%" r="55%" fill="#626" />
 </svg>
 <br>
+
 <p class="scroll fade">a multi-disciplinary technology leader<br>
 with proven global impact.<br>
 <br>
@@ -77,8 +78,7 @@ with proven global impact.<br>
 
 
 
-<p class="scroll fade ">
-A listener, doer, &amp; fixer <br>having worn  many hats: <br>product owner, strategist, brand manager,  <br> engineer, designer, <acronym title="Account Executive">AE</acronym>, <acronym title="Solutions Architect">SA</acronym> &amp; <acronym title="Customer Success Manager">CSM</acronym>.<br>
+<p class="scroll fade ">A listener, doer, &amp; fixer <br>having worn  many hats: <br>product owner, strategist, brand manager,  <br> engineer, designer, <acronym title="Account Executive">AE</acronym>, <acronym title="Solutions Architect">SA</acronym> &amp; <acronym title="Customer Success Manager">CSM</acronym>.<br>
 <br>
 </p>  
 <br>
@@ -550,8 +550,9 @@ h2.scrolled {
 }
 
 .mission-values h3 {
-  color: var(--neutral);
-  font-size: 1em;
+  color: var(--fg);
+  font-weight:500; letter-spacing: .05em;
+  font-size: .8em; text-transform: uppercase; 
 }
 
 .mission a{display:inline-block; margin-top:2em; background-color: var(--bg);padding:.5em 1em; border-radius: .5em} 
@@ -987,6 +988,8 @@ opacity:.7;
 }
 
 
+
+
 .testimonials .quote{text-align:left; max-width: 53em; margin: 0 auto; display:block; background-color: var(--bg); margin-top:2rem}
 .testimonials .quote p{margin-bottom: 1rem}
 
@@ -996,16 +999,18 @@ cite a { font-weight: 500}
 
 .testimonials input{opacity:0; position:absolute; z-index:-1}
 
-.testimonials label{display:inline-block; vertical-align:center;color: var(--fg); filter:saturate(.4); cursor:pointer;
+.testimonials label{transition: all .5s ease; display:inline-block; vertical-align:center;color: var(--fg); filter:saturate(.4); cursor:pointer;
 -webkit-tap-highlight-color: rgba(0,0,0,0);
 display:inline-block; position:relative; height:4rem; width: 5rem; text-align:center; line-height:4em; white-space:nowrap}
 
-.testimonials label span{display:block; ; height:4rem; width: 4rem; border-radius: 50%;background-size: cover; background-position: 50% 50%; background-repeat:no-repeat; position:absolute; top:0; left:.5em;  z-index:-1; opacity:.3;}
+.testimonials label span{transition: all .5s ease; display:block; ; height:4rem; width: 4rem; border-radius: 50%;background-size: cover; background-position: 50% 50%; background-repeat:no-repeat; position:absolute; top:0; left:.5em;  z-index:-1; opacity:.3;}
 
-.testimonials input:checked + label{color:transparent; filter:none }
-input:checked + label span{ box-shadow: 0 0 0 .1em;opacity:1}
+.testimonials input:checked + label{color:transparent; filter:none ; }
+input:checked + label span{ box-shadow: 0 0 0 .2em var(--bg), 0 0 0 .4em var(--tone-1);opacity:1}
 
 
+:checked ~ div cite{animation: whodey .5s forwards}
+@keyframes whodey{0%{opacity:0; transform:translate(0, .5em)}}
 
 cite{margin-top:1rem}
 
@@ -1021,7 +1026,7 @@ cite{margin-top:1rem}
 #ref-kyrsten:checked ~ .ref-kyrsten,
 #ref-john:checked ~ .ref-john,
 #ref-akhil:checked ~ .ref-akhil,
-#ref-anh:checked ~ .ref-anh{display:block}
+#ref-anh:checked ~ .ref-anh{display:block;}
 
 
 .values ul {
