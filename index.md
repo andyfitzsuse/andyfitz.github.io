@@ -298,7 +298,8 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 
 
 <section class="testimonials scroll fade">
-<h3 class="scroll fade">Testimonials</h3>
+
+### Testimonials
 
 
 <input  id="ref-john" type="radio" name="advocate" checked>
@@ -308,7 +309,7 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 <label for="ref-anh"> <span></span>Anh</label>
 
 <div class="ref-john">
-<cite><a href="https://www.linkedin.com/in/adamsjohnq/" target="_blank">John Q. Adams </a>&mdash; VP, Corporate Brand Marketing at Advance Auto Parts</cite>
+<cite><a href="https://www.linkedin.com/in/adamsjohnq/" target="_blank">John Q. Adams </a><br>VP, Corporate Brand Marketing at Advance Auto Parts</cite>
 <p>Managed Andy directly at Red Hat</p>
 <bockquote class="quote">
 
@@ -321,7 +322,7 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 
 
 <div class="ref-anh">
-<cite><a target="_blank" href=""> Manh Quoc Anh Nguyen</a> &mdash; Lead Sofware Developer at Atlassian</cite>
+<cite><a target="_blank" href=""> Manh Quoc Anh Nguyen</a> <br>Lead Sofware Developer at Atlassian</cite>
 <p>Directly managed by Andy at Outfit</p>
 <blockquote class="quote">
 <p>He cares for team members as a big brother / great buddy rather than as a boss.</p> 
@@ -910,7 +911,7 @@ opacity:.7;
 
 
 .disclosures svg,
-.mission-values svg{color: var(--bg); background-color:var(--bg-1); opacity:.7} 
+.mission-values svg{color: var(--bg); background-color:var(--bg-1); opacity:.5} 
 }
 
 
@@ -924,7 +925,11 @@ cite{font-style: normal; font-weight: 500; margin-bottom:1em; display:block}
 
 .testimonials input:checked + label{color:var(--brand); font-weight: 700;}
 
-.testimonials label span{display:block; height:3.5rem; width: 3.5rem; border-radius: 50%; box-shadow: 0 0 0 .1em;}
+.testimonials label span{display:block; height:4rem; width: 4rem; border-radius: 50%; box-shadow: 0 0 0 .1em;background-size: cover; background-position: 50% 50%; background-repeat:no-repeat;}
+
+
+#ref-anh + label span{background-image:url(/img/headshots/anh.jpg)}
+#ref-john + label span{background-image:url(/img/headshots/jqa.jpg)}
 
 
 .ref-john,.ref-anh{display:none}
@@ -1074,7 +1079,7 @@ cite{font-style: normal; font-weight: 500; margin-bottom:1em; display:block}
 
 
 
-.timezones{ fill:currentcolor; max-width: 30em; margin-bottom:1em;}
+.timezones{ fill:currentcolor; max-width: 20em; margin-bottom:1em;}
  #span-day{ color:var(--bg-2); opacity:.5}
  #span-light{color:var(--neutral); opacity:.5}
  #span-lighter{color:var(--fg); }
