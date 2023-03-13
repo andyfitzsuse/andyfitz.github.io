@@ -975,6 +975,7 @@ cite{font-style: normal; font-weight: 500; margin-bottom:1em; display:block}
 
 .testimonials label span{display:block; height:4rem; width: 4rem; border-radius: 50%; box-shadow: 0 0 0 .1em;background-size: cover; background-position: 50% 50%; background-repeat:no-repeat;}
 
+cite{margin-top:1rem}
 
 #ref-anh + label span{background-image:url(/img/headshots/anh.jpg)}
 #ref-john + label span{background-image:url(/img/headshots/jqa.jpg)}
