@@ -413,6 +413,10 @@ Makes ad-hoc donations of design, software, or funding to causes, & open source 
 </section>
 
 <br><br>
+
+<p class="scroll fade">Think we can work together?<br><b><a href="mailto:andyfitz+site@gmail.com" class="cta">Email me!</a></b></p>
+
+
 <br><br>
 
 <style>

@@ -1,5 +1,5 @@
 ---
-title: AI and ML will change templating completely
+title: AI & ML will change the game for templates
 description:  Extrapolation and generative AI is cheaper, faster, and more intuitive.
 date: 2023-03-01
 tags:
@@ -9,8 +9,10 @@ tags:
 layout: layouts/post.njk
 ---
 
+Generative AI is cheaper, faster, and more intuitive.
 
-Constraint-based templates can be expensive and hard to adapt.  Extrapolation-based templates promise a way forward!.
+Constraint-based templates can be expensive and hard to adapt.  
+Extrapolation-based templates by contrast promise a way forward!
 
 
 Neither of those terms may mean anything to you unless you’re familiar with automating large volumes of content for growing brands.  But this will be interesting, so please keep reading. 
@@ -23,6 +25,10 @@ Typically this templating happens when a person crafts a design. They lock down 
 
 
 ## Trained extrapolation (aka AI+ML)
+
+Trained Generative models answer the question:
+> What invisible rules can we decipher from the past that adapt well in the future? 
+
 Learning what to do next rather than setting the rules out ahead of time is a dramatically different approach. One that makes room for truly adaptive and dynamic outcomes. 
 
 Generative extrapolation is performed by first being seeded with a model of successful content. It is then prompted by constraints specific to an outcome.
@@ -34,8 +40,7 @@ In theory, this technique is forward compatible with existing templates. Just tr
 ## Why is this a game changer?
 
 It was Lawrence Lessig who said:
-> Creativity and innovation always builds on the past. 
-> The past always tries to control the creativity that builds upon it. 
+> Creativity & innovation always builds on the past.  The past always tries to control the creativity that builds upon it. 
 
 Lessig was of course talking about needed reforms in copyright law; however his statement has become even more true when considering the breakthroughs we’re looking at today. 
 
