@@ -287,12 +287,16 @@ Focus, empathy, &amp; pragmatism<br>
 I obsess over quality, war-game, &amp; stay realistic<br>
 </p>
 <br><br>
+<h3 id="testimonials"> Testimonials </h3>
 <section class="testimonials scroll fade">
-<h3 id="testimonials">Testimonials <a class="direct-link" href="#testimonials">#</a></h3>
 <input  id="ref-john" type="radio" name="advocate" checked>
 <label for="ref-john"><span></span>John</label>
 <input  id="ref-anh" type="radio" name="advocate">
 <label for="ref-anh"> <span></span>Anh</label>
+<input  id="ref-kyrsten" type="radio" name="advocate">
+<label for="ref-kyrsten"> <span></span>Kyrsten</label>
+<input  id="ref-akhil" type="radio" name="advocate">
+<label for="ref-akhil"> <span></span>Akhil</label>
 <div class="ref-john">
 <cite><a href="https://www.linkedin.com/in/adamsjohnq/" target="_blank">John Q. Adams </a><br>VP, Corporate Brand Marketing at Advance Auto Parts</cite>
 <p>Managed Andy directly at Red Hat</p>
@@ -310,6 +314,24 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 <p>I am indeed proud of working with Andy, which helps me unleash my innovation potential.</p> 
 <p>I would recommend Andy to any team that needs an advocate for innovation, strategy, brand and marketing.</p> 
 <p>I hope that we can have a chance to work together in future.</p>
+</blockquote>
+</div>
+<div class="ref-kyrsten">
+<cite> <a href="https://www.linkedin.com/in/kyrstenmusich/" target="_blank">Kyrsten Musich</a><br>
+Health & Life Sciences Innovation Studio Lead at Salesforce </cite>
+<p>Worked together on the global marketing team at Red Hat</p>
+<blockquote class="quote"> 
+<p>Andy is a dream to work with. He is direct and kind in his feedback, wildly creative and excellent at building on ideas. He is amazing at keeping up with the trends in the marketplace and his creative talents surpass his technical and many other talents. He is brilliant to interact with and a true friend through and through. He has your back but is willing to tell you "when you have food in your teeth" when it comes to feedback. </p>
+<p>He is one of my favorite people to jam on ideas with and then is someone who actually wants to make them happen with you. His understanding of a brand, the customer audience and his "internal clients" needs are well balanced when producing a piece of working or creating a new idea to move the organization forward. He is a true visionary with the right level of passion and commit to great work to get things done.</p>
+</blockquote>
+</div>
+<div class="ref-akhil">
+<cite> <a href="https://www.linkedin.com/in/akhilbhaskar/" target="blank">Akhil Bhaskar</a><br>
+Head of Compute Specialist SA, APJ at Amazon Web Services</cite>
+<p>Collaborated as a stakeholder at Red Hat</p>
+<blockquote class="quote"> 
+<p>Andy is one of those guys that you want to and need to know <br>- incredibly energetic, very talented, and just a fun guy to be around. <br>He's one of those rare unicorns who is both creative and technical at the same time! </p>
+ <p>His knowledge and capability around brand strategy, automation, enablement, and marketing operational aspects are matched only by his passion and enthusiasm. A trusted advisor and friend.</p>
 </blockquote>
 </div>
 <br>
@@ -890,12 +912,12 @@ opacity:.7;
 
 
 .testimonials .quote{text-align:left; max-width: 53em; margin: 0 auto; display:block; background-color: var(--bg); margin-top:2rem}
-
+.testimonials .quote p{margin-bottom: 1rem}
 cite{font-style: normal; font-weight: 500; margin-bottom:1em; display:block}
 
 
 .testimonials input{opacity:0; position:absolute; z-index:-1}
-.testimonials label{display:inline-block; padding: 1em; color: var(--neutral); cursor:pointer}
+.testimonials label{display:inline-block; padding: .5em; color: var(--neutral); cursor:pointer}
 
 .testimonials input:checked + label{color:var(--brand); font-weight: 700;}
 
@@ -904,12 +926,16 @@ cite{font-style: normal; font-weight: 500; margin-bottom:1em; display:block}
 
 #ref-anh + label span{background-image:url(/img/headshots/anh.jpg)}
 #ref-john + label span{background-image:url(/img/headshots/jqa.jpg)}
+#ref-akhil + label span{background-image:url(/img/headshots/ab.jpg)}
+#ref-kyrsten + label span{background-image:url(/img/headshots/km.jpg)}
 
 
-.ref-john,.ref-anh{display:none}
 
+.ref-kyrsten,.ref-akhil,.ref-john,.ref-anh{display:none}
 
+#ref-kyrsten:checked ~ .ref-kyrsten,
 #ref-john:checked ~ .ref-john,
+#ref-akhil:checked ~ .ref-akhil,
 #ref-anh:checked ~ .ref-anh{display:block}
 
 
