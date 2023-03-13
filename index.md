@@ -195,7 +195,7 @@ At Outfit as rated by leadership, peers, &amp; team members
 </div>
 <div>
 
-<svg viewBox="0 0 10 10" fill="none" stroke="var(--neutral)"><circle cx="5" cy="5" r="4" fill="none" /> <path fill="none" d="M2.75 5 l 1.5 1.5 l 3 -3.5" /></svg>
+<svg viewBox="0 0 10 10" fill="none" stroke="var(--neutral)"><circle cx="5" cy="5" r="3" fill="none" /> <path fill="none" d="M2.75 5 l 1.5 1.5 l 3 -3.5" stroke="var(--fg)" /></svg>
 <h4>Performance, Retention, &amp; ROI</h4>
 Low attrition and high per-seat performance at Outfit
 </div>
@@ -1014,7 +1014,7 @@ cite a { font-weight: 500}
 
 .testimonials label{transition: all .5s ease;  vertical-align:center;color: var(--fg); filter:saturate(.4); cursor:pointer;
 -webkit-tap-highlight-color: rgba(0,0,0,0);
-display:inline-block; position:relative; height:4rem; width: 5rem;  margin-bottom:1em;text-align:center; line-height:4em; white-space:nowrap}
+display:inline-block; position:relative; height:4rem; width: 5rem;  margin-bottom:1em;text-align:center; line-height:4em; white-space:nowrap; user-select:none;}
 
 .testimonials label span{transition: all .5s ease; display:block; ; height:4rem; width: 4rem; border-radius: 50%;background-size: cover; background-position: 50% 50%; background-repeat:no-repeat; position:absolute; top:0; left:.5em;  z-index:-1; opacity:.3;}
 
