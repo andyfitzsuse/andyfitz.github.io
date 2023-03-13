@@ -13,15 +13,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;500;800&display=swap" rel="stylesheet"> 
-    {% ogImage "og-image.og.njk", { title: title } %}
+
+    {% setAsync "ogOutputUrl" -%}
+        {% ogImage "./og-image.og.njk", { title: title } %}
+    {%- endsetAsync %}
+
+   <meta property="og:description" content="{{ description or metadata.description }}" />
+    
     <meta name="twitter:site" content="@andyfitz" />
     <meta name="twitter:creator" content="@andyfitz" />
     <meta property="og:title" content="{% if page.url == "/" %}Andy Fitzimon • multi-disciplinary technology leader{% else %}{{ pageTitle }}{% endif %}" />
     <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:image" content="https://andyfitzsimon.com{{ ogOutputUrl }}" />
+    <meta property="og:image:secure_url" content="https://andyfitzsimon.com{{ ogOutputUrl }}" />
   </head>
   <body>
   
-
 
 <nav>
   <a class="home" href="{{ '/' | url }}" aria-label="home">

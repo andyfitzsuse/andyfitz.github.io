@@ -12,9 +12,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
-  eleventyConfig.addPlugin(EleventyPluginOgImage);
 
   eleventyConfig.addPlugin(EleventyPluginOgImage, {
+    generateHTML: (outputUrl) => outputUrl,
+
     satoriOptions: {
       fonts: [
         {
