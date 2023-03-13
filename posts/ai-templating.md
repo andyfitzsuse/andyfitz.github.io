@@ -1,5 +1,5 @@
 ---
-title: Templates are dying - AI and ML will win!
+title: AI and ML will change templating completely
 description:  Extrapolation and generative AI is cheaper, faster, and more intuitive.
 date: 2023-03-01
 tags:
@@ -10,9 +10,8 @@ layout: layouts/post.njk
 ---
 
 
+Constraint-based templates can be expensive and hard to adapt.  Extrapolation-based templates promise a way forward!.
 
-Specifically: Constraint-based templating is dead.  
-**Long live Trained extrapolation!**
 
 Neither of those terms may mean anything to you unless you’re familiar with automating large volumes of content for growing brands.  But this will be interesting, so please keep reading. 
 

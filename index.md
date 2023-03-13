@@ -1008,9 +1008,9 @@ cite a { font-weight: 500}
 
 .testimonials input{opacity:0; position:absolute; z-index:-1}
 
-.testimonials label{transition: all .5s ease; display:inline-block; vertical-align:center;color: var(--fg); filter:saturate(.4); cursor:pointer;
+.testimonials label{transition: all .5s ease;  vertical-align:center;color: var(--fg); filter:saturate(.4); cursor:pointer;
 -webkit-tap-highlight-color: rgba(0,0,0,0);
-display:inline-block; position:relative; height:4rem; width: 5rem; text-align:center; line-height:4em; white-space:nowrap}
+display:inline-block; position:relative; height:4rem; width: 5rem;  margin-bottom:1em;text-align:center; line-height:4em; white-space:nowrap}
 
 .testimonials label span{transition: all .5s ease; display:block; ; height:4rem; width: 4rem; border-radius: 50%;background-size: cover; background-position: 50% 50%; background-repeat:no-repeat; position:absolute; top:0; left:.5em;  z-index:-1; opacity:.3;}
 
@@ -1158,7 +1158,7 @@ cite{margin-top:1rem}
 
 }
 
-.disclosures{gap:1rem; font-size: 1rem; line-height:1.3em; padding: 0 2em; margin: 0 auto; max-width: 110em}
+.disclosures{gap:1rem; font-size: 1rem; line-height:1.3em; padding: 0 2em; margin: 0 auto; max-width: 110em;}
 .disclosures h4{margin-bottom:1em;}
 .disclosures div{max-width: 24em; place-self:center;  margin: 1em 0 6.75em 0; text-align:left;}
 .disclosures, .leadership {display:grid; grid-template-columns: 1fr 1fr 1fr}
@@ -1173,7 +1173,9 @@ cite{margin-top:1rem}
   
  .disclosures,  .leadership{grid-template-columns: 1fr}
  .disclosures div{grid-column-start: 1;
-  grid-column-end: 4; margin: 1rem 0}
+  grid-column-end: 4; margin: 0 0 4rem 0}
+
+.disclosures h3{padding-bottom:2em;}
 }
 
 
