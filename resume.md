@@ -27,8 +27,8 @@ September 2022 - March 2023
  
 * Successful transition and ramp up of the new Content Automation offering across the entire group formerly known as Outfit into the Brandfolder business.
 * Pitched and won clients with all deal sizes between  USD$40-350k 
-* Ressurected major clost/lost opportunities into Content Automation deals.
-* Produced every enterprise-qualified POC, curating the experience to industry workload
+* Resurrected major DAM closed/lost opportunities into Content Automation and portfolio deals.
+* Produced every enterprise-qualified POC, curating the experience to industry workload with a 90%+ win rate
 * Directly maintained high-risk enterprise accounts in a professional services and customer success capacity
 * Worked with product and engineering teams to ensure platform strategy,  commercial prioritisation, innovative opportunities.
 

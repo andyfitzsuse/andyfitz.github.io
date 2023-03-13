@@ -78,7 +78,7 @@ with proven global impact.<br>
 
 
 <p class="scroll fade ">
-A listener, doer, &amp; fixer wearing  many hats: <br>product owner, strategist, brand manager,  <br> engineer, designer, <acronym title="Account Executive">AE</acronym>, <acronym title="Solutions Architect">SA</acronym> &amp; <acronym title="Customer Success Manager">CSM</acronym>.<br>
+A listener, doer, &amp; fixer <br>having worn  many hats: <br>product owner, strategist, brand manager,  <br> engineer, designer, <acronym title="Account Executive">AE</acronym>, <acronym title="Solutions Architect">SA</acronym> &amp; <acronym title="Customer Success Manager">CSM</acronym>.<br>
 <br>
 </p>  
 <br>
@@ -139,10 +139,10 @@ A listener, doer, &amp; fixer wearing  many hats: <br>product owner, strategist,
 <div class="ltxt">
 <h3 class="scroll fade">Strategic Execution</h3>
 <p class="scroll fade">With Outfit, I read the market, <br>wrote the pitch, &amp; picked the buyer.<br>  
-SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. Revolutionizing operations as a brand manager</p> 
+SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. <br>Revolutionizing operations as a brand manager</p> 
 <br>
 
-<p class="scroll fade">At Red Hat, I set the tone for global regions, making the field experience world-class</p>
+<p class="scroll fade">At Red Hat, I set the tone for selling techology in the global regions, <br> making the field experience scalable and world-class</p>
 </div>
 
 <br>
@@ -207,7 +207,7 @@ Low attrition and high per-seat performance at Outfit
 
 <br>
 <h3 class="scroll fade quote">Nothing is beyond us,<br> no task beaneath me</h3>
-<p class="scroll fade">If it needs to be done, I do it well &amp; with pride.
+<p class="scroll fade">If it needs to be done, I do it well &amp; with pride.<br>
 I offer help, asking when it counts.<br>
 </p>
 <br>
@@ -299,20 +299,49 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 
 <section class="testimonials scroll fade">
 <h3 class="scroll fade">Testimonials</h3>
-  <div>
-  <blockquote class="quote"> I like that Andy fella, he goes for it</blockquote><ciite>Andy Himself</cite>
-  </div>
-<br>
 
-<svg class="patbg" viewBox="0 0 100 50"  preserveAspectRatio="xMidYMid slice" > <use href="#patg" /></svg>
+
+<input  id="ref-john" type="radio" name="advocate" checked>
+<label for="ref-john"><span></span>John</label>
+
+<input  id="ref-anh" type="radio" name="advocate">
+<label for="ref-anh"> <span></span>Anh</label>
+
+<div class="ref-john">
+<cite><a href="https://www.linkedin.com/in/adamsjohnq/" target="_blank">John Q. Adams </a>&mdash; VP, Corporate Brand Marketing at Advance Auto Parts</cite>
+<p>Managed Andy directly at Red Hat</p>
+<bockquote class="quote">
+
+<p>In short, Andy Fitzsimon is a genius. Some have even called him a unicorn, because he is a rare and magical breed.</p> 
+<p>Never before have I had the pleasure of working with someone who is equal parts brand champion, design whiz, digital renegade and technical rock star.</p>
+<p> His creative instincts are on point and his engineering chops are undisputed.</p> 
+<p>Combine all those things and you've got a kick-ass technology brand professional for the 21st century.<br> You'd be lucky to have a unicorn like Andy on your team.</p></blockquote>
+
+</div>
+
+
+<div class="ref-anh">
+<cite><a target="_blank" href=""> Manh Quoc Anh Nguyen</a> &mdash; Lead Sofware Developer at Atlassian</cite>
+<p>Directly managed by Andy at Outfit</p>
+<blockquote class="quote">
+<p>He cares for team members as a big brother / great buddy rather than as a boss.</p> 
+<p>I am indeed proud of working with Andy, which helps me unleash my innovation potential.</p> 
+<p>I would recommend Andy to any team that needs an advocate for innovation, strategy, brand and marketing.</p> 
+<p>I hope that we can have a chance to work together in future.</p>
+</blockquote>
+</div>
+
+
+<br>
 </section>
 <br>
 <br>
 
 
-<h3 class="scroll fade">Professional Disclosures</h3>
+
 <br>
 <section  class="scroll fade disclosures"> 
+<h3> Professional Disclosures</h3>
 <div>
 <h4>Advisor</h4>
 Performs no-conflict advisory services for analyst &amp; investor groups; direct &amp; via agency</div>
@@ -323,6 +352,7 @@ Angel investor in Madrid-based <a href="kaleidos.net" target="_blank">Kaleidos</
 <div>
 <h4>Contributor</h4>
 Makes ad-hoc donations of design, software, or funding to causes, & open source projects</div>
+<svg class="patbg" viewBox="0 0 100 50"  preserveAspectRatio="xMidYMid slice" > <use href="#patg" /></svg>
 </section>
 
 <br><br>
@@ -543,14 +573,21 @@ li:nth-child(3):hover::after {
 
 .quote:before {
   content: "“";
-  color: var(--brand);
+  color: var(--neutral);
   font-size: 1.5em;
+  display: block;
+text-align: left;
+padding-left: 1rem; font-size:2rem; font-weight:700;
+margin-bottom: -1rem;
 }
 
 .quote:after {
   content: "”";
-  color: var(--brand);
+  color: var(--neutral);
   font-size: 1.5em;
+  display: block;
+  text-align: right;
+  padding-right: 1rem;
 }
 
 @media (max-width: 45em) {
@@ -833,7 +870,7 @@ img {
   background-color: rgba(210, 10, 5, 0.85);
 }
 
-.testimonials,
+.disclosures,
 .mission-values {
   position: relative;
   padding: 1em 0 5em 0;
@@ -841,7 +878,7 @@ img {
 
 }
 
-.testimonials svg, 
+.disclosures svg, 
 .mission-values svg {
 
   position: absolute;
@@ -854,23 +891,47 @@ img {
   right: 0;
  }
 
-.testimonials div,
+.disclosures div,
 .mission-values div {
   position: relative;
   z-index: 9;
 }
 
-.testimonials svg,
+.disclosures svg,
 .mission-values svg {
-color: var(--bg-1); background-color:var(--bg-2); 
+color: var(--bg-1);
+opacity:.7; 
 }
+
+.disclosures h3{  grid-column-start: 1;
+  grid-column-end: 4;}
 
 @media (prefers-color-scheme: light) { 
 
 
-.testimonials svg,
+.disclosures svg,
 .mission-values svg{color: var(--bg); background-color:var(--bg-1); opacity:.7} 
 }
+
+
+.testimonials .quote{text-align:left; max-width: 53em; margin: 0 auto; display:block; background-color: var(--bg)}
+
+cite{font-style: normal; font-weight: 500;}
+
+
+.testimonials input{opacity:0; position:absolute; z-index:-1}
+.testimonials label{display:inline-block; padding: 1em; color: var(--neutral); cursor:pointer}
+
+.testimonials input:checked + label{color:var(--brand); font-weight: 700;}
+
+.testimonials label span{display:block; height:3rem; width: 3rem; border-radius: 50%; box-shadow: 0 0 0 .1em;}
+
+
+.ref-john,.ref-anh{display:none}
+
+
+#ref-john:checked ~ .ref-john,
+#ref-anh:checked ~ .ref-anh{display:block}
 
 
 .values ul {
@@ -995,7 +1056,7 @@ color: var(--bg-1); background-color:var(--bg-2);
 
 .disclosures{gap:1rem; font-size: 1rem; line-height:1.3em; padding: 0 2em; margin: 0 auto; max-width: 110em}
 .disclosures h4{margin-bottom:1em;}
-.disclosures div{max-width: 24em; place-self:center; margin: 2em 0; text-align:left;}
+.disclosures div{max-width: 24em; place-self:center;  margin: 1em 0 6.75em 0; text-align:left;}
 .disclosures, .leadership {display:grid; grid-template-columns: 1fr 1fr 1fr}
 
 .leadership svg{ fill: var(--neutral); max-height: 5rem; max-width: 5rem;}
@@ -1006,7 +1067,9 @@ color: var(--bg-1); background-color:var(--bg-2);
 
 @media (max-width: 45em) {
   
- .disclosures,  .leadership{grid-template-columns: 1fr }
+ .disclosures,  .leadership{grid-template-columns: 1fr}
+ .disclosures div{grid-column-start: 1;
+  grid-column-end: 4; margin: 1rem 0}
 }
 
 
@@ -1037,10 +1100,10 @@ color: var(--bg-1); background-color:var(--bg-2);
 .scrolled.timezones [opacity=".15"] use{
   animation: slidetime .6s cubic-bezier(.3,.2,.1,1) forwards; opacity:0}
 
-.scrolled.timezones [opacity=".15"] use:nth-child(1){animation-delay:.2s}
-.scrolled.timezones [opacity=".15"] use:nth-child(2){animation-delay:.4s}
-.scrolled.timezones [opacity=".15"] use:nth-child(3){animation-delay:.6s}
-.scrolled.timezones [opacity=".15"] use:nth-child(4){animation-delay:.8s}
+.scrolled.timezones .day-wrap use:nth-child(1){animation-delay:.2s}
+.scrolled.timezones  .day-wrap use:nth-child(2){animation-delay:.4s}
+.scrolled.timezones  .day-wrap use:nth-child(3){animation-delay:.6s}
+.scrolled.timezones  .day-wrap use:nth-child(4){animation-delay:.8s}
 
 
 
@@ -1053,8 +1116,6 @@ color: var(--bg-1); background-color:var(--bg-2);
 .timezones .other-days{opacity:.25; filter:contrast(2) saturate(0)}
 
 }
-
-
 
 
 @keyframes slidetime{

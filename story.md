@@ -5,7 +5,8 @@ eleventyNavigation:
   key: Story
   order: 9
 ---
-
+## Life story
+...A work in progress, as life tends to be
 
 <section class="twoup">
 <div>My surname is Fitzsimon <br>
