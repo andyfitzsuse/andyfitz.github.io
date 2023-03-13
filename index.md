@@ -1167,11 +1167,6 @@ cite{margin-top:1rem}
 
 @media (prefers-color-scheme: light) {
 
-   #span-day{ color:var(--fg);opacity:1 !important;}
-   #span-light{ color:var(--neutral);opacity:.5 !important;}
-   #span-lighter{ color:var(--neutral);opacity:1 !important;}
-   .day-prime{opacity:1;}
-.timezones .other-days{opacity:.25; filter:contrast(2) saturate(0)}
 
 }
 
