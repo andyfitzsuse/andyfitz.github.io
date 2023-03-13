@@ -914,9 +914,9 @@ opacity:.7;
 }
 
 
-.testimonials .quote{text-align:left; max-width: 53em; margin: 0 auto; display:block; background-color: var(--bg)}
+.testimonials .quote{text-align:left; max-width: 53em; margin: 0 auto; display:block; background-color: var(--bg); margin-top:2rem}
 
-cite{font-style: normal; font-weight: 500;}
+cite{font-style: normal; font-weight: 500; margin-bottom:1em; display:block}
 
 
 .testimonials input{opacity:0; position:absolute; z-index:-1}
@@ -924,7 +924,7 @@ cite{font-style: normal; font-weight: 500;}
 
 .testimonials input:checked + label{color:var(--brand); font-weight: 700;}
 
-.testimonials label span{display:block; height:3rem; width: 3rem; border-radius: 50%; box-shadow: 0 0 0 .1em;}
+.testimonials label span{display:block; height:3.5rem; width: 3.5rem; border-radius: 50%; box-shadow: 0 0 0 .1em;}
 
 
 .ref-john,.ref-anh{display:none}
