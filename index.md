@@ -58,7 +58,7 @@ with proven global impact.<br>
 </svg>
 
 <div class="mission">
- <h3>Mission</h3> 
+ <h3>Direction</h3> 
  <i><dfn onclick=""  data-title="Recognise, elevate, celebrate, & accelerate">Do justice</dfn><br> to <dfn onclick=""  data-title="Effort or idea not easily done. Of admirable quality, purpose, & intent">good work</dfn></i><br><a href="/posts/my-mantra/#do-justice-to-good-work.">Read why&hellip;</a><br>
 </div>
 <div class="values">
@@ -190,13 +190,13 @@ Highest rated people manager</div>
        repeatCount="indefinite" />
   </path>
 </svg>
-<h4>Top Corporate Reviews</h4>
-At Outfit as rated by leadership, peers, &amp; team members
+<h4>Top Reviews</h4>
+Scored by leadership, peers, &amp; team members
 </div>
 <div>
 
 <svg viewBox="0 0 10 10" fill="none" stroke="var(--neutral)"><circle cx="5" cy="5" r="3" fill="none" /> <path fill="none" d="M2.75 5 l 1.5 1.5 l 3 -3.5" stroke="var(--fg)" /></svg>
-<h4>Performance, Retention, &amp; ROI</h4>
+<h4>Performance &amp; Retention</h4>
 Low attrition and high per-seat performance at Outfit
 </div>
 
@@ -206,14 +206,15 @@ Low attrition and high per-seat performance at Outfit
 
 
 
-<br>
 <h3 class="scroll fade short-quote">Nothing is beyond us,<br> no task beaneath me</h3>
 <p class="scroll fade">If it needs to be done, I do it well &amp; with pride.<br>
 I offer help, asking when it counts.<br>
 </p>
 <br>
+<br>
 
-<h3 class="scroll fade">Globally On</h3>
+<section id="timezones" class="scroll fade">
+<h3 >Globally On</h3>
 <svg class="scroll fade timezones" viewBox="-4 0 27 12" preserveAspectRatio="none">
   <defs>
     <clipPath id="day-clip">
@@ -269,7 +270,8 @@ Early mornings &amp; late nights are my most productive times.<br>
 With this preference, I collaborate real-time anywhere.<br>
 I slice my week to suit commitments</p>
 
-
+</section
+>
 
 <h3 class="scroll fade">Neurodivergent</h3>
 <svg class="finny scroll fade" viewBox="-1 -1 12 8">
@@ -293,7 +295,7 @@ d="M5 3C4 2 3.1 1 2 1a2 2  0 000 4c1.1 0 2-1 3-2s1.9-2  3-2a2 2 0 010 4C6.9  5 6
 <p class="scroll fade"> 
 Superpowers that get results!<br>
 Focus, empathy, &amp; pragmatism<br>
-I obsess over quality, war-game, &amp; stay realistic<br>
+I obsess over quality, war-game competetively, &amp; stay realistic during volatility<br>
 </p>
 <br><br>
 
@@ -438,7 +440,7 @@ Head of Compute Specialist SA, APJ
 
 <br>
 <section  class="scroll fade disclosures"> 
-<h3> Professional Disclosures</h3>
+<h3>Disclosures</h3>
 <div>
 <h4>Advisor</h4>
 Performs no-conflict advisory services for analyst &amp; investor groups; direct &amp; via agency</div>
@@ -1229,12 +1231,13 @@ opacity:1; background-blend-mode: multiply}
 .leadership svg{ fill: var(--neutral); max-height: 5rem; max-width: 5rem;}
 
 .disclosures h4, .leadership h4{font-size:.75rem; font-weight: 600; letter-spacing:.04em; text-transform: uppercase;}
-.leadership {font-size: .75em; opacity:.5}
-.leadership > div{margin-bottom:1rem}
+.leadership {font-size: .75em; opacity:.5; }
+.leadership > div{margin-bottom:1rem; padding:3em 2em; background-color: var(--bg-2); margin:1em 1.5em; border-radius: 1em;}
 
-@media (max-width: 45em) {
+@media (max-width: 50em) {
   
  .disclosures,  .leadership{grid-template-columns: 1fr}
+ .leadership div{margin:1em 2em}
  .disclosures div{grid-column-start: 1;
   grid-column-end: 4; margin: 0 0 4rem 0}
 
@@ -1242,6 +1245,7 @@ opacity:1; background-blend-mode: multiply}
 }
 
 
+#timezones{background-color:var(--bg-3); padding: 2em 1em}
 
 .timezones{ fill:currentcolor; max-width: 20em; margin-bottom:1em;}
  #span-day{ color:var(--bg-2); opacity:.5}
@@ -1278,7 +1282,7 @@ opacity:1; background-blend-mode: multiply}
 
 @media (prefers-color-scheme: light) {
 
-
+.leadership > div{box-shadow: 0 0 1em 1em var(--bg-2); background-color:transparent}
 }
 
 
