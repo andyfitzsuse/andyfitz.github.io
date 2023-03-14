@@ -316,10 +316,12 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 <label for="ref-anh"> <span></span>Anh</label>
 <input  id="ref-kyrsten" type="radio" name="advocate">
 <label for="ref-kyrsten"> <span></span>Kyrsten</label>
+<input  id="ref-paula" type="radio" name="advocate">
+<label for="ref-paula"> <span></span>Paula</label>
 <input  id="ref-akhil" type="radio" name="advocate">
 <label for="ref-akhil"> <span></span>Akhil</label>
 <div class="ref-bruce">
-<cite><a href="https://www.linkedin.com/in/adamsjohnq/" target="_blank">Bruce Stronge </a><br>Founder &amp; CEO 
+<cite><a href="https://www.linkedin.com/in/bruces/" target="_blank">Bruce Stronge </a><br>Founder &amp; CEO 
 <svg viewBox="0 0 19 8.5" stroke="currentColor" fill="none"><circle cx="2.36" cy="6.12" r="1.68"/><path d="M5.35 4 v2.5A1.02 1 0 008 6.5v-2h10.68M10.2 8.2v-6m2.3 6V2a1.3 1.2 10 012-1m.3 7.2V4.5m2.3 3.7v-6"/><path d="M14.8 2.8v0" stroke-linecap="round"/> </svg></cite>
 <p>Managed Andy directly at Outfit</p>
 <blockquote class="quote">I met Andy as my client 10 years ago when we partnered to solve his global brand challenges at Red Hat. 
@@ -350,6 +352,14 @@ Andy’s vision, deep knowledge of the problem, combined with his market intuiti
 <p>I would recommend Andy to any team that needs an advocate for innovation, strategy, brand and marketing.</p> 
 <p>I hope that we can have a chance to work together in future.</p>
 </blockquote>
+</div>
+<div class="ref-paula">
+<cite> <a href="https://www.linkedin.com/in/kyrstenmusich/" target="_blank">Paula Weigel</a><br>
+VP, Brand and Client Experience
+<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 159.9 56.6"><path d="M125 6h17a50 50 0 0 0-11-6h29v29a46 46 0 0 0-6-11v17c-4-13-17-25-29-29Z" style="opacity:.5"/>  <path d="M142 6a49 49 0 0 1 12 12V6Z" /><path d="m0 22 4 3v20h4V22Zm18 0v3a10 10 0 0 1 8-4c6 0 10 4 10 11v13h-4V32c0-4-2-7-7-7-4 0-7 3-7 8v12h-4V22Zm58 23h4V22h-4v4a10 10 0 0 0-9-5c-7 0-12 5-12 12 0 8 5 13 12 13a10 10 0 0 0 9-5zm-9-3a8 8 0 0 1-8-8 8 8 0 0 1 8-9c12 0 12 17 0 17Zm-17 0c-2 0-3-2-3-4V25h7v-3h-7v-8h-4v8h-5v3h5v13c0 5 2 8 7 8v-4zm64-20h4v4a11 11 0 0 1 9-5c7 0 12 5 12 13 0 7-5 12-12 12-4 0-7-2-9-5v16h-4V22zm21 12c0-6-3-9-8-9s-9 4-9 9a8 8 0 0 0 8 8h1c4 0 8-3 8-8zM86 22h3l1 4a11 11 0 0 1 9-5c7 0 12 5 12 13 0 7-5 12-13 12-3 0-7-2-9-5v16h-3zm21 12c0-6-4-9-9-9s-8 4-8 9a8 8 0 0 0 8 8c5 0 9-3 9-8z"/></svg>
+</cite>
+<p>Teammate on the Red Hat global brand team</p>
+<blockquote class="quote">How do I define someone who fuses a technical background with high design to reinvent brand consistency and innovation? There are no words. Andy uses his unique skill set to challenge, innovate, refine, and rebuild. He has changed the way our team looks at brand consistency and automation, but has done so in a way that's organic and true to our Brand and to our company. He is uncompromising in his pursuit of quality in every thing he touches. Andy is not content to simply discover (or even build) a solution to a problem; he seeks out ways to scale that solution so it is impactful and beneficial to a larger audience. Every organization should have an Andy Fitzsimon on their team; I can't wait to see what he does next. </blockquote>
 </div>
 <div class="ref-kyrsten">
 <cite> <a href="https://www.linkedin.com/in/kyrstenmusich/" target="_blank">Kyrsten Musich</a><br>
@@ -992,8 +1002,10 @@ display:inline-block; position:relative; height:4rem; width: 5rem;  margin-botto
 
 .testimonials label span{transition: all .5s ease; display:block; ; height:4rem; width: 4rem; border-radius: 50%;background-size: cover; background-position: 50% 50%; background-repeat:no-repeat; position:absolute; top:0; left:.5em;  z-index:-1; opacity:.3;}
 
+
+
 .testimonials input:checked + label{color:transparent; filter:none ; }
-input:checked + label span{  transform: scale(1.2); box-shadow: 0 0 0 .1em var(--bg), 0 0 0 .3em var(--tone-2);opacity:1}
+input:checked + label span{  transform: scale(1.2); box-shadow: 0 0 0 .1em var(--bg), 0 0 0 .3em var(--brand);opacity:1}
 
 
 :checked ~ div cite{animation: whodey .5s forwards}
@@ -1001,19 +1013,33 @@ input:checked + label span{  transform: scale(1.2); box-shadow: 0 0 0 .1em var(-
 
 cite{margin-top:1rem}
 
+
+@media (prefers-color-scheme: light) { 
+.testimonials label{color:var(--light)}
+.testimonials label span{background-color:var(--brand);  
+
+opacity:1; background-blend-mode: multiply}
+
+.testimonials :checked + label span{background-blend-mode:normal; background-color: var(--light)}
+
+}
+
+
 #ref-bruce + label span{background-image:url(/img/headshots/bs.jpg)}
 #ref-anh + label span{background-image:url(/img/headshots/anh.jpg)}
 #ref-john + label span{background-image:url(/img/headshots/jqa.jpg)}
 #ref-akhil + label span{background-image:url(/img/headshots/ab.jpg)}
 #ref-kyrsten + label span{background-image:url(/img/headshots/km.jpg)}
+#ref-paula + label span{background-image:url(/img/headshots/pw.jpg)}
 
 
 
 
-.ref-bruce,.ref-kyrsten,.ref-akhil,.ref-john,.ref-anh{display:none}
+.ref-bruce,.ref-kyrsten,.ref-paula,.ref-akhil,.ref-john,.ref-anh{display:none}
 
 #ref-bruce:checked ~ .ref-bruce,
 #ref-kyrsten:checked ~ .ref-kyrsten,
+#ref-paula:checked ~ .ref-paula,
 #ref-john:checked ~ .ref-john,
 #ref-akhil:checked ~ .ref-akhil,
 #ref-anh:checked ~ .ref-anh{display:block;}
