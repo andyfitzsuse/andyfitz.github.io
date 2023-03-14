@@ -306,7 +306,12 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 <p>Don't take my word for it.</p>
 <br>
 
-<input  id="ref-john" type="radio" name="advocate" checked>
+
+<input  id="ref-bruce" type="radio" name="advocate" checked>
+<label for="ref-bruce"> <span></span>Bruce</label>
+
+
+<input  id="ref-john" type="radio" name="advocate">
 <label for="ref-john"><span></span>John</label>
 
 <input  id="ref-anh" type="radio" name="advocate">
@@ -322,6 +327,22 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 
 
 
+<div class="ref-bruce">
+<cite><a href="https://www.linkedin.com/in/adamsjohnq/" target="_blank">Bruce Stronge </a><br>Founder &amp; CEO - Outfit (acquired by Smartsheet)
+<svg viewBox="0 0 19 8.5" stroke="currentColor" fill="none"><circle cx="2.36" cy="6.12" r="1.68"/><path d="M5.35 4 v2.5A1.02 1 0 008 6.5v-2h10.68M10.2 8.2v-6m2.3 6V2a1.3 1.2 10 012-1m.3 7.2V4.5m2.3 3.7v-6"/><path d="M14.8 2.8v0" stroke-linecap="round"/> </svg></cite>
+<p>Managed Andy directly at Outfit</p>
+
+
+<blockquote class="quote">I met Andy as my client 10 years ago when we partnered to solve his global brand challenges at Red Hat. 
+Andy’s vision, deep knowledge of the problem, combined with his market intuition and technical experience was critical to us building the right solution for the enterprise.
+
+Staying close for the following 7 years; Andy eventually joined Outfit for 3 years and worked even closer with me.  After helping us find, negotiate, and navigate our sale to a public US company, he remains my very good friend.
+
+When he isn’t helping tech leadership with strategy, or partnering with sales to close our biggest deals, Andy is a technology servant-leader. All of his teams rated him incredibly highly as a manager to work for, and consequently they built and released working product quicker than any others I’ve worked with.
+
+Andy is the most passionate technologist I’ve ever met, with deep and useful knowledge across current and emerging trends in tech, brand, design and marketing. He’s very very good at what he does. As important; he is kind, reliable, and hardworking. I truly hope to work with Andy again - be it as my client, a co-founder in a startup, or as a team mate in a global tech company.
+</blockquote>
+</div>
 
 
 <div class="ref-john">
@@ -1027,6 +1048,7 @@ input:checked + label span{  transform: scale(1.2); box-shadow: 0 0 0 .1em var(-
 
 cite{margin-top:1rem}
 
+#ref-bruce + label span{background-image:url(/img/headshots/bs.jpg)}
 #ref-anh + label span{background-image:url(/img/headshots/anh.jpg)}
 #ref-john + label span{background-image:url(/img/headshots/jqa.jpg)}
 #ref-akhil + label span{background-image:url(/img/headshots/ab.jpg)}
@@ -1034,8 +1056,10 @@ cite{margin-top:1rem}
 
 
 
-.ref-kyrsten,.ref-akhil,.ref-john,.ref-anh{display:none}
 
+.ref-bruce,.ref-kyrsten,.ref-akhil,.ref-john,.ref-anh{display:none}
+
+#ref-bruce:checked ~ .ref-bruce,
 #ref-kyrsten:checked ~ .ref-kyrsten,
 #ref-john:checked ~ .ref-john,
 #ref-akhil:checked ~ .ref-akhil,

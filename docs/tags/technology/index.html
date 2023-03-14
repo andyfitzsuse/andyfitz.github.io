@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tagged “technology”</title>
+    <title>“technology”</title>
     <meta name="description" content="design code love">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Andy Fitzsimon">
@@ -14,16 +14,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;500;800&display=swap" rel="stylesheet"> 
 
+
+
     
 
-   <meta property="og:description" content="design code love" />
-    
+   <meta property="og:description" content="" />
+
+  <meta name="twitter:title" content="Andy Fitzsimon">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image:src" content="https://andyfitzsimon.com/og-images/8He-vO40E5.png">
+  <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@andyfitz" />
     <meta name="twitter:creator" content="@andyfitz" />
     <meta property="og:title" content="" />
     <meta property="og:url" content="/tags/technology/" />
-    <meta property="og:image" content="https://andyfitzsimon.com/og-images/sMFqa08Grl.png" />
-    <meta property="og:image:secure_url" content="https://andyfitzsimon.com/og-images/sMFqa08Grl.png" />
+    <meta property="og:image" content="https://andyfitzsimon.com/og-images/8He-vO40E5.png" />
+    <meta property="og:image:secure_url" content="https://andyfitzsimon.com/og-images/8He-vO40E5.png" />
   </head>
   <body>
   
@@ -41,7 +47,7 @@
     </header>
     <main class="homepage">
       
-<h1>Tagged “technology”</h1>
+<h1><small>Articles tagged: </small>technology</h1>
 
 
 <section  class="postlist" style="counter-reset: start-from 2">
@@ -105,11 +111,8 @@ const scrollElements=document.querySelectorAll(".scroll"),elementInView=(e,l=1)=
 
 
 </section>
-
  Andy Fitzsimon 
-
- <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">CC-BY-SA</a>
-
+<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">CC-BY-SA</a>
 <a href="http://andyfitz.github.io/feed/feed.xml" target="_blank" rel="noreferrer">
 <svg viewbox="0 0 10 10" ><path stroke-width="1.1" d="M1.5 2Q8 2 8 8M1.5 4.5Q5 4.5 5 8M2 8a.5.5 0 11.01 0z" /> </svg>
 Feed
@@ -119,6 +122,10 @@ Feed
 
 <style>footer svg{fill:none; fill-opacity:.2; stroke:currentcolor; stroke-linecap:round; width:2em; height:2em;}}</style>
 
+<script>
+  // vanilla JS on scroll detection
+const scrollElements=document.querySelectorAll(".scroll"),elementInView=(e,l=1)=>{return e.getBoundingClientRect().top<=(window.innerHeight||document.documentElement.clientHeight)/l},elementOutofView=e=>{return e.getBoundingClientRect().top>(window.innerHeight||document.documentElement.clientHeight)},displayScrollElement=e=>{e.classList.add("scrolled")},hideScrollElement=e=>{e.classList.remove("scrolled")},handleScrollAnimation=()=>{scrollElements.forEach(e=>{elementInView(e,1.25)?displayScrollElement(e):elementOutofView(e)&&hideScrollElement(e)})};window.addEventListener("scroll",()=>{scrollElements.forEach(e=>{elementInView(e,1.25)?displayScrollElement(e):elementOutofView(e)&&hideScrollElement(e)})});
+</script>
 
     <!-- Current page: /tags/technology/ -->
   </body>

@@ -51,8 +51,7 @@ Contribute to worthy efforts and fill the gaps, inspiring others to better my wo
 If you're thinking this is all very agreeable and high level, that's because it is. 
 What it's not is apathetic, complacent, or unwilling to grow.  
 
-It's also an outright rejection of the lane-focused functional roles extolled by Radford and Comptryx career bands. In my experience, you have to contribute wider than your function, and my band has only been a problem once. 
-
+ca
 
 ## What is your ethos ? 
 

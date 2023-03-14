@@ -9,40 +9,39 @@ tags:
 layout: layouts/post.njk
 ---
 
+Constraint-based templates can be expensive and hard to adapt.  
 Generative AI is cheaper, faster, and more intuitive.
 
-Constraint-based templates can be expensive and hard to adapt.  
-Extrapolation-based templates by contrast promise a way forward!
+This 'extrapolation' approach to templates promises a way forward without the homogeneity!
 
-
-Neither of those terms may mean anything to you unless you’re familiar with automating large volumes of content for growing brands.  But this will be interesting, so please keep reading. 
 
 ## Constraints-based templating
-Constraints answer the question:
+In design-templates constraints answer the question:
 >  what must stay the same so that everything else can change?
 
-Typically this templating happens when a person crafts a design. They lock down things and permit changes with safe limits.  For example, take my design, and let only this area be editable: no font changes, these word limits, select from my choices of photography, with the layout only adapting slightly.  It’s a great way to extend the reach of predetermined content but also guarantees homogenous, unengaging outcomes en masse.  
+Typically this templating happens when a person crafts a design. They lock down things and permit changes with safe limits.  For example, taking an existing design, and only allowing one area be editable: no font changes, these word limits, select from predefined choices of photography, with the layout only adapting slightly.  It’s a great way to extend the reach of predetermined content but nearly guarantees sameish, unengaging outcomes en masse.  
 
 
 ## Trained extrapolation (aka AI+ML)
 
 Trained Generative models answer the question:
-> What invisible rules can we decipher from the past that adapt well in the future? 
+> What invisible rules can we decipher from the past that may adapt well in the future? 
 
 Learning what to do next rather than setting the rules out ahead of time is a dramatically different approach. One that makes room for truly adaptive and dynamic outcomes. 
 
 Generative extrapolation is performed by first being seeded with a model of successful content. It is then prompted by constraints specific to an outcome.
 
-That prompt can be a visual of a good ol fashioned template with some desired text too!
+That prompt can even be a visual of a good ol fashioned template with some desired text too!
 
-In theory, this technique is forward compatible with existing templates. Just train a model on the output. 
+In theory, this technique is forward compatible with existing templates. Just train a model on the output you've been living with and rules can largely be learned then followed.
+
 
 ## Why is this a game changer?
 
 It was Lawrence Lessig who said:
 > Creativity & innovation always builds on the past.  The past always tries to control the creativity that builds upon it. 
 
-Lessig was of course talking about needed reforms in copyright law; however his statement has become even more true when considering the breakthroughs we’re looking at today. 
+Lessig was of course talking about needed reforms in copyright law; however his statement has become valid when considering the breakthroughs we’re looking at today. 
 
 When the models are informed by successful contributions of the past - the future generated outcomes are heavily influenced - but not limited to it.
 
