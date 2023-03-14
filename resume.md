@@ -112,9 +112,9 @@ September 2011 - May 2020  (4 roles)
 <style>
 strong{font-weight:500;}
 time{display:none}
-h1{line-height:.9em;font-weight:900; letter-spacing:-.02em; margin-top:0 !important; color:var(--fg-2);--webkit-text-stroke: .07rem var(--fg-2); -webkit-text-fill-color: transparent;}
+h1{line-height:.9em;font-weight:900; letter-spacing:-.02em; margin-top:0 !important; color:var(--fg-2);-webkit-text-stroke: .1rem var(--fg-2); -webkit-text-fill-color: transparent;}
 @media (max-width:40em){
-  h1{font-size: 10vw !important} }
+  h1{font-size: 15vw !important} }
 .printonly{display:none}
 @media print {
   .printonly{display:block;}
