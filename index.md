@@ -301,9 +301,10 @@ I obsess over quality, war-game competetively, &amp; stay realistic during volat
 
 
 
-<h3 id="testimonials" class="scroll fade"> Testimonials </h3>
 
 <section class="testimonials scroll fade">
+
+<h3 id="testimonials" class="scroll fade"> Testimonials </h3>
 
 <p>Don't take my word for it.</p>
 <br>
@@ -431,15 +432,13 @@ Head of Compute Specialist SA, APJ
 
 
 
-<br>
+<br><br>
+
 </section>
-<br>
-<br>
 
 
-
-<br>
 <section  class="scroll fade disclosures"> 
+<br>
 <h3>Disclosures</h3>
 <div>
 <h4>Advisor</h4>
@@ -611,7 +610,7 @@ h2.scrolled {
   }
 }
 
-.awards, .leadership{max-width: 120em;
+.awards, .leadership{max-width: 100em;
 margin: 0 auto;}
 .awards {
   
@@ -1043,9 +1042,9 @@ opacity:.7;
 }
 
 
+.testimonials{background-color: var(--bg-2); padding: 2em 1em}
 
-
-.testimonials .quote{text-align:left; max-width: 36em; margin: 0 auto; display:block; background-color: var(--bg); margin-top:2rem}
+.testimonials .quote{text-align:left; max-width: 36em; margin: 0 auto; display:block;  margin-top:2rem}
 .testimonials .quote p{margin-bottom: 1rem}
 
 cite{font-style: normal;; margin-bottom:1em; display:block; color: var(--neutral)}
@@ -1054,11 +1053,11 @@ cite a { font-weight: 500}
 
 .testimonials input{opacity:0; position:absolute; z-index:-1}
 
-.testimonials label{transition: all .5s ease;  vertical-align:center;color: var(--fg); filter:saturate(.4); cursor:pointer;
+.testimonials label{transition: all .35s ease-out;  vertical-align:center;color: var(--fg); filter:saturate(.4); cursor:pointer;
 -webkit-tap-highlight-color: rgba(0,0,0,0);
 display:inline-block; position:relative; height:4rem; width: 5rem;  margin-bottom:1em;text-align:center; line-height:4em; white-space:nowrap; user-select:none;}
 
-.testimonials label span{transition: all .5s ease; display:block; ; height:4rem; width: 4rem; border-radius: 50%;background-size: cover; background-position: 50% 50%; background-repeat:no-repeat; position:absolute; top:0; left:.5em;  z-index:-1; opacity:.3;}
+.testimonials label span{transition: all .35s cubic-bezier(.4,.2,.1,1.2); display:block; ; height:4rem; width: 4rem; border-radius: 50%;background-size: cover; background-position: 50% 50%; background-repeat:no-repeat; position:absolute; top:0; left:.5em;   opacity:.3;}
 
 
 
@@ -1066,7 +1065,7 @@ display:inline-block; position:relative; height:4rem; width: 5rem;  margin-botto
 input:checked + label span{  transform: scale(1.2); box-shadow: 0 0 0 .1em var(--bg), 0 0 0 .3em var(--brand);opacity:1}
 
 
-:checked ~ div cite{animation: whodey .5s forwards}
+:checked ~ div cite{animation: whodey .5s cubic-bezier(.3,.2,.1,1.4) forwards}
 @keyframes whodey{0%{opacity:0; transform:translate(0, .5em)}}
 
 cite{margin-top:1rem}
@@ -1075,10 +1074,9 @@ cite{margin-top:1rem}
 @media (prefers-color-scheme: light) { 
 .testimonials label{color:var(--light)}
 .testimonials label span{background-color:var(--brand);  
+opacity:1; background-blend-mode: darken}
 
-opacity:1; background-blend-mode: multiply}
-
-.testimonials :checked + label span{background-blend-mode:normal; background-color: var(--light)}
+.testimonials :checked + label span{ background-blend-mode:normal; background-color: var(--light)}
 
 }
 
