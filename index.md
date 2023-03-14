@@ -328,7 +328,7 @@ I obsess over quality, war-game, &amp; stay realistic<br>
 
 
 <div class="ref-bruce">
-<cite><a href="https://www.linkedin.com/in/adamsjohnq/" target="_blank">Bruce Stronge </a><br>Founder &amp; CEO - Outfit (acquired by Smartsheet)
+<cite><a href="https://www.linkedin.com/in/adamsjohnq/" target="_blank">Bruce Stronge </a><br>Founder &amp; CEO 
 <svg viewBox="0 0 19 8.5" stroke="currentColor" fill="none"><circle cx="2.36" cy="6.12" r="1.68"/><path d="M5.35 4 v2.5A1.02 1 0 008 6.5v-2h10.68M10.2 8.2v-6m2.3 6V2a1.3 1.2 10 012-1m.3 7.2V4.5m2.3 3.7v-6"/><path d="M14.8 2.8v0" stroke-linecap="round"/> </svg></cite>
 <p>Managed Andy directly at Outfit</p>
 
