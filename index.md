@@ -59,15 +59,15 @@ with proven global impact.<br>
 
 <div class="mission">
  <h3>Direction</h3> 
- <i><dfn onclick=""  data-title="Recognise, elevate, celebrate, & accelerate">Do justice</dfn><br> to <dfn onclick=""  data-title="Effort or idea not easily done. Of admirable quality, purpose, & intent">good work</dfn></i><br><a href="/posts/my-mantra/#do-justice-to-good-work.">Read why&hellip;</a><br>
+ <i><dfn   onclick="" data-title="Recognise, elevate, celebrate, & accelerate">Do justice</dfn><br> to <dfn onclick="" data-title="Effort or idea not easily done. Of admirable quality, purpose, & intent">good work</dfn></i><br><a href="/posts/my-mantra/#do-justice-to-good-work.">Read why&hellip;</a><br>
 </div>
 <div class="values">
   <h3>Values</h3> 
   <ul>
-    <li onclick=""  data-title="Give friendship, help, care, and compassion. Be kind above all">Kindness</li> 
-    <li onclick=""  data-title="Have joy, engagement, & momentum. Become a force-multiplier">Energy</li>
-    <li onclick=""  data-title="Humble humility. Show thanks, appreciation, admiration, and respect">Gratitude</li>
-    <li onclick=""  data-title="Be accountable, committed & worthy of major responsibility">Trust</li> 
+    <li  onclick="" data-title="Give friendship, help, care, and compassion. Be kind above all">Kindness</li> 
+    <li  onclick="" data-title="Have joy, engagement, & momentum. Become a force-multiplier">Energy</li>
+    <li  onclick="" data-title="Humble humility. Show thanks, appreciation, admiration, and respect">Gratitude</li>
+    <li  onclick="" data-title="Be accountable, committed & worthy of major responsibility">Trust</li> 
   </ul>
 </div>
 </div>
@@ -77,7 +77,7 @@ with proven global impact.<br>
 
 
 
-<p class="scroll fade ">A listener, doer, &amp; fixer <br>having worn  <span data-title="strategist, product owner, brand manager, software engineer, ui/ux designer, account executive, solutions architect, customer success manager + more">many hats</span> 
+<p class="scroll fade ">A listener, doer, &amp; fixer <br>having worn  <span onclick="" data-title="strategist, product owner, brand manager, software engineer, ui/ux designer, account executive, solutions architect, customer success manager + more">many hats</span> 
 <br>
 <br>
 </p>  
@@ -128,11 +128,11 @@ with proven global impact.<br>
 <br>
 
 <div class="scroll fade awards" >
-  <div class="award club" data-title="Major impact to the bottom line">
+  <div class="award club" onclick="" data-title="Major impact to the bottom line">
     <div><svg viewBox="0 0 300 200" style="fill:transparent;stroke:currentColor;stroke-width:10"><polygon points="150,30 250,150 50,150"  /></svg></div>
     <h4>President’s club</h4>
   </div>
-  <div class="award chairmans"  data-title="Highest level of associate recognition">
+  <div class="award chairmans"  onclick="" data-title="Highest level of associate recognition">
     <div class="chairmans">
       <div class="box">
         <b></b>
@@ -141,13 +141,13 @@ with proven global impact.<br>
     <h4>Chairman’s Award </h4>
 
   </div>  
-  <div class="award citizen"  data-title="Marketing field excellence award">
+  <div class="award citizen"  onclick="" data-title="Marketing field excellence award">
     <div>
       <div class="globe"></div>
     </div>
     <h4>Global Citizen</h4>
   </div>
-  <div class="award beast"  data-title="Sales greatness & performance">
+  <div class="award beast"  onclick="" data-title="Sales greatness & performance">
     <div>
       <span>BEAST MODE</span>
       <div class="switch"></div>
@@ -174,7 +174,7 @@ The result got praise from the street.<br><br> I was Outfit's tech founder &amp;
 
 <div class="scroll fade leadership">
 
-<div data-title="Highest rated people manager">
+<div onclick="" data-title="Highest rated people manager">
 <svg viewBox="0 0 30 30">
   <defs><path id="st" d="M5 .5 6.5 3.6 9.8 4 7.4 6.3 7.9 9.6 5 8 2 9.6 2.7 6.3.3 4 3.5 3.5Z" /></defs>
   <g class="stars">
@@ -186,7 +186,7 @@ The result got praise from the street.<br><br> I was Outfit's tech founder &amp;
   </g>
 </svg>
 <h4>Team Satisfaction</h4></div>
-<div data-title="Scored by leader, peers, &amp; team members">
+<div onclick="" data-title="Scored by leader, peers, &amp; team members">
 <svg viewBox="0 0 10 10">
   <text
     font-size="1.8"
@@ -214,7 +214,7 @@ The result got praise from the street.<br><br> I was Outfit's tech founder &amp;
 </svg>
 <h4>Top Reviews</h4>
 </div>
-<div data-title="Low attrition and high per-seat ROI">
+<div onclick="" data-title="Low attrition and high per-seat ROI">
 
 <svg viewBox="0 0 10 10" fill="none" stroke="var(--neutral)"><circle cx="5" cy="5" r="3" fill="none" /> <path fill="none" d="M2.75 5 l 1.5 1.5 l 3 -3.5" stroke="var(--fg)" /></svg>
 <h4>Performance &amp; Retention</h4>
@@ -1147,7 +1147,7 @@ Head of Compute Specialist SA, APJ
 Performs no-conflict advisory services for analyst &amp; investor groups; direct &amp; via agency</div>
 <div>
 <h4>Investor</h4>
-Angel investor in Madrid-based <a href="kaleidos.net" target="_blank">Kaleidos</a>, creators of <a href="https://penpot.app" data-title="Leading open source UX design software" target="_blank">penpot.app</a> and <a href="http://taiga.io" data-title="Open source project management software" target="_blank">taiga.io</a>
+Angel investor in Madrid-based <a href="kaleidos.net" target="_blank">Kaleidos</a>, creators of <a href="https://penpot.app" onclick="" data-title="Leading open source UX design software" target="_blank">penpot.app</a> and <a href="http://taiga.io" onclick="" data-title="Open source project management software" target="_blank">taiga.io</a>
 </div>
 <div>
 <h4>Contributor</h4>
