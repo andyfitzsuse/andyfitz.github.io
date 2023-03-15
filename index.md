@@ -140,13 +140,13 @@ with proven global impact.<br>
     <h4>Chairman’s Award </h4>
 
   </div>  
-  <div class="award citizen"  data-title="Marketing excellence">
+  <div class="award citizen"  data-title="Marketing field excellence award">
     <div>
       <div class="globe"></div>
     </div>
     <h4>Global Citizen</h4>
   </div>
-  <div class="award beast"  data-title="Sales greatness & field performance">
+  <div class="award beast"  data-title="Sales greatness & performance">
     <div>
       <span>BEAST MODE</span>
       <div class="switch"></div>
@@ -161,19 +161,19 @@ with proven global impact.<br>
 <div class="ltxt">
 
 <h3 class="scroll fade">Strategic Execution</h3>
-<p class="scroll fade">With Outfit, I read the market, <br>wrote the pitch, &amp; picked the buyer.<br>  
-SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. <br>Revolutionizing operations as a brand manager</p> 
+<p class="scroll fade">When it came time to sell Outfit, I read the market, <br>wrote the pitch, &amp; picked the buyer.<br>  
+The result got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. <br>Revolutionizing operations as a brand manager</p> 
 <br>
-<p class="scroll fade">At Red Hat, I set the tone for selling techology in the global regions, <br> making the field experience scalable and world-class</p>
-<br>
+<p class="scroll fade">At Red Hat, I set the tone for selling techology in the global regions, <br>making the field experience scalable and world-class</p>
 
+<br />
 </div>
 <h3  class="scroll fade">Servant Leadership</h3>
 
 
 <div class="scroll fade leadership">
 
-<div>
+<div data-title="Highest rated people manager">
 <svg viewBox="0 0 30 30">
   <defs><path id="st" d="M5 .5 6.5 3.6 9.8 4 7.4 6.3 7.9 9.6 5 8 2 9.6 2.7 6.3.3 4 3.5 3.5Z" /></defs>
   <g class="stars">
@@ -184,9 +184,8 @@ SMAR got praise from the street.<br><br> I was Outfit's tech founder &amp; found
   <use href="#st" x="15" y="14"/>
   </g>
 </svg>
-<h4>Team Satisfaction</h4>
-Highest rated people manager</div>
-<div>
+<h4>Team Satisfaction</h4></div>
+<div data-title="Scored by leadership, peers, &amp; team members">
 <svg viewBox="0 0 10 10">
   <text
     font-size="1.8"
@@ -213,13 +212,11 @@ Highest rated people manager</div>
   </path>
 </svg>
 <h4>Top Reviews</h4>
-Scored by leadership, peers, &amp; team members
 </div>
-<div>
+<div data-title="Low attrition and high per-seat ROI at Outfit">
 
 <svg viewBox="0 0 10 10" fill="none" stroke="var(--neutral)"><circle cx="5" cy="5" r="3" fill="none" /> <path fill="none" d="M2.75 5 l 1.5 1.5 l 3 -3.5" stroke="var(--fg)" /></svg>
 <h4>Performance &amp; Retention</h4>
-Low attrition and high per-seat performance at Outfit
 </div>
 
 </div>
@@ -944,11 +941,9 @@ I offer help, asking when it counts.<br>
       <use href="#dot" transform="translate(943 1365)"/>
       <use href="#dot" transform="translate(984 161)"/>
 </svg>
-<h3 >Globally On</h3>
-<p > 
-I've long known early mornings &amp; late nights are my most productive times.<br> 
-My preference is to collaborate real-time anywhere.<br>
-I slice my week to suit commitments</p>
+<h3 >Globally Online</h3>
+<p>Early mornings &amp; late nights are my most productive times.<br> 
+My preference is to collaborate real-time so I slice my week to suit commitments and have done so for decades</p>
 
 </section>
 
@@ -1045,7 +1040,7 @@ I’ve had the pleasure of knowing Andy for my 7 years at Outfit.
 Over that time, I’ve known him as a customer, manager, and mentor. 
 Andy has a talent that takes business to the next level, his strength is that he does so while caring deeply; lifting up all around him.<br><br>
 
-As a customer, Andy gave crucial feedback, innovative advice, and set the vision that pushed Outfit to maximize its full potential. In doing so, he created a virtuous cycle between driving business ROI for Red Hat and enabling sustained growth for Outfit through those early stages.  Over the following years, we spent many a day (or the occasional long night) building products and solving problems. His commitment to technical excellence and great user experiences always rubbed off on those with whom he collaborated, making outcomes better for it. 
+As a customer, Andy gave crucial feedback, innovative advice, and set the vision that pushed Outfit to maximize our full potential. In doing so, he created a virtuous cycle between driving business ROI for Red Hat and enabling sustained growth for Outfit through those early stages.  Over the following years, we spent many a day (or the occasional long night) building products and solving problems. His commitment to technical excellence and great user experiences always rubbed off on those with whom he collaborated, making outcomes better for it. 
 
 As a manager, up until that point in my career, I had never had a manager who cared more deeply about me and what made me tick than Andy did. He knew when he needed to be hands-off and when he needed to be hands-on. His commitment to his reports was that of a true servant leader. 
 
@@ -1217,7 +1212,7 @@ h2 {
 
 .more{letter-spacing:-.025em; display:grid; place-content:center; position:relative;margin:0} 
  
-.scroll.more use{opacity:0; color:var(--brand); transition: all .85s cubic-bezier(.3,.2,.1,1.2); transform: translate(0,-6px)}
+.scroll.more use{opacity:0; color:var(--bg-1); transition: all .85s cubic-bezier(.3,.2,.1,1.2); transform: translate(0,-6px)}
 
 
 
@@ -1307,6 +1302,7 @@ h2.scrolled span{
 .scrolled.social-proof .no-orphan svg:nth-child(2){animation-delay:1.6s}
 .scrolled.social-proof > svg:nth-child(8){animation-delay:1.8s}
 
+
 .nd{ margin-bottom: -4em;}
 .mission-values {
   width: 100vw;
@@ -1323,6 +1319,8 @@ h2.scrolled span{
 
 .mission a{display:inline-block; margin-top:2em; background-color: var(--bg);padding:.5em 1em; border-radius: .5em} 
 @media (max-width: 45em) {
+  .ltxt {text-align:left}
+  .ltxt h3{padding-left:1rem;}
   .mission-values {
     grid-template-columns: 1fr;
   }
@@ -1368,7 +1366,7 @@ li:nth-child(3):hover::after {
 
 .awards > div[data-title]{box-shadow: none;}
 .awards > div:hover::after{text-transform: none; letter-spacing:0;  top: 9em !important; bottom: auto !important}
-
+.awards > div:hover{color: var(--brand)}
 
 .social-proof {
   margin: 4em 0; margin-bottom:3em;
