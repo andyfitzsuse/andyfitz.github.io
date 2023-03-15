@@ -982,29 +982,25 @@ I obsess over quality, war-game competitively, &amp; stay realistic during&nbsp;
 <br>
 
 
-<input  id="ref-bruce" type="radio" name="advocate" checked>
+<input  id="ref-bruce" type="radio" name="advocate" checked />
 <label for="ref-bruce"> <span></span>Bruce</label>
 
-
-<input  id="ref-john" type="radio" name="advocate">
-<label for="ref-john"><span></span>John</label>
-
-<input  id="ref-james" type="radio" name="advocate">
+<input  id="ref-james" type="radio" name="advocate" />
 <label for="ref-james"> <span></span>James</label>
 
+<input  id="ref-john" type="radio" name="advocate" />
+<label for="ref-john"><span></span>John</label>
 
-<input  id="ref-anh" type="radio" name="advocate">
-<label for="ref-anh"> <span></span>Anh</label>
-
-<input  id="ref-kyrsten" type="radio" name="advocate">
-<label for="ref-kyrsten"> <span></span>Kyrsten</label>
-
-
-<input  id="ref-paula" type="radio" name="advocate">
+<input  id="ref-paula" type="radio" name="advocate" />
 <label for="ref-paula"> <span></span>Paula</label>
 
+<input  id="ref-anh" type="radio" name="advocate" />
+<label for="ref-anh"> <span></span>Anh</label>
 
-<input  id="ref-akhil" type="radio" name="advocate">
+<input  id="ref-kyrsten" type="radio" name="advocate" />
+<label for="ref-kyrsten"> <span></span>Kyrsten</label>
+
+<input  id="ref-akhil" type="radio" name="advocate" />
 <label for="ref-akhil"> <span></span>Akhil</label>
 
 
