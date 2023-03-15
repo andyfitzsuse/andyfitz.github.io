@@ -128,8 +128,30 @@ with proven global impact.<br>
 </div>
 <br>
 <p class="scroll fade">Enterprise pedigree plus scale-up hustle.<br><b><a href="mailto:andyfitz+site@gmail.com" class="cta">Email me about your crusade</a></b></p>
-<br>
-<h2 class="scroll more"> <span>Need more?</span> </h2>
+<h2 class="scroll more">
+<span>Need more?</span> 
+<svg viewBox="0 0 46 15">
+  <defs>
+    <path 
+      id="dwn" 
+      d="M3 1V5M1 3 3 5 5 3" 
+      fill="none" 
+      stroke="currentColor" 
+      stroke-linecap="round" />
+</defs>
+<g>
+<use href="#dwn" x="0"   y="3" />
+<use href="#dwn" x="10"  y="3" />
+<use href="#dwn" x="20"  y="3" />
+<use href="#dwn" x="30"  y="3" />
+<use href="#dwn" x="40"  y="3" />
+<use href="#dwn" x="5"   y="8" />
+<use href="#dwn" x="15"  y="8" />
+<use href="#dwn" x="25"  y="8" />
+<use href="#dwn" x="35"  y="8" />
+</g>
+</svg>
+</h2>
 <br>
 <h3 class="scroll fade">Employer Accolades</h3> 
 <p class="scroll fade">Making money, saving money, being likeable,  staying formidable<p> 
@@ -282,7 +304,7 @@ Early mornings &amp; late nights are my most productive times.<br>
 With this preference, I collaborate real-time anywhere.<br>
 I slice my week to suit commitments</p>
 </section>
-<h3 class="scroll fade">Neurodivergent</h3>
+<h3 class="scroll fade nd">Neurodivergent</h3>
 <svg class="finny scroll fade scrolled" viewBox="-1 -1 12 8">
 <defs>
 <path id="infinite" d="M5 3C4 2 3.1 1 2 1a2 2  0 000 4c1.1 0 2-1 3-2s1.9-2  3-2a2 2 0 010 4C6.9  5 6 4 5 3"></path>
@@ -451,8 +473,22 @@ h2 {
   line-height: 0.9em;
 }
 
-.more{letter-spacing:-.025em; display:grid; place-content:center; position:relative;}
+.more{letter-spacing:-.025em; display:grid; place-content:center; position:relative;margin:0} 
+ 
+.scroll.more use{opacity:0; color:var(--brand); transition: all .85s cubic-bezier(.3,.2,.1,1.2); transform: translate(0,-6px)}
 
+
+
+.scrolled.more use{opacity:1; transform: none;}
+.scrolled use:nth-child(1n){transition-delay:.2s}
+.scrolled use:nth-child(2n){transition-delay:.4s}
+.scrolled use:nth-child(3n){transition-delay:.6s}
+.scrolled use:nth-child(4n){transition-delay:.8s}
+.scrolled use:nth-child(5n){transition-delay:1s}
+.scrolled use:nth-child(6n){transition-delay:1s}
+.scrolled use:nth-child(7n){transition-delay:.8s}
+.scrolled use:nth-child(8n){transition-delay:.6s}
+.scrolled use:nth-child(9n){transition-delay:.4s}
 .scroll.map {
   margin: 2em auto;
 }
@@ -529,7 +565,7 @@ h2.scrolled span{
 .scrolled.social-proof .no-orphan svg:nth-child(2){animation-delay:1.6s}
 .scrolled.social-proof > svg:nth-child(8){animation-delay:1.8s}
 
-
+.nd{ margin-bottom: -4em;}
 .mission-values {
   width: 100vw;
   display: grid;
