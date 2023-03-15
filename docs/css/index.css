@@ -288,9 +288,10 @@ body {
 
 
 
-.scroll.sig{stroke-dasharray: 0 1}
-    .scrolled.sig{animation: draw 1.5s linear forwards ;}
+.scroll.sig{stroke-dasharray: 0 1; stroke-opacity:0;}
+    .scrolled.sig{animation: draw 1.5s linear forwards ; }
 @keyframes draw{
   0%{stroke-dasharray: 0 1}
+  1%,100%{stroke-opacity:1;}
 100%{stroke-dasharray: 1 0}
 }
