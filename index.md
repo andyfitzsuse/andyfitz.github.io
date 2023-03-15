@@ -83,7 +83,7 @@ with proven global impact.<br>
 </p>  
 <br>
 <div class="scroll fade social-proof"  >
-  <svg  class="smartsheet" viewBox="0 0 100 22.02"><path d="M2.04 11.4s.58-.78 1.33-.8c1.18-.03 2.11 2.06 2.26 2.37A23.11 23.11 0 0 1 10.8 6H.14v11.95c0 .65-.1 1.13-.14 1.32a24.2 24.2 0 0 0 4.09-1.03c3.25-1.15 4.5-2.4 4.52-2.4l.07-.08.05.1s.41.89.82 1.37c.46.53.7.58.84.55.2-.05.31-.36.36-.84.05-.48.1-1.56.1-2.89V6.94c-3.15 3.84-5.46 9.62-5.46 9.62s-1.52-5.18-3.35-5.15zm95.37 3.98c-.19.02-.38.05-.57.05-.32 0-.53-.05-.7-.17a1.03 1.03 0 0 1-.36-.44c-.07-.19-.12-.38-.15-.62l-.02-.7V9.7h2.28V8.33h-2.28V5.97h-1.59v2.36h-1.61l-.6 1.37h2.21v4.38c0 .34.03.67.05 1a1.86 1.86 0 0 0 1.03 1.59c.34.17.82.27 1.42.27a4.55 4.55 0 0 0 1.45-.29v-1.44c-.2.07-.36.14-.56.17zm-40.74 0c-.2.02-.39.05-.58.05-.31 0-.53-.05-.7-.17a1.03 1.03 0 0 1-.36-.44c-.07-.19-.12-.38-.14-.62 0-.24-.03-.46-.03-.7V9.7h2.29V8.33h-2.29V5.97h-1.58v2.36h-1.62l-.6 1.37h2.22v4.38c0 .34.02.67.04 1 .03.35.12.66.3.92.16.27.4.5.74.68.34.16.82.26 1.42.26a4.55 4.55 0 0 0 1.44-.29v-1.44c-.17.07-.34.14-.55.17zM50.8 8.35s-.94-.12-1.44-.1c-.6.06-.82.15-1.16.32a2.78 2.78 0 0 0-1.03 1.08h-.03v-1.3h-1.58v8.4h1.58s-.05-3.46 0-4.3c.05-.85.2-1.74.63-2.15.46-.4.65-.5 1.2-.57.5-.08 1.2 0 1.2 0zm34.27 4.74c0 .36.08.7.24 1.01.17.32.37.56.63.77a3.15 3.15 0 0 0 1.97.67c.5 0 .94-.11 1.3-.33.36-.24.7-.53 1.01-.91l1.2.9a4.4 4.4 0 0 1-3.72 1.72c-.65 0-1.25-.12-1.8-.34a3.87 3.87 0 0 1-1.38-.94 4.56 4.56 0 0 1-1.18-3.15c0-.62.12-1.2.34-1.75a4.26 4.26 0 0 1 4.02-2.67c.74 0 1.37.12 1.87.38a3.78 3.78 0 0 1 2 2.43c.14.53.21 1.06.21 1.61v.58zm5.03-1.27c0-.36-.07-.68-.17-.96a2.05 2.05 0 0 0-1.2-1.27 2.86 2.86 0 0 0-2.14.02c-.31.14-.6.33-.82.57-.21.24-.4.5-.53.8-.12.28-.19.57-.19.86zm-14.33 1.27c0 .36.07.7.24 1.01.16.32.36.56.62.77a3.15 3.15 0 0 0 1.97.67c.5 0 .94-.11 1.3-.33.36-.24.7-.53 1.01-.91l1.2.9a4.4 4.4 0 0 1-3.72 1.72c-.65 0-1.25-.12-1.8-.34a3.87 3.87 0 0 1-1.38-.94 4.56 4.56 0 0 1-1.18-3.15c0-.62.12-1.2.34-1.75a4.26 4.26 0 0 1 4.02-2.67c.74 0 1.37.12 1.87.38a3.78 3.78 0 0 1 2 2.43c.14.53.22 1.06.22 1.61v.58zm5.02-1.27c0-.36-.07-.68-.17-.96a2.05 2.05 0 0 0-1.2-1.27 2.86 2.86 0 0 0-2.14.02c-.34.14-.6.33-.82.57-.21.24-.4.5-.53.8-.12.28-.19.57-.19.86zm-14.98-8.5h1.59v6.29h.02c.2-.46.55-.82 1.03-1.09.5-.29 1.06-.4 1.71-.4.41 0 .8.07 1.16.19.36.12.7.3.96.57.29.27.5.6.67 1.01.17.41.24.9.24 1.45v5.4H71.6v-5c0-.38-.04-.72-.16-1-.1-.3-.24-.51-.44-.68a1.55 1.55 0 0 0-.6-.36 2.52 2.52 0 0 0-.72-.12c-.34 0-.65.05-.91.17-.3.1-.53.26-.75.5-.22.25-.38.53-.5.87-.12.36-.17.77-.17 1.25v4.33h-1.59Zm-2.26 7.1a2.8 2.8 0 0 0-.7-.6 1.96 1.96 0 0 0-1.01-.24c-.39 0-.7.07-.99.24a.74.74 0 0 0-.4.7c0 .24.07.46.23.6.17.14.34.29.58.36.22.1.46.17.7.22.24.05.46.1.65.12.34.07.67.19.96.31.31.12.55.27.77.46.22.19.39.4.5.7.13.26.2.6.2.98 0 .48-.1.87-.31 1.2-.2.34-.46.6-.77.82-.32.22-.68.36-1.09.46a5.34 5.34 0 0 1-3.05-.17 3.4 3.4 0 0 1-1.42-1.18l1.2-.98c.27.26.56.48.87.7.31.19.7.3 1.18.3.19 0 .4-.02.6-.07.21-.04.38-.1.55-.19.17-.1.29-.2.39-.34.1-.14.14-.28.14-.48a.78.78 0 0 0-.22-.57 1.71 1.71 0 0 0-.53-.36c-.21-.1-.43-.17-.64-.22-.25-.05-.44-.1-.6-.15a6.66 6.66 0 0 1-1-.28 2.42 2.42 0 0 1-1.39-1.11 2.1 2.1 0 0 1-.21-1.01c0-.43.1-.82.26-1.13.2-.34.43-.6.72-.82a3.7 3.7 0 0 1 1.04-.48 4.21 4.21 0 0 1 2.79.14c.53.22.93.58 1.25 1.06zM37.76 9.34a5.14 5.14 0 0 1 4.93-1.01 2.8 2.8 0 0 1 1.71 1.52c.15.33.2.7.2 1.05v4.29c0 .28 0 .57.02.81 0 .24.02.48.05.7h-1.42c-.03-.43-.05-.84-.05-1.27h-.03c-.36.55-.77.93-1.25 1.15a4.04 4.04 0 0 1-2.79.17 3.15 3.15 0 0 1-.93-.48 2.24 2.24 0 0 1-.63-.8 2.56 2.56 0 0 1-.24-1.08c0-.55.12-.98.36-1.37.24-.36.58-.67.99-.89.4-.24.91-.38 1.46-.5.56-.1 1.16-.15 1.8-.15h1.19v-.36a1.8 1.8 0 0 0-.48-1.23 1.66 1.66 0 0 0-.63-.4c-.24-.1-.55-.15-.89-.15-.31 0-.58.02-.8.1-.23.04-.43.14-.62.21-.2.1-.36.2-.5.32l-.44.33zm4.5 3.34c-.38 0-.77.03-1.15.08-.39.04-.75.12-1.09.24-.33.12-.6.29-.79.5-.22.22-.31.48-.31.82 0 .48.17.84.48 1.03.31.22.77.32 1.32.32.43 0 .82-.08 1.1-.22a2 2 0 0 0 .75-.58c.2-.24.32-.5.41-.8.07-.28.12-.57.12-.86v-.53zM23.88 8.33h1.5v1.3h.02c.02-.12.12-.27.26-.43a3.71 3.71 0 0 1 1.4-.91c.31-.13.65-.18 1.03-.18.63 0 1.16.12 1.6.39.42.26.76.65 1.03 1.18a2.6 2.6 0 0 1 1.15-1.18c.5-.27.99-.39 1.51-.39.65 0 1.18.1 1.6.32.4.21.74.48.95.84.25.34.41.74.49 1.18.1.43.14.89.14 1.37v4.88h-1.59v-4.67c0-.3-.02-.62-.07-.91a1.95 1.95 0 0 0-.26-.77 1.3 1.3 0 0 0-.56-.53c-.24-.14-.55-.2-.94-.2-.77 0-1.32.25-1.63.7a3.1 3.1 0 0 0-.5 1.83v4.6h-1.6v-4.4c0-.41-.02-.77-.07-1.1a2.83 2.83 0 0 0-.24-.88 1.53 1.53 0 0 0-.53-.57c-.24-.15-.52-.2-.93-.2a2.08 2.08 0 0 0-1.52.67c-.2.23-.36.51-.48.87-.12.34-.17.77-.17 1.23v4.35h-1.59zm-2.2 2.1a2.8 2.8 0 0 0-.7-.6 1.96 1.96 0 0 0-1.02-.25c-.38 0-.7.07-.98.24a.74.74 0 0 0-.41.7c0 .24.07.46.24.6.17.14.34.29.58.36.21.1.45.17.7.22.23.05.45.1.64.12.34.07.68.19.97.31.3.12.55.27.77.46.21.19.38.4.5.7.12.26.2.6.2.98 0 .48-.1.87-.32 1.2-.2.36-.46.65-.77.85-.31.21-.67.36-1.08.45a5.34 5.34 0 0 1-3.06-.17 3.4 3.4 0 0 1-1.42-1.17l1.2-.99c.27.26.56.48.87.7a2 2 0 0 0 1.18.31c.2 0 .41-.02.6-.07.22-.05.39-.1.56-.2.16-.1.28-.19.38-.33.1-.15.14-.29.14-.48a.78.78 0 0 0-.21-.58 2.06 2.06 0 0 0-.53-.36c-.22-.1-.43-.17-.65-.22l-.6-.14a5.62 5.62 0 0 1-1.78-.72 1.96 1.96 0 0 1-.8-1.69c0-.43.1-.81.27-1.13.2-.33.43-.6.72-.81a3.7 3.7 0 0 1 1.04-.49 4.21 4.21 0 0 1 2.79.14c.52.22.93.59 1.25 1.07z" /></svg>
+  <svg  class="smartsheet" viewBox="0 0 100 22.02"><path id="smarsv"  d="M2.04 11.4s.58-.78 1.33-.8c1.18-.03 2.11 2.06 2.26 2.37A23.11 23.11 0 0 1 10.8 6H.14v11.95c0 .65-.1 1.13-.14 1.32a24.2 24.2 0 0 0 4.09-1.03c3.25-1.15 4.5-2.4 4.52-2.4l.07-.08.05.1s.41.89.82 1.37c.46.53.7.58.84.55.2-.05.31-.36.36-.84.05-.48.1-1.56.1-2.89V6.94c-3.15 3.84-5.46 9.62-5.46 9.62s-1.52-5.18-3.35-5.15zm95.37 3.98c-.19.02-.38.05-.57.05-.32 0-.53-.05-.7-.17a1.03 1.03 0 0 1-.36-.44c-.07-.19-.12-.38-.15-.62l-.02-.7V9.7h2.28V8.33h-2.28V5.97h-1.59v2.36h-1.61l-.6 1.37h2.21v4.38c0 .34.03.67.05 1a1.86 1.86 0 0 0 1.03 1.59c.34.17.82.27 1.42.27a4.55 4.55 0 0 0 1.45-.29v-1.44c-.2.07-.36.14-.56.17zm-40.74 0c-.2.02-.39.05-.58.05-.31 0-.53-.05-.7-.17a1.03 1.03 0 0 1-.36-.44c-.07-.19-.12-.38-.14-.62 0-.24-.03-.46-.03-.7V9.7h2.29V8.33h-2.29V5.97h-1.58v2.36h-1.62l-.6 1.37h2.22v4.38c0 .34.02.67.04 1 .03.35.12.66.3.92.16.27.4.5.74.68.34.16.82.26 1.42.26a4.55 4.55 0 0 0 1.44-.29v-1.44c-.17.07-.34.14-.55.17zM50.8 8.35s-.94-.12-1.44-.1c-.6.06-.82.15-1.16.32a2.78 2.78 0 0 0-1.03 1.08h-.03v-1.3h-1.58v8.4h1.58s-.05-3.46 0-4.3c.05-.85.2-1.74.63-2.15.46-.4.65-.5 1.2-.57.5-.08 1.2 0 1.2 0zm34.27 4.74c0 .36.08.7.24 1.01.17.32.37.56.63.77a3.15 3.15 0 0 0 1.97.67c.5 0 .94-.11 1.3-.33.36-.24.7-.53 1.01-.91l1.2.9a4.4 4.4 0 0 1-3.72 1.72c-.65 0-1.25-.12-1.8-.34a3.87 3.87 0 0 1-1.38-.94 4.56 4.56 0 0 1-1.18-3.15c0-.62.12-1.2.34-1.75a4.26 4.26 0 0 1 4.02-2.67c.74 0 1.37.12 1.87.38a3.78 3.78 0 0 1 2 2.43c.14.53.21 1.06.21 1.61v.58zm5.03-1.27c0-.36-.07-.68-.17-.96a2.05 2.05 0 0 0-1.2-1.27 2.86 2.86 0 0 0-2.14.02c-.31.14-.6.33-.82.57-.21.24-.4.5-.53.8-.12.28-.19.57-.19.86zm-14.33 1.27c0 .36.07.7.24 1.01.16.32.36.56.62.77a3.15 3.15 0 0 0 1.97.67c.5 0 .94-.11 1.3-.33.36-.24.7-.53 1.01-.91l1.2.9a4.4 4.4 0 0 1-3.72 1.72c-.65 0-1.25-.12-1.8-.34a3.87 3.87 0 0 1-1.38-.94 4.56 4.56 0 0 1-1.18-3.15c0-.62.12-1.2.34-1.75a4.26 4.26 0 0 1 4.02-2.67c.74 0 1.37.12 1.87.38a3.78 3.78 0 0 1 2 2.43c.14.53.22 1.06.22 1.61v.58zm5.02-1.27c0-.36-.07-.68-.17-.96a2.05 2.05 0 0 0-1.2-1.27 2.86 2.86 0 0 0-2.14.02c-.34.14-.6.33-.82.57-.21.24-.4.5-.53.8-.12.28-.19.57-.19.86zm-14.98-8.5h1.59v6.29h.02c.2-.46.55-.82 1.03-1.09.5-.29 1.06-.4 1.71-.4.41 0 .8.07 1.16.19.36.12.7.3.96.57.29.27.5.6.67 1.01.17.41.24.9.24 1.45v5.4H71.6v-5c0-.38-.04-.72-.16-1-.1-.3-.24-.51-.44-.68a1.55 1.55 0 0 0-.6-.36 2.52 2.52 0 0 0-.72-.12c-.34 0-.65.05-.91.17-.3.1-.53.26-.75.5-.22.25-.38.53-.5.87-.12.36-.17.77-.17 1.25v4.33h-1.59Zm-2.26 7.1a2.8 2.8 0 0 0-.7-.6 1.96 1.96 0 0 0-1.01-.24c-.39 0-.7.07-.99.24a.74.74 0 0 0-.4.7c0 .24.07.46.23.6.17.14.34.29.58.36.22.1.46.17.7.22.24.05.46.1.65.12.34.07.67.19.96.31.31.12.55.27.77.46.22.19.39.4.5.7.13.26.2.6.2.98 0 .48-.1.87-.31 1.2-.2.34-.46.6-.77.82-.32.22-.68.36-1.09.46a5.34 5.34 0 0 1-3.05-.17 3.4 3.4 0 0 1-1.42-1.18l1.2-.98c.27.26.56.48.87.7.31.19.7.3 1.18.3.19 0 .4-.02.6-.07.21-.04.38-.1.55-.19.17-.1.29-.2.39-.34.1-.14.14-.28.14-.48a.78.78 0 0 0-.22-.57 1.71 1.71 0 0 0-.53-.36c-.21-.1-.43-.17-.64-.22-.25-.05-.44-.1-.6-.15a6.66 6.66 0 0 1-1-.28 2.42 2.42 0 0 1-1.39-1.11 2.1 2.1 0 0 1-.21-1.01c0-.43.1-.82.26-1.13.2-.34.43-.6.72-.82a3.7 3.7 0 0 1 1.04-.48 4.21 4.21 0 0 1 2.79.14c.53.22.93.58 1.25 1.06zM37.76 9.34a5.14 5.14 0 0 1 4.93-1.01 2.8 2.8 0 0 1 1.71 1.52c.15.33.2.7.2 1.05v4.29c0 .28 0 .57.02.81 0 .24.02.48.05.7h-1.42c-.03-.43-.05-.84-.05-1.27h-.03c-.36.55-.77.93-1.25 1.15a4.04 4.04 0 0 1-2.79.17 3.15 3.15 0 0 1-.93-.48 2.24 2.24 0 0 1-.63-.8 2.56 2.56 0 0 1-.24-1.08c0-.55.12-.98.36-1.37.24-.36.58-.67.99-.89.4-.24.91-.38 1.46-.5.56-.1 1.16-.15 1.8-.15h1.19v-.36a1.8 1.8 0 0 0-.48-1.23 1.66 1.66 0 0 0-.63-.4c-.24-.1-.55-.15-.89-.15-.31 0-.58.02-.8.1-.23.04-.43.14-.62.21-.2.1-.36.2-.5.32l-.44.33zm4.5 3.34c-.38 0-.77.03-1.15.08-.39.04-.75.12-1.09.24-.33.12-.6.29-.79.5-.22.22-.31.48-.31.82 0 .48.17.84.48 1.03.31.22.77.32 1.32.32.43 0 .82-.08 1.1-.22a2 2 0 0 0 .75-.58c.2-.24.32-.5.41-.8.07-.28.12-.57.12-.86v-.53zM23.88 8.33h1.5v1.3h.02c.02-.12.12-.27.26-.43a3.71 3.71 0 0 1 1.4-.91c.31-.13.65-.18 1.03-.18.63 0 1.16.12 1.6.39.42.26.76.65 1.03 1.18a2.6 2.6 0 0 1 1.15-1.18c.5-.27.99-.39 1.51-.39.65 0 1.18.1 1.6.32.4.21.74.48.95.84.25.34.41.74.49 1.18.1.43.14.89.14 1.37v4.88h-1.59v-4.67c0-.3-.02-.62-.07-.91a1.95 1.95 0 0 0-.26-.77 1.3 1.3 0 0 0-.56-.53c-.24-.14-.55-.2-.94-.2-.77 0-1.32.25-1.63.7a3.1 3.1 0 0 0-.5 1.83v4.6h-1.6v-4.4c0-.41-.02-.77-.07-1.1a2.83 2.83 0 0 0-.24-.88 1.53 1.53 0 0 0-.53-.57c-.24-.15-.52-.2-.93-.2a2.08 2.08 0 0 0-1.52.67c-.2.23-.36.51-.48.87-.12.34-.17.77-.17 1.23v4.35h-1.59zm-2.2 2.1a2.8 2.8 0 0 0-.7-.6 1.96 1.96 0 0 0-1.02-.25c-.38 0-.7.07-.98.24a.74.74 0 0 0-.41.7c0 .24.07.46.24.6.17.14.34.29.58.36.21.1.45.17.7.22.23.05.45.1.64.12.34.07.68.19.97.31.3.12.55.27.77.46.21.19.38.4.5.7.12.26.2.6.2.98 0 .48-.1.87-.32 1.2-.2.36-.46.65-.77.85-.31.21-.67.36-1.08.45a5.34 5.34 0 0 1-3.06-.17 3.4 3.4 0 0 1-1.42-1.17l1.2-.99c.27.26.56.48.87.7a2 2 0 0 0 1.18.31c.2 0 .41-.02.6-.07.22-.05.39-.1.56-.2.16-.1.28-.19.38-.33.1-.15.14-.29.14-.48a.78.78 0 0 0-.21-.58 2.06 2.06 0 0 0-.53-.36c-.22-.1-.43-.17-.65-.22l-.6-.14a5.62 5.62 0 0 1-1.78-.72 1.96 1.96 0 0 1-.8-1.69c0-.43.1-.81.27-1.13.2-.33.43-.6.72-.81a3.7 3.7 0 0 1 1.04-.49 4.21 4.21 0 0 1 2.79.14c.52.22.93.59 1.25 1.07z" /></svg>
   <svg  class="brandfolder"  viewBox="0 0 84 22.02"><path d="M14.53 4.9v-.95H3.28v14.96h13.35v2.11H1.17V1.84h15.46V4.9zm-1.15.94h1.15v-.96h2.1v.96h1.15l-2.21 2.21zm60.53 11.6a4.95 4.95 0 0 1-1.9-.32 3.2 3.2 0 0 1-1.3-.86 3.4 3.4 0 0 1-.74-1.3 5.57 5.57 0 0 1-.23-1.64 5 5 0 0 1 .25-1.64 3.81 3.81 0 0 1 .73-1.34 3.44 3.44 0 0 1 1.2-.9 4.01 4.01 0 0 1 1.66-.33 3.52 3.52 0 0 1 1.47.3 3.25 3.25 0 0 1 1.1.8 3.5 3.5 0 0 1 .68 1.21 4.77 4.77 0 0 1 .24 1.51c0 .2 0 .4-.02.59l-.04.41H71.8v.06c.04.65.27 1.12.68 1.41a2.67 2.67 0 0 0 1.59.43 4.31 4.31 0 0 0 1.1-.1l1-.27.4 1.59a8.48 8.48 0 0 1-2.66.39m-.35-6.76a1.67 1.67 0 0 0-1.23.45 2.17 2.17 0 0 0-.51 1.27v.06h3.27v-.06a2.02 2.02 0 0 0-.43-1.25 1.34 1.34 0 0 0-1.1-.47m-8.07 6.78a5.83 5.83 0 0 1-1.57-.22 3.86 3.86 0 0 1-1.31-.7 3.33 3.33 0 0 1-.9-1.26 4.83 4.83 0 0 1-.34-1.88 4.73 4.73 0 0 1 .3-1.67 4.12 4.12 0 0 1 .82-1.35 3.84 3.84 0 0 1 1.3-.9 4.24 4.24 0 0 1 1.68-.33c.2 0 .39 0 .58.02a2.65 2.65 0 0 1 .57.1l.08.02V5.95h2.1v11.06a9.1 9.1 0 0 1-1.45.31 10.62 10.62 0 0 1-1.86.14m.11-6.72a1.94 1.94 0 0 0-.92.21 1.85 1.85 0 0 0-.64.59 2.35 2.35 0 0 0-.38.84 4.23 4.23 0 0 0-.11 1 3.53 3.53 0 0 0 .15 1.1 1.59 1.59 0 0 0 .45.72 1.76 1.76 0 0 0 .67.4 2.78 2.78 0 0 0 .82.11 3.94 3.94 0 0 0 .5-.02l.48-.1.04-.01v-4.7l-.04-.03a3.74 3.74 0 0 0-.5-.1l-.52-.01m-5.8 6.62a2.76 2.76 0 0 1-1.9-.65q-.7-.64-.7-2.11V5.93h2.1v8.16a4.12 4.12 0 0 0 .05.78 1.29 1.29 0 0 0 .18.49.73.73 0 0 0 .33.26 1.76 1.76 0 0 0 .5.05 1.2 1.2 0 0 0 .25-.02 4.84 4.84 0 0 0 1.15 1.4l-1.31.25a4.37 4.37 0 0 1-.65.06m-7.42.08a4.04 4.04 0 0 1-1.69-.32 3.33 3.33 0 0 1-1.18-.88 3.86 3.86 0 0 1-.7-1.31 5.88 5.88 0 0 1 0-3.3 3.77 3.77 0 0 1 .7-1.33 3.33 3.33 0 0 1 1.18-.88 4.43 4.43 0 0 1 3.37 0 3.4 3.4 0 0 1 1.2.88 3.77 3.77 0 0 1 .7 1.34 5.7 5.7 0 0 1 .24 1.66 5.57 5.57 0 0 1-.24 1.65 3.68 3.68 0 0 1-.7 1.31 3.4 3.4 0 0 1-1.2.88 4.4 4.4 0 0 1-1.68.3m0-6.72a1.41 1.41 0 0 0-1.3.68c-.25.43-.39 1.08-.39 1.9 0 .83.14 1.45.4 1.9a1.58 1.58 0 0 0 2.6 0c.25-.43.39-1.07.39-1.9 0-.82-.14-1.45-.4-1.9a1.44 1.44 0 0 0-1.3-.68m-8.02 6.54v-6.39h-1.27V9.3h1.27v-.45a3.84 3.84 0 0 1 .22-1.3 2.72 2.72 0 0 1 .62-.97 2.95 2.95 0 0 1 .98-.6 3.77 3.77 0 0 1 1.28-.22h.17a2.88 2.88 0 0 1 .61.04l.65.13-.32 1.65-.3-.06a3.37 3.37 0 0 0-.5-.04 1.51 1.51 0 0 0-.92.28c-.26.2-.4.58-.4 1.15v.4h2.63a3.72 3.72 0 0 0-.64.58 4.07 4.07 0 0 0-.6.98h-1.38v6.4zm-5.3.18a5.83 5.83 0 0 1-1.56-.22 3.86 3.86 0 0 1-1.31-.7 3.33 3.33 0 0 1-.9-1.26 4.9 4.9 0 0 1-.34-1.88 4.73 4.73 0 0 1 .3-1.66 4.12 4.12 0 0 1 .82-1.36 3.84 3.84 0 0 1 1.3-.9 4.24 4.24 0 0 1 1.68-.33c.17 0 .35 0 .59.02a4.9 4.9 0 0 1 .56.1l.08.02V5.93h2.1V17a9.1 9.1 0 0 1-1.45.31 10.47 10.47 0 0 1-1.86.14m.12-6.72a1.94 1.94 0 0 0-.93.21 1.7 1.7 0 0 0-.64.59 2.35 2.35 0 0 0-.37.84 4.23 4.23 0 0 0-.12 1 3.53 3.53 0 0 0 .15 1.1 1.59 1.59 0 0 0 .46.72 1.76 1.76 0 0 0 .66.4 2.78 2.78 0 0 0 .82.11 3.94 3.94 0 0 0 .5-.02 3.07 3.07 0 0 0 .48-.1l.04-.01v-4.7l-.04-.03a3.25 3.25 0 0 0-.5-.1l-.51-.01m-7.16 6.54v-4.5a2.76 2.76 0 0 0-.27-1.34 1.02 1.02 0 0 0-.94-.49 1.98 1.98 0 0 0-.57.08 1.23 1.23 0 0 0-.53.31 1.48 1.48 0 0 0-.37.65 3.35 3.35 0 0 0-.14 1.08v4.17h-2.1V9.3h2.1v1.03l.1-.15a.44.44 0 0 1 .12-.14l.1-.1a2.48 2.48 0 0 1 .48-.41 3.08 3.08 0 0 1 .63-.3 2.44 2.44 0 0 1 .78-.11c.9 0 1.6.25 2.04.72.45.47.69 1.28.69 2.32v5.1h-2.12zm-9.15.18a6.63 6.63 0 0 1-1.45-.14 3.6 3.6 0 0 1-1.12-.45 2.25 2.25 0 0 1-.72-.82 2.62 2.62 0 0 1-.26-1.24 2.22 2.22 0 0 1 .32-1.23 2.62 2.62 0 0 1 .8-.8 3.49 3.49 0 0 1 1.12-.44 6.62 6.62 0 0 1 1.23-.13l1 .03h.06v-.25c0-.84-.67-1.31-1.86-1.31a4.99 4.99 0 0 0-2 .4V9.26a7 7 0 0 1 2.27-.38c1.28 0 2.37.32 2.9.87.5.49.73 1.29.73 2.56v4.65a11.02 11.02 0 0 1-1.28.31 6.73 6.73 0 0 1-1.74.18m.16-3.96a2.4 2.4 0 0 0-1.24.27 1.03 1.03 0 0 0-.47.94 1.12 1.12 0 0 0 .18.67 1 1 0 0 0 .43.33 1.5 1.5 0 0 0 .53.14 4.44 4.44 0 0 0 .49.02 3.8 3.8 0 0 0 .47-.04c.16-.02.3-.06.41-.08h.04v-2.15h-.04l-.41-.06a1.47 1.47 0 0 0-.4-.04m-8.66 3.8v-8l2.12.02v1.06l.1-.15a2.47 2.47 0 0 1 .6-.6l.09-.05a1.87 1.87 0 0 1 1.21-.37h.12a1.03 1.03 0 0 1 .23.02l.26.04-.04 1.84a2.25 2.25 0 0 0-.35-.02h-.26a3.53 3.53 0 0 0-.6.06 1.39 1.39 0 0 0-.65.3 1.72 1.72 0 0 0-.51.72 3.47 3.47 0 0 0-.2 1.33v3.78h-2.12zm-5.64.16c-.47 0-.94-.02-1.41-.04s-.96-.08-1.55-.14V6.11c.33-.04.7-.1 1.1-.12.43-.04.98-.04 1.64-.04a8.33 8.33 0 0 1 1.61.14 4.15 4.15 0 0 1 1.31.47 2.38 2.38 0 0 1 .89.88 2.68 2.68 0 0 1 .31 1.37 2.83 2.83 0 0 1-.14.93 2.56 2.56 0 0 1-.39.72 1.91 1.91 0 0 1-.55.51 1.61 1.61 0 0 1-.6.26v.11a3.66 3.66 0 0 1 .78.22 3.16 3.16 0 0 1 .8.49 2.74 2.74 0 0 1 .61.84 3.05 3.05 0 0 1 .24 1.26 3.08 3.08 0 0 1-.38 1.62 2.63 2.63 0 0 1-1.02 1 4.31 4.31 0 0 1-1.49.51 8.32 8.32 0 0 1-1.76.16m-.8-1.8h.06a3.85 3.85 0 0 0 .5.03 4.78 4.78 0 0 0 .53.02 4.66 4.66 0 0 0 .71-.06 2.06 2.06 0 0 0 .69-.25 1.46 1.46 0 0 0 .53-.51 1.6 1.6 0 0 0 .21-.86 1.99 1.99 0 0 0-.16-.82 1.37 1.37 0 0 0-.47-.53 1.61 1.61 0 0 0-.7-.28 4.29 4.29 0 0 0-.9-.08h-1zm.8-8.12a7.43 7.43 0 0 0-.74.04h-.04v3.12h.74a3.1 3.1 0 0 0 .75-.08 1.54 1.54 0 0 0 .6-.26 1.19 1.19 0 0 0 .42-.5 1.9 1.9 0 0 0 .13-.81 1.47 1.47 0 0 0-.17-.76 1.3 1.3 0 0 0-.45-.47 1.52 1.52 0 0 0-.61-.24c-.2-.02-.43-.04-.63-.04m69.34 9.76v-8l2.1.02v1.06l.1-.13a2.55 2.55 0 0 1 .6-.61l.06-.06a1.87 1.87 0 0 1 1.21-.37h.12a1.03 1.03 0 0 1 .24.02l.25.04-.04 1.84a1.8 1.8 0 0 0-.33-.02h-.24a3.53 3.53 0 0 0-.6.06 1.48 1.48 0 0 0-.65.3 1.72 1.72 0 0 0-.5.72 3.47 3.47 0 0 0-.2 1.33v3.78h-2.12z" class="cls-2"/></svg>
   <svg  class="outfit"  viewBox="0 0 55 22.02"><path d="M51.03 5.9V1.18h-2.6V5.9H37.36V3.92c0-.9.5-1.49 1.41-1.49.48 0 .83.14 1.14.4l1.7-1.7A3.9 3.9 0 0 0 38.76 0a3.83 3.83 0 0 0-4 3.94V5.9H30.5V1.18h-2.6V5.9h-6.48v6.46c0 1.67-.83 2.6-2.34 2.6-1.48 0-2.33-.95-2.33-2.6V5.9h-2.6v6.58a4.74 4.74 0 0 0 4.93 4.98c2.93 0 4.93-2.01 4.93-4.98V8.26h3.9v8.96h2.59V8.26h4.24v8.96h2.6V8.26h4.25v8.96h2.59V8.26h4.25v8.96h2.6V8.26h3.41V5.9zm-8.14-.95c.85 0 1.47-.66 1.47-1.48 0-.83-.62-1.49-1.47-1.49s-1.46.66-1.46 1.49c0 .82.61 1.48 1.46 1.48zm-36.54.71a5.84 5.84 0 0 0-5.92 5.87c0 3.3 2.62 5.93 5.92 5.93 3.35 0 5.95-2.6 5.95-5.93 0-3.3-2.62-5.87-5.95-5.87zm0 9.3c-1.9 0-3.25-1.42-3.25-3.43 0-1.95 1.34-3.37 3.25-3.37 1.92 0 3.28 1.4 3.28 3.37 0 2.01-1.34 3.42-3.28 3.42z" /></svg>
   <svg  class="redhat" viewBox="0 0 93 22.02"><path d="M86.44 14.43c0 1.75 1.05 2.6 2.96 2.6.6-.02 1.18-.1 1.75-.25v-2.03c-.37.12-.75.18-1.13.17-.79 0-1.08-.24-1.08-.98v-3.1h2.29v-2.1h-2.29V6.1l-2.5.54v2.1h-1.66v2.1h1.66zm-7.79.05c0-.54.54-.8 1.36-.8.5 0 1 .06 1.49.18v1.05c-.48.26-1.02.4-1.57.39-.8 0-1.28-.31-1.28-.82m.77 2.58c.88 0 1.59-.19 2.25-.64v.5h2.47v-5.24c0-2-1.34-3.08-3.58-3.08-1.25 0-2.49.29-3.82.9l.9 1.83c.95-.4 1.76-.65 2.47-.65 1.03 0 1.56.4 1.56 1.22v.4a7.28 7.28 0 0 0-1.85-.23c-2.1 0-3.37.88-3.37 2.46 0 1.44 1.14 2.53 2.96 2.53m-13.58-.14h2.66V12.7h4.45v4.23h2.67V6.1h-2.66v4.16H68.5V6.1h-2.66zm-10.11-4.1c0-1.17.93-2.07 2.15-2.07.63 0 1.25.22 1.72.64v2.86a2.4 2.4 0 0 1-1.72.65c-1.2 0-2.15-.9-2.15-2.07m3.9 4.1h2.48V5.55l-2.5.54v3.08a4.16 4.16 0 0 0-2.08-.54 4.17 4.17 0 0 0-4.25 4.18 4.15 4.15 0 0 0 4.17 4.2c.79 0 1.56-.24 2.2-.7zm-11.34-6.29c.8 0 1.46.51 1.72 1.3h-3.41a1.7 1.7 0 0 1 1.7-1.3m-4.22 2.2c0 2.38 1.95 4.24 4.45 4.24a4.9 4.9 0 0 0 3.42-1.24l-1.66-1.47c-.38.4-.96.62-1.63.62-.88.02-1.68-.5-2.01-1.3h5.82v-.62c0-2.6-1.75-4.46-4.12-4.46a4.2 4.2 0 0 0-4.26 4.23m-4.32-4.46c.89 0 1.38.55 1.38 1.22 0 .66-.5 1.22-1.38 1.22h-2.62V8.38Zm-5.28 8.54h2.65v-3.94h2.03l2.04 3.94h2.97l-2.38-4.33a3.27 3.27 0 0 0 2.04-3.04c0-1.95-1.53-3.45-3.82-3.45h-5.53zM24.5 10.5c0-.17-.01-.34-.05-.5l-1.09-4.76c-.25-1.04-.47-1.52-2.31-2.44C19.62 2.08 16.52.87 15.6.87c-.85 0-1.1 1.1-2.12 1.1-.98 0-1.71-.82-2.63-.82-.88 0-1.45.6-1.9 1.84l-1.4 3.99a.94.94 0 0 0-.02.28c0 1.36 5.33 5.8 12.47 5.8 1.84 0 4.5-.38 4.5-2.56zm.28.89c.26 1.2.26 1.32.26 1.48 0 2.06-2.32 3.2-5.36 3.2-6.86 0-12.88-4.02-12.88-6.68 0-.37.07-.74.22-1.08-2.47.13-5.67.57-5.67 3.4 0 4.61 10.96 10.31 19.63 10.31 6.66 0 8.33-3 8.33-5.38 0-1.87-1.61-3.99-4.53-5.25"/></svg>
@@ -1032,7 +1032,9 @@ Andy is the most passionate technologist I’ve ever met, with deep and useful k
 
 <div class="ref-james">
 <cite><a href="https://www.linkedin.com/in/james-lee-927ab3108/" target="_blank">James Lee</a><br>Product Manager 
-<svg fill="currentColor" viewBox="0 0 100 22.02"><path d="M2.04 11.4s.58-.78 1.33-.8c1.18-.03 2.11 2.06 2.26 2.37A23.11 23.11 0 0 1 10.8 6H.14v11.95c0 .65-.1 1.13-.14 1.32a24.2 24.2 0 0 0 4.09-1.03c3.25-1.15 4.5-2.4 4.52-2.4l.07-.08.05.1s.41.89.82 1.37c.46.53.7.58.84.55.2-.05.31-.36.36-.84.05-.48.1-1.56.1-2.89V6.94c-3.15 3.84-5.46 9.62-5.46 9.62s-1.52-5.18-3.35-5.15zm95.37 3.98c-.19.02-.38.05-.57.05-.32 0-.53-.05-.7-.17a1.03 1.03 0 0 1-.36-.44c-.07-.19-.12-.38-.15-.62l-.02-.7V9.7h2.28V8.33h-2.28V5.97h-1.59v2.36h-1.61l-.6 1.37h2.21v4.38c0 .34.03.67.05 1a1.86 1.86 0 0 0 1.03 1.59c.34.17.82.27 1.42.27a4.55 4.55 0 0 0 1.45-.29v-1.44c-.2.07-.36.14-.56.17zm-40.74 0c-.2.02-.39.05-.58.05-.31 0-.53-.05-.7-.17a1.03 1.03 0 0 1-.36-.44c-.07-.19-.12-.38-.14-.62 0-.24-.03-.46-.03-.7V9.7h2.29V8.33h-2.29V5.97h-1.58v2.36h-1.62l-.6 1.37h2.22v4.38c0 .34.02.67.04 1 .03.35.12.66.3.92.16.27.4.5.74.68.34.16.82.26 1.42.26a4.55 4.55 0 0 0 1.44-.29v-1.44c-.17.07-.34.14-.55.17zM50.8 8.35s-.94-.12-1.44-.1c-.6.06-.82.15-1.16.32a2.78 2.78 0 0 0-1.03 1.08h-.03v-1.3h-1.58v8.4h1.58s-.05-3.46 0-4.3c.05-.85.2-1.74.63-2.15.46-.4.65-.5 1.2-.57.5-.08 1.2 0 1.2 0zm34.27 4.74c0 .36.08.7.24 1.01.17.32.37.56.63.77a3.15 3.15 0 0 0 1.97.67c.5 0 .94-.11 1.3-.33.36-.24.7-.53 1.01-.91l1.2.9a4.4 4.4 0 0 1-3.72 1.72c-.65 0-1.25-.12-1.8-.34a3.87 3.87 0 0 1-1.38-.94 4.56 4.56 0 0 1-1.18-3.15c0-.62.12-1.2.34-1.75a4.26 4.26 0 0 1 4.02-2.67c.74 0 1.37.12 1.87.38a3.78 3.78 0 0 1 2 2.43c.14.53.21 1.06.21 1.61v.58zm5.03-1.27c0-.36-.07-.68-.17-.96a2.05 2.05 0 0 0-1.2-1.27 2.86 2.86 0 0 0-2.14.02c-.31.14-.6.33-.82.57-.21.24-.4.5-.53.8-.12.28-.19.57-.19.86zm-14.33 1.27c0 .36.07.7.24 1.01.16.32.36.56.62.77a3.15 3.15 0 0 0 1.97.67c.5 0 .94-.11 1.3-.33.36-.24.7-.53 1.01-.91l1.2.9a4.4 4.4 0 0 1-3.72 1.72c-.65 0-1.25-.12-1.8-.34a3.87 3.87 0 0 1-1.38-.94 4.56 4.56 0 0 1-1.18-3.15c0-.62.12-1.2.34-1.75a4.26 4.26 0 0 1 4.02-2.67c.74 0 1.37.12 1.87.38a3.78 3.78 0 0 1 2 2.43c.14.53.22 1.06.22 1.61v.58zm5.02-1.27c0-.36-.07-.68-.17-.96a2.05 2.05 0 0 0-1.2-1.27 2.86 2.86 0 0 0-2.14.02c-.34.14-.6.33-.82.57-.21.24-.4.5-.53.8-.12.28-.19.57-.19.86zm-14.98-8.5h1.59v6.29h.02c.2-.46.55-.82 1.03-1.09.5-.29 1.06-.4 1.71-.4.41 0 .8.07 1.16.19.36.12.7.3.96.57.29.27.5.6.67 1.01.17.41.24.9.24 1.45v5.4H71.6v-5c0-.38-.04-.72-.16-1-.1-.3-.24-.51-.44-.68a1.55 1.55 0 0 0-.6-.36 2.52 2.52 0 0 0-.72-.12c-.34 0-.65.05-.91.17-.3.1-.53.26-.75.5-.22.25-.38.53-.5.87-.12.36-.17.77-.17 1.25v4.33h-1.59Zm-2.26 7.1a2.8 2.8 0 0 0-.7-.6 1.96 1.96 0 0 0-1.01-.24c-.39 0-.7.07-.99.24a.74.74 0 0 0-.4.7c0 .24.07.46.23.6.17.14.34.29.58.36.22.1.46.17.7.22.24.05.46.1.65.12.34.07.67.19.96.31.31.12.55.27.77.46.22.19.39.4.5.7.13.26.2.6.2.98 0 .48-.1.87-.31 1.2-.2.34-.46.6-.77.82-.32.22-.68.36-1.09.46a5.34 5.34 0 0 1-3.05-.17 3.4 3.4 0 0 1-1.42-1.18l1.2-.98c.27.26.56.48.87.7.31.19.7.3 1.18.3.19 0 .4-.02.6-.07.21-.04.38-.1.55-.19.17-.1.29-.2.39-.34.1-.14.14-.28.14-.48a.78.78 0 0 0-.22-.57 1.71 1.71 0 0 0-.53-.36c-.21-.1-.43-.17-.64-.22-.25-.05-.44-.1-.6-.15a6.66 6.66 0 0 1-1-.28 2.42 2.42 0 0 1-1.39-1.11 2.1 2.1 0 0 1-.21-1.01c0-.43.1-.82.26-1.13.2-.34.43-.6.72-.82a3.7 3.7 0 0 1 1.04-.48 4.21 4.21 0 0 1 2.79.14c.53.22.93.58 1.25 1.06zM37.76 9.34a5.14 5.14 0 0 1 4.93-1.01 2.8 2.8 0 0 1 1.71 1.52c.15.33.2.7.2 1.05v4.29c0 .28 0 .57.02.81 0 .24.02.48.05.7h-1.42c-.03-.43-.05-.84-.05-1.27h-.03c-.36.55-.77.93-1.25 1.15a4.04 4.04 0 0 1-2.79.17 3.15 3.15 0 0 1-.93-.48 2.24 2.24 0 0 1-.63-.8 2.56 2.56 0 0 1-.24-1.08c0-.55.12-.98.36-1.37.24-.36.58-.67.99-.89.4-.24.91-.38 1.46-.5.56-.1 1.16-.15 1.8-.15h1.19v-.36a1.8 1.8 0 0 0-.48-1.23 1.66 1.66 0 0 0-.63-.4c-.24-.1-.55-.15-.89-.15-.31 0-.58.02-.8.1-.23.04-.43.14-.62.21-.2.1-.36.2-.5.32l-.44.33zm4.5 3.34c-.38 0-.77.03-1.15.08-.39.04-.75.12-1.09.24-.33.12-.6.29-.79.5-.22.22-.31.48-.31.82 0 .48.17.84.48 1.03.31.22.77.32 1.32.32.43 0 .82-.08 1.1-.22a2 2 0 0 0 .75-.58c.2-.24.32-.5.41-.8.07-.28.12-.57.12-.86v-.53zM23.88 8.33h1.5v1.3h.02c.02-.12.12-.27.26-.43a3.71 3.71 0 0 1 1.4-.91c.31-.13.65-.18 1.03-.18.63 0 1.16.12 1.6.39.42.26.76.65 1.03 1.18a2.6 2.6 0 0 1 1.15-1.18c.5-.27.99-.39 1.51-.39.65 0 1.18.1 1.6.32.4.21.74.48.95.84.25.34.41.74.49 1.18.1.43.14.89.14 1.37v4.88h-1.59v-4.67c0-.3-.02-.62-.07-.91a1.95 1.95 0 0 0-.26-.77 1.3 1.3 0 0 0-.56-.53c-.24-.14-.55-.2-.94-.2-.77 0-1.32.25-1.63.7a3.1 3.1 0 0 0-.5 1.83v4.6h-1.6v-4.4c0-.41-.02-.77-.07-1.1a2.83 2.83 0 0 0-.24-.88 1.53 1.53 0 0 0-.53-.57c-.24-.15-.52-.2-.93-.2a2.08 2.08 0 0 0-1.52.67c-.2.23-.36.51-.48.87-.12.34-.17.77-.17 1.23v4.35h-1.59zm-2.2 2.1a2.8 2.8 0 0 0-.7-.6 1.96 1.96 0 0 0-1.02-.25c-.38 0-.7.07-.98.24a.74.74 0 0 0-.41.7c0 .24.07.46.24.6.17.14.34.29.58.36.21.1.45.17.7.22.23.05.45.1.64.12.34.07.68.19.97.31.3.12.55.27.77.46.21.19.38.4.5.7.12.26.2.6.2.98 0 .48-.1.87-.32 1.2-.2.36-.46.65-.77.85-.31.21-.67.36-1.08.45a5.34 5.34 0 0 1-3.06-.17 3.4 3.4 0 0 1-1.42-1.17l1.2-.99c.27.26.56.48.87.7a2 2 0 0 0 1.18.31c.2 0 .41-.02.6-.07.22-.05.39-.1.56-.2.16-.1.28-.19.38-.33.1-.15.14-.29.14-.48a.78.78 0 0 0-.21-.58 2.06 2.06 0 0 0-.53-.36c-.22-.1-.43-.17-.65-.22l-.6-.14a5.62 5.62 0 0 1-1.78-.72 1.96 1.96 0 0 1-.8-1.69c0-.43.1-.81.27-1.13.2-.33.43-.6.72-.81a3.7 3.7 0 0 1 1.04-.49 4.21 4.21 0 0 1 2.79.14c.52.22.93.59 1.25 1.07z"></path></svg></cite>
+
+<svg  class="smartsheet" viewBox="0 0 100 22.02"><use href="#smarsv" fill="currentColor"></svg>
+</cite>
 <p>Directly managed by Andy at Outfit</p>
 
 
@@ -1161,8 +1163,13 @@ Makes ad-hoc donations of design, software, or funding to causes, & open source 
 <br><br>
 
 <style>
-@charset "UTF-8";
-video{border-radius: 50%; overflow:hidden;  max-width: calc(100vw - 2rem); width: 18em;}
+
+video {
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: calc(100vw - 2rem);
+  width: 18em;
+}
 
 p {
   padding: 0 1em;
@@ -1172,24 +1179,40 @@ footer p {
   padding: 0;
 }
 
-.scrolled .cta{animation:flash-button .6s ease forwards}
-
-
-
-.cta:before{content:""; display:block; background-color:currentColor; width: 100%; height:100%; position:absolute; top:0; left:0; opacity:0;}
-
-@keyframes cta-flash{
-  0%{transform: skew(-45deg) translateX(-150%)}
-  50%{opacity:1}
-  100%{transform: skew(-45deg) translateX(150%)}
+.scrolled .cta {
+  animation: flash-button 0.6s ease forwards;
 }
 
-.scrolled .cta:before{animation: cta-flash .5s linear forwards .5s}
+.cta:before {
+  content: "";
+  display: block;
+  background-color: currentColor;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
 
-
+@keyframes cta-flash {
+  0% {
+    transform: skew(-45deg) translateX(-150%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: skew(-45deg) translateX(150%);
+  }
+}
+.scrolled .cta:before {
+  animation: cta-flash 0.5s linear forwards 0.5s;
+}
 
 .cta {
-  overflow:hidden; position: relative;
+  overflow: hidden;
+  position: relative;
   box-shadow: 0 0 0 0.1em;
   border-radius: 0.5em;
   padding: 1em;
@@ -1211,22 +1234,62 @@ h2 {
   line-height: 0.9em;
 }
 
-.more{letter-spacing:-.025em; display:grid; place-content:center; position:relative;margin:0} 
- 
-.scroll.more use{opacity:0; color:var(--bg-1); transition: all .85s cubic-bezier(.3,.2,.1,1.2); transform: translate(0,-6px)}
+.more {
+  letter-spacing: -0.025em;
+  display: grid;
+  place-content: center;
+  position: relative;
+  margin: 0;
+}
 
+.scroll.more use {
+  opacity: 0;
+  color: var(--bg-1);
+  transition: all 0.85s cubic-bezier(0.3, 0.2, 0.1, 1.2);
+  transform: translate(0, -6px);
+}
 
+.scrolled.more use {
+  opacity: 1;
+  transform: none;
+}
 
-.scrolled.more use{opacity:1; transform: none;}
-.scrolled use:nth-child(1n){transition-delay:.2s}
-.scrolled use:nth-child(2n){transition-delay:.4s}
-.scrolled use:nth-child(3n){transition-delay:.6s}
-.scrolled use:nth-child(4n){transition-delay:.8s}
-.scrolled use:nth-child(5n){transition-delay:1s}
-.scrolled use:nth-child(6n){transition-delay:1s}
-.scrolled use:nth-child(7n){transition-delay:.8s}
-.scrolled use:nth-child(8n){transition-delay:.6s}
-.scrolled use:nth-child(9n){transition-delay:.4s}
+.scrolled use:nth-child(1n) {
+  transition-delay: 0.2s;
+}
+
+.scrolled use:nth-child(2n) {
+  transition-delay: 0.4s;
+}
+
+.scrolled use:nth-child(3n) {
+  transition-delay: 0.6s;
+}
+
+.scrolled use:nth-child(4n) {
+  transition-delay: 0.8s;
+}
+
+.scrolled use:nth-child(5n) {
+  transition-delay: 1s;
+}
+
+.scrolled use:nth-child(6n) {
+  transition-delay: 1s;
+}
+
+.scrolled use:nth-child(7n) {
+  transition-delay: 0.8s;
+}
+
+.scrolled use:nth-child(8n) {
+  transition-delay: 0.6s;
+}
+
+.scrolled use:nth-child(9n) {
+  transition-delay: 0.4s;
+}
+
 .scroll.map {
   margin: 2em auto;
 }
@@ -1265,12 +1328,12 @@ p.scroll {
   transform: translate(0, 2rem);
 }
 
-h2.scroll span{
+h2.scroll span {
   opacity: 0;
   transform: scale(1.5);
 }
 
-h2.scrolled span{
+h2.scrolled span {
   opacity: 1;
   transform: none;
   transition: transform 1s ease, opacity 1s ease;
@@ -1282,29 +1345,67 @@ h2.scrolled span{
   transition: transform 1s ease, opacity 1s ease;
 }
 
-.scroll.social-proof  svg{  transform: translate(0, 2rem); opacity:0}
-
-
-@keyframes flash-in{
-  0%{opacity:0;transform: translate(0, 2rem);}
-  10%{opacity:1; fill: var(--brand); color:var(--brand)}
-  100%{transform:translate(0, 0); opacity:1}
+.scroll.social-proof svg {
+  transform: translate(0, 2rem);
+  opacity: 0;
 }
 
-.scrolled.social-proof svg{  opacity:0; animation: flash-in .7s ease forwards}
+@keyframes flash-in {
+  0% {
+    opacity: 0;
+    transform: translate(0, 2rem);
+  }
+  10% {
+    opacity: 1;
+    fill: var(--brand);
+    color: var(--brand);
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+.scrolled.social-proof svg {
+  opacity: 0;
+  animation: flash-in 0.7s ease forwards;
+}
 
+.scrolled.social-proof > svg:nth-child(1) {
+  animation-delay: 0.4s;
+}
 
-.scrolled.social-proof > svg:nth-child(1){animation-delay:.4s}
-.scrolled.social-proof > svg:nth-child(2){animation-delay:.6s}
-.scrolled.social-proof > svg:nth-child(3){animation-delay:.8s}
-.scrolled.social-proof > svg:nth-child(4){animation-delay:1s}
-.scrolled.social-proof > svg:nth-child(5){animation-delay:1.2s}
-.scrolled.social-proof  .no-orphan svg:nth-child(1){animation-delay:1.4s}
-.scrolled.social-proof .no-orphan svg:nth-child(2){animation-delay:1.6s}
-.scrolled.social-proof > svg:nth-child(8){animation-delay:1.8s}
+.scrolled.social-proof > svg:nth-child(2) {
+  animation-delay: 0.6s;
+}
 
+.scrolled.social-proof > svg:nth-child(3) {
+  animation-delay: 0.8s;
+}
 
-.nd{ margin-bottom: -4em;}
+.scrolled.social-proof > svg:nth-child(4) {
+  animation-delay: 1s;
+}
+
+.scrolled.social-proof > svg:nth-child(5) {
+  animation-delay: 1.2s;
+}
+
+.scrolled.social-proof .no-orphan svg:nth-child(1) {
+  animation-delay: 1.4s;
+}
+
+.scrolled.social-proof .no-orphan svg:nth-child(2) {
+  animation-delay: 1.6s;
+}
+
+.scrolled.social-proof > svg:nth-child(8) {
+  animation-delay: 1.8s;
+}
+
+.nd {
+  margin-bottom: -4em;
+}
+
 .mission-values {
   width: 100vw;
   display: grid;
@@ -1314,29 +1415,45 @@ h2.scrolled span{
 
 .mission-values h3 {
   color: var(--fg);
-  font-weight:500; letter-spacing: .05em;
-  font-size: .8em; text-transform: uppercase; 
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+  text-transform: uppercase;
 }
 
-.mission a{display:inline-block; margin-top:2em; background-color: var(--bg);padding:.5em 1em; border-radius: .5em} 
+.mission a {
+  display: inline-block;
+  margin-top: 2em;
+  background-color: var(--bg);
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+}
+
 @media (max-width: 45em) {
-  .ltxt {text-align:left}
-  .ltxt h3{padding-left:1rem;}
+  .ltxt {
+    text-align: left;
+  }
+
+  .ltxt h3 {
+    padding-left: 1rem;
+  }
+
   .mission-values {
     grid-template-columns: 1fr;
   }
 }
+.awards, .leadership {
+  max-width: 100em;
+  margin: 0 auto;
+}
 
-.awards, .leadership{max-width: 100em;
-margin: 0 auto;}
 .awards {
-  
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   font-size: 0.66em;
   text-transform: uppercase;
-  letter-spacing:.05em;
+  letter-spacing: 0.05em;
 }
 
 .mission i {
@@ -1357,7 +1474,7 @@ abbr, acronym {
 }
 
 /* aligning  tooltip for mobile */
-.awards > div:nth-child(1):hover::after, 
+.awards > div:nth-child(1):hover::after,
 .awards > div:nth-child(3):hover::after,
 li:nth-child(1):hover::after,
 li:nth-child(3):hover::after {
@@ -1365,16 +1482,32 @@ li:nth-child(3):hover::after {
   right: auto;
 }
 
-.awards > div[data-title]{box-shadow: none;}
-.awards > div:hover::after{text-transform: none; letter-spacing:0;  top: 9em !important; bottom: auto !important}
-.awards > div:hover{color: var(--brand)}
+.awards > div[data-title] {
+  box-shadow: none;
+}
 
+.awards > div:hover::after {
+  text-transform: none;
+  letter-spacing: 0;
+  top: 9em !important;
+  bottom: auto !important;
+}
 
+.awards > div:hover {
+  color: var(--brand);
+}
 
-.leadership > div:hover::after{text-transform: none; text-align:center;letter-spacing:0;  top: 11.5em ; bottom: auto !important}
+.leadership > div:hover::after {
+  text-transform: none;
+  text-align: center;
+  letter-spacing: 0;
+  top: 11.5em;
+  bottom: auto !important;
+}
 
 .social-proof {
-  margin: 4em 0; margin-bottom:3em;
+  margin: 4em 0;
+  margin-bottom: 3em;
   color: var(--neutral);
 }
 
@@ -1400,49 +1533,49 @@ li:nth-child(3):hover::after {
   padding: 0 2rem;
   color: var(--fg);
 }
-.quote > p{padding:0 }
 
-.quote > p:last-child{display:inline }
+.quote > p {
+  padding: 0;
+}
+
+.quote > p:last-child {
+  display: inline;
+}
 
 .quote:before {
   content: "“";
   color: var(--neutral);
   font-size: 1.5em;
   display: block;
-  margin-bottom:-.75em;
-text-align: left;
-padding-left: 0rem; font-size:2rem; font-weight:700;
-
+  margin-bottom: -0.75em;
+  text-align: left;
+  padding-left: 0rem;
+  font-size: 2rem;
+  font-weight: 700;
 }
-
 
 .quote:after {
   content: "”";
   color: var(--neutral);
- 
   display: inline-block;
-transform: translate(0,.5rem);
+  transform: translate(0, 0.5rem);
   padding-right: 1rem;
 }
-
-
 
 .short-quote:before {
   content: "“";
   color: var(--neutral);
- 
-text-align: left; font-size:2rem; font-weight:700;
-
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .short-quote:after {
   content: "”";
   color: var(--neutral);
   font-size: 1.5rem;
-
-  text-align: right; 
+  text-align: right;
 }
-
 
 @media (max-width: 45em) {
   .awards {
@@ -1632,13 +1765,19 @@ img {
 }
 
 .top-section {
-  position:relative;
+  position: relative;
   margin-bottom: 2em;
 }
 
-.top-section .bokeh{position:absolute; top:-15em; opacity:.45; right:0; bottom:0; left:0; z-index:-1; }
-
-
+.top-section .bokeh {
+  position: absolute;
+  top: -15em;
+  opacity: 0.45;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
 
 .bokeh {
   height: 100vh;
@@ -1654,43 +1793,57 @@ img {
   backface-visibility: hidden;
 }
 
-@media (prefers-color-scheme: light) { 
-.top-section .bokeh circle{fill: var(--bg-1) !important; stroke:var(--bg)}
-.top-section .bokeh{ opacity:.7;  filter: blur(1rem); background-color:var(--bg-1)}
+@media (prefers-color-scheme: light) {
+  .top-section .bokeh circle {
+    fill: var(--bg-1) !important;
+    stroke: var(--bg);
+  }
+
+  .top-section .bokeh {
+    opacity: 0.7;
+    filter: blur(1rem);
+    background-color: var(--bg-1);
+  }
 }
-
-
-@media (max-width: 30em){
-  .bokeh{filter: blur(.8em) !important}
+@media (max-width: 30em) {
+  .bokeh {
+    filter: blur(0.8em) !important;
+  }
 }
-
 .bokeh circle {
   animation: rotate 10s linear infinite;
   opacity: 0.55;
   transform-origin: 50%;
 }
+
 .bokeh circle:nth-child(2n) {
   transform-origin: 20% 110%;
   animation-delay: -5s;
 }
+
 .bokeh circle:nth-child(3n) {
   transform-origin: 70% 30%;
   animation-delay: -2.5s;
 }
+
 .bokeh circle:nth-child(4n) {
   transform-origin: 110% 70%;
   animation-delay: -1.6666666667s;
 }
+
 .bokeh circle:nth-child(5n) {
   transform-origin: 30% 40%;
 }
+
 .bokeh circle:nth-child(6n) {
   transform-origin: -10% 80%;
   animation-delay: -13s;
 }
+
 .bokeh circle:nth-child(7n) {
   transform-origin: 70% -10%;
 }
+
 .bokeh circle:nth-child(8n) {
   transform-origin: -30% 50%;
   animation-delay: -4s;
@@ -1719,6 +1872,7 @@ img {
   margin: 0 -0.85em;
   display: inline-block;
 }
+
 .circles > div:last-child {
   color: #c00;
   background-color: rgba(210, 10, 5, 0.85);
@@ -1729,12 +1883,10 @@ img {
   position: relative;
   padding: 1em 0 5em 0;
   margin: 2em 0;
-
 }
 
-.disclosures svg, 
+.disclosures svg,
 .mission-values svg {
-
   position: absolute;
   top: 0;
   width: 100%;
@@ -1743,7 +1895,7 @@ img {
   z-index: -1;
   left: 0;
   right: 0;
- }
+}
 
 .disclosures div,
 .mission-values div {
@@ -1753,72 +1905,171 @@ img {
 
 .disclosures svg,
 .mission-values svg {
-color: var(--bg-1);
-opacity:.7; 
+  color: var(--bg-1);
+  opacity: 0.7;
 }
 
-.disclosures h3{  grid-column-start: 1;
-  grid-column-end: 4;}
-
-@media (prefers-color-scheme: light) { 
-
-
-.disclosures svg,
-.mission-values svg{color: var(--bg); background-color:var(--bg-1); opacity:.5} 
+.disclosures h3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
-
-.testimonials{background-color: var(--bg-2); padding: 2em 1em}
-
-.testimonials .quote{text-align:left; max-width: 40em; margin: 0 auto; display:block;  margin-top:2rem; padding: 0;}
-.testimonials .quote p{margin-bottom: 1rem}
-
-cite{font-style: normal;; margin-bottom:1em; display:block; color: var(--neutral)}
-cite a { font-weight: 500}
-.testimonials svg{max-width: 8em; height:2em; margin:1em auto; display:block; color: var(--neutral)}
-
-.testimonials input{opacity:0; position:absolute; z-index:-1}
-
-.testimonials label{transition: all .35s ease-out;  vertical-align:center;color: var(--fg); filter:saturate(.4); cursor:pointer;
--webkit-tap-highlight-color: rgba(0,0,0,0);
-display:inline-block; position:relative; height:4rem; width: 5rem;  margin-bottom:1em;text-align:center; line-height:4em; white-space:nowrap; user-select:none;}
-
-.testimonials label span{transition: all .35s cubic-bezier(.4,.2,.1,1.2); display:block; ; height:4rem; width: 4rem; border-radius: 50%;background-size: cover; background-position: 50% 50%; background-repeat:no-repeat; position:absolute; top:0; left:.5em;   opacity:.3;}
-
-
-
-.testimonials input:checked + label{color:transparent; filter:none ; }
-input:checked + label span{  transform: scale(1.2); box-shadow: 0 0 0 .1em var(--bg), 0 0 0 .3em var(--brand);opacity:1}
-
-
-:checked ~ div cite{animation: whodey .5s cubic-bezier(.3,.2,.1,1.4) forwards}
-@keyframes whodey{0%{opacity:0; transform:translate(0, .5em)}}
-
-cite{margin-top:1rem}
-
-
-@media (prefers-color-scheme: light) { 
-.testimonials label{color:var(--light)}
-.testimonials label span{background-color:var(--brand);  
-opacity:1; background-blend-mode: darken}
-
-.testimonials :checked + label span{ background-blend-mode:normal; background-color: var(--light)}
-
+@media (prefers-color-scheme: light) {
+  .disclosures svg,
+.mission-values svg {
+    color: var(--bg);
+    background-color: var(--bg-1);
+    opacity: 0.5;
+  }
+}
+.testimonials {
+  background-color: var(--bg-2);
+  padding: 2em 1em;
 }
 
+.testimonials .quote {
+  text-align: left;
+  max-width: 40em;
+  margin: 0 auto;
+  display: block;
+  margin-top: 2rem;
+  padding: 0;
+}
 
-#ref-bruce + label span{background-image:url(/img/headshots/bs.jpg)}
-#ref-james + label span{background-image:url(/img/headshots/jl.jpg)}
-#ref-anh + label span{background-image:url(/img/headshots/anh.jpg)}
-#ref-john + label span{background-image:url(/img/headshots/jqa.jpg)}
-#ref-akhil + label span{background-image:url(/img/headshots/ab.jpg)}
-#ref-kyrsten + label span{background-image:url(/img/headshots/km.jpg)}
-#ref-paula + label span{background-image:url(/img/headshots/pw.jpg)}
+.testimonials .quote p {
+  margin-bottom: 1rem;
+}
 
+cite {
+  font-style: normal;
+  margin-bottom: 1em;
+  display: block;
+  color: var(--neutral);
+}
 
+cite a {
+  font-weight: 500;
+}
 
+.testimonials svg {
+  max-width: 8em;
+  height: 2em;
+  margin: 1em auto;
+  display: block;
+  color: var(--neutral);
+}
 
-.ref-bruce,.ref-james,.ref-kyrsten,.ref-paula,.ref-akhil,.ref-john,.ref-anh{display:none}
+.testimonials input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.testimonials label {
+  transition: all 0.35s ease-out;
+  vertical-align: center;
+  color: var(--fg);
+  filter: saturate(0.4);
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  display: inline-block;
+  position: relative;
+  height: 4rem;
+  width: 5rem;
+  margin-bottom: 1em;
+  text-align: center;
+  line-height: 4em;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.testimonials label span {
+  transition: all 0.35s cubic-bezier(0.4, 0.2, 0.1, 1.2);
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0.5em;
+  opacity: 0.3;
+}
+
+.testimonials input:checked + label {
+  color: transparent;
+  filter: none;
+}
+
+input:checked + label span {
+  transform: scale(1.2);
+  box-shadow: 0 0 0 0.1em var(--bg), 0 0 0 0.3em var(--brand);
+  opacity: 1;
+}
+
+:checked ~ div cite {
+  animation: whodey 0.5s cubic-bezier(0.3, 0.2, 0.1, 1.4) forwards;
+}
+
+@keyframes whodey {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0.5em);
+  }
+}
+cite {
+  margin-top: 1rem;
+}
+
+@media (prefers-color-scheme: light) {
+  .testimonials label {
+    color: var(--light);
+  }
+
+  .testimonials label span {
+    background-color: var(--brand);
+    opacity: 1;
+    background-blend-mode: darken;
+  }
+
+  .testimonials :checked + label span {
+    background-blend-mode: normal;
+    background-color: var(--light);
+  }
+}
+#ref-bruce + label span {
+  background-image: url(/img/headshots/bs.jpg);
+}
+
+#ref-james + label span {
+  background-image: url(/img/headshots/jl.jpg);
+}
+
+#ref-anh + label span {
+  background-image: url(/img/headshots/anh.jpg);
+}
+
+#ref-john + label span {
+  background-image: url(/img/headshots/jqa.jpg);
+}
+
+#ref-akhil + label span {
+  background-image: url(/img/headshots/ab.jpg);
+}
+
+#ref-kyrsten + label span {
+  background-image: url(/img/headshots/km.jpg);
+}
+
+#ref-paula + label span {
+  background-image: url(/img/headshots/pw.jpg);
+}
+
+.ref-bruce, .ref-james, .ref-kyrsten, .ref-paula, .ref-akhil, .ref-john, .ref-anh {
+  display: none;
+}
 
 #ref-bruce:checked ~ .ref-bruce,
 #ref-james:checked ~ .ref-james,
@@ -1826,13 +2077,14 @@ opacity:1; background-blend-mode: darken}
 #ref-paula:checked ~ .ref-paula,
 #ref-john:checked ~ .ref-john,
 #ref-akhil:checked ~ .ref-akhil,
-#ref-anh:checked ~ .ref-anh{display:block;}
-
+#ref-anh:checked ~ .ref-anh {
+  display: block;
+}
 
 .values ul {
   list-style: none;
   margin: 0;
-  margin-top:1.5em;
+  margin-top: 1.5em;
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1877,9 +2129,6 @@ opacity:1; background-blend-mode: darken}
   color: var(--bg);
   box-shadow: inset 0 0 0 0.125em var(--brand);
 }
-
-
-
 
 .fbottom, .ll {
   fill: none;
@@ -1960,84 +2209,224 @@ opacity:1; background-blend-mode: darken}
     stop-color: #2345;
   }
 }
+.disclosures {
+  gap: 1rem;
+  font-size: 1rem;
+  line-height: 1.3em;
+  padding: 0 2em;
+  margin: 0 auto;
+  max-width: 110em;
+}
 
-.disclosures{gap:1rem; font-size: 1rem; line-height:1.3em; padding: 0 2em; margin: 0 auto; max-width: 110em;}
-.disclosures h4{margin-bottom:1em;}
-.disclosures div{max-width: 24em; place-self:center;  margin: 1em 0 6.75em 0; text-align:left;}
+.disclosures h4 {
+  margin-bottom: 1em;
+}
 
-.disclosures, .leadership {display:grid; grid-template-columns: 1fr 1fr 1fr}
+.disclosures div {
+  max-width: 24em;
+  place-self: center;
+  margin: 1em 0 6.75em 0;
+  text-align: left;
+}
 
-.leadership svg{ fill: var(--neutral); max-height: 5rem; max-width: 5rem;}
+.disclosures, .leadership {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
-.disclosures h4, .leadership h4{font-size:.75rem; font-weight: 600; letter-spacing:.04em; text-transform: uppercase;}
-.leadership {font-size: .75em; opacity:.5; }
-.leadership > div{box-shadow:none; margin-bottom:1rem; padding:3em 2em; background-color: var(--bg-2); margin:1em 1.5em; border-radius: 1em;}
-.leadership > div:hover{background-color: var(--bg-3); color: var(--brand)}
+.leadership svg {
+  fill: var(--neutral);
+  max-height: 5rem;
+  max-width: 5rem;
+}
 
-.leadership > div:hover svg{fill: var(--brand); color: var(--brand)}
+.disclosures h4, .leadership h4 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
 
-.leadership > div:hover [stroke="var(--neutral)"]{stroke: var(--brand)}
+.leadership {
+  font-size: 0.75em;
+  opacity: 0.5;
+}
+
+.leadership > div {
+  box-shadow: none;
+  margin-bottom: 1rem;
+  padding: 3em 2em;
+  background-color: var(--bg-2);
+  margin: 1em 1.5em;
+  border-radius: 1em;
+}
+
+.leadership > div:hover {
+  background-color: var(--bg-3);
+  color: var(--brand);
+}
+
+.leadership > div:hover svg {
+  fill: var(--brand);
+  color: var(--brand);
+}
+
+.leadership > div:hover [stroke="var(--neutral)"] {
+  stroke: var(--brand);
+}
+
 @media (max-width: 50em) {
-  
- .disclosures,  .leadership{grid-template-columns: 1fr}
- .leadership div{margin:1em 2em}
- .disclosures div{grid-column-start: 1;
-  grid-column-end: 4; margin: 0 0 4rem 0}
+  .disclosures, .leadership {
+    grid-template-columns: 1fr;
+  }
 
-.disclosures h3{padding-bottom:2em;}
+  .leadership div {
+    margin: 1em 2em;
+  }
+
+  .disclosures div {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: 0 0 4rem 0;
+  }
+
+  .disclosures h3 {
+    padding-bottom: 2em;
+  }
+}
+.sparkle use {
+  animation: sparkle 5s linear infinite;
 }
 
-.sparkle use{animation: sparkle 5s linear infinite}
-.sparkle use:nth-child(1n){animation-delay: -.5s}
-.sparkle use:nth-child(2n){animation-delay: -1s}
-.sparkle use:nth-child(3n){animation-delay: -1.5s}
-.sparkle use:nth-child(4n){animation-delay: -2s}
-.sparkle use:nth-child(5n){animation-delay: -2.5s}
-.sparkle use:nth-child(6n){animation-delay: -3s}
-.sparkle use:nth-child(7n){animation-delay: -3.5s}
-.sparkle use:nth-child(8n){animation-delay: -4s}
-.sparkle use:nth-child(9n){animation-delay: -4.5s}
-.sparkle use:nth-child(10n){animation-delay: -5s}
-@keyframes sparkle{
-  0%,80%, 100%{  color:var(--brand); fill-opacity:.25}
-  90%{color:transparent}
+.sparkle use:nth-child(1n) {
+  animation-delay: -0.5s;
 }
 
-#timezones{ padding: 3em 1em; position:relative; padding-bottom:4em;}
-#timezones > * {position:relative; z-index:3;}
-#timezones > svg{ position:absolute; bottom:0; top:0em; left:0; max-height:100%;  width: 100%;right:0; z-index:1}
-#strategy{position:relative;}
+.sparkle use:nth-child(2n) {
+  animation-delay: -1s;
+}
 
-.timezones{ fill:currentcolor; max-width: 20em; margin-bottom:1em;}
+.sparkle use:nth-child(3n) {
+  animation-delay: -1.5s;
+}
 
+.sparkle use:nth-child(4n) {
+  animation-delay: -2s;
+}
 
+.sparkle use:nth-child(5n) {
+  animation-delay: -2.5s;
+}
+
+.sparkle use:nth-child(6n) {
+  animation-delay: -3s;
+}
+
+.sparkle use:nth-child(7n) {
+  animation-delay: -3.5s;
+}
+
+.sparkle use:nth-child(8n) {
+  animation-delay: -4s;
+}
+
+.sparkle use:nth-child(9n) {
+  animation-delay: -4.5s;
+}
+
+.sparkle use:nth-child(10n) {
+  animation-delay: -5s;
+}
+
+@keyframes sparkle {
+  0%, 80%, 100% {
+    color: var(--brand);
+    fill-opacity: 0.25;
+  }
+  90% {
+    color: transparent;
+  }
+}
+#timezones {
+  padding: 3em 1em;
+  position: relative;
+  padding-bottom: 4em;
+}
+
+#timezones > * {
+  position: relative;
+  z-index: 3;
+}
+
+#timezones > svg {
+  position: absolute;
+  bottom: 0;
+  top: 0em;
+  left: 0;
+  max-height: 100%;
+  width: 100%;
+  right: 0;
+  z-index: 1;
+}
+
+#strategy {
+  position: relative;
+}
+
+.timezones {
+  fill: currentcolor;
+  max-width: 20em;
+  margin-bottom: 1em;
+}
 
 @media (prefers-color-scheme: light) {
-
-.leadership > div{box-shadow: 0 0 1em 1em var(--bg-2); background-color:transparent}
+  .leadership > div {
+    box-shadow: 0 0 1em 1em var(--bg-2);
+    background-color: transparent;
+  }
+}
+@keyframes slidetime {
+  0% {
+    transform: translate(12px, 0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+.scrolled.timezones [opacity=".5"] text {
+  animation: datein 1s cubic-bezier(0.3, 0.2, 0.1, 1) forwards;
+  opacity: 0;
 }
 
-
-@keyframes slidetime{
-  0%{ transform:translate(12px ,0px); opacity:0}
-  100%{ transform:translate(0px ,0px); opacity:1}
+.scrolled.timezones [opacity=".5"] text:nth-child(1) {
+  animation-delay: 0.2s;
 }
 
-.scrolled.timezones [opacity=".5"] text{
-  animation: datein 1s cubic-bezier(.3,.2,.1,1) forwards; opacity:0}
-
-.scrolled.timezones [opacity=".5"] text:nth-child(1){animation-delay:.2s}
-.scrolled.timezones [opacity=".5"] text:nth-child(2){animation-delay:.4s}
-.scrolled.timezones [opacity=".5"] text:nth-child(3){animation-delay:.6s}
-.scrolled.timezones [opacity=".5"] text:nth-child(4){animation-delay:.8s}
-
-
-@keyframes datein{
-  0%{ transform:translate(1px ,0px); opacity:0}
-  100%{ transform:translate(0px ,0px); opacity:1}
+.scrolled.timezones [opacity=".5"] text:nth-child(2) {
+  animation-delay: 0.4s;
 }
-#time-dot{fill:var(--brand)}
 
+.scrolled.timezones [opacity=".5"] text:nth-child(3) {
+  animation-delay: 0.6s;
+}
 
+.scrolled.timezones [opacity=".5"] text:nth-child(4) {
+  animation-delay: 0.8s;
+}
 
+@keyframes datein {
+  0% {
+    transform: translate(1px, 0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+#time-dot {
+  fill: var(--brand);
+}
 </style>
