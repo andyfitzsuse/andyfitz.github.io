@@ -164,7 +164,7 @@ with proven global impact.<br>
 <p class="scroll fade">When it came time to sell Outfit, I read the market, <br>wrote the pitch, &amp; picked the buyer.<br>  
 The result got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. <br>Revolutionizing operations as a brand manager</p> 
 <br>
-<p class="scroll fade">At Red Hat, I set the tone for selling techology in the global regions, <br>making the field experience scalable and world-class</p>
+<p class="scroll fade">At Red Hat, I set the tone for selling techology across regions, <br>making the field experience scalable and world-class</p>
 
 <br />
 </div>
