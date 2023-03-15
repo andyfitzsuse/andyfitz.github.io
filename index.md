@@ -77,7 +77,8 @@ with proven global impact.<br>
 
 
 
-<p class="scroll fade ">A listener, doer, &amp; fixer <br>having worn  many hats: <br>product owner, strategist, brand manager,  <br> engineer, designer, <acronym title="Account Executive">AE</acronym>, <acronym title="Solutions Architect">SA</acronym> &amp; <acronym title="Customer Success Manager">CSM</acronym>.<br>
+<p class="scroll fade ">A listener, doer, &amp; fixer <br>having worn  <span data-title="strategist, product owner, brand manager, software engineer, ui/ux designer, account executive, solutions architect, customer success manager + more">many hats</span> 
+<br>
 <br>
 </p>  
 <br>
@@ -185,7 +186,7 @@ The result got praise from the street.<br><br> I was Outfit's tech founder &amp;
   </g>
 </svg>
 <h4>Team Satisfaction</h4></div>
-<div data-title="Scored by leadership, peers, &amp; team members">
+<div data-title="Scored by leader, peers, &amp; team members">
 <svg viewBox="0 0 10 10">
   <text
     font-size="1.8"
@@ -213,7 +214,7 @@ The result got praise from the street.<br><br> I was Outfit's tech founder &amp;
 </svg>
 <h4>Top Reviews</h4>
 </div>
-<div data-title="Low attrition and high per-seat ROI at Outfit">
+<div data-title="Low attrition and high per-seat ROI">
 
 <svg viewBox="0 0 10 10" fill="none" stroke="var(--neutral)"><circle cx="5" cy="5" r="3" fill="none" /> <path fill="none" d="M2.75 5 l 1.5 1.5 l 3 -3.5" stroke="var(--fg)" /></svg>
 <h4>Performance &amp; Retention</h4>
@@ -1032,7 +1033,7 @@ Andy is the most passionate technologist I’ve ever met, with deep and useful k
 <div class="ref-james">
 <cite><a href="https://www.linkedin.com/in/james-lee-927ab3108/" target="_blank">James Lee</a><br>Product Manager 
 <svg fill="currentColor" viewBox="0 0 100 22.02"><path d="M2.04 11.4s.58-.78 1.33-.8c1.18-.03 2.11 2.06 2.26 2.37A23.11 23.11 0 0 1 10.8 6H.14v11.95c0 .65-.1 1.13-.14 1.32a24.2 24.2 0 0 0 4.09-1.03c3.25-1.15 4.5-2.4 4.52-2.4l.07-.08.05.1s.41.89.82 1.37c.46.53.7.58.84.55.2-.05.31-.36.36-.84.05-.48.1-1.56.1-2.89V6.94c-3.15 3.84-5.46 9.62-5.46 9.62s-1.52-5.18-3.35-5.15zm95.37 3.98c-.19.02-.38.05-.57.05-.32 0-.53-.05-.7-.17a1.03 1.03 0 0 1-.36-.44c-.07-.19-.12-.38-.15-.62l-.02-.7V9.7h2.28V8.33h-2.28V5.97h-1.59v2.36h-1.61l-.6 1.37h2.21v4.38c0 .34.03.67.05 1a1.86 1.86 0 0 0 1.03 1.59c.34.17.82.27 1.42.27a4.55 4.55 0 0 0 1.45-.29v-1.44c-.2.07-.36.14-.56.17zm-40.74 0c-.2.02-.39.05-.58.05-.31 0-.53-.05-.7-.17a1.03 1.03 0 0 1-.36-.44c-.07-.19-.12-.38-.14-.62 0-.24-.03-.46-.03-.7V9.7h2.29V8.33h-2.29V5.97h-1.58v2.36h-1.62l-.6 1.37h2.22v4.38c0 .34.02.67.04 1 .03.35.12.66.3.92.16.27.4.5.74.68.34.16.82.26 1.42.26a4.55 4.55 0 0 0 1.44-.29v-1.44c-.17.07-.34.14-.55.17zM50.8 8.35s-.94-.12-1.44-.1c-.6.06-.82.15-1.16.32a2.78 2.78 0 0 0-1.03 1.08h-.03v-1.3h-1.58v8.4h1.58s-.05-3.46 0-4.3c.05-.85.2-1.74.63-2.15.46-.4.65-.5 1.2-.57.5-.08 1.2 0 1.2 0zm34.27 4.74c0 .36.08.7.24 1.01.17.32.37.56.63.77a3.15 3.15 0 0 0 1.97.67c.5 0 .94-.11 1.3-.33.36-.24.7-.53 1.01-.91l1.2.9a4.4 4.4 0 0 1-3.72 1.72c-.65 0-1.25-.12-1.8-.34a3.87 3.87 0 0 1-1.38-.94 4.56 4.56 0 0 1-1.18-3.15c0-.62.12-1.2.34-1.75a4.26 4.26 0 0 1 4.02-2.67c.74 0 1.37.12 1.87.38a3.78 3.78 0 0 1 2 2.43c.14.53.21 1.06.21 1.61v.58zm5.03-1.27c0-.36-.07-.68-.17-.96a2.05 2.05 0 0 0-1.2-1.27 2.86 2.86 0 0 0-2.14.02c-.31.14-.6.33-.82.57-.21.24-.4.5-.53.8-.12.28-.19.57-.19.86zm-14.33 1.27c0 .36.07.7.24 1.01.16.32.36.56.62.77a3.15 3.15 0 0 0 1.97.67c.5 0 .94-.11 1.3-.33.36-.24.7-.53 1.01-.91l1.2.9a4.4 4.4 0 0 1-3.72 1.72c-.65 0-1.25-.12-1.8-.34a3.87 3.87 0 0 1-1.38-.94 4.56 4.56 0 0 1-1.18-3.15c0-.62.12-1.2.34-1.75a4.26 4.26 0 0 1 4.02-2.67c.74 0 1.37.12 1.87.38a3.78 3.78 0 0 1 2 2.43c.14.53.22 1.06.22 1.61v.58zm5.02-1.27c0-.36-.07-.68-.17-.96a2.05 2.05 0 0 0-1.2-1.27 2.86 2.86 0 0 0-2.14.02c-.34.14-.6.33-.82.57-.21.24-.4.5-.53.8-.12.28-.19.57-.19.86zm-14.98-8.5h1.59v6.29h.02c.2-.46.55-.82 1.03-1.09.5-.29 1.06-.4 1.71-.4.41 0 .8.07 1.16.19.36.12.7.3.96.57.29.27.5.6.67 1.01.17.41.24.9.24 1.45v5.4H71.6v-5c0-.38-.04-.72-.16-1-.1-.3-.24-.51-.44-.68a1.55 1.55 0 0 0-.6-.36 2.52 2.52 0 0 0-.72-.12c-.34 0-.65.05-.91.17-.3.1-.53.26-.75.5-.22.25-.38.53-.5.87-.12.36-.17.77-.17 1.25v4.33h-1.59Zm-2.26 7.1a2.8 2.8 0 0 0-.7-.6 1.96 1.96 0 0 0-1.01-.24c-.39 0-.7.07-.99.24a.74.74 0 0 0-.4.7c0 .24.07.46.23.6.17.14.34.29.58.36.22.1.46.17.7.22.24.05.46.1.65.12.34.07.67.19.96.31.31.12.55.27.77.46.22.19.39.4.5.7.13.26.2.6.2.98 0 .48-.1.87-.31 1.2-.2.34-.46.6-.77.82-.32.22-.68.36-1.09.46a5.34 5.34 0 0 1-3.05-.17 3.4 3.4 0 0 1-1.42-1.18l1.2-.98c.27.26.56.48.87.7.31.19.7.3 1.18.3.19 0 .4-.02.6-.07.21-.04.38-.1.55-.19.17-.1.29-.2.39-.34.1-.14.14-.28.14-.48a.78.78 0 0 0-.22-.57 1.71 1.71 0 0 0-.53-.36c-.21-.1-.43-.17-.64-.22-.25-.05-.44-.1-.6-.15a6.66 6.66 0 0 1-1-.28 2.42 2.42 0 0 1-1.39-1.11 2.1 2.1 0 0 1-.21-1.01c0-.43.1-.82.26-1.13.2-.34.43-.6.72-.82a3.7 3.7 0 0 1 1.04-.48 4.21 4.21 0 0 1 2.79.14c.53.22.93.58 1.25 1.06zM37.76 9.34a5.14 5.14 0 0 1 4.93-1.01 2.8 2.8 0 0 1 1.71 1.52c.15.33.2.7.2 1.05v4.29c0 .28 0 .57.02.81 0 .24.02.48.05.7h-1.42c-.03-.43-.05-.84-.05-1.27h-.03c-.36.55-.77.93-1.25 1.15a4.04 4.04 0 0 1-2.79.17 3.15 3.15 0 0 1-.93-.48 2.24 2.24 0 0 1-.63-.8 2.56 2.56 0 0 1-.24-1.08c0-.55.12-.98.36-1.37.24-.36.58-.67.99-.89.4-.24.91-.38 1.46-.5.56-.1 1.16-.15 1.8-.15h1.19v-.36a1.8 1.8 0 0 0-.48-1.23 1.66 1.66 0 0 0-.63-.4c-.24-.1-.55-.15-.89-.15-.31 0-.58.02-.8.1-.23.04-.43.14-.62.21-.2.1-.36.2-.5.32l-.44.33zm4.5 3.34c-.38 0-.77.03-1.15.08-.39.04-.75.12-1.09.24-.33.12-.6.29-.79.5-.22.22-.31.48-.31.82 0 .48.17.84.48 1.03.31.22.77.32 1.32.32.43 0 .82-.08 1.1-.22a2 2 0 0 0 .75-.58c.2-.24.32-.5.41-.8.07-.28.12-.57.12-.86v-.53zM23.88 8.33h1.5v1.3h.02c.02-.12.12-.27.26-.43a3.71 3.71 0 0 1 1.4-.91c.31-.13.65-.18 1.03-.18.63 0 1.16.12 1.6.39.42.26.76.65 1.03 1.18a2.6 2.6 0 0 1 1.15-1.18c.5-.27.99-.39 1.51-.39.65 0 1.18.1 1.6.32.4.21.74.48.95.84.25.34.41.74.49 1.18.1.43.14.89.14 1.37v4.88h-1.59v-4.67c0-.3-.02-.62-.07-.91a1.95 1.95 0 0 0-.26-.77 1.3 1.3 0 0 0-.56-.53c-.24-.14-.55-.2-.94-.2-.77 0-1.32.25-1.63.7a3.1 3.1 0 0 0-.5 1.83v4.6h-1.6v-4.4c0-.41-.02-.77-.07-1.1a2.83 2.83 0 0 0-.24-.88 1.53 1.53 0 0 0-.53-.57c-.24-.15-.52-.2-.93-.2a2.08 2.08 0 0 0-1.52.67c-.2.23-.36.51-.48.87-.12.34-.17.77-.17 1.23v4.35h-1.59zm-2.2 2.1a2.8 2.8 0 0 0-.7-.6 1.96 1.96 0 0 0-1.02-.25c-.38 0-.7.07-.98.24a.74.74 0 0 0-.41.7c0 .24.07.46.24.6.17.14.34.29.58.36.21.1.45.17.7.22.23.05.45.1.64.12.34.07.68.19.97.31.3.12.55.27.77.46.21.19.38.4.5.7.12.26.2.6.2.98 0 .48-.1.87-.32 1.2-.2.36-.46.65-.77.85-.31.21-.67.36-1.08.45a5.34 5.34 0 0 1-3.06-.17 3.4 3.4 0 0 1-1.42-1.17l1.2-.99c.27.26.56.48.87.7a2 2 0 0 0 1.18.31c.2 0 .41-.02.6-.07.22-.05.39-.1.56-.2.16-.1.28-.19.38-.33.1-.15.14-.29.14-.48a.78.78 0 0 0-.21-.58 2.06 2.06 0 0 0-.53-.36c-.22-.1-.43-.17-.65-.22l-.6-.14a5.62 5.62 0 0 1-1.78-.72 1.96 1.96 0 0 1-.8-1.69c0-.43.1-.81.27-1.13.2-.33.43-.6.72-.81a3.7 3.7 0 0 1 1.04-.49 4.21 4.21 0 0 1 2.79.14c.52.22.93.59 1.25 1.07z"></path></svg></cite>
-<p>Managed by Andy at Outfit</p>
+<p>Directly managed by Andy at Outfit</p>
 
 
 <blockquote class="quote">
@@ -1367,6 +1368,10 @@ li:nth-child(3):hover::after {
 .awards > div[data-title]{box-shadow: none;}
 .awards > div:hover::after{text-transform: none; letter-spacing:0;  top: 9em !important; bottom: auto !important}
 .awards > div:hover{color: var(--brand)}
+
+
+
+.leadership > div:hover::after{text-transform: none; text-align:center;letter-spacing:0;  top: 11.5em ; bottom: auto !important}
 
 .social-proof {
   margin: 4em 0; margin-bottom:3em;
@@ -1959,14 +1964,19 @@ opacity:1; background-blend-mode: darken}
 .disclosures{gap:1rem; font-size: 1rem; line-height:1.3em; padding: 0 2em; margin: 0 auto; max-width: 110em;}
 .disclosures h4{margin-bottom:1em;}
 .disclosures div{max-width: 24em; place-self:center;  margin: 1em 0 6.75em 0; text-align:left;}
+
 .disclosures, .leadership {display:grid; grid-template-columns: 1fr 1fr 1fr}
 
 .leadership svg{ fill: var(--neutral); max-height: 5rem; max-width: 5rem;}
 
 .disclosures h4, .leadership h4{font-size:.75rem; font-weight: 600; letter-spacing:.04em; text-transform: uppercase;}
 .leadership {font-size: .75em; opacity:.5; }
-.leadership > div{margin-bottom:1rem; padding:3em 2em; background-color: var(--bg-2); margin:1em 1.5em; border-radius: 1em;}
+.leadership > div{box-shadow:none; margin-bottom:1rem; padding:3em 2em; background-color: var(--bg-2); margin:1em 1.5em; border-radius: 1em;}
+.leadership > div:hover{background-color: var(--bg-3); color: var(--brand)}
 
+.leadership > div:hover svg{fill: var(--brand); color: var(--brand)}
+
+.leadership > div:hover [stroke="var(--neutral)"]{stroke: var(--brand)}
 @media (max-width: 50em) {
   
  .disclosures,  .leadership{grid-template-columns: 1fr}

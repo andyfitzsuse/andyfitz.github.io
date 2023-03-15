@@ -150,8 +150,8 @@ article > blockquote > p:last-child{display:inline}
   font-style: normal;
   box-shadow: 0 0.1rem var(--neutral);
   cursor: help;
-
   display: inline-block;
+  vertical-align:top;
   z-index: 9;
 }
 
