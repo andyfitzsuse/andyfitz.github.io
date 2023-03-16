@@ -9,7 +9,7 @@ eleventyNavigation:
 ...A work in progress, as life tends to be
 
 <section class="twoup">
-<div>My surname is Fitzsimon <br>
+<div>My family name is Fitzsimon<br>
 <a href="/">
   <svg  viewBox=".5 .5 3 4" fill="none" stroke="url(#gred)" stroke-opacity=".95" stroke-linecap="round">
     <path stroke="url(#gred2)" d="M1 4H.999V1h.001"/>
@@ -23,7 +23,7 @@ eleventyNavigation:
   </svg>
 </a>
 </div>
-<div>There's a norman crest too<svg viewBox=".5 .5 12.5 13.5" ><path stroke="var(--neutral)" fill="url(#gsilver)" stroke-width=".5" d="M1 1h11.52v6.48q0 3.6-5.76 5.76Q1 11.08 1 7.48z"/><g fill="url(#gred)"><path d="M2.44 2.44V4.6q0 1.08 1.8 1.8 1.8-.72 1.8-1.8V2.44z"/><path d="M7.48 2.44V4.6q0 1.08 1.872 1.8 1.728-.72 1.728-1.8V2.44z"/><path d="M4.96 7.48v2.16q0 1.08 1.8 1.8 1.8-.72 1.8-1.8V7.48z"/></g><defs><linearGradient id="gsilver" x1="-.2"><stop offset=".4" stop-color="#fff"/><stop offset="1" stop-color="#f0f8ff"/></linearGradient><linearGradient id="gred" x1="-.1" x2="1.3" y2=".25"><stop offset="0" stop-color="coral"/><stop offset=".5" stop-color="#dc143c"/><stop offset="1" stop-color="brown"/></linearGradient></defs></svg></div>
+<div>Here's a norman coat of arms<svg viewBox=".5 .5 12.5 13.5" ><path stroke="var(--neutral)" fill="url(#gsilver)" stroke-width=".5" d="M1 1h11.52v6.48q0 3.6-5.76 5.76Q1 11.08 1 7.48z"/><g fill="url(#gred)"><path d="M2.44 2.44V4.6q0 1.08 1.8 1.8 1.8-.72 1.8-1.8V2.44z"/><path d="M7.48 2.44V4.6q0 1.08 1.872 1.8 1.728-.72 1.728-1.8V2.44z"/><path d="M4.96 7.48v2.16q0 1.08 1.8 1.8 1.8-.72 1.8-1.8V7.48z"/></g><defs><linearGradient id="gsilver" x1="-.2"><stop offset=".4" stop-color="#fff"/><stop offset="1" stop-color="#f0f8ff"/></linearGradient><linearGradient id="gred" x1="-.1" x2="1.3" y2=".25"><stop offset="0" stop-color="coral"/><stop offset=".5" stop-color="#dc143c"/><stop offset="1" stop-color="brown"/></linearGradient></defs></svg></div>
 </section>
 <style>.twoup{display:grid; grid-template-columns: 1fr 1fr; }
 header{display:none}

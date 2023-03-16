@@ -119,9 +119,9 @@ h2:before {
   display: block;
   height: 5em;
   margin: -2.5em 0 -1em;
-  position: relative;
+  position: absolute;
   z-index: -1;
-
+  top:0; width:100%;
   background-image: conic-gradient(from 90deg at 10% 50%, var(--bg-2), var(--bg-1)), conic-gradient(from 270deg at 90% 50%, var(--bg-1), var(--bg-2));
   mask-image: radial-gradient(white 10%, transparent 70%);
   background-position: 1% 0%, 99% 0%;
@@ -133,7 +133,7 @@ h2:before {
   h1{font-size: 15vw !important} }
 .printonly{display:none}
 
-
+@media screen {h2{margin-top:4rem; padding-top:1rem;}}
 @media print {
   .printonly{display:block;}
   h1{font-size: 5em !important}
