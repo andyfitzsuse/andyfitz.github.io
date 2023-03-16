@@ -1134,7 +1134,7 @@ footer p {
   }
 }
 
-.mission a:hover{box-shadow: inset 0 0 0 .05em var(--brand); color: var(--light)}
+.mission a:hover{box-shadow: inset 0 0 0 .05em var(--brand); color: var(--fg)}
 
 .mission a:hover:before{ background-color:white; animation: cta-flash 0.5s linear forwards 0s;}
 .scrolled .cta:before {
@@ -1731,16 +1731,7 @@ img {
 }
 
 @media (prefers-color-scheme: light) {
-  .top-section .bokeh circle {
-    fill: var(--bg-1) !important;
-    stroke: var(--bg);
-  }
-
-  .top-section .bokeh {
-    opacity: 0.7;
-    filter: blur(1rem);
-    background-color: var(--bg-1);
-  }
+  .top-section .bokeh {display:none;}
 }
 @media (max-width: 30em) {
   .bokeh {
@@ -1854,8 +1845,8 @@ img {
 @media (prefers-color-scheme: light) {
   .disclosures svg,
 .mission-values svg {
-    color: var(--bg);
-    background-color: var(--bg-1);
+    color: var(--bg-1);
+    background-color: var(--bg);
     opacity: 0.5;
   }
 }

@@ -263,6 +263,7 @@ article a.tag {
 }
 
 @media (prefers-color-scheme: light) {
+  
   article a.tag {
     background-color: transparent;
     box-shadow: 0 0 0 0.05em;
@@ -747,6 +748,11 @@ mark {
 
 .token.punctuation {
   color: var(--neutral);
+}
+
+
+@media (prefers-color-scheme: light) {
+  [data-title]:hover::after {background-color:var(--dark); color:var(--bg)}
 }
 
 body {

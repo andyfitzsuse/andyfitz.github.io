@@ -113,7 +113,7 @@ September 2011 - May 2020  (4 roles)
 strong{font-weight:500;}
 time{display:none}
 h1{line-height:.9em;font-weight:900; letter-spacing:-.02em; margin-top:0 !important; color:var(--fg-2);}
-
+@media (prefers-color-scheme: dark) {
 h2:before {
   content: "";
   display: block;
@@ -127,6 +127,7 @@ h2:before {
   background-position: 1% 0%, 99% 0%;
   background-size: 50% 100%, 50% 100%;
   background-repeat: no-repeat;
+}
 }
 
 @media (max-width:40em){
