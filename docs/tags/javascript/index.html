@@ -63,10 +63,7 @@
 <p>See <a href="/tags/">all tags</a>.</p>
 
 
-<script>
-  // vanilla JS on scroll detection
-const scrollElements=document.querySelectorAll(".scroll"),elementInView=(e,l=1)=>{return e.getBoundingClientRect().top<=(window.innerHeight||document.documentElement.clientHeight)/l},elementOutofView=e=>{return e.getBoundingClientRect().top>(window.innerHeight||document.documentElement.clientHeight)},displayScrollElement=e=>{e.classList.add("scrolled")},hideScrollElement=e=>{e.classList.remove("scrolled")},handleScrollAnimation=()=>{scrollElements.forEach(e=>{elementInView(e,1.25)?displayScrollElement(e):elementOutofView(e)&&hideScrollElement(e)})};window.addEventListener("scroll",()=>{scrollElements.forEach(e=>{elementInView(e,1.25)?displayScrollElement(e):elementOutofView(e)&&hideScrollElement(e)})});
-</script>
+
     </main>
 
     <footer>

@@ -104,7 +104,7 @@ September 2011 - May 2020  (4 roles)
 ## Corporate Accolades
 
 * Brandfolder Sales BeastMode Award 
-* Red Hat President's CLub 
+* Red Hat President's lLub 
 * Red Hat Chairman's Award 
 * Red Hat Marketing global citizen
 
@@ -112,15 +112,36 @@ September 2011 - May 2020  (4 roles)
 <style>
 strong{font-weight:500;}
 time{display:none}
-h1{line-height:.9em;font-weight:900; letter-spacing:-.02em; margin-top:0 !important; color:var(--fg-2);-webkit-text-stroke: .1rem var(--fg-2); -webkit-text-fill-color: transparent;}
+h1{line-height:.9em;font-weight:900; letter-spacing:-.02em; margin-top:0 !important; color:var(--fg-2);}
+
+h2:before {
+  content: "";
+  display: block;
+  height: 5em;
+  margin: -2.5em 0 -1em;
+  position: relative;
+  z-index: -1;
+
+  background-image: conic-gradient(from 90deg at 10% 50%, var(--bg-2), var(--bg-1)), conic-gradient(from 270deg at 90% 50%, var(--bg-1), var(--bg-2));
+  mask-image: radial-gradient(white 10%, transparent 70%);
+  background-position: 1% 0%, 99% 0%;
+  background-size: 50% 100%, 50% 100%;
+  background-repeat: no-repeat;
+}
+
 @media (max-width:40em){
   h1{font-size: 15vw !important} }
 .printonly{display:none}
+
+
 @media print {
   .printonly{display:block;}
   h1{font-size: 5em !important}
   h2{  page-break-after: auto;
   }
+
+
+
   h4+ul+h4+ul,ul{page-break-after:always}
   h4+ul{page-break-after:auto}
   body{font-size: .75em;line-height:1.3em;}
