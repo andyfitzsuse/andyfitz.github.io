@@ -1,13 +1,14 @@
 ---
 title: Open Fonts in 2022
-description: Linux.conf.au Presentation
+description: LCA 2022 Presentation
 date: 2022-01-15
 tags:
-  - fonts
+  - fonts 
   - opensource
+  - brand automation
 layout: layouts/post.njk
 
-----
+---
 
 This weekend I was lucky enough to present at https://linux.conf.au with a little preparation help from living legend <a href="https://twitter.com/davelab6">Dave Crossland</a> (thanks mate).
 
@@ -18,7 +19,6 @@ Sadly this was a virtual event but the good news is you can watch the recording 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/EcDJQ6ATCQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The slides contain handy details so here they are:
-
 
 <iframe width="100%" height="400" src="https://slides.com/fitzy/fonts-lca2022/fullscreen" style="border:none" ></iframe>
 

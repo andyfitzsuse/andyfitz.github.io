@@ -122,17 +122,17 @@
   </url>
   
   <url>
+    <loc>https://andyfitzsimon.com/tags/tools/</loc>
+    <lastmod>2023-03-13</lastmod>
+  </url>
+  
+  <url>
     <loc>https://andyfitzsimon.com/tags/creative-coding/</loc>
     <lastmod>2023-03-13</lastmod>
   </url>
   
   <url>
     <loc>https://andyfitzsimon.com/tags/javascript/</loc>
-    <lastmod>2023-03-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://andyfitzsimon.com/tags/tools/</loc>
     <lastmod>2023-03-13</lastmod>
   </url>
   
@@ -164,5 +164,15 @@
   <url>
     <loc>https://andyfitzsimon.com/tags/technology/</loc>
     <lastmod>2023-03-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://andyfitzsimon.com/posts/smartsheet-exit/</loc>
+    <lastmod>2023-03-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://andyfitzsimon.com/posts/faq/</loc>
+    <lastmod>2023-03-20</lastmod>
   </url>
 </urlset>

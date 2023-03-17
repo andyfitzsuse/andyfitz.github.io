@@ -5,12 +5,152 @@
 	
 	<link href="https://andyfitzsimon.com/feed/feed.xml" rel="self"/>
 	<link href="https://andyfitzsimon.com/"/>
-	<updated>2023-03-12T00:00:00Z</updated>
+	<updated>2023-03-20T00:00:00Z</updated>
 	<id>https://andyfitzsimon.com/</id>
 	<author>
 		<name>Andy Fitzsimon</name>
 		<email>andy@fitzsimon.com.au</email>
 	</author>
+	
+	<entry>
+		<title>Frequently Asked Questions</title>
+		<link href="https://andyfitzsimon.com/posts/faq/"/>
+		<updated>2023-03-20T00:00:00Z</updated>
+		<id>https://andyfitzsimon.com/posts/faq/</id>
+		<content type="html">&lt;style&gt;time,.tag{display:none}&lt;/style&gt;
+&lt;p&gt;Now that I&#39;m officially on th market, A little objection handling early on goes a long way.&lt;br /&gt;
+This post is designed for talent acquisition speclalists and their stakeholders.&lt;/p&gt;
+&lt;h2 id=&quot;you%E2%80%99re-in-noosa%2C-we%E2%80%99re-in-x.-is-that-a-problem%3F&quot;&gt;You’re in Noosa, We’re in X. Is that a problem? &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/faq/#you%E2%80%99re-in-noosa%2C-we%E2%80%99re-in-x.-is-that-a-problem%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It hasn&#39;t been for the last decade. That&#39;s not confirmation bias either.&lt;/p&gt;
+&lt;p&gt;Since the pandemic most first meetings and almost all BAU interactions occur virtually.&lt;br /&gt;
+I&#39;ve found customers &amp;amp; colleagues don’t care to see beneath your face but what value you represent.&lt;/p&gt;
+&lt;p&gt;Still - I love to travel. The airport is close with constant flights.&lt;br /&gt;
+I’m only 1.5 hours away from Sydney or Brisbane and have no problem travelling overseas to activate my team, visit a customer, or go to market &lt;acronym data-title=&quot;In Real Life&quot;&gt;IRL&lt;/acronym&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;your-were-an-x%2C-we-need-a-y.&quot;&gt;Your were an X, we need a Y. &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/faq/#your-were-an-x%2C-we-need-a-y.&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;d urge you to talk to me about &lt;acronym data-title=&quot;Situation Task Action Response&quot;&gt;STAR&lt;/acronym&gt;&#39;s relevant to you.&lt;br /&gt;
+As a lifelong fixer, I&#39;ve intimately performed a broad range of roles beyond my job titles - either as a stop-gap or due to a critical imperative.&lt;/p&gt;
+&lt;p&gt;My experience has crossed between towers very successfully before.&lt;br /&gt;
+11 years ago I became a brand manager for APAC - it was my first Marketing role and a jump from Engineering.  I likened brand management to experience design and took unique skills with me.&lt;br /&gt;
+My remit expanded to lead a team covering LATAM and EMEA and my processes set a benchmark that took over the NA teams.&lt;br /&gt;
+Outfit was one of those outcomes.  Following that I jumped to field strategy and execution and performed well there too.&lt;br /&gt;
+I then joined Outfit managing emerging technologies, then and successfully identified, pitched, and closed our acquisition.&lt;br /&gt;
+You have to be multi-disciplinary to do what I’ve done.  Soft skills and hard skills in equal measure.&lt;/p&gt;
+&lt;h2 id=&quot;what-if-you&#39;re-the-wrong-bet-as-a-hire-%3F&quot;&gt;What if you&#39;re the wrong bet as a hire ? &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/faq/#what-if-you&#39;re-the-wrong-bet-as-a-hire-%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We&#39;ll agree on metrics early on.&lt;br /&gt;
+If either of us recognise an issue, we will communicate early and I&#39;ll respond.&lt;br /&gt;
+I commit to you that it won’t be wasted time.&lt;br /&gt;
+Creating ancillary value is a trademark of mine.&lt;br /&gt;
+Always leave the campsite better than when you found it.&lt;/p&gt;
+&lt;p&gt;You’ll be left with a lot more than you have right now&lt;br /&gt;
+Right now you probably have an open req sitting idle; Use it on me.&lt;/p&gt;
+&lt;p&gt;My record shows loyalty and a long tenure to the companies and roles that I work within.&lt;br /&gt;
+I don’t gamble, so when I place a bet, It’s to win.&lt;br /&gt;
+If I&#39;ve applied for a role with you, I think there&#39;s a fit.&lt;br /&gt;
+You’d be hard pressed to find a better bet.&lt;/p&gt;
+&lt;!-- &lt;input type=&quot;radio&quot; name=&quot;accordion&quot; id=&quot;ac1&quot;&gt;
+&lt;input type=&quot;radio&quot; name=&quot;accordion&quot; id=&quot;ac2&quot;&gt;
+&lt;input type=&quot;radio&quot; name=&quot;accordion&quot; id=&quot;ac3&quot;&gt;
+&lt;input type=&quot;radio&quot; name=&quot;accordion&quot; id=&quot;ac4&quot;&gt;
+&lt;input type=&quot;radio&quot; name=&quot;accordion&quot; id=&quot;ac5&quot;&gt;
+&lt;input type=&quot;radio&quot; name=&quot;accordion&quot; id=&quot;ac6&quot;&gt;
+&lt;input type=&quot;radio&quot; name=&quot;accordion&quot; id=&quot;ac7&quot;&gt;
+&lt;label for=&quot;ac1&quot;&gt;You&#39;re in Noosa 1&lt;/label&gt;
+&lt;div&gt; Detail &lt;/div&gt;
+&lt;label for=&quot;ac2&quot;&gt;Accordion 2&lt;/label&gt;
+&lt;div&gt; Detail &lt;/div&gt;
+&lt;label for=&quot;ac3&quot;&gt;Accordion 3&lt;/label&gt;
+&lt;div&gt; Detail &lt;/div&gt;
+&lt;label for=&quot;ac4&quot;&gt;Accordion 4&lt;/label&gt;
+&lt;div&gt; Detail &lt;/div&gt;
+&lt;label for=&quot;ac5&quot;&gt;Accordion 5&lt;/label&gt;
+&lt;div&gt; Detail &lt;/div&gt;
+&lt;label for=&quot;ac6&quot;&gt;Accordion 6&lt;/label&gt;
+&lt;div&gt; Detail &lt;/div&gt;
+&lt;label for=&quot;ac7&quot;&gt;Accordion 7&lt;/label&gt;
+&lt;div&gt; Detail &lt;/div&gt; --&gt;
+&lt;!--
+&lt;style&gt;  label ~ div{max-height:0; opacity:0}
+label{display:block; padding:1em; font-size: 1.5rem; font-weight:500;}
+label,div{margin:0; padding:0; transition: all .4s ease;}
+  #ac1:checked ~ [for=&quot;ac1&quot;] + div,
+  #ac2:checked ~ [for=&quot;ac2&quot;] + div,
+  #ac3:checked ~ [for=&quot;ac3&quot;] + div,
+  #ac4:checked ~ [for=&quot;ac4&quot;] + div,
+  #ac5:checked ~ [for=&quot;ac5&quot;] + div,
+  #ac6:checked ~ [for=&quot;ac6&quot;] + div,
+  #ac7:checked ~ [for=&quot;ac7&quot;] + div{max-height:10em; opacity:1; background-color:red;}
+  #ac1:checked ~ [for=&quot;ac1&quot;] ,
+  #ac2:checked ~ [for=&quot;ac2&quot;] ,
+  #ac3:checked ~ [for=&quot;ac3&quot;] ,
+  #ac4:checked ~ [for=&quot;ac4&quot;] ,
+  #ac5:checked ~ [for=&quot;ac5&quot;] ,
+  #ac6:checked ~ [for=&quot;ac6&quot;] ,
+  #ac7:checked ~ [for=&quot;ac7&quot;] { background-color:red;} 
+&lt;/style&gt;--&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Exiting Smartsheet and Outfit</title>
+		<link href="https://andyfitzsimon.com/posts/smartsheet-exit/"/>
+		<updated>2023-03-17T00:00:00Z</updated>
+		<id>https://andyfitzsimon.com/posts/smartsheet-exit/</id>
+		<content type="html">&lt;p&gt;And that’s a wrap!&lt;/p&gt;
+&lt;h2 id=&quot;10-years-ago&quot;&gt;10 years ago &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/smartsheet-exit/#10-years-ago&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I proposed a half-cooked solution to a then-stranger Bruce Stronge.&lt;/p&gt;
+&lt;p&gt;If the model worked, I’d need a sustainable partner - accepting many risks to succeed.&lt;br /&gt;
+It’d need to be easier than anything before and work at global enterprise scale - impossible!&lt;br /&gt;
+Yet it did, it was; and here we are.  Everything we dreamed happened, and now it’s done.&lt;/p&gt;
+&lt;p&gt;From meeting business partners, then VC’s, to the eventual pitch and sale of Outfit. It’s been a long journey and all kinds of work on all fronts of business and technology.&lt;/p&gt;
+&lt;h2 id=&quot;mission-accomplished&quot;&gt;Mission accomplished &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/smartsheet-exit/#mission-accomplished&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As of this month, my saga has come to a close.&lt;br /&gt;
+Smartsheet officially made my role redundant and I’m grateful that they did.&lt;/p&gt;
+&lt;p&gt;My duty of care to what was once just an idea is now over.&lt;br /&gt;
+I no longer need to be the caretaker for customers, colleagues, and the mature technology that made it all real.  It’s all in safe hands.&lt;/p&gt;
+&lt;p&gt;Staying on are a brilliant team of talented and dedicated people ready who I’m truly humbled chose to make this path we carved part of their careers.&lt;br /&gt;
+Thanks to the custodianship of Smartsheet, there’s a very promising future ahead.&lt;br /&gt;
+I’m so proud of everyone who shared in all the ups and downs, battling to get us to where we are today and so excited to cheer you on and see what’s next.&lt;/p&gt;
+&lt;p&gt;I’d like to give special mention to the Smartsheet senior leadership team for their part in the strategic acquisition of Outfit. You’re at the vanguard of undeniable ROI for your customers. When they speed up production, their entire business can transact faster, safer, and in the real world; congratulations and good luck as you harness this absolute magic to full potential.&lt;/p&gt;
+&lt;h2 id=&quot;what&#39;s-next%3F&quot;&gt;What&#39;s next? &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/smartsheet-exit/#what&#39;s-next%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I’ve decided to get back to the core of what I love doing.&lt;br /&gt;
+Audacious and ambitious challenges with lots of moving pieces to master.&lt;/p&gt;
+&lt;p&gt;With the success of Outfit locked away, I’m finally open to new opportunities where I can immerse myself, do justice to good work, and innovate once more.&lt;/p&gt;
+&lt;p&gt;Something will grab me, and it deserves a monopoly on my time to change the game.&lt;/p&gt;
+&lt;p&gt;So please share this post.&lt;br /&gt;
+Send friends to &lt;a href=&quot;https://andyfitzsimon.com/&quot;&gt;https://andyfitzsimon.com&lt;/a&gt; for them to learn more.&lt;br /&gt;
+Send me an introduction, and let’s see what happens.&lt;br /&gt;
+I’m officially open to work!&lt;/p&gt;
+&lt;div&gt;
+    &lt;svg class=&quot;o2w&quot; viewBox=&quot;0 0 100 100&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt; &lt;defs&gt;
+    &lt;path id=&quot;textArc&quot; d=&quot;M50 90A40 40 0 0150 10 40 40 0 0150 90Z&quot;&gt;&lt;/path&gt;
+    &lt;path id=&quot;textArcFlipped&quot; d=&quot;M50 10A40 40 0 0050 90 40 40 0 0050 10Z&quot;&gt;&lt;/path&gt;
+    &lt;/defs&gt;
+    &lt;g fill=&quot;none&quot;&gt;
+    &lt;use href=&quot;#textArc&quot; stroke-width=&quot;17&quot; stroke=&quot;aquamarine&quot;&gt;&lt;/use&gt;
+    &lt;/g&gt;
+    &lt;g class=&quot;arcstyle&quot;&gt;
+    &lt;text dy=&quot;2.5&quot;&gt;
+        &lt;textPath xlink:href=&quot;#textArc&quot; startOffset=&quot;50%&quot; letter-spacing=&quot;.1&quot;&gt;Andy Fitzsimon&lt;/textPath&gt;
+    &lt;/text&gt;
+    &lt;text dy=&quot;2&quot;&gt;
+        &lt;textPath href=&quot;#textArcFlipped&quot; startOffset=&quot;50%&quot; letter-spacing=&quot;.2&quot;&gt;# OPEN TO WORK&lt;/textPath&gt;
+    &lt;/text&gt;
+    &lt;/g&gt;
+    &lt;image href=&quot;https://andyfitzsimon.com/img/andyfitz.png&quot; x=&quot;19&quot; y=&quot;19&quot; width=&quot;62&quot; height=&quot;62&quot;&gt;&lt;/image&gt;
+    &lt;/svg&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.o2w{max-width:12em; display:block; margin: 1em auto}
+.arcstyle{fill:#000;
+font-weight:500;
+font-size:8px;
+line-height:1;
+font-family:Outfit;
+text-align:center;
+text-anchor:middle;
+text-transform: uppercase}&lt;/style&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>My professional mantra</title>
@@ -53,7 +193,7 @@ Be a force-multiplier&lt;/p&gt;
 Contribute to worthy efforts and fill the gaps, inspiring others to better my work.&lt;/p&gt;
 &lt;p&gt;If you&#39;re thinking this is all very agreeable and high level, that&#39;s because it is.&lt;br /&gt;
 What it&#39;s not is apathetic, complacent, or unwilling to grow.&lt;/p&gt;
-&lt;p&gt;From a provocative point of view: this is an outright rejection of the lane-focused functionals extolled by Radford and Comptryx career bands. In my experience, you have to contribute wider than your role, and my band has only been a problem once.&lt;/p&gt;
+&lt;p&gt;From a more provocative point of view: this is an outright rejection of the lane-focused functions extolled by Radford and Comptryx career bands. In my experience, you have to contribute wider than your role, and my band has only been a blocker once.&lt;/p&gt;
 &lt;h2 id=&quot;what-is-your-ethos-%3F&quot;&gt;What is your ethos ? &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/my-mantra/#what-is-your-ethos-%3F&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I&#39;ve found having a professional mantra drives my work ethic more than any specific area of appeal.&lt;br /&gt;
 It gives me the clear-thinking motivation needed to see the opportunities I truly enjoy and pushes me to develop and grow.&lt;/p&gt;
@@ -62,7 +202,7 @@ It gives me the clear-thinking motivation needed to see the opportunities I trul
 	</entry>
 	
 	<entry>
-		<title>AI &amp; ML will change the game for templates</title>
+		<title>AI and ML will change the game for templates</title>
 		<link href="https://andyfitzsimon.com/posts/ai-templating/"/>
 		<updated>2023-03-01T00:00:00Z</updated>
 		<id>https://andyfitzsimon.com/posts/ai-templating/</id>
@@ -249,7 +389,7 @@ Selecting the email option, typing in &lt;code&gt;anyname@yourprospectdomain.com
 	</entry>
 	
 	<entry>
-		<title>Get individual SVG&#39;s back from IconFonts</title>
+		<title>Get individual SVG back from IconFonts</title>
 		<link href="https://andyfitzsimon.com/posts/decompile-iconfonts/"/>
 		<updated>2022-01-26T00:00:00Z</updated>
 		<id>https://andyfitzsimon.com/posts/decompile-iconfonts/</id>
@@ -342,10 +482,7 @@ Worse, some text layout engines mutilated iconsfonts.  Think of the carnage the 
 		<link href="https://andyfitzsimon.com/posts/open-fonts-2022/"/>
 		<updated>2022-01-15T00:00:00Z</updated>
 		<id>https://andyfitzsimon.com/posts/open-fonts-2022/</id>
-		<content type="html">&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This weekend I was lucky enough to present at &lt;a href=&quot;https://linux.conf.au/&quot;&gt;https://linux.conf.au&lt;/a&gt; with a little preparation help from living legend &lt;a href=&quot;https://twitter.com/davelab6&quot;&gt;Dave Crossland&lt;/a&gt; (thanks mate).&lt;/p&gt;
+		<content type="html">&lt;p&gt;This weekend I was lucky enough to present at &lt;a href=&quot;https://linux.conf.au/&quot;&gt;https://linux.conf.au&lt;/a&gt; with a little preparation help from living legend &lt;a href=&quot;https://twitter.com/davelab6&quot;&gt;Dave Crossland&lt;/a&gt; (thanks mate).&lt;/p&gt;
 &lt;p&gt;I lightly touched on &lt;a href=&quot;https://andyfitzsimon.com/posts/open-fonts-2022/outfit.io/&quot;&gt;Outfit&#39;s&lt;/a&gt; experience releasing &lt;a href=&quot;https://outfit.io/outfit-font&quot;&gt;The Outfit Font&lt;/a&gt; to the &lt;a href=&quot;https://fonts.google.com/specimen/Outfit&quot;&gt;Google Fonts Library&lt;/a&gt; and how incredibly mature the technical rigor and discipline around publishing an open source font has become.&lt;/p&gt;
 &lt;p&gt;Sadly this was a virtual event but the good news is you can watch the recording below if keen:&lt;/p&gt;
 &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/EcDJQ6ATCQk&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;

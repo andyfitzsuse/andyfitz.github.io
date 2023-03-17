@@ -5,17 +5,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
     }
+    
 
     .title {
         color: white;
-        font-size: 80px;
+        font-size: 110px;
         margin: auto 0;
         position:relative;
-        z-index:2;padding: 0 2em;
-        padding-bottom:1em;
+        z-index:2;padding: 0 .5em;  padding-right:.2em;
+        text-align:left; padding-left: 40vw;
+        line-height:.9em;
     }
-
 
 
 </style>
@@ -31,24 +33,22 @@
         stroke="currentColor" 
         stroke-linecap="round" 
         d="M1 4H.999V1M1 1V.9959h2v.001M1 2.6v.001h1v.001" />
-      <use href="#fp" opacity=".8" transform="translate(0 9.5)    scale(1 -1)" />
-      <use href="#fp" opacity=".8" transform="translate(10.5 0)   scale(-1 1)" />
-      <use href="#fp" opacity=".7" transform="translate(10.5 9.5) scale(-1 -1)" />
+      <use href="#fp" opacity=".6" transform="translate(0 9.5)    scale(1 -1)" />
+      <use href="#fp" opacity=".6" transform="translate(10.5 0)   scale(-1 1)" />
+      <use href="#fp" opacity=".4" transform="translate(10.5 9.5) scale(-1 -1)" />
     </pattern>
   </defs>
   <g id="patg" transform="translate(-.2 -.2)">
-  <path fill="url(#pat1)" d="M0 0h100v50H0z" />
+  <g transform="scale(2)"><path fill="url(#pat1)" d="M0 0h100v50H0z" />
   <path fill="url(#pat1)" d="M-20 -20h140v90H0z" transform="translate(-5 -4.5)" />
-  </g>
+  </g></g>
   
-   <path transform="scale(4) translate(.75,.74)" 
+   <path transform="scale(9) translate(.015,.6)" 
         stroke="#7FFFD4" 
         stroke-linecap="round" 
         d="M1 4H.999V1M1 1V.9959h2v.001M1 2.6v.001h1v.001" />
 </svg>
 <div class="root">
     <h1 class="title">{{ title }}</h1>
-
+<p style="position:absolute; top: .9em; text-transform:uppercase; letter-spacing:.1em; right:2em; font-size: 30px; color:aquamarine;">AndyFitzsimon.com</p>
 </div>
-
-

@@ -1,5 +1,5 @@
 ---
-title: AI & ML will change the game for templates
+title: AI and ML will change the game for templates
 description:  Extrapolation and generative AI is cheaper, faster, and more intuitive.
 date: 2023-03-01
 tags:

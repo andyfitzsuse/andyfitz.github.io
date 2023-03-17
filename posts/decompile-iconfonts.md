@@ -1,5 +1,5 @@
 ---
-title: Get individual SVG's back from IconFonts
+title: Get individual SVG back from IconFonts
 date: 2022-01-26
 tags:
   - svg
