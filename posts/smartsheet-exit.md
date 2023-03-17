@@ -29,7 +29,7 @@ Smartsheet officially made my role redundant and I’m grateful that they did.
 My duty of care to what was once just an idea is now over. 
 I no longer need to be the caretaker for customers, colleagues, and the mature technology that made it all real.  It’s all in safe hands. 
 
-Staying on are a brilliant team of talented and dedicated people ready who I’m truly humbled chose to make this path we carved part of their careers.
+Staying on are a brilliant team of talented and dedicated people who I’m truly humbled chose to align their careers with this path we carved together.
 Thanks to the custodianship of Smartsheet, there’s a very promising future ahead. 
 I’m so proud of everyone who shared in all the ups and downs, battling to get us to where we are today and so excited to cheer you on and see what’s next.
 
