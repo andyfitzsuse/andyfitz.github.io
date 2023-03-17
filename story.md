@@ -74,7 +74,7 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 * Purchased our family home in Noosa
 * Made major inroads with my career - the catalyst for [Outfit](https://outfit.io) etc. 
 * Loss of first daughter Zuzu
-* Birth of the my daughter Olive
+* Birth of my daughter Olive
 * Birth of my son Alby 
 
 ## 2020's 
