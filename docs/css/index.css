@@ -93,7 +93,7 @@ body > * {
 }
 
 main {
-  margin-top: var(--layout-spacing);
+  margin-top: 1rem;
 }
 
 footer {
@@ -169,6 +169,9 @@ article h1 {
   font-size: 5rem;
   font-weight: 800;
 }
+header > h1{color: var(--bg);
+text-shadow: 0 0em .025em var(--neutral), 0 .02em .05em var(--neutral), 0 .2em .2em var(--bg-1), 0 0em 1em var(--bg-1), 0 0em 1em var(--bg-1), 0 0em 3em var(--bg-2);
+-webkit-text-stroke: .04rem var(--brand);}
 
 article :is(h1, h2, h3, h4) {
   position: relative;

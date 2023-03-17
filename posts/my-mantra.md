@@ -20,9 +20,9 @@ I kept it mostly to myself in the early days; but over time, always shared it wh
 
 It explains why I first gravitated to open source software, & software teams.
 It explains why I often straddle between worlds:
-* being a **builder** and a **hunter** in **sales** / <acronym data-title="Go to Market" class="la">GTM</acronym> roles
-* being a **designer** and a **developer** in **product engineering** initiatives
-* being a **strategist** and a **hands-on actor** when performing a **business development** function
+* being a **builder** and a **hunter** in sales / <acronym data-title="Go to Market" class="la">GTM</acronym> roles
+* being a **designer** and a **developer** in product engineering initiatives
+* being a **strategist** and a **hands-on actor** with a business development mandate
 
 Focusing on doing justice to good work pushes my output to multiple frontiers and drives me to create positive change that combines hard and soft skills; compelling me to listen, learn and adapt. 
 

@@ -8,9 +8,8 @@ tags:
 layout: layouts/post.njk
 ---
 
-> ## And that’s a wrap!
-
-What a ride.
+> # That’s a wrap!
+> what a ride
 
 ## 10 years ago 
 I proposed a half-cooked solution to a then-stranger Bruce Stronge.  
