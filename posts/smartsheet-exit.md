@@ -58,7 +58,7 @@ I’m officially open to work!
     <path   id="textArcFlipped" d="M50 10A40 40 0 0050 90 40 40 0 0050 10Z"  />
     </defs>
     <g fill="none">
-    <use href="#textArc" stroke-width="17" stroke="aquamarine" />
+    <use href="#textArc" stroke-width="18.5" stroke="var(--turquoise)" />
     </g>
     <g class="arcstyle">
     <text dy="2.5">
@@ -80,7 +80,7 @@ I’m officially open to work!
 </div>
 <style>
 .o2w{max-width:12em; display:block; margin: 1em auto}
-.arcstyle{fill:#000;
+.arcstyle{fill:#fff;
 font-weight:500;
 font-size:8px;
 line-height:1;

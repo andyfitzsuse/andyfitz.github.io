@@ -51,7 +51,7 @@ I’m officially open to work!&lt;/p&gt;
     &lt;path id=&quot;textArcFlipped&quot; d=&quot;M50 10A40 40 0 0050 90 40 40 0 0050 10Z&quot;&gt;&lt;/path&gt;
     &lt;/defs&gt;
     &lt;g fill=&quot;none&quot;&gt;
-    &lt;use href=&quot;#textArc&quot; stroke-width=&quot;17&quot; stroke=&quot;aquamarine&quot;&gt;&lt;/use&gt;
+    &lt;use href=&quot;#textArc&quot; stroke-width=&quot;18.5&quot; stroke=&quot;var(--turquoise)&quot;&gt;&lt;/use&gt;
     &lt;/g&gt;
     &lt;g class=&quot;arcstyle&quot;&gt;
     &lt;text dy=&quot;2.5&quot;&gt;
@@ -66,7 +66,7 @@ I’m officially open to work!&lt;/p&gt;
 &lt;/div&gt;
 &lt;style&gt;
 .o2w{max-width:12em; display:block; margin: 1em auto}
-.arcstyle{fill:#000;
+.arcstyle{fill:#fff;
 font-weight:500;
 font-size:8px;
 line-height:1;
