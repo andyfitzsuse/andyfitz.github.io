@@ -118,10 +118,7 @@ with proven global impact.<br>
 </svg>
 </h2>
 
-
-
-<br>
-<h3 class="scroll fade">Employer Accolades</h3> 
+<h3 class="scroll fade">Accolades</h3> 
 <p class="scroll fade">For making money, saving money, being likeable,  staying formidable<p> 
 <br>
 
@@ -161,7 +158,7 @@ with proven global impact.<br>
 
 <h3 class="scroll fade">Strategic Execution</h3>
 <p class="scroll fade">When it came time to sell Outfit, I read the market, <br>wrote the pitch, &amp; picked the buyer.<br>  
-The result got praise from the street.<br><br> I was Outfit's tech founder &amp; founding client. <br>Revolutionizing operations as a brand manager</p> 
+The result got praise from the street, highlighted in every earnings call since.<br><br> I was Outfit's tech founder &amp; founding client. <br>Revolutionizing operations as a brand manager</p> 
 <br>
 <p class="scroll fade">At Red Hat, I set the tone for selling techology across regions, <br>making the field experience scalable and world-class</p>
 
@@ -1108,8 +1105,8 @@ Finally, as a mentor, I’ve never met someone who is as adept at understanding 
 </section>
 
 
-<section  class="scroll fade disclosures"> 
-<br>
+<section  class="disclosures"> 
+
 <h3>Disclosures</h3>
 <div>
 <h4>Advisor</h4>
@@ -1202,6 +1199,19 @@ footer p {
   margin: 3rem 0;
 }
 
+@media (prefers-color-scheme: light) {
+
+  .cta {
+  background-color: var(--tone-2); 
+  box-shadow:inset 0 -4em 3em -1em var(--brand), 0 1em 1em var(--bg-1),0 1em 3em -1em var(--bg-1);
+  color: var(--bg) !important;
+  text-shadow: 0 .05em .2em var(--brand), 0 .05em 0 var(--brand);
+}
+.cta:hover{transition: all .3s ease; background-color: var(--fg); text-shadow: 0 .1em var(--fg-2);
+  box-shadow:inset 0 -4em 3em -1em var(--fg-2), 0 1em 1em var(--neutral),0 1em 3em -1em var(--neutral);
+}
+.cta:before{color: var(--bg) !important}
+}
 h3 {
   font-size: 1.8em;
   margin: 3em 0 1rem 0;
@@ -1683,7 +1693,7 @@ img {
   top: 0;
   content: "";
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.25;
   display: block;
   width: 3em;
   height: 6em;
@@ -1782,6 +1792,10 @@ img {
 }
 
 @media (prefers-color-scheme: light) {
+.awards{gap:1.5rem}
+  .award{border-radius: 1em;box-shadow:  0 1em 6em -2.5em var(--neutral) !important; height:11em;;  }
+.award h4{bottom:1em; color: var(--fg)}
+
   .top-section .bokeh {display:none;}
 }
 @media (max-width: 30em) {
@@ -1893,14 +1907,7 @@ img {
   grid-column-end: 4;
 }
 
-@media (prefers-color-scheme: light) {
-  .disclosures svg,
-.mission-values svg {
-    color: var(--bg-1);
-    background-color: var(--bg);
-    opacity: 0.5;
-  }
-}
+
 .testimonials {
   background-color: var(--bg);
   background-image: radial-gradient(var(--bg-1) 0%, var(--bg) 50% );
@@ -1911,7 +1918,21 @@ background-repeat: no-repeat;
   margin-top: 4em;
   position:relative;
 }
+@media (prefers-color-scheme: light) {
 
+
+
+.disclosures div{padding:1em; background-color:white; border-radius: .6em; min-height:9em; box-shadow: 0 .3em 4em -2em var(--neutral)}
+.mission-values svg {
+    color: var(--bg-1);
+    background-color: var(--bg-2);
+    opacity: 0.5;
+  }
+
+    .disclosures svg{background-color:var(--bg-2); stroke-opacity:.5;}
+  .testimonials{  background-image: radial-gradient(var(--bg) 0%, var(--bg-2) 50% );
+ background-color:var(--bg-2)}
+}
 .testimonials cite span{
 display: block; line-height:1em;
 text-align:center;  
@@ -2013,7 +2034,7 @@ input:checked + label span {
   animation: whodey 0.5s cubic-bezier(0.3, 0.2, 0.1, 1.4) forwards;
 }
 
-:checked ~ div .quote{  animation: whodey 1.5s linear forwards;}
+:checked ~ div .quote{  animation: whodey 1.3s cubic-bezier(0.3, 0.2, 0.1, 1.4) forwards;}
 
 @keyframes whodey {
   0% {
@@ -2030,8 +2051,12 @@ cite {
     color: var(--fg);
   }
 
+.testimonials a{color: var(--fg)}
+  .testimonials .quote{background-color: var(--bg); padding:.5em 1em;
+  box-shadow: 0 .2em 4em -2em var(--neutral); border-radius: .6em;}
+
   .testimonials label span {
-    box-shadow: inset 0 0 0 .05em var(--neutral);
+    box-shadow: 0 .2em .5em -.2em var(--bg),inset 0 0 .05em var(--neutral), inset 0 -.2em  .5em -.24em  var(--bg-2);
     background-color: var(--bg-2);
     opacity: 1;
     background-blend-mode: screen;
@@ -2207,9 +2232,13 @@ cite {
 }
 
 @media (prefers-color-scheme: light) {
+
+.values li {box-shadow:inset 0 0 .3em -.1em var(--neutral), inset 0 -2em 3em -1em var(--bg-2), 0 1.4em 1em -1em var(--bg)} 
+.values li:hover{box-shadow:none}
   #sgrad stop {
     stop-color: #2345;
   }
+  .finny .ll{stroke:var(--bg);}
 }
 .disclosures {
   gap: 1rem;
@@ -2388,9 +2417,11 @@ cite {
 
 @media (prefers-color-scheme: light) {
   .leadership > div {
-    box-shadow: 0 0 1em 1em var(--bg-2);
+    box-shadow: 0 1em 3.5em -1.5em var(--neutral);
     background-color: transparent;
   }
+  .leadership > div:hover{  box-shadow:  0 0 1.5em 1em var(--bg-2);
+}
 }
 @keyframes slidetime {
   0% {

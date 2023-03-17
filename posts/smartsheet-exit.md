@@ -1,5 +1,5 @@
 ---
-title: Exiting Smartsheet and Outfit
+title: Smartsheet Exit
 description: That's a wrap
 date: 2023-03-17
 tags:
@@ -8,7 +8,9 @@ tags:
 layout: layouts/post.njk
 ---
 
-And that’s a wrap!
+> ## And that’s a wrap!
+
+What a ride.
 
 ## 10 years ago 
 I proposed a half-cooked solution to a then-stranger Bruce Stronge.  
