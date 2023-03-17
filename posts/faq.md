@@ -10,17 +10,18 @@ layout: layouts/post.njk
 
 <style>time,.tag{display:none}</style>
 
-Now that I'm officially on th market, A little objection handling early on goes a long way.
+Now that I'm officially on the talent market, and relatively unknown to many outside of my circles... 
+I figured a little objection handling early-on goes a long way.
 This post is designed for talent acquisition speclalists and their stakeholders.
 
-## You’re in Noosa, We’re in X. Is that a problem?  
+## You’re in Noosa, Australia - We’re in X. Is that a problem?  
 
 It hasn't been for the last decade. That's not confirmation bias either.
 
 Since the pandemic most first meetings and almost all BAU interactions occur virtually.
 I've found customers & colleagues don’t care to see beneath your face but what value you represent.
 
-Still - I love to travel. The airport is close with constant flights. 
+Still - I travel easily. The airport is close with constant flights. 
 I’m only 1.5 hours away from Sydney or Brisbane and have no problem travelling overseas to activate my team, visit a customer, or go to market <acronym data-title="In Real Life">IRL</acronym>. 
 
 ## Your were an X, we need a Y.
@@ -36,10 +37,10 @@ I then joined Outfit managing emerging technologies, then and successfully ident
 You have to be multi-disciplinary to do what I’ve done.  Soft skills and hard skills in equal measure. 
 
 
-##  What if you're the wrong bet as a hire ?
+##  What can assure us you're the right bet ?
 
-We'll agree on metrics early on. 
-If either of us recognise an issue, we will communicate early and I'll respond.  
+We'll agree on key metrics early on. 
+If either of us see an issue, we will communicate early. 
 I commit to you that it won’t be wasted time.  
 Creating ancillary value is a trademark of mine.   
 Always leave the campsite better than when you found it. 
@@ -49,7 +50,7 @@ Right now you probably have an open req sitting idle; Use it on me.
 
 My record shows loyalty and a long tenure to the companies and roles that I work within.
 I don’t gamble, so when I place a bet, It’s to win.  
-If I've applied for a role with you, I think there's a fit. 
+If I've applied for a role with you, I think there's a potential fit. 
 You’d be hard pressed to find a better bet.
 
 
