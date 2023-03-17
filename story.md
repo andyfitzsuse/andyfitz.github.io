@@ -1,11 +1,12 @@
 ---
+title: Life Story
 layout: layouts/post.njk
 templateClass: story
 eleventyNavigation:
   key: Story
   order: 9
 ---
-## Life story
+
 ...A work in progress, as life tends to be
 
 <section class="twoup">
@@ -26,7 +27,7 @@ eleventyNavigation:
 <div>Here's a norman coat of arms<svg viewBox=".5 .5 12.5 13.5" ><path stroke="var(--neutral)" fill="url(#gsilver)" stroke-width=".5" d="M1 1h11.52v6.48q0 3.6-5.76 5.76Q1 11.08 1 7.48z"/><g fill="url(#gred)"><path d="M2.44 2.44V4.6q0 1.08 1.8 1.8 1.8-.72 1.8-1.8V2.44z"/><path d="M7.48 2.44V4.6q0 1.08 1.872 1.8 1.728-.72 1.728-1.8V2.44z"/><path d="M4.96 7.48v2.16q0 1.08 1.8 1.8 1.8-.72 1.8-1.8V7.48z"/></g><defs><linearGradient id="gsilver" x1="-.2"><stop offset=".4" stop-color="#fff"/><stop offset="1" stop-color="#f0f8ff"/></linearGradient><linearGradient id="gred" x1="-.1" x2="1.3" y2=".25"><stop offset="0" stop-color="coral"/><stop offset=".5" stop-color="#dc143c"/><stop offset="1" stop-color="brown"/></linearGradient></defs></svg></div>
 </section>
 <style>.twoup{display:grid; grid-template-columns: 1fr 1fr; }
-header{display:none}
+time{display:none}
 .twoup svg{max-height:13em;display:block;}
 .twoup > * {margin-top:0;}</style>
 
@@ -50,8 +51,9 @@ I am fortunate to have both lived and travelled extensively across asia, europe,
 * Television, video games, playing my drum kit.
 * Laptops at school
 * Rugby and Debating
-* Hex editing game files
-* Marcomedia director and then flash
+* Hex editing game files, BBS networking
+* Marcomedia director and flash
+* Green hair, piercings, the blunder years
 * Hosting LAN parties
 
 
@@ -92,3 +94,7 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 ## What next? 
 
 I'm not sure but with good fortune this timeline is not even half done
+
+<style>
+  h2{font-size: 4rem; font-weight:900; -webkit-text-stroke: .05rem var(--fg); -webkit-text-fill-color:var(--neutral); text-shadow: 0 .5em 1em var(--bg-2)}
+</style>
