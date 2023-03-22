@@ -484,6 +484,7 @@ img {
   color: var(--dark);
 }
 
+section{  scroll-snap-type: y mandatory;}
 footer {
   text-align: center;
   color: var(--neutral);
