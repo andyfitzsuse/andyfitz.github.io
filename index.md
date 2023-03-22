@@ -16,7 +16,7 @@ title: Andy Fitzsimon
   class="bokeh" 
   viewBox="0 0 10 10" 
   xmlns="http://www.w3.org/2000/svg" 
-  preserveAspectRatio="xMidYMid slice meet">
+  preserveAspectRatio="xMidYMid slice">
   <circle cx="10%" cy="85%" r="80%" fill="#46c"  />
   <circle cx="45%" cy="50%" r="20%" fill="#69c" />
   <circle cx="85%" cy="35%" r="30%" fill="#626" />
@@ -39,7 +39,7 @@ with proven global impact.<br>
 <svg
   class="patbg" 
   viewBox="0 0 100 50"
-  preserveAspectRatio="xMidYMin slice" >
+  preserveAspectRatio="xMidYMin slice">
   <defs>
     <pattern id="pat1" width="10" height="9" patternUnits="userSpaceOnUse">
       <path id="fp" 
@@ -1087,7 +1087,7 @@ Angel investor in Madrid-based <a href="kaleidos.net" target="_blank">Kaleidos</
 <div>
 <h4>Contributor</h4>
 Makes ad-hoc donations of design, software, or funding to causes, & open source projects</div>
-<svg class="patbg" viewBox="0 0 100 50"  preserveAspectRatio="xMidYMid slice" > <use href="#patg" /></svg>
+<svg class="patbg" viewBox="0 0 100 50"  preserveAspectRatio="xMidYMid slice"><use href="#patg" /></svg>
 </section>
 
 <br><br>
@@ -1393,16 +1393,12 @@ h2.scrolled span {
   padding: 0.5em 1em;
   border-radius: 0.5em;
 }
-
-@media (max-width: 45em) {
-  .ltxt {
-    text-align: left;
-  }
-
-  .ltxt h3 {
+.ltxt{text-align:left; margin: 0 auto; max-width:29em;} 
+.ltxt h3 {
     padding-left: 1rem;
   }
-
+@media (max-width: 45em) {
+ 
   .mission-values {
     grid-template-columns: 1fr;
   }
