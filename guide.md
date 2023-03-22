@@ -91,7 +91,7 @@ I thrive via <b>instant message</b> chat when it's ad-hoc to make quick decision
 
 <div><svg viewbox="0 0 8 7"><path d="M1 1h6v5H1zm0 1h6M2 1v1m4-1v1M4 5V3l-.5.3"/></svg><p>I keep my calendar <b>as lean as possible</b> in order to welcome in-flight, unnplanned work that aligns with priorities.</p></div>
 
-<div><svg viewbox="0 0 8 8"><path d="M 1.5 1 V 7 H 6.5 V 1 H 4 V 3 L 3.5 2 L 3 3 V 1z"/></svg><p>I record any <b>institutional memory</b> to rapidly enable colleagues. Usually this occurs in-context where the work is being done or via an LMS. I enjoy briefing and onboarding real-time also.</p></div>
+<div><svg viewbox="0 0 8 8"><path d="M 1.5 1 V 7 H 6.5 V 1 H 4 V 3 L 3.5 2 L 3 3 V 1z"/></svg><p>I record <b>institutional memory</b> to rapidly enable colleagues. Usually this occurs in-context where the work is being done or via an LMS when large bodies of content need management. I also enjoy condensing this information into summaries for briefings and prefer real-time onboarding where possible.</p></div>
 </div>
 Realistically, I can adapt to other modes of communication but the above are my preferred for their given purpose.
 
@@ -128,7 +128,7 @@ If you clearly demonstrate a passion and talent for an area, I’ll be grateful 
 
 #### A critical attitude can both create trust or erode trust
 Being generous enough to be in open disagreement earns my trust and greatly influences what actions I take for the better. If you make the effort to communicate concerns, I make the effort to hear, understand, and address them when I can.  
-Some encounters may end in a ‘disagree and commit’ scenario for either party. But by doing this my respect for you will grow and I'll trust you more after any reigourous debate. 
+Some encounters may end in a ‘disagree and commit’ scenario for either party. But by doing this my respect for you will grow and I'll trust you more after any rigourous debate. 
 Being a surprise detractor for extended periods by contrast, can lure me into a combative stance where I chase wartime success. It’s on us both to be comfortable being openly critical. I strive to ensure safety and reward disagreement as a valuable contribution. I detest dissent manufactured in secret without having the opportunity to be consulted.
 
 #### I find trusting the second time is easier
