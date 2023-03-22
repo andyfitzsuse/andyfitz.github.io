@@ -53,22 +53,43 @@
 
 </header>
 <style>time{display:none}
+article h2{font-size:2.5em; padding:.5em 0;}
 .twocol{display:grid; grid-template-columns: 1fr 1fr; gap:2em}
-@media (max-width: 40em) {.twocol{grid-template-columns: 1fr}}
+@media (max-width: 40em) {.twocol{grid-template-columns: 1fr}
+article, main{position:static;}
+ 
+[href="#"],
+[href="#pagenav"]{background-color: var(--tone-2); display:block; height:3em; width:3em;z-index:999; position:fixed; bottom: 1rem; right:0; cursor:pointer;}
+[href="#"]{bottom:4rem; background-color: var(--neutral)}
+#pagenav{display:none}
+#pagenav:target{display:grid}
 
+.pagenav{background-color: var(--bg-1)}
+#pagenav:target{position:fixed; top:0; right:0; bottom:0; left:0; padding: 4em 0; overflow:auto; z-index:90}
+}
+.pagenav{grid-template-columns:1fr;z-index:99;
+grid-auto-flow: row;}
+@media (min-width: 40em) {input,label{display:none}
+article{padding-left: 20%;  }
+.pagenav{width: 20%}
+.pagenav{ position:fixed; max-height:calc(100vh -5rem); overflow-x:hidden; overflow-y:auto; top:5rem; left:0; }
+.pagenav a{text-align:left; line-height:1em;}
+.pagenav a:active{color: var(--fg)}
 </style>
-<p>Here’s a descriptive manual for working with me.<br>
-This may help shortcut concerns and clarify aspects of my approach that you’d otherwise need time to learn.   If you like to RTFM, this is for you.</p>
-<ul>
-<li><a href="#how-i-view-success">What success looks like</a></li>
-<li><a href="#how-i-communicate">Communication style</a></li>
-<li><a href="#things-that-may-annoy-you">Quirks and agitations</a></li>
-<li><a href="#what-gains-and-loses-my-trust">Gaining and losing trust</a></li>
-<li><a href="#my-strengths">Strengths</a></li>
-<li><a href="#my-growth-areas">Weaknesses</a></li>
-<li><a href="#what-i-expect-from-people-i-manage">Management expectations</a></li>
-<li><a href="#how-i-give-and-receive-feedback">Feedback</a></li>
-</ul>
+<p>This guide may help shortcut concerns and clarify aspects of my approach that you’d otherwise need time to learn.<br>
+If you like to RTFM, this is for you.</p>
+<div><a href="#" data-title="Top of page"></a><a href="#pagenav" data-title="Shortcuts"></a> 
+<nav class="pagenav" id="pagenav"> 
+<a href="#how-i-view-success">Success</a>
+<a href="#how-i-communicate">Communication</a>
+<a href="#what-may-annoy-you">Quirks</a>
+<a href="#what-gains-and-loses-my-trust">Trust</a>
+<a href="#my-strengths">Strengths</a>
+<a href="#my-growth-areas">Weaknesses</a>
+<a href="#what-i-expect-from-people-i-manage">Expectations</a>
+<a href="#how-i-give-and-receive-feedback">Feedback</a>
+</nav>
+</div>
 <h2 id="how-i-view-success">How I view success <a class="direct-link" href="#how-i-view-success">#</a></h2>
 <p>Success closely follows my <strong>values</strong> and my <strong>mantra</strong> which you can <a href="/">explore on my homepage</a>.<br>
 Beyond that, I have wartime and peacetime modes; success can be framed within each:</p>
@@ -106,7 +127,7 @@ Meaning, I'll write with considered language yet be very candid interpersonaly w
 </li>
 </ul>
 <p>Realistically, I can adapt to other modes of communication but the above are my preferred</p>
-<h2 id="things-that-may-annoy-you">Things that may annoy you <a class="direct-link" href="#things-that-may-annoy-you">#</a></h2>
+<h2 id="what-may-annoy-you">What may annoy you <a class="direct-link" href="#what-may-annoy-you">#</a></h2>
 <h4 id="infodumping">Infodumping <a class="direct-link" href="#infodumping">#</a></h4>
 <p>It’s something I do and a common neurodivergent trait.<br>
 There’s a difference between me telling you what you need to know, and excitedly sharing detail only very engaged enthusiasts would find critical.</p>

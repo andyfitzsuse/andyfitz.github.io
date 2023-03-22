@@ -5,24 +5,44 @@ templateClass: userguide
 
 ---
 <style>time{display:none}
+article h2{font-size:2.5em; padding:.5em 0;}
 .twocol{display:grid; grid-template-columns: 1fr 1fr; gap:2em}
-@media (max-width: 40em) {.twocol{grid-template-columns: 1fr}}
+@media (max-width: 40em) {.twocol{grid-template-columns: 1fr}
+article, main{position:static;}
+ 
+[href="#"],
+[href="#pagenav"]{background-color: var(--tone-2); display:block; height:3em; width:3em;z-index:999; position:fixed; bottom: 1rem; right:0; cursor:pointer;}
+[href="#"]{bottom:4rem; background-color: var(--neutral)}
+#pagenav{display:none}
+#pagenav:target{display:grid}
 
+.pagenav{background-color: var(--bg-1)}
+#pagenav:target{position:fixed; top:0; right:0; bottom:0; left:0; padding: 4em 0; overflow:auto; z-index:90}
+}
+.pagenav{grid-template-columns:1fr;z-index:99;
+grid-auto-flow: row;}
+@media (min-width: 40em) {input,label{display:none}
+article{padding-left: 20%;  }
+.pagenav{width: 20%}
+.pagenav{ position:fixed; max-height:calc(100vh -5rem); overflow-x:hidden; overflow-y:auto; top:5rem; left:0; }
+.pagenav a{text-align:left; line-height:1em;}
+.pagenav a:active{color: var(--fg)}
 </style>
+This guide may help shortcut concerns and clarify aspects of my approach that you’d otherwise need time to learn.   
+If you like to RTFM, this is for you.
 
-Here’s a descriptive manual for working with me.   
-This may help shortcut concerns and clarify aspects of my approach that you’d otherwise need time to learn.   If you like to RTFM, this is for you.
-
-* <a href="#how-i-view-success">What success looks like</a>
-* <a href="#how-i-communicate">Communication style</a>
-* <a href="#things-that-may-annoy-you">Quirks and agitations</a>
-* <a href="#what-gains-and-loses-my-trust">Gaining and losing trust</a>
-* <a href="#my-strengths">Strengths</a>
-* <a href="#my-growth-areas">Weaknesses</a>
-* <a href="#what-i-expect-from-people-i-manage">Management expectations</a>
-* <a href="#how-i-give-and-receive-feedback">Feedback</a>
-
-
+<div><a href="#" data-title="Top of page"></a><a href="#pagenav" data-title="Shortcuts"></a> 
+<nav class="pagenav" id="pagenav"> 
+<a href="#how-i-view-success">Success</a>
+<a href="#how-i-communicate">Communication</a>
+<a href="#what-may-annoy-you">Quirks</a>
+<a href="#what-gains-and-loses-my-trust">Trust</a>
+<a href="#my-strengths">Strengths</a>
+<a href="#my-growth-areas">Weaknesses</a>
+<a href="#what-i-expect-from-people-i-manage">Expectations</a>
+<a href="#how-i-give-and-receive-feedback">Feedback</a>
+</nav>
+</div>
 
 ## How I view success
 
@@ -65,7 +85,7 @@ Logistically:
 
 Realistically, I can adapt to other modes of communication but the above are my preferred
 
-## Things that may annoy you
+## What may annoy you
 
 #### Infodumping
 It’s something I do and a common neurodivergent trait.
