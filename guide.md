@@ -144,22 +144,20 @@ If that's a common theme I need help getting to the cause.
 
 ## My strengths
 
-1. Recognising potential
+1. Seeing potential
 2. Communicating Ideas 
-3. Executing between heuristics and aesthetics. 
+3. Executing heuristics and aesthetics together 
 
 I’m good at identifying where technology can solve a given problem. 
-That’s broad but so is technology, and so are problems. 
-My strength is letting value lead the way and connecting vast moving pieces.  
+That’s broad but so is technology, and so are problems.  My strength is letting value lead the way and connecting vast moving pieces, talented collaborators, and winning buy-in by directly contributing.  
 This extends specifically to prototyping, proof of concepts, pitches, and decisions regarding investment.
 
-I’m well versed in communicating complex ideas visually and through storytelling.
-That helps me share a vision with a wider audience and win customers or collaborators
+I’m well versed in communicating complex ideas visually and through storytelling. These skills help me share a vision with a wider audience and win customers or contributors.
 
 I'm very capable at marrying heuristic needs to aesthetic opportunities in real deliverables.  
 To me this is <a href="/posts/my-mantra/" target="_blabk">doing justice to good work</a>. 
-Solving big problems with fantastic experiences
-Creating outstanding engagement with meaningful, measurable outcomes. 
+* Solving big problems with fantastic experiences.
+* Creating outstanding engagement with measurable outcomes.
 
 
 ## My growth areas
@@ -171,15 +169,15 @@ I'm sure you've heard sales complain about the quality of marketing-led inquirie
 Or seen engineering leads call for more seniority in their talent. 
 I've personally had to recognise that my business wasn't a business but a feature within a much more lucrative market. 
 
-I try to appreciate opportunities by learning what is at the outer limits of best efforts. 
-I take ownership and am grateful for fixed variables, yet I'm still learning to be satisfied when the status quo is in-fact enough. You can always work with what you’ve got; 
+I try to appreciate opportunities by learning what is at the outer limits of best efforts. I take ownership and am grateful for fixed variables, yet I'm still learning to be satisfied when the status quo is in-fact enough. 
+You can always work with what you’ve got; 
 I’m working on being satisfied with that.
 
 #### Communicating flexibility
-My conversation-style is a passionate one designed to energise, provoking reciprocity. 
+My conversation-style is a passionate one designed to attract, energise, and provoke reciprocity. 
 The negative side of this, is that it's hard for me to not come across as a zealot at times. 
 In the words of <a href="https://daringfireball.net" target="_blank">John Gruber</a>: "Strong ideas loosely held is the path to success". 
-Like anyone else, I don't know what I don't know and when the facts change, I change my mind.   I'm taking more moments to make sure people around me know we're never too far down a path for me to be wrong. 
+Like anyone else, I don't know what I don't know and when the facts change, I change my mind.   I'm taking more moments to make sure people around me know we're never too far down a path for me to be wrong despite the commited vocabulary.
 
 ## What I expect from people I manage
 
