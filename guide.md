@@ -108,8 +108,7 @@ When I’m sharing information for a task, **I always frame it**:
  "*I’ve learned and you should know* …"
 
 If this context is absent, I am assuming you have the same level of excitement for detail that I do and am missing the mark.  
-Cutting me off and saying “I don’t care” or “another time” is absolutely fine. 
-I’ve never been offended by someone wanting to simplify communication. It doesn't hurt my feelings or change my perception of you. If anything I appreciate knowing when you don’t need more information and that the task at hand is obvious. 
+Cutting me off and saying “I don’t care” or “another time” is absolutely fine and even preferred.  I’ve never been offended by someone wanting to simplify communication. It doesn't hurt my feelings or change my perception of you. If anything I appreciate knowing when you don’t need more information and that the task at hand is obvious. 
 By contrast, only geeking out and not resolving outstanding work can be a problem for us both.  If we’re working together, we don’t have an academic relationship. I trust those I work with to accept information given to them with the relevance they need to perform their role.
 
 
@@ -123,11 +122,11 @@ I could be spending more hours with your peers than you if they have more areas 
 
 ## What gains and loses my trust
 
-#### Sharing our blindspots builds trust.
+#### Sharing our blindspots builds trust
 I’m naturally a gap filler and a room-maker. If I can trust that you’re sharing your hardest problems with me, I’ll perform to my best to solve for them.   
 If you clearly demonstrate a passion and talent for an area, I’ll be grateful for your contributions and make sure I’m amplifying or giving you autonomy.
 
-#### A critical attitude can both create trust or erode trust.
+#### A critical attitude can both create trust or erode trust
 Being generous enough to be in open disagreement earns my trust and greatly influences what actions I take for the better. If you make the effort to communicate concerns, I make the effort to hear, understand, and address them when I can.  
 Some encounters may end in a ‘disagree and commit’ scenario for either party. But by doing this my respect for you will grow and I'll trust you more after any reigourous debate. 
 Being a surprise detractor for extended periods by contrast, can lure me into a combative stance where I chase wartime success. It’s on us both to be comfortable being openly critical. I strive to ensure safety and reward disagreement as a valuable contribution. I detest dissent manufactured in secret without having the opportunity to be consulted.
