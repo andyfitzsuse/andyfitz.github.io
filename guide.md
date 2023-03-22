@@ -192,10 +192,9 @@ My management style pivots between being in the weeds and
 ## How I give and receive feedback
 
 
-I  prefer giving and receiving a mixture of formal and informal feedback at a regular and quarterly cadence.  Direct feedback helps in real time, formal feedback builds institutional memory and can be invaluable when bringing new leadership on board.
+I  prefer giving and receiving a mixture of formal and informal feedback at a regular and quarterly cadence.  Direct feedback helps in real time, formal feedback builds tribal memory and can be invaluable when bringing new leadership on board.
 
-As a manager I try to build a moat around your talent and make otherwise invisible contributions tangible and measurable assets to an organisation. 
+As a manager I try to build a moat around your talent and make otherwise invisible contributions tangible and measurable assets to an organization. 
 
-As a resource I thrive on lateral contribution and the resulting direct feedback.  
-I need major contributions recognised formally so that I continue to be motivated and invest in those areas. 
+As a resource I thrive on lateral contribution and the resulting direct feedback.  However; I prefer major contributions be recognised formally so that I continue to be motivated and invest in those areas. 
 
