@@ -124,17 +124,17 @@ If you clearly demonstrate a passion and talent for an area, I’ll be grateful 
 #### A critical attitude can both create trust or erode trust.
 Being generous enough to be in open disagreement earns my trust and greatly influences what actions I take for the better. If you make the effort to communicate concerns, I make the effort to hear, understand, and address them when I can.  
 Some encounters may end in a ‘disagree and commit’ scenario for either party. But by doing this my respect for you will grow and I'll trust you more after any reigourous debate. 
-Being a surprise detractor by contrast, forces me into a combative stance where I chase wartime success.  It’s on both parties to be comfortable being openly critical. I strive to ensure safety and reward disagreement for it's valuable contribution. I detest dissent manufactured in secret while having the opportunity to be consulted.
+Being a surprise detractor for extended periods by contrast, can lure me into a combative stance where I chase wartime success. It’s on us both to be comfortable being openly critical. I strive to ensure safety and reward disagreement as a valuable contribution. I detest dissent manufactured in secret without having the opportunity to be consulted.
 
 #### I find trusting the second time is easier
 You may have learned the *crumpled bit of paper* visual metaphor for trust. 
 Easy to do, impossible to completely undo. 
-That's not entirely how I think of it. Hard lessons drive predictability and I value teachable moments on the way to long term trust.
+That's not entirely how I think of it. Hard lessons drive predictability and I value teachable moments on the way to long term trust. Failure is good and I look at patterns more than isolated incidents that don't feel good but can be learned from.
 
 #### Failure early and often but never the same
 We're part of an inherently optimistic species and that optimism drove the progress needed to evolve. 
 If you become aware commitments are no longer realistic, I need to know. 
-If that's a common pattern I need help getting to the cause.
+If that's a common theme I need help getting to the cause.
 
 ## My strengths
 
