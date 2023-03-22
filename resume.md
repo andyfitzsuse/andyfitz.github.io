@@ -3,7 +3,7 @@ layout: layouts/post.njk
 templateClass: resume
 eleventyNavigation:
   key: Resume
-  order: 9
+  order: 7
 ---
 
 

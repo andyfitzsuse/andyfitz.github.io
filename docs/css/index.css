@@ -176,6 +176,7 @@ text-shadow: 0 0em .025em var(--neutral), 0 .02em .05em var(--neutral), 0 .2em .
 article :is(h1, h2, h3, h4) {
   position: relative;
 }
+article h4 + p {margin-top:0rem}
 
 article img {
   display: block;
