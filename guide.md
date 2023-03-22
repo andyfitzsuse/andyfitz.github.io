@@ -16,21 +16,25 @@ article, main{position:static;}
 #pagenav{display:none}
 #pagenav:target{display:grid; grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr }
 #pagenav a{padding:0}
-.pagenav{background-color: var(--bg-1)}
+.pagenav{background-color: var(--bg-3)}
 #pagenav:target{position:fixed; top:0; right:0; bottom:0; left:0; padding:0; overflow:none; z-index:90}
 }
 .pagenav{grid-template-columns:1fr;z-index:99;
 grid-auto-flow: row;}
-@media (min-width: 40em) {input,label{display:none}
+@media (min-width: 40em) {
+    
+    [href="#"],
+[href="#pagenav"]{display:none}
 article{padding-left: 20%;  }
 .pagenav{width: 20%}
 .pagenav{ position:fixed; max-height:calc(100vh -6rem); overflow-x:hidden; overflow-y:auto; top:6rem; left:0; }
 .pagenav a{text-align:left; line-height:1em;}
 .pagenav a:active{color: var(--fg)}
 </style>
+
 This guide may help shortcut concerns and clarify aspects of my approach that you’d otherwise need time to learn.   
 If you like to RTFM, this is for you.
-<div><a href="#" data-title="Top of page"><svg viewBox="0 0 6 6" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M3 1V5M1 3 3 1 5 3" /></svg></a><a href="#pagenav" data-title="Shortcuts"><svg viewBox="0 0 6 6" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M1 1H5M1 3H5M1 5H5" /></svg></a> 
+<div><a href="#" title="Top of page"><svg viewBox="0 0 6 6" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M3 1V5M1 3 3 1 5 3" /></svg></a><a href="#pagenav" title="Shortcuts"><svg viewBox="0 0 6 6" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M1 1H5M1 3H5M1 5H5" /></svg></a> 
 <nav class="pagenav" id="pagenav"> 
 <a href="#how-i-view-success">Success</a>
 <a href="#how-i-communicate">Communication</a>

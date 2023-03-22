@@ -9,9 +9,10 @@ eleventyNavigation:
 
 # Andy Fitzsimon  
 
+<div class="screenonly">Thank you for taking the time to explore my resume.
+To support this document I've also <a href="/guide/">prepared a user guide</a> for working with me.</div>
 
 
-Work History
 <section class="printonly">
 <a href="https://andyfitzsimon.com">andyfitzsimon.com</a><br>
 <a href="https://linkedin.com/in/andyfitz">linkedin.com/in/andyfitz
@@ -138,6 +139,7 @@ h2:before {
 
 @media screen {h2{margin-top:4rem; padding-top:1rem;}}
 @media print {
+  .screenonly{display:none}
   .printonly{display:block;}
   h1{font-size: 5em !important}
   h2{  page-break-after: auto;
