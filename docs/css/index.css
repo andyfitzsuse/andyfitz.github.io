@@ -475,7 +475,7 @@ img {
 .postlist time {
   text-align: right;
   height: 100%;
-  line-height: 2em;
+  line-height: 2rem;
   color: var(--neutral);
   font-weight: 300;
   font-size: 0.8em;

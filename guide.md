@@ -30,6 +30,9 @@ article{padding-left: 20%;  }
 .pagenav{ position:fixed; max-height:calc(100vh -6rem); overflow-x:hidden; overflow-y:auto; top:6rem; left:0; }
 .pagenav a{text-align:left; line-height:1em;}
 .pagenav a:active{color: var(--fg)}
+}
+.time-management svg{fill:none; stroke:currentColor; stroke-width:.5;  max-width: 3em; display:block; color: var(--neutral);stroke-miterlimit:9;}
+.time-management > div {margin-bottom:1rem;display:grid; grid-template-columns: 4em auto}
 </style>
 
 This guide may help shortcut concerns and clarify aspects of my approach that you’d otherwise need time to learn.   
@@ -71,22 +74,26 @@ I’ve enjoyed both in equal measure and sometimes operate bimodally across face
 ## How I communicate
 
 I’m direct and honest but also kind. 
-I try very hard to call a spade a spade without getting punched in the mouth.  
-Meaning, I'll write with considered language yet be very candid interpersonaly with those I trust. 
+I try very hard to call a spade a spade without getting punched in the mouth.  Meaning, I'll write with considered language yet be very candid interpersonaly with those I trust. 
 
 Logistically: 
+<div class="time-management">
 
-* I thrive via **instant message** chat and ad-hoc calls to make quick decisions.
+<div><svg viewbox="0 0 8 7"><path d="M5 5Q1 5 1 3t3-2 3 2c0 1-.2 1.6-1 2v1Z" /></svg><p>
+I thrive via <b>instant message</b> chat when it's ad-hoc to make quick decisions.</p></div>
 
-* **Email** is where I prefer well-perpared communication, responding with focused and consided replies. 
+<div><svg viewbox="0 0 8 7"><path d="M1 5V1H7V5zM1 1 4 3 7 1" /></svg><p>
+<b>Email</b> is where I prefer well-perpared communication, responding with focused and consided replies. </p></div>
 
-* I enjoy **scheduled  1:1’s** for the colleagues I feel more distant from as well as for a cadence with my team. I don’t waste these and 3 per quarter is plenty among all other contact. 
+<div><svg viewbox="0 0 8 8"><path d="M3 2a2.5 2.5 0 1 0 .001 0M5 1a2.5 2.5 0 1 0 .001 0"/></svg><p>I enjoy <b>scheduled  1:1’s</b> for the colleagues I feel more distant from as well as for a cadence with my team. I don’t waste these and 3 per quarter is plenty among all other contact.</p></div>
 
-* I’ve found broadcasting **weekly office hours** works well - it lowers the barrier to interacting cross functionally. 
+<div><svg viewbox="0 0 8 8"><path d="m4 .5a3.5 3.5 0 10.001 0M4 2V4H6" /></svg><p>I’ve found broadcasting <b>weekly office hours</b> works well - it lowers the barrier to interacting cross functionally. </p></div>
 
-* I keep my calendar **as lean as possible** in order to invite ad-hoc work in flight that aligns with priorities.
+<div><svg viewbox="0 0 8 7"><path d="M1 1h6v5H1zm0 1h6M2 1v1m4-1v1M4 5V3l-.5.3"/></svg><p>I keep my calendar <b>as lean as possible</b> in order to welcome in-flight, unnplanned work that aligns with priorities.</p></div>
 
-Realistically, I can adapt to other modes of communication but the above are my preferred
+<div><svg viewbox="0 0 8 8"><path d="M 1.5 1 V 7 H 6.5 V 1 H 4 V 3 L 3.5 2 L 3 3 V 1z"/></svg><p>I record any <b>institutional memory</b> to rapidly enable colleagues. Usually this occurs in-context where the work is being done or via an LMS. I enjoy briefing and onboarding real-time also.</p></div>
+</div>
+Realistically, I can adapt to other modes of communication but the above are my preferred for their given purpose.
 
 ## What may annoy you
 
@@ -94,7 +101,7 @@ Realistically, I can adapt to other modes of communication but the above are my 
 It’s something I do and a common neurodivergent trait.
 There’s a difference between me telling you what you need to know, and excitedly sharing detail only very engaged enthusiasts would find critical. 
 
-When I’m sharing relevant information for a task, **I always frame it in context**
+When I’m sharing information for a task, **I always frame it**:
  "*For this purpose let’s remember*…"
  "*I suggest you/we __ because*…"
  "*Keep in mind* …"
@@ -108,8 +115,7 @@ By contrast, only geeking out and not resolving outstanding work can be a proble
 
 #### Attention isn’t praise, praise is praise 
 Most relevant for anyone reporting to me.
-I focus on problems and opportunities more than the areas I trust and know are well-run. 
-It becomes clear over time that I delight in recognising and rewarding <acronym data-title="Business As Usual">BAU</acronym> just as much as I do milestones &mdash; shining a light on contributions in all areas.
+I focus on problems and opportunities more than the areas I trust and know are well-run.  It becomes clear over time that I delight in recognizing and rewarding <acronym data-title="Business As Usual">BAU</acronym> just as much as I do milestones &mdash; shining a light on contributions in all areas.
  
 In the short-term, avoid misjudging my focus for recognition or favouritism.
 I could be spending more hours with your peers than you if they have more areas of improvement. I could also be spending more hours with a talent because I’m investing where there’s more existing skill for an immediate objective.  What I appear to be focussing on isn’t a metric of your impact and I make sure everyone knows that. 
