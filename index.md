@@ -1041,7 +1041,7 @@ Finally, as a mentor, I’ve never met someone who is as adept at understanding 
 </blockquote>
 </div>
 <div class="ref-tim">
-<cite><a target="_blank" href="https://www.linkedin.com/in/tim-brown-brand-creative-strategy/">Tim Brown</a> <br><span>Content Automation + APAC Marketing Lead
+<cite><a target="_blank" href="https://www.linkedin.com/in/tim-brown-brand-creative-strategy/">Tim Brown</a> <br><span>CA Marketing Lead
  <svg  fill="currentColor" viewBox="0 0 84 22.02"><use href="#bflg" /></svg></span></cite>
  <p>Leadership team peer at Outfit</p>
 <blockquote class="quote">
