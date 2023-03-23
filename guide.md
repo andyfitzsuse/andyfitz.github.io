@@ -186,7 +186,7 @@ Like anyone else, I don't know what I don't know and when the facts change, I ch
 
 We all have days where we aren't feeling it,  I expect you to be open and ask for help at those times. When this happens, I can augment your temporary weakness, not replace your core strengths. Doing your best is all I can ask. 
 
-My management style pivots between being in the weeds and 
+
 
 ## How I give and receive feedback
 
