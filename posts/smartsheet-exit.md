@@ -12,43 +12,47 @@ layout: layouts/post.njk
 > what an adventure!
 
 ## 10 years ago 
-I proposed a half-cooked solution to a then-stranger Bruce Stronge.  
+I proposed a half-cooked solution to a then-stranger Bruce Stronge.
 
-If the model worked, I’d need a sustainable partner - accepting many risks to succeed. 
-It’d need to be easier than anything before and work at global enterprise scale - impossible! 
-Yet it did, it was; and here we are.  Everything we dreamed happened, and now it’s done. 
+If the model worked, I’d need a sustainable partner - accepting many risks to succeed.
+It’d need to be easier than anything before and work at global enterprise scale - impossible!
+Yet it did, it was; and here we are.  Everything we dreamed happened, and now it’s done.
 
-From meeting business partners, then VC’s, to the eventual pitch and sale of Outfit. It’s been a long journey and all kinds of work on all fronts of business and technology. 
+From meeting business partners, then VC’s, to the eventual pitch and  sale of Outfit. It’s been a long journey and all kinds of work on all  fronts of business and technology.
+
+
 
 ## Mission accomplished
 
-As of this month, my saga has come to a close.  
-Smartsheet officially made my role redundant and I’m grateful that they did.
+As of this month, my saga has come to a close.
+Smartsheet made my role redundant and I’m grateful that they did.
 
-My duty of care to what was once just an idea is now over. 
-I no longer need to be the caretaker for customers, colleagues, and the mature technology that made it all real.  It’s all in safe hands. 
+My duty of care to what was once an idea is now over.
+I no longer need to be the caretaker for customers, colleagues, and the technology that made it all real.  It’s all in safe hands.
 
-Staying on are a brilliant team of talented and dedicated people who I’m truly humbled chose to align their careers with this path we carved together.
-Thanks to the custodianship of Smartsheet, there’s a very promising future ahead. 
-I’m so proud of everyone who shared in all the ups and downs, battling to get us to where we are today and so excited to cheer you on and see what’s next.
+Staying on are a brilliant team of talented and dedicated people.  Friends that I’m truly humbled chose to align their careers with this path we carved  together.
+Thanks to the custodianship of Smartsheet, there’s a very promising future ahead.
+I’m so proud of everyone who shared in all the ups and downs, battling  to get us to where we are today. 
+I'm excited to cheer you on and see what’s next.
 
-I’d like to give special mention to the Smartsheet senior leadership team for their part in the strategic acquisition of Outfit. You’re at the vanguard of undeniable ROI for your customers. When they speed up production, their entire business can transact faster, safer, and in the real world; congratulations and good luck as you harness this absolute magic to full&nbsp;potential.
+I’d like to acknowledge Smartsheet's leadership for their strategic acquisition of Outfit. You’re at the vanguard of undeniable ROI for your customers. When they speed up  production, they speed up an entire business.  Thank you, congratulations, and good luck harnessing this absolute  magic to full potential.
 
 
 
 ## What's next? 
 
-I’ve decided to get back to the core of what I love doing. 
-Audacious and ambitious challenges with lots of moving pieces to master.  
 
-With the success of Outfit locked away, I’m finally open to new opportunities where I can immerse myself, do justice to good work, and innovate once more. 
+I’ve decided to get back to the core of what I love doing.
+ Audacious and ambitious challenges with lots of moving pieces to master.
 
-Something will grab me, and it deserves a monopoly on my time to change the game.  
+The success of Outfit is now locked away. I’m finally open to new  opportunities where I can immerse myself, do justice to good work, and innovate once more.
+
+Something will grab me, and it deserves a monopoly on my time to change the game.
 
 So please share this post.
-Send friends to https://andyfitzsimon.com for them to learn more. 
-Send me an introduction, and let’s see what happens.  
-I’m officially open to work!
+Send friends to https://andyfitzsimon.com for them to learn more.
+Send me an introduction, and let’s see what happens. 
+I’m open to work!
 
 
 
