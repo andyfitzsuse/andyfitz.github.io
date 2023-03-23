@@ -52,7 +52,7 @@ I am fortunate to have both lived and travelled extensively across asia, europe,
 * Laptops at school
 * Rugby and Debating
 * Hex editing game files, BBS networking
-* Marcomedia director and flash
+* Macromedia director and flash
 * Green hair, piercings, the blunder years
 * Hosting LAN parties
 

@@ -217,7 +217,7 @@ The result got praise from the street, highlighted in every earnings call since.
 
 
 <section>
-<h3 class="scroll fade short-quote">Nothing is beyond us,<br> no task beaneath me</h3>
+<h3 class="scroll fade short-quote">Nothing is beyond us,<br> no task beneath me</h3>
 <p class="scroll fade">If it needs to be done, I do it well &amp; with pride.<br>
 I offer help, asking when it counts.<br>
 </p>
@@ -965,7 +965,8 @@ I obsess over quality, war-game competitively, &amp; stay realistic during&nbsp;
 
 <section class="testimonials scroll fade">
 <h3 id="testimonials" class="scroll fade"> Testimonials </h3> 
-<br>
+
+<p>Real, Relevant, Recommended.</p><br>
 <input  id="ref-bruce" type="radio" name="advocate" checked />
 <label for="ref-bruce"> <span></span>Bruce</label>
 
