@@ -184,7 +184,10 @@ Like anyone else, I don't know what I don't know and when the facts change, I ch
 2. Taking ownership
 3. Bringing your best at your worst
 
-We all have days where we aren't feeling it,  I expect you to be open and ask for help at those times. When this happens, I can augment your temporary weakness, not replace your core strengths. Doing your best is all I can ask. 
+The African proverb "go fast, go alone - go far, go together" rings true when thinking about taking ownership.
+I'm very comfortable with autonomy in exchange for taking ownerhsip. Having said that, maintaining shared ownership of higher level goals keeps us both accountable and on track for long term success.
+
+We all have days where we aren't feeling it,  I expect you to be open and ask for help at those times so that I can support you. When this happens, I can augment your temporary weakness, not replace your core strengths. Doing our combined best is always my goal. 
 
 
 

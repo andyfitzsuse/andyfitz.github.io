@@ -9,8 +9,18 @@ eleventyNavigation:
 
 # Andy Fitzsimon  
 
+
 <div class="screenonly">Thank you for taking the time to explore my resume.
 To support this document I've also <a href="/guide/">prepared a user guide</a> for working with me.</div>
+
+#### High level
+* Founded, innovated in, pitched and sold a SaaS Business
+* Major impact scaling the Red Hat into a global leader
+* Maintains mastery of technical, communication, and commercial skills
+* Long tenure at employers, well regarded by peers
+
+
+
 
 
 <section class="printonly">
@@ -105,9 +115,9 @@ September 2011 - May 2020  (4 roles)
 ## Corporate Accolades
 
 * Brandfolder Sales BeastMode Award 
-* Red Hat President's lLub 
+* Red Hat President's Club 
 * Red Hat Chairman's Award 
-* Red Hat Marketing global citizen
+* Red Hat Marketing Global Citizen
 
 
 <style>
