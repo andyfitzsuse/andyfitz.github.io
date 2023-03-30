@@ -15,7 +15,7 @@ To support this document I've also <a href="/guide/">prepared a user guide</a> f
 
 #### High level
 * Founded, innovated in, pitched and sold a SaaS Business
-* Major impact scaling the Red Hat into a global leader
+* Major impact scaling Red Hat into a global leader over engineering, marketing, & sales
 * Maintains mastery of technical, communication, and commercial skills
 * Long tenure at employers, well regarded by peers
 
