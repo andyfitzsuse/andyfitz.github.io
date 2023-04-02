@@ -9,9 +9,7 @@ title: Andy Fitzsimon
 <section class="top-section">
 <h1>G’day, I'm Andy Fitzsimon</h1>
 <br>
-<video id="background-video" autoplay loop muted playsinline poster="/img/andyfitz.png" >
-<source src="/img/face.mp4" type="video/mp4">
-</video>
+<div class="face"></div>
 <svg
   class="bokeh" 
   viewBox="0 0 10 10" 
@@ -28,6 +26,7 @@ title: Andy Fitzsimon
   <circle cx="65%" cy="85%" r="55%" fill="#626" />
 </svg>
 <br>
+
 
 <p class="scroll fade">a multi-disciplinary technology leader<br>
 with proven global impact.<br>
@@ -1101,12 +1100,48 @@ Makes ad-hoc donations of design, software, or funding to causes, & open source 
 
 <style>
 
-video {
-  border-radius: 50%;
-  overflow: hidden;
-  max-width: calc(100vw - 2rem);
+
+.face,
+.face:after,
+.face:before {
+ 
+ height: 18em;
+   max-width: calc(100vw - 2rem);
+   max-height: calc(100vw - 2rem);
   width: 18em;
+  display:block; margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(/img/face.jpg);
+  background-image: url(/img/face.avif);
+  background-size: cover;
+  background-position: 0 0;
+  animation: faces 50.5s steps(61, end) infinite;
+  position: relative;
 }
+
+.face:before,
+.face:after {
+  content: "";
+ 
+  opacity: 0.4;
+  animation-delay: -0.15s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom:0; 
+}
+
+.face:after {
+  animation-delay: -0.075s;
+}
+
+@keyframes faces {
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+ 
 
 
 
