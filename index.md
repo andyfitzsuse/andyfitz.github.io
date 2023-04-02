@@ -1115,7 +1115,7 @@ Makes ad-hoc donations of design, software, or funding to causes, & open source 
   background-image: url(/img/face.avif);
   background-size: cover;
   background-position: 0 0;
-  animation: faces 50.5s steps(61, end) infinite;
+  animation: faces 26s steps(61, end) infinite;
   position: relative;
 }
 
@@ -1123,16 +1123,17 @@ Makes ad-hoc donations of design, software, or funding to causes, & open source 
 .face:after {
   content: "";
  
-  opacity: 0.4;
-  animation-delay: -0.15s;
+  opacity: 0.35;
+  animation-delay: -0.12s;
   position: absolute;
+
   top: 0;
   left: 0;
   bottom:0; 
 }
 
 .face:after {
-  animation-delay: -0.075s;
+  animation-delay: -0.06s;
 }
 
 @keyframes faces {
