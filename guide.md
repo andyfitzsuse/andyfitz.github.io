@@ -129,15 +129,14 @@ If you clearly demonstrate a passion and talent for an area, I’ll be grateful 
 #### A critical attitude can both create trust or erode trust
 Being generous enough to be in open disagreement earns my trust and greatly influences what actions I take for the better. If you make the effort to communicate concerns, I make the effort to hear, understand, and address them when I can.  
 Some encounters may end in a ‘disagree and commit’ scenario for either party. But by doing this my respect for you will grow and I'll trust you more after any rigorous debate. 
-Being a surprise detractor for extended periods by contrast, can lure me into a combative stance where I chase wartime success. It’s on us both to be comfortable being openly critical. I strive to ensure safety and reward disagreement as a valuable contribution. I detest dissent manufactured in secret without having the opportunity to be consulted.
+Being a surprise detractor for extended periods by contrast, can lure me into a combative stance where I chase wartime success. It’s on us both to be comfortable being openly critical. I strive to ensure safety and reward disagreement as a valuable contribution. Like anyone, I detest dissent manufactured in secret without having the opportunity to be consulted.
 
 #### I find trusting the second time is easier
-You may have learned the *crumpled bit of paper* visual metaphor for trust. 
-Easy to do, impossible to completely undo. 
-That's not entirely how I think of it. Hard lessons drive predictability and I value teachable moments on the way to long term trust. Failure is good and I look at patterns more than isolated incidents that don't feel good but can be learned from.
+You may have learned the *crumpled bit of paper* visual metaphor for trust.  Easy to do, impossible to completely undo. 
+That's not entirely how I think of it. Hard lessons drive predictability and I value teachable moments on the way to long term trust. Failure is good and I look at patterns more than isolated incidents. Mistakes don't feel good but can be learned from.
 
 #### Failure early and often but never the same
-We're part of an inherently optimistic species and that optimism drove the progress needed to evolve. 
+We're part of an inherently optimistic species and that optimism helps us take risks and evolve. 
 If you become aware commitments are no longer realistic, I need to know. 
 If that's a common theme I need help getting to the cause.
 
@@ -164,11 +163,9 @@ To me this is <a href="/posts/my-mantra/" target="_blabk">doing justice to good 
 
 #### Accepting constraints that I believe can be changed
 
-I'm sure you've heard sales complain about the quality of marketing-led inquiries.
-Or seen engineering leads call for more seniority in their talent. 
-I've personally had to recognise that my business wasn't a business but a feature within a much more lucrative market. 
 
-I try to appreciate opportunities by learning what is at the outer limits of best efforts. I take ownership and am grateful for fixed variables, yet I'm still learning to be satisfied when the status quo is in-fact enough. 
+
+I try to appreciate opportunities by identifying what is at the outer limits of best efforts. I take ownership and am grateful for fixed variables, yet I'm still learning to be satisfied when the status quo is in-fact enough. 
 You can always work with what you’ve got; 
 I’m working on being satisfied with that.
 
@@ -176,7 +173,7 @@ I’m working on being satisfied with that.
 My conversation-style is a passionate one designed to attract, energise, and provoke reciprocity. 
 The negative side of this, is that it's hard for me to not come across as a zealot at times. 
 In the words of <a href="https://daringfireball.net" target="_blank">John Gruber</a>: "Strong ideas loosely held is the path to success". 
-Like anyone else, I don't know what I don't know and when the facts change, I change my mind.   I'm taking more moments to make sure people around me know we're never too far down a path for me to be wrong despite the committed vocabulary.
+Like anyone else, I don't know what I don't know and when the facts change, I change my mind.   I'm taking more moments to make sure people around me know we're never too far down a path for me to be wrong despite projecting some very committed vocabulary.
 
 ## What I expect from people I manage
 
