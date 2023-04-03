@@ -161,7 +161,7 @@ h2:before {
 
 @media screen {h2{margin-top:3rem; padding-top:3rem;}
 
-svg{margin-top:2em;}
+article svg{margin-top:2em;}
 }
 @media print {
 
