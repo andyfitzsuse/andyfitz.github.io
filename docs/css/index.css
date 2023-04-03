@@ -471,6 +471,7 @@ img {
   font-weight: 600;
   grid-auto-flow: column;
   padding: 1.5em clamp(1rem, 7%, 5rem);
+  background-color: var(--bg-3)
 }
 
 .postlist a:hover,
