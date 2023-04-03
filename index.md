@@ -28,7 +28,7 @@ title: Andy Fitzsimon
 <br>
 
 
-<p class="scroll fade">a multi-disciplinary technology leader<br>
+<p  >a multi-disciplinary technology leader<br>
 with proven global impact.<br>
 <br>
 <p  class="scroll fade"> <abbr title="operational">Ops</abbr>, <abbr title="technical">Tech</abbr>, Creative, &amp; Sales combined,<br> a fanatically dedicated <dfn onclick="" data-title="Draws on vast subjects to solve specific problems">polymath</dfn>.
@@ -1099,41 +1099,38 @@ Makes ad-hoc donations of design, software, or funding to causes, & open source 
 <br><br>
 
 <style>
-
-
 .face,
 .face:after,
 .face:before {
- 
- height: 18em;
+  transform: translate3d(0,0,0);
+ height: 15em;
    max-width: calc(100vw - 2rem);
    max-height: calc(100vw - 2rem);
-  width: 18em;
+  width: 15em;
   display:block; margin: 0 auto;
   border-radius: 50%;
   background-image: url(/img/face.jpg);
   background-image: url(/img/face.avif);
   background-size: cover;
   background-position: 0 0;
-  animation: faces 26s steps(61, end) infinite;
+  animation: faces 20s steps(61, end) infinite;
   position: relative;
 }
 
 .face:before,
 .face:after {
   content: "";
- 
   opacity: 0.35;
-  animation-delay: -0.12s;
+  animation-delay: -0.14s;
   position: absolute;
-
   top: 0;
   left: 0;
   bottom:0; 
+  mix-blend-mode:lighten;
 }
 
 .face:after {
-  animation-delay: -0.06s;
+  animation-delay: -0.07s;
 }
 
 @keyframes faces {
@@ -1141,13 +1138,6 @@ Makes ad-hoc donations of design, software, or funding to causes, & open source 
     background-position: 100% 0;
   }
 }
-
- 
-
-
-
-
-
 p {
   padding: 0 1em;
 }
@@ -1174,9 +1164,6 @@ footer p {
   left: 0;
   opacity: 0;
 }
-
-
-
 @keyframes cta-flash {
   0% {
     transform: skew(-45deg) translateX(-150%);
@@ -1188,14 +1175,11 @@ footer p {
     transform: skew(-45deg) translateX(150%);
   }
 }
-
 .mission a:hover{box-shadow: inset 0 0 0 .05em var(--brand); color: var(--fg)}
-
 .mission a:hover:before{ background-color:white; animation: cta-flash 0.5s linear forwards 0s;}
 .scrolled .cta:before {
   animation: cta-flash 0.5s linear forwards 0.5s;
 }
-
 .cta {
   overflow: hidden;
   position: relative;
@@ -1205,9 +1189,7 @@ footer p {
   display: inline-block;
   margin: 3rem 0;
 }
-
 @media (prefers-color-scheme: light) {
-
   .cta {
   background-color: var(--tone-2); 
   box-shadow:inset 0 -4em 3em -1em var(--brand), 0 1em 1em var(--bg-1),0 1em 3em -1em var(--bg-1);
@@ -1931,17 +1913,13 @@ background-repeat: no-repeat; z-index:-1;
   height: 5em;}
 }
 @media (prefers-color-scheme: light) {
-
-
-
 .disclosures div{padding:1em; background-color:white; border-radius: .6em; min-height:9em; box-shadow: 0 .3em 4em -2em var(--neutral)}
-.mission-values svg {
+.disclosures svg, .mission-values svg {
     color: var(--bg-1);
-    background-color: var(--bg-2);
-    opacity: 0.5;
+    background-color: none;
   }
 
-    .disclosures svg{background-color:var(--bg-2); stroke-opacity:.5;}
+ 
   .testimonials{  background-image: radial-gradient(var(--bg) 0%, var(--bg-2) 50% );
  background-color:var(--bg-2)}
 }

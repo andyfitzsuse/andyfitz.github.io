@@ -9,12 +9,12 @@ article h2{font-size:2.5em; padding:.5em 0;}
 .twocol{display:grid; grid-template-columns: 1fr 1fr; gap:2em}
 @media (max-width: 40em) {.twocol{grid-template-columns: 1fr}
 article, main{position:static;}
- 
 [href="#"],
 [href="#pagenav"]{box-shadow:none;background-color: transparent; display:block; height:3em; width:3em; padding:.5em;z-index:91; position:fixed; bottom: 3rem; right:0; cursor:pointer;}
 [href="#"]{bottom:0rem;  }
-#pagenav{display:none}
-#pagenav:target{display:grid; grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr }
+#pagenav{display:none;  opacity:0; pointer-events:none; }
+#pagenav:target{display:grid; opacity:1; pointer-events: all;grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; background-color: var(--bg-2); animation: showme 1s ease infinite}
+@keyframe showme{ 0%{transform: scale(.7); opacity:0} 100%{opacity:1; transform:none;}}
 #pagenav a{padding:0}
 .pagenav{background-color: var(--bg-3)}
 #pagenav:target{position:fixed; top:0; right:0; bottom:0; left:0; padding:0; overflow:none; z-index:90}
@@ -25,6 +25,7 @@ grid-auto-flow: row;}
     
     [href="#"],
 [href="#pagenav"]{display:none}
+footer{padding-left: 10em;}
 article{padding-left: 20%;  }
 .pagenav{width: 20%}
 .pagenav{ position:fixed; max-height:calc(100vh -6rem); overflow-x:hidden; overflow-y:auto; top:6rem; left:0; }
