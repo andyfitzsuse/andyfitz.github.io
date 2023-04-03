@@ -1111,6 +1111,7 @@ Makes ad-hoc donations of design, software, or funding to causes, & open source 
   display: block; 
   position: relative;
   overflow: hidden;
+    clip-path: circle(18em at center);
 }
 .faces,.faces:before,.faces:after {
   background-image: url(/img/sprites.jpg);
