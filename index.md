@@ -9,7 +9,9 @@ title: Andy Fitzsimon
 <section class="top-section">
 <h1>G’day, I'm Andy Fitzsimon</h1>
 <br>
-<div class="face"></div>
+<div class="face-container">
+  <div class="faces"></div>
+</div>
 <svg
   class="bokeh" 
   viewBox="0 0 10 10" 
@@ -1099,44 +1101,48 @@ Makes ad-hoc donations of design, software, or funding to causes, & open source 
 <br><br>
 
 <style>
-.face,
-.face:after,
-.face:before {
-  transform: translate3d(0,0,0);
- height: 15em;
-   max-width: calc(100vw - 2rem);
-   max-height: calc(100vw - 2rem);
-  width: 15em;
-  display:block; margin: 0 auto;
+.face-container {
+  max-width: calc(100vw - 2rem);
+  max-height: calc(100vw - 2rem);
+  height: 18em;
+  margin:0 auto;
+  width: 18em;
   border-radius: 50%;
-  background-image: url(/img/face.jpg);
-  background-image: url(/img/face.avif);
-  background-size: cover;
-  background-position: 0 0;
-  animation: faces 20s steps(61, end) infinite;
+  display: block; 
   position: relative;
+  overflow: hidden;
 }
-
-.face:before,
-.face:after {
-  content: "";
-  opacity: 0.35;
-  animation-delay: -0.14s;
-  position: absolute;
+.faces,.faces:before,.faces:after {
+  background-image: url(/img/sprites.jpg);
+  width: 700%;
+  height: 900%; 
+  background-size: contain; 
+  animation: stopall 30s steps(6, end) infinite;
+  display: block;
   top: 0;
   left: 0;
-  bottom:0; 
-  mix-blend-mode:lighten;
+  position: absolute;
 }
-
-.face:after {
-  animation-delay: -0.07s;
-}
-
-@keyframes faces {
-  100% {
-    background-position: 100% 0;
-  }
+/* saves a few mb instead of using a gif or video  */
+@keyframes stopall{
+  0%{transform:translate(0,0)}
+  11.111%{transform:translate(-85.7% , 0%)}
+  11.1111%{transform:translate(0%     , -11.1111%)}
+  22.222%{transform:translate(-85.7% , -11.1111%)}
+  22.2222%{transform:translate(0      , -22.2222%)}
+  33.333%{transform:translate(-85.7% , -22.222%)}
+  33.3333%{transform:translate(0%     , -33.333%)}
+  44.444%{transform:translate(-85.7% , -33.333%)}
+  44.4444%{transform:translate(0      ,-44.444%)}
+  55.555%{transform:translate(-85.7% ,-44.444%)}
+  55.5555%{transform:translate(0      ,-55.555%)}
+  66.666%{transform:translate(-85.7% ,-55.555%)}
+  66.6666%{transform:translate(0      ,-66.666%)}
+  77.777%{transform:translate(-85.7% , -66.666%)}
+  77.7777%{transform:translate(0      ,-77.777%)}
+  88.888%{transform:translate(-85.7% ,-77.777%)}
+  88.8888%{transform:translate(0      ,-88.888%)}
+  100%{transform:translate(-85.7%  ,-88.888%)}
 }
 p {
   padding: 0 1em;
