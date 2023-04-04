@@ -11,7 +11,7 @@ eleventyNavigation:
 # <img src="/img/andyfitz.png" alt="portrait of Andy Fitzsimon"/> Andy Fitzsimon   
 
 <section class="printonly hotlinks">
-<a href="https://andyfitzsimon.com">andyfitzsimon.com</a><br>
+<a href="https://andyfitzsimon.com">www.andyfitzsimon.com</a><br>
 <a href="https://linkedin.com/in/andyfitz">linkedin.com/in/andyfitz <br>
 <a href="tel:+61403686629">+61 403 686 629</a><br>
 <a href="mailto:andyfitz+resume@gmail.com">andy@fitzsimon.com.au</a>
