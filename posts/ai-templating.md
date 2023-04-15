@@ -12,11 +12,11 @@ layout: layouts/post.njk
 Constraint-based templates can be expensive and hard to adapt.  
 Generative AI is cheaper, faster, and more intuitive.
 
-This 'extrapolation' approach to templates promises a way forward without the homogeneity!
+This extrapolative approach to templates promises a way forward without the homogeneity!
 
 
 ## Constraints-based templating
-In design-templates constraints answer the question:
+In templates constraints answer the question:
 >  what must stay the same so that everything else can change?
 
 Typically this templating happens when a person crafts a design. They lock down things and permit changes with safe limits.  For example, taking an existing design, and only allowing one area be editable: no font changes, these word limits, select from predefined choices of photography, with the layout only adapting slightly.  It’s a great way to extend the reach of predetermined content but nearly guarantees sameish, unengaging outcomes en masse.  
@@ -24,7 +24,7 @@ Typically this templating happens when a person crafts a design. They lock down 
 
 ## Trained extrapolation (aka AI+ML)
 
-Trained Generative models answer the question:
+Trained generative models answer the question:
 > What invisible rules can we decipher from the past that may adapt well in the future? 
 
 Learning what to do next rather than setting the rules out ahead of time is a dramatically different approach. One that makes room for truly adaptive and dynamic outcomes. 

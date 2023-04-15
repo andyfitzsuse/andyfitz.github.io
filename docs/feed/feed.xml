@@ -134,15 +134,15 @@ It gives me the clear-thinking motivation needed to see the opportunities I trul
 		<id>https://andyfitzsimon.com/posts/ai-templating/</id>
 		<content type="html">&lt;p&gt;Constraint-based templates can be expensive and hard to adapt.&lt;br /&gt;
 Generative AI is cheaper, faster, and more intuitive.&lt;/p&gt;
-&lt;p&gt;This &#39;extrapolation&#39; approach to templates promises a way forward without the homogeneity!&lt;/p&gt;
+&lt;p&gt;This extrapolative approach to templates promises a way forward without the homogeneity!&lt;/p&gt;
 &lt;h2 id=&quot;constraints-based-templating&quot;&gt;Constraints-based templating &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/ai-templating/#constraints-based-templating&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;In design-templates constraints answer the question:&lt;/p&gt;
+&lt;p&gt;In templates constraints answer the question:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;what must stay the same so that everything else can change?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Typically this templating happens when a person crafts a design. They lock down things and permit changes with safe limits.  For example, taking an existing design, and only allowing one area be editable: no font changes, these word limits, select from predefined choices of photography, with the layout only adapting slightly.  It’s a great way to extend the reach of predetermined content but nearly guarantees sameish, unengaging outcomes en masse.&lt;/p&gt;
 &lt;h2 id=&quot;trained-extrapolation-(aka-ai%2Bml)&quot;&gt;Trained extrapolation (aka AI+ML) &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/ai-templating/#trained-extrapolation-(aka-ai%2Bml)&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Trained Generative models answer the question:&lt;/p&gt;
+&lt;p&gt;Trained generative models answer the question:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;What invisible rules can we decipher from the past that may adapt well in the future?&lt;/p&gt;
 &lt;/blockquote&gt;
