@@ -31,8 +31,8 @@ time{display:none}
 .twoup svg{max-height:13em;display:block;}
 .twoup > * {margin-top:0;}</style>
 
-Born in Australia to 6th generation immigrants, 
-I am fortunate to have both lived and travelled extensively across asia, europe, and the americas.
+Born in Australia (on Jagera country) to 6th generation immigrants, 
+I am fortunate to have both lived and travelled extensively across asia, europe, and the americas. My primary residence is now Noosa, Queebsland (Gubbi Gubbi country)
 
 
 # Timeline 

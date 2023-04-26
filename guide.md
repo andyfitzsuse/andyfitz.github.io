@@ -54,7 +54,7 @@ If you like to RTFM, this is for you.
 ## How I view success
 
 Success closely follows my **values** and my **mantra** which you can <a href="/">explore on my homepage</a>. 
-Beyond that, I have wartime and peacetime modes; success can be framed within each:
+Beyond that, success could be framed within wartime or peacetime contexts:
 
 <div class="twocol">
 
@@ -94,7 +94,7 @@ I thrive via <b>instant message</b> chat when it's ad-hoc to make quick decision
 
 <div><svg viewbox="0 0 8 8"><path d="M 1.5 1 V 7 H 6.5 V 1 H 4 V 3 L 3.5 2 L 3 3 V 1z"/></svg><p>I record <b>institutional memory</b> to rapidly enable colleagues. Usually this occurs in-context where the work is being done or via an LMS when large bodies of content need management. I also enjoy condensing this information into summaries for briefings and prefer real-time onboarding where possible.</p></div>
 </div>
-Realistically, I can adapt to other modes of communication but the above are my preferred for their given purpose.
+Realistically, I adapt to other modes of communication but the above are my preferred for their given purpose and this is probably a shared preference.
 
 ## What may annoy you
 
