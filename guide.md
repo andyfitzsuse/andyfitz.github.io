@@ -120,6 +120,14 @@ I focus on problems and opportunities more than the areas I trust and know are w
 In the short-term, avoid misjudging my focus for recognition or favouritism.
 I could be spending more hours with your peers than you if they have more areas of improvement. I could also be spending more hours with a talent because I’m investing where there’s more existing skill for an immediate objective.  What I appear to be focussing on isn’t a metric of your impact and I make sure everyone knows that. 
 
+#### Vocabulary
+
+On occasion and always in odd moments, I'm prone to using overly specific words and terms.
+Not because I want to sound smart but because I'm regularly misunderstood and it's my inability to read the room which leads me to be cautious with words. 
+I mostly speak casually and prefer this, you'll notice when my guard is down because I'm naturally nonchalant (there I go being specific!). 
+So on occasion, I'll talk in a way that some find off-putting at first. When you reflect on the words chosen it might be appreciated that more detail was said than less. I'm always working on the balance between thoughtful words and comforting language.  
+The more I learn how you react to me, the more I adjust my conversation style.  So appologies for any early hiccups.
+
 
 ## What gains and loses my trust
 
