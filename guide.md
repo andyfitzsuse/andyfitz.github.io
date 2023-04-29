@@ -109,15 +109,15 @@ When I’m sharing information for a task, **I always frame it**:
  "*I’ve learned and you should know* …"
 
 If this context is absent, I am assuming you have the same level of excitement for detail that I do and am missing the mark.  
-Cutting me off and saying “I don’t care” or “another time” is absolutely fine and even preferred.  I’ve never been offended by someone wanting to simplify communication. It doesn't hurt my feelings or change my perception of you. If anything I appreciate knowing when you don’t need more information and that the task at hand is obvious. 
+Cutting me off and saying “I don’t care” or “another time” is absolutely fine and even preferred.  
+I’ve never been offended by someone wanting to simplify communication. It doesn't hurt my feelings or change my perception of you. If anything I appreciate knowing when you don’t need more information and that the task at hand is obvious. 
 By contrast, only geeking out and not resolving outstanding work can be a problem for us both.  If we’re working together, we don’t have an academic relationship. I trust those I work with to accept information given to them with the relevance they need to perform their role.
-
 
 #### Attention isn’t praise, praise is praise 
 Most relevant for anyone reporting to me.
-I focus on problems and opportunities more than the areas I trust and know are well-run.  It becomes clear over time that I delight in recognizing and rewarding <acronym data-title="Business As Usual">BAU</acronym> just as much as I do milestones &mdash; shining a light on contributions in all areas.
+I focus on problems and opportunities more than the areas I trust and know are well-run.  It becomes clear over time that I delight in recognizing and rewarding excellence in<acronym data-title="Business As Usual">BAU</acronym>  as much as I do novel milestones.
  
-In the short-term, avoid misjudging my focus for recognition or favouritism.
+In the short-term, avoid misjudging my focus for favouritism.
 I could be spending more hours with your peers than you if they have more areas of improvement. I could also be spending more hours with a talent because I’m investing where there’s more existing skill for an immediate objective.  What I appear to be focussing on isn’t a metric of your impact and I make sure everyone knows that. 
 
 #### Vocabulary
@@ -128,12 +128,18 @@ I mostly speak casually and prefer this, you'll notice when my guard is down bec
 So on occasion, I'll talk in a way that some find off-putting at first. When you reflect on the words chosen it might be appreciated that more detail was said than less. I'm always working on the balance between thoughtful words and comforting language.  
 The more I learn how you react to me, the more I adjust my conversation style.  So appologies for any early hiccups.
 
+#### Appearing esoteric
+
+Related to the above, If you don't understand what I'm saying,  
+That's not deliberate and it's on me to communicate clearly. 
+Speaking up when you're not following is something I'm very grateful for.
+
 
 ## What gains and loses my trust
 
 #### Sharing our blindspots builds trust
 I’m naturally a gap filler and a room-maker. If I can trust that you’re sharing your hardest problems with me, I’ll perform to my best to solve for them.   
-If you clearly demonstrate a passion and talent for an area, I’ll be grateful for your contributions and make sure I’m amplifying or giving you autonomy.
+If you clearly demonstrate a passion and talent for an area, I’ll be grateful for your contributions and make sure I’m amplifying or giving you autonomy even when I don't yet see the value.
 
 #### A critical attitude can both create trust or erode trust
 Being generous enough to be in open disagreement earns my trust and greatly influences what actions I take for the better. If you make the effort to communicate concerns, I make the effort to hear, understand, and address them when I can.  
