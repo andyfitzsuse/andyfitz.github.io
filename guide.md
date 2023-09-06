@@ -74,8 +74,8 @@ I’ve enjoyed both in equal measure and sometimes operate bimodally across face
 
 ## How I communicate
 
-I’m direct and honest but also kind. 
-I try very hard to call a spade a spade without getting punched in the mouth.  Meaning, I'll write with considered language yet be very candid interpersonally with those I trust. 
+I’m direct and honest but kind above all. 
+I try very hard to call a spade a spade without getting punched in the mouth.  Meaning, I'll deploy considered language yet be very candid interpersonally with those I trust. I don't do compliment sandwiches, I earn permission so we can all share when there's food in our teeth.
 
 Logistically: 
 <div class="time-management">
@@ -103,27 +103,28 @@ It’s something I do and a common neurodivergent trait.
 There’s a difference between me telling you what you need to know, and excitedly sharing detail only very engaged enthusiasts would find critical. 
 
 When I’m sharing information for a task, **I always frame it**:
- "*For this purpose let’s remember*…"
- "*I suggest you/we __ because*…"
- "*Keep in mind* …"
- "*I’ve learned and you should know* …"
+ "*For this purpose let’s remember _*"
+ "*I suggest you/we _ because*…"
+ "*Keep in mind _*"
+ "*I’ve learned _ and you should _* "
 
-If this context is absent, I am assuming you have the same level of excitement for detail that I do and am missing the mark.  
+If this context is absent, I may mistakenly assume you have the same level of excitement for detail that I do and am missing the mark.  
 Cutting me off and saying “I don’t care” or “another time” is absolutely fine and even preferred.  
 I’ve never been offended by someone wanting to simplify communication. It doesn't hurt my feelings or change my perception of you. If anything I appreciate knowing when you don’t need more information and that the task at hand is obvious. 
 By contrast, only geeking out and not resolving outstanding work can be a problem for us both.  If we’re working together, we don’t have an academic relationship. I trust those I work with to accept information given to them with the relevance they need to perform their role.
 
 #### Attention isn’t praise, praise is praise 
+
 Most relevant for anyone reporting to me.
-I focus on problems and opportunities more than the areas I trust and know are well-run.  It becomes clear over time that I delight in recognizing and rewarding excellence in<acronym data-title="Business As Usual">BAU</acronym>  as much as I do novel milestones.
+I focus on problems and opportunities more than the areas I trust and know are well-run.  It becomes clear over time that I delight in recognizing and rewarding excellence in <acronym data-title="Business As Usual">BAU</acronym>  as much as I do novel milestones.
  
 In the short-term, avoid misjudging my focus for favouritism.
-I could be spending more hours with your peers than you if they have more areas of improvement. I could also be spending more hours with a talent because I’m investing where there’s more existing skill for an immediate objective.  What I appear to be focussing on isn’t a metric of your impact and I make sure everyone knows that. 
+I could be spending more hours with your peers than you if they have more areas of improvement. I could also be spending more hours with a talent because I’m investing where there’s existing skill for a short-term objective.  What I appear to be focussing on isn’t a metric of your impact and I make sure everyone knows that. 
 
 #### Vocabulary
 
 On occasion and always in odd moments, I'm prone to using overly specific words and terms.
-Not because I want to sound smart but because I'm regularly misunderstood and it's my inability to read the room which leads me to be cautious with words. 
+Not because I want to sound smart, but because I'm regularly misunderstood and it's my inability to read the room which leads me to be cautious with words. 
 I mostly speak casually and prefer this, you'll notice when my guard is down because I'm naturally nonchalant (there I go being specific!). 
 So on occasion, I'll talk in a way that some find off-putting at first. When you reflect on the words chosen it might be appreciated that more detail was said than less. I'm always working on the balance between thoughtful words and comforting language.  
 The more I learn how you react to me, the more I adjust my conversation style.  So appologies for any early hiccups.
@@ -132,23 +133,22 @@ The more I learn how you react to me, the more I adjust my conversation style.  
 
 Related to the above, If you don't understand what I'm saying,  
 That's not deliberate and it's on me to communicate clearly. 
-Speaking up when you're not following is something I'm very grateful for.
-
+Speaking up when you're not following or simply don't like the phrasing is something I'm very grateful for.
 
 ## What gains and loses my trust
 
 #### Sharing our blindspots builds trust
 I’m naturally a gap filler and a room-maker. If I can trust that you’re sharing your hardest problems with me, I’ll perform to my best to solve for them.   
-If you clearly demonstrate a passion and talent for an area, I’ll be grateful for your contributions and make sure I’m amplifying or giving you autonomy even when I don't yet see the value.
+If you clearly demonstrate a passion and talent for an area not addressed, I’ll be grateful for your detail. I make sure I’m either amplifying or giving you ample room - even when I don't yet see the value. What we see together is more than anyone can see alone.
 
 #### A critical attitude can both create trust or erode trust
 Being generous enough to be in open disagreement earns my trust and greatly influences what actions I take for the better. If you make the effort to communicate concerns, I make the effort to hear, understand, and address them when I can.  
 Some encounters may end in a ‘disagree and commit’ scenario for either party. But by doing this my respect for you will grow and I'll trust you more after any rigorous debate. 
-Being a surprise detractor for extended periods by contrast, can lure me into a combative stance where I chase wartime success. It’s on us both to be comfortable being openly critical. I strive to ensure safety and reward disagreement as a valuable contribution. Like anyone, I detest dissent manufactured in secret without having the opportunity to be consulted.
+Being a surprise detractor for extended periods by contrast, can lure me into a combative stance where I chase wartime success. It’s on us both to be comfortable being openly critical. I strive to ensure safety and reward disagreement as a valuable contribution. Like anyone, I detest dissent manufactured in secret without having the opportunity to be consulted.  Monocultures are not productive, I prefer debate early and often so long as we're both committed, consulted, and aware when decisions are made. 
 
 #### I find trusting the second time is easier
 You may have learned the *crumpled bit of paper* visual metaphor for trust.  Easy to do, impossible to completely undo. 
-That's not entirely how I think of it. Hard lessons drive predictability and I value teachable moments on the way to long term trust. Failure is good and I look at patterns more than isolated incidents. Mistakes don't feel good but can be learned from.
+That's not entirely how I think of it. Hard lessons drive predictability and I value teachable moments on the way to long term trust. Failure is good and I look at patterns more than isolated incidents. Misjudgement doesn't feel good but can be learned from. Whatever it is: I'll get over it as we are all human.
 
 #### Failure early and often but never the same
 We're part of an inherently optimistic species and that optimism helps us take risks and evolve. 
@@ -158,8 +158,8 @@ If that's a common theme I need help getting to the cause.
 ## My strengths
 
 1. Seeing potential
-2. Communicating Ideas 
-3. Executing heuristics and aesthetics together 
+2. Communicating ideas 
+3. Executing to completion
 
 I’m good at identifying where technology can solve a given problem. 
 That’s broad but so is technology, and so are problems.  My strength is letting value lead the way and connecting vast moving pieces, talented collaborators, and winning buy-in by directly contributing.  
@@ -197,18 +197,19 @@ Like anyone else, I don't know what I don't know and when the facts change, I ch
 3. Bringing your best at your worst
 
 The African proverb "go fast, go alone - go far, go together" rings true when thinking about taking ownership.
-I'm very comfortable giving autonomy in exchange for ownership. Having said that, maintaining higher level goals keeps us both accountable and on track for long term success.
+I'm very comfortable giving autonomy in exchange for ownership so you can go fast. 
+Maintaining higher level goals keeps us both accountable and on track for long term success, we can go far.
 
-We all have days where we aren't feeling it,  I expect you to be open and ask for help at those times so that I can support you. When this happens, I can augment your temporary weakness, not replace your core strengths. Doing our combined best is always my goal. 
+We all have days where we aren't feeling it,  I expect you to be open and ask for help at those times so that I can support you. When this happens, I can augment your temporary weakness, I can't replace your core strengths. Doing our combined best is always my goal. 
 
 
 
 ## How I give and receive feedback
 
 
-I  prefer giving and receiving a mixture of formal and informal feedback at a regular and quarterly cadence.  Direct feedback helps in real time, formal feedback builds tribal memory and can be invaluable when bringing new leadership on board.
+I  prefer giving and receiving a mixture of formal and informal feedback at a regular and quarterly cadence.  Direct feedback helps in real time, formal feedback builds instituional memory and can be invaluable when bringing new leadership on board.
 
 As a manager I try to build a moat around your talent and make otherwise invisible contributions tangible and measurable assets to an organization. 
 
-As a resource I thrive on lateral contribution and the resulting direct feedback.  However; I prefer major contributions be recognised formally so that I continue to be motivated and invest in those areas. 
+As a resource, I thrive on lateral contribution and the resulting direct feedback.  However; I prefer major contributions be recognised formally so that I continue to be motivated and invest in the main areas I'm accountable for. 
 

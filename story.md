@@ -32,7 +32,7 @@ time{display:none}
 .twoup > * {margin-top:0;}</style>
 
 Born in Australia (on Jagera country) to 6th generation immigrants, 
-I am fortunate to have both lived and travelled extensively across asia, europe, and the americas. My primary residence is now Noosa, Queebsland (Gubbi Gubbi country)
+I am fortunate to have both lived and travelled extensively across asia, europe, and the americas. My primary residence is now Noosa, Queensland (Gubbi Gubbi country) and my current physical residence is the United Kingdom.
 
 
 # Timeline 
@@ -40,21 +40,21 @@ I am fortunate to have both lived and travelled extensively across asia, europe,
 ## 1980's 
 * I was born, and still highly regard this decision
 * Computers were ever present in the family home. I remember tractor paper. The printscreen button actually did that.
-* My father attended Siggraph in North America and took the family along.  I was at an age where computer graphics were it. 
-* Got stuck in a lift with my brother in Vancouver
-* Skied backwards down hill
-* Saved my baby brother from the pool
-* World Expo 88 in Brisbane
+* My father attended Siggraph in North America and took the family along. I was at an age where computer graphics were it. 
+* Got stuck in a lift with my older brother in Vancouver.
+* Skied backwards down a big hill.
+* Saved my baby brother from the pool.
+* World Expo 88 in Brisbane.
 
 ## 1990's 
 
 * Television, video games, playing my drum kit.
 * Laptops at school
-* Rugby and Debating
+* Rugby, Art, Debating
 * Hex editing game files, BBS networking
 * Macromedia director and flash
-* Green hair, piercings, the blunder years
-* Hosting LAN parties
+* Hosting LAN parties 
+* Green hair, piercings, the blunder years and coming of age
 
 
 ## 2000's
@@ -72,7 +72,7 @@ I am fortunate to have both lived and travelled extensively across asia, europe,
 
 Having lived and worked overseas for several years, I proposed to my Australian sweetheart and made plans to return home.
 
-* Got married in true hipster style
+* Got married in peak hipster style
 * Purchased our family home in Noosa
 * Made major inroads with my career - the catalyst for [Outfit](https://outfit.io) etc. 
 * Loss of first daughter Zuzu
@@ -82,12 +82,13 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 ## 2020's 
 
 * Went too fast downhill on skateboards (twice)
-* Made a career jump to a private business before a global pandemic 
+* Made a career jump to Outfit before a global pandemic 
 * Father passed away from pancreatic and brain cancer
 * Instigated open source typography projects used by billions
 * Minor investment in open source Figma alternative penpot.app
-* Scaled business, pitched and sold it to a public company
-* Exited, onto the next thing.
+* Scaled business, pitched, and sold it to a public company, exited, onto the next thing.
+* Returned to open source and friends at [SUSE](https://SUSE.com)
+* Mid-way through emigrating to the UK
 
 
 
