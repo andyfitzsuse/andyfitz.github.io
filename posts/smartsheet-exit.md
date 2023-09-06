@@ -25,7 +25,6 @@ From meeting business partners, then VC’s, to the eventual pitch and  sale of 
 ## Mission accomplished
 
 As of this month, my saga has come to a close.
-Smartsheet made my role redundant and I’m grateful that they did.
 
 My duty of care to what was once an idea is now over.
 I no longer need to be the caretaker for customers, colleagues, and the technology that made it all real.  It’s all in safe hands.
