@@ -85,10 +85,10 @@ Having lived and worked overseas for several years, I proposed to my Australian 
 * Made a career jump to Outfit before a global pandemic 
 * Father passed away from pancreatic and brain cancer
 * Instigated open source typography projects used by billions
-* Minor investment in open source Figma alternative penpot.app
+* Modest investment in open source Figma alternative penpot.app
 * Scaled business, pitched, and sold it to a public company, exited, onto the next thing.
 * Returned to open source and friends at [SUSE](https://SUSE.com)
-* Mid-way through emigrating to the UK
+* Mid-way through emigrating family to the UK
 
 
 

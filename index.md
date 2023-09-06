@@ -159,9 +159,9 @@ with proven global impact.<br>
 
 <h3 class="scroll fade">Strategic Execution</h3>
 <p class="scroll fade">When it came time to sell Outfit, I read the market, <br>wrote the pitch, &amp; picked the buyer.<br>  
-The result got praise from the street, highlighted in every earnings call since.<br><br> I was Outfit's tech founder &amp; founding client. <br>Revolutionizing operations as a brand manager</p> 
+The result got praise from the street, highlighted in every earnings call since.<br><br> I was Outfit's technology founder and first user. Revolutionizing brand operations</p> 
 <br>
-<p class="scroll fade">At Red Hat, I set the tone for selling techology across regions, <br>making the field experience scalable and world-class</p>
+<p class="scroll fade">At Red Hat, I set the tone across regions, <br>making the field experience scalable and world-class</p>
 <br />
 </section>
 
