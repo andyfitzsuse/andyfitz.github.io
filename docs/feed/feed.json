@@ -10,6 +10,12 @@
     "url": "https://andyfitzsimon.com/"
   },
   "items": [{
+      "id": "https://andyfitzsimon.com/posts/the-new-suse/",
+      "url": "https://andyfitzsimon.com/posts/the-new-suse/",
+      "title": "The New SUSE",
+      "content_html": "<h1 id=\"suse\">SUSE <a class=\"direct-link\" href=\"#suse\">#</a></h1>\n<blockquote>\n<p><strong>Today</strong> was a good <strong>year</strong> at SUSE</p>\n</blockquote>\n<p>I've been saying that, pretty much every day since I joined.</p>\n<p>In late May, I packed a suitcase and flew to the United Kingdom.<br>\nDays later I would be in Nuremberg at an open source event. I reunited with old friends and meet countless new faces. Incredibly talented engineers all.</p>\n<p>The company had changed a lot in over a decade, some old products were gone, new exiting ones were being integrated and the level of technical expertise had grown to unmatched levels.</p>\n<p>Despite the overwhelming abundance of skill, my first thought was</p>\n<blockquote>\n<p>everyone here rightfully deserves more recognition and success</p>\n</blockquote>\n<p>SUSE is one of those companies that is the backbone of technology industry as a whole.<br>\nThanks to SUSE's countless contributions. The world's vast and diverse technical needs have not been a distraction.  Critical bugs to tooling what's next.</p>\n<ul>\n<li>Communicating the CEO's vision</li>\n<li>Restructuing the organization</li>\n<li>Protecting choice with</li>\n<li>Going private</li>\n<li>Learning</li>\n</ul>\n<p>A few</p>\n",
+      "date_published": "2023-09-09T00:00:00Z"
+    },{
       "id": "https://andyfitzsimon.com/posts/smartsheet-exit/",
       "url": "https://andyfitzsimon.com/posts/smartsheet-exit/",
       "title": "Smartsheet Exit",

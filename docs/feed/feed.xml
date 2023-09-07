@@ -5,12 +5,42 @@
 	
 	<link href="https://andyfitzsimon.com/feed/feed.xml" rel="self"/>
 	<link href="https://andyfitzsimon.com/"/>
-	<updated>2023-03-17T00:00:00Z</updated>
+	<updated>2023-09-09T00:00:00Z</updated>
 	<id>https://andyfitzsimon.com/</id>
 	<author>
 		<name>Andy Fitzsimon</name>
 		<email>andy@fitzsimon.com.au</email>
 	</author>
+	
+	<entry>
+		<title>The New SUSE</title>
+		<link href="https://andyfitzsimon.com/posts/the-new-suse/"/>
+		<updated>2023-09-09T00:00:00Z</updated>
+		<id>https://andyfitzsimon.com/posts/the-new-suse/</id>
+		<content type="html">&lt;h1 id=&quot;suse&quot;&gt;SUSE &lt;a class=&quot;direct-link&quot; href=&quot;https://andyfitzsimon.com/posts/the-new-suse/#suse&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Today&lt;/strong&gt; was a good &lt;strong&gt;year&lt;/strong&gt; at SUSE&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&#39;ve been saying that, pretty much every day since I joined.&lt;/p&gt;
+&lt;p&gt;In late May, I packed a suitcase and flew to the United Kingdom.&lt;br /&gt;
+Days later I would be in Nuremberg at an open source event. I reunited with old friends and meet countless new faces. Incredibly talented engineers all.&lt;/p&gt;
+&lt;p&gt;The company had changed a lot in over a decade, some old products were gone, new exiting ones were being integrated and the level of technical expertise had grown to unmatched levels.&lt;/p&gt;
+&lt;p&gt;Despite the overwhelming abundance of skill, my first thought was&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;everyone here rightfully deserves more recognition and success&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;SUSE is one of those companies that is the backbone of technology industry as a whole.&lt;br /&gt;
+Thanks to SUSE&#39;s countless contributions. The world&#39;s vast and diverse technical needs have not been a distraction.  Critical bugs to tooling what&#39;s next.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Communicating the CEO&#39;s vision&lt;/li&gt;
+&lt;li&gt;Restructuing the organization&lt;/li&gt;
+&lt;li&gt;Protecting choice with&lt;/li&gt;
+&lt;li&gt;Going private&lt;/li&gt;
+&lt;li&gt;Learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A few&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Smartsheet Exit</title>
