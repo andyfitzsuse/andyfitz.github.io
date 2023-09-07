@@ -42,45 +42,11 @@ I’d like to acknowledge Smartsheet's leadership for their strategic acquisitio
 
 
 I’ve decided to get back to the core of what I love doing.
- Audacious and ambitious challenges with lots of moving pieces to master.
+Audacious and ambitious challenges with lots of moving pieces to master.
 
-The success of Outfit is now locked away. I’m finally open to new  opportunities where I can immerse myself, do justice to good work, and innovate once more.
-
-Something will grab me, and it deserves a monopoly on my time to change the game.
-
-So please share this post.
-Send friends to https://andyfitzsimon.com for them to learn more.
-Send me an introduction, and let’s see what happens. 
-I’m open to work!
+The success of Outfit is now locked away. I’m finally open to new opportunities where I can immerse myself, do justice to good work, and innovate once more.
 
 
-
-<div>
-    <svg class="o2w" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"> <defs>
-    <path id="textArc" d="M50 90A40 40 0 0150 10 40 40 0 0150 90Z"  />
-    <path   id="textArcFlipped" d="M50 10A40 40 0 0050 90 40 40 0 0050 10Z"  />
-    </defs>
-    <g fill="none">
-    <use href="#textArc" stroke-width="18.5" stroke="var(--turquoise)" />
-    </g>
-    <g class="arcstyle">
-    <text dy="2.5">
-        <textPath 
-        xlink:href="#textArc"
-        startOffset="50%"  
-        letter-spacing=".1"
-        >Andy Fitzsimon</textPath>
-    </text>
-    <text dy="2">
-        <textPath  href="#textArcFlipped"
-        startOffset="50%" 
-        letter-spacing=".2" 
-        ># OPEN TO WORK</textPath>
-    </text>
-    </g>
-    <image href="https://andyfitzsimon.com/img/andyfitz.png" x="19" y="19" width="62" height="62" />
-    </svg>
-</div>
 <style>
 .o2w{max-width:12em; display:block; margin: 1em auto}
 .arcstyle{fill:#fff;

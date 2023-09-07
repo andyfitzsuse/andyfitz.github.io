@@ -204,7 +204,7 @@ We all have days where we aren't feeling it,  I expect you to be open and ask fo
 
 ## How I give and receive feedback
 
-I  prefer giving and receiving a mixture of formal and informal feedback at a regular cadence.  Direct feedback helps in real time, formal feedback builds instituional memory and can be invaluable when bringing new leadership on board.
+I  prefer giving and receiving a mixture of informal and formal feedback at a regular cadence.  Direct feedback helps in real time, formal feedback builds instituional memory and can be invaluable when bringing new leadership on board.
 
 As a manager I try to build a moat around your talent and make otherwise invisible contributions tangible and measurable assets to an organization. 
 
