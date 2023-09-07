@@ -163,12 +163,10 @@ If that's a common theme I need help getting to the cause.
 
 I’m good at identifying where technology can solve a given problem. 
 That’s broad but so is technology, and so are problems.  My strength is letting value lead the way and connecting vast moving pieces, talented collaborators, and winning buy-in by directly contributing.  
-This extends specifically to prototyping, proof of concepts, pitches, and decisions regarding investment.
 
 I’m well versed in communicating complex ideas visually and through storytelling. These skills help me share a vision with a wider audience and win customers or contributors.
 
-I'm very capable at marrying heuristic needs to aesthetic opportunities in real deliverables.  
-To me this is <a href="/posts/my-mantra/" target="_blabk">doing justice to good work</a>. 
+I'm very capable at realising heuristic and aesthetic opportunities in deliverables. To me this is <a href="/posts/my-mantra/" target="_blabk">doing justice to good work</a>. 
 * Solving big problems with fantastic experiences.
 * Creating outstanding engagement with measurable outcomes.
 
@@ -188,7 +186,7 @@ I’m working on being satisfied with that.
 My conversation-style is a passionate one designed to attract, energise, and provoke reciprocity. 
 The negative side of this, is that it's hard for me to not come across as a zealot at times. 
 In the words of <a href="https://daringfireball.net" target="_blank">John Gruber</a>: "Strong ideas loosely held is the path to success". 
-Like anyone else, I don't know what I don't know and when the facts change, I change my mind.   I'm taking more moments to make sure people around me know we're never too far down a path for me to be wrong despite projecting some very committed vocabulary.
+Like anyone else, I don't know what I don't know and when the facts change, I change my mind.   I'm taking more moments to make sure people around me know we're never too far down a path for me to be wrong despite using very committed language.
 
 ## What I expect from people I manage
 
@@ -197,7 +195,7 @@ Like anyone else, I don't know what I don't know and when the facts change, I ch
 3. Bringing your best at your worst
 
 The African proverb "go fast, go alone - go far, go together" rings true when thinking about taking ownership.
-I'm very comfortable giving autonomy in exchange for ownership so you can go fast. 
+I'm most comfortable giving autonomy in exchange for ownership so you can go fast. 
 Maintaining higher level goals keeps us both accountable and on track for long term success, we can go far.
 
 We all have days where we aren't feeling it,  I expect you to be open and ask for help at those times so that I can support you. When this happens, I can augment your temporary weakness, I can't replace your core strengths. Doing our combined best is always my goal. 
@@ -206,10 +204,12 @@ We all have days where we aren't feeling it,  I expect you to be open and ask fo
 
 ## How I give and receive feedback
 
-
-I  prefer giving and receiving a mixture of formal and informal feedback at a regular and quarterly cadence.  Direct feedback helps in real time, formal feedback builds instituional memory and can be invaluable when bringing new leadership on board.
+I  prefer giving and receiving a mixture of formal and informal feedback at a regular cadence.  Direct feedback helps in real time, formal feedback builds instituional memory and can be invaluable when bringing new leadership on board.
 
 As a manager I try to build a moat around your talent and make otherwise invisible contributions tangible and measurable assets to an organization. 
 
-As a resource, I thrive on lateral contribution and the resulting direct feedback.  However; I prefer major contributions be recognised formally so that I continue to be motivated and invest in the main areas I'm accountable for. 
+As a resource, I thrive on ad-hoc work and the resulting direct feedback.  However; I prefer major goals be recognised formally so that I continue to be motivated and invest in the main areas I'm accountable for. 
 
+## Am I missing something?
+
+Just ask!
