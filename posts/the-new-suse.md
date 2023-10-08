@@ -1,7 +1,7 @@
 ---
 title: The New SUSE
 description: Boomerang back to old friends 
-date: 2023-09-09
+date: 2023-10-07
 tags:
   - career
   - business
