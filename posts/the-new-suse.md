@@ -19,7 +19,7 @@ I've been saying that, pretty much every day since I joined.
 In late May, I packed a suitcase and flew to the United Kingdom.
 Days later I would be in Nuremberg at an open source event. I reunited with old friends and met countless new faces. Incredibly talented engineers all.
 
-The company I knew had changed a lot in over a decade, some old products were gone, new exiting ones were being integrated and the level of technical expertise had grown to unmatched levels. Friends who led Ruby were now at the forefont of WASM, others who mastered virtualization were now container native experts.
+The company I knew had changed a lot in over a decade, some old products were gone, new exciting ones were being integrated and the level of technical expertise had grown to unmatched levels. Friends who led Ruby were now at the forefont of WASM, others who mastered virtualization were now container native experts.
 
 Despite the overwhelming abundance of skill, my first thought was: 
 > everyone here rightfully deserves more recognition and success
